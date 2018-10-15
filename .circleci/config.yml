@@ -18,7 +18,7 @@ jobs:
 
     environment:
       # Customize the JVM maximum heap limit
-      provar.home: ANT
+      PROVAR_HOME: ProvarHome
       testproject.home: DemoProject
       testproject.results: DemoProject/Results
     
@@ -28,11 +28,11 @@ jobs:
       # Download and cache dependencies
       - restore_cache:
           keys:
-          - v1-dependencies-{{ checksum "pom.xml" }}
+          #- v1-dependencies-{{ checksum "pom.xml" }}
           # fallback to using the latest cache if no exact match is found
-          - v1-dependencies-
+          #- v1-dependencies-
 
-      - run: ant -lib ANT/lib -f DemoProject/build.xml
+      - run: ant -lib ProvarHome/lib -f DemoProject/build.xml
 
   
 
