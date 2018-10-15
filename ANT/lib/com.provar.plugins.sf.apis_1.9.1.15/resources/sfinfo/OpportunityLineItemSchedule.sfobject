@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo name="OpportunityLineItemSchedule">
+  <standardActions>
+ 	<sfActionLink n="Edit" t="Edit" modes="OpportunityLineItemSchedules" />
+ 	<sfActionLink n="Delete" t="Delete" modes="OpportunityLineItemSchedules" buttonName="del"/>
+ 	<sfActionLink n="establish" t="Re-Establish" modes="OpportunityLineItemSchedules"/> 	
+  </standardActions>
+</sfObjectInfo>

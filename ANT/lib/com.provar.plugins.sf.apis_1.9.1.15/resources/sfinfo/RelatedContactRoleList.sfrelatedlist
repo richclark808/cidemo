@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfRelatedList fieldName="OpportunityId" label="Contact Roles" n="OpportunityContactRoles" relationshipName="OpportunityContactRoles" s="3-" t="Contact Roles">
+  <children>
+    <sfRelatedListColumn n="Contact.Name" s="" seq="0" t="Contact Name"/>
+    <sfRelatedListColumn n="Contact.Account.Name" s="" seq="1" t="Account Name"/>
+    <sfRelatedListColumn n="Contact.Email" s="" seq="2" t="Email"/>
+    <sfRelatedListColumn n="Contact.Phone" s="" seq="3" t="Phone"/>
+    <sfRelatedListColumn n="Role" s="" seq="4"/>
+    <sfRelatedListColumn n="IsPrimary" s="" seq="5" t="Primary"/>
+  </children>
+  <lightningColumns>
+    <sfRelatedListColumn n="Contact.Name" s="" seq="0" t="Contact Name"/>
+    <sfRelatedListColumn n="Role" s="" seq="1"/>
+    <sfRelatedListColumn n="IsPrimary" s="" seq="2" t="Primary"/>
+    <sfRelatedListColumn n="Contact.Title" s="" seq="3" t="Title"/>
+    <sfRelatedListColumn n="Contact.Phone" s="" seq="4" t="Phone"/>
+    <sfRelatedListColumn n="Contact.Email" s="" seq="5" t="Email"/>
+    <sfRelatedListColumn n="Contact.Account.Name" s="" seq="6" t="Account Name"/>
+  </lightningColumns>
+</sfRelatedList>

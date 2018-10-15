@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo name="ApexPage" label="Visualforce Page">
+  <lookupColumns>
+    <string>MasterLabel</string>
+    <string>Name</string>
+    <string>NamespacePrefx</string>
+    <string>ApiVersion</string>
+	<string>Description</string>
+	<string>CreatedById</string>
+	<string>CreatedDate</string>
+	<string>LastModifiedById</string>
+	<string>LastModifiedDate</string>
+  </lookupColumns>  
+</sfObjectInfo>

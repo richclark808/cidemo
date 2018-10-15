@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfRelatedList fieldName="AccountId" label="Account Team" n="AccountTeamMembers" relationshipName="AccountTeamMembers" s="3-" t="Account Team (AccountId)">
+  <children>
+    <sfRelatedListColumn n="User.Name" s="" seq="0" t="Team Member"/>
+    <sfRelatedListColumn n="TeamMemberRole" s="" seq="1" t="Team Role"/>
+    <sfRelatedListColumn n="Title" s="" seq="2" t="Title"/>
+  </children>
+</sfRelatedList>

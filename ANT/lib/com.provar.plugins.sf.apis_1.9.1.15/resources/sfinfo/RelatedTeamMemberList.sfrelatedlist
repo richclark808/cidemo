@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfRelatedList fieldName="ParentId" label="Case Team" n="TeamMembers" relationshipName="TeamMembers" s="3-" t="Case Team (ParentId)">
+  <children>
+    <sfRelatedListColumn n="User.Name" s="" seq="0" t="Team Member"/>
+    <sfRelatedListColumn n="TeamRoleId" s="" seq="1" t="Member Role"/>
+    <sfRelatedListColumn n="TeamRoleId.AccessLevel" s="" seq="2" t="Case Access"/>
+    <sfRelatedListColumn n="TeamRoleId.PreferencesVisibleInCSP" s="" seq="3" t="Visible In Customer Portal"/>
+    <sfRelatedListColumn n="LastModifiedById" s="" seq="4" t="Modified By"/>
+  </children>
+</sfRelatedList>

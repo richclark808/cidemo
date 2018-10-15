@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo name="ProcessInstanceHistory" label="Approval History">
+  <standardActions>
+    <sfActionLink n="recallApprovalRequest" t="Recall Approval Request" modes="all_related_lists" locator="//td[contains(@class, 'pbButton')]/input[@name='piRemove']"/>
+    <sfActionLink n="reassign" t="Reassign" requiresRow="true" modes="all_related_lists" locator="td[contains(@class, 'actionColumn')]/a[contains(@href, '/04i') or contains(@href, '%2F04i')]"/>
+    <sfActionLink n="apprej" t="Approve / Reject" requiresRow="true" modes="all_related_lists" locator="td[contains(@class, 'actionColumn')]/a[contains(@href, '/p/process') or contains(@href, '%2Fp%2Fprocess')]"/>
+    <sfActionLink n="piSubmit" t="Submit for Approval" modes="all_related_lists" requiresRow="false"/>
+    <sfActionLink n="piRemove" t="Recall from Approval" modes="all_related_lists" requiresRow="false" lightningActionName="ApprovalProcessRecall" lightningLabel="Recall"/>
+    <sfActionLink n="ApprovalProcessReject" t="Reject" modes="all_related_lists" requiresRow="false"/>
+    <sfActionLink n="ApprovalProcessApprove" t="Approve" modes="all_related_lists" requiresRow="false"/>
+    <sfActionLink n="ApprovalProcessReassign" t="Reassign" modes="all_related_lists" requiresRow="false"/>
+  </standardActions>
+</sfObjectInfo>

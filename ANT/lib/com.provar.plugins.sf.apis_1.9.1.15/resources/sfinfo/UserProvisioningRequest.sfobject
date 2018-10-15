@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="UserProvisioningRequest">
+  <fields>
+    <sfFieldInfo name="State" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE id="-1" n="New" s=""/>
+        <sfPLE id="-1" n="Requested" s=""/>
+        <sfPLE id="-1" n="Completed" s=""/>
+        <sfPLE id="-1" n="Failed" s=""/>
+        <sfPLE id="-1" n="Collecting" s=""/>
+        <sfPLE id="-1" n="Collected" s=""/>
+        <sfPLE id="-1" n="Analyzing" s=""/>
+        <sfPLE id="-1" n="Analyzed" s=""/>
+        <sfPLE id="-1" n="Committing" s=""/>
+        <sfPLE id="-1" n="Retried" s=""/>
+        <sfPLE id="-1" n="Manually Completed" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo name="Operation" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE id="-1" n="Create" s=""/>
+        <sfPLE id="-1" n="Read" s=""/>
+        <sfPLE id="-1" n="Update" s=""/>
+        <sfPLE id="-1" n="Deactivate" s=""/>
+        <sfPLE id="-1" n="Activate" s=""/>
+        <sfPLE id="-1" n="Freeze" s=""/>
+        <sfPLE id="-1" n="Unfreeze" s=""/>
+        <sfPLE id="-1" n="Reconcile" s=""/>
+        <sfPLE id="-1" n="Linking" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo name="ApprovalStatus" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE id="-1" n="Required" s=""/>
+        <sfPLE id="-1" n="NotRequired" s="" t="Not Required"/>
+        <sfPLE id="-1" n="Approved" s=""/>
+        <sfPLE id="-1" n="Denied" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+  </fields>
+</sfObjectInfo>

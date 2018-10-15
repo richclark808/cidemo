@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfRelatedList fieldName="OpportunityId" label="Stage History" n="OpportunityHistories" relationshipName="OpportunityHistories" s="3-" t="Stage History (OpportunityId)">
+  <children>
+    <sfRelatedListColumn alias="StageName" n="Opportunity.StageName"  s="" seq="0" t="Stage"/>
+    <sfRelatedListColumn alias="Amount" n="Opportunity.Amount" s="" seq="1"/>
+    <sfRelatedListColumn alias="Probability" n="Opportunity.Probability" s="" seq="2" t="Probability (%)"/>
+    <sfRelatedListColumn alias="ExpectedRevenue" n="Opportunity.ExpectedRevenue" s="" seq="3" t="Expected Revenue"/>
+    <sfRelatedListColumn alias="CloseDate" n="Opportunity.CloseDate" s="" seq="4" t="Close Date"/>
+    <sfRelatedListColumn n="Opportunity.CreatedById" alias="CreatedBy.Name" s="" seq="5" t="Last Modified"/>
+    <sfRelatedListColumn alias="Connection" n="Opportunity.Connection" s="" seq="6"/>
+  </children>
+  <lightningColumns>
+    <sfRelatedListColumn alias="StageName" n="Opportunity.StageName"  s="" seq="0" t="Stage"/>
+    <sfRelatedListColumn alias="Amount" n="Opportunity.Amount" s="" seq="1"/>
+    <sfRelatedListColumn alias="Probability" n="Opportunity.Probability" s="" seq="2" t="Probability (%)"/>
+    <sfRelatedListColumn alias="ExpectedRevenue" n="Opportunity.ExpectedRevenue" s="" seq="3" t="Expected Revenue"/>
+    <sfRelatedListColumn alias="CloseDate" n="Opportunity.CloseDate" s="" seq="4" t="Close Date"/>
+    <sfRelatedListColumn alias="LastModifiedById" n="Opportunity.LastModifiedById" s="" seq="5" t="Last Modified By"/>
+    <sfRelatedListColumn alias="LastModifiedDate" n="Opportunity.LastModifiedDate" s="" seq="6" t="Last Modified"/>
+  </lightningColumns>
+</sfRelatedList>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo name="Attachment" label="Attachment">
+	<searchResultColumns>ATTACHMENT.NAME,CORE.USERS.ALIAS,TASK.WHAT_NAME</searchResultColumns>
+  	<standardActions>
+  	    <sfActionLink n="AttachFile" t="Attach File" modes="Attachments"/>
+  	    <sfActionLink n="Edit" t="Edit"/>
+    	<sfActionLink n="View" target="sf:ui:target?pageObject=com.provar.plugins.forcedotcom.core.ui.pageobjects.AttachmentView"/>
+  	</standardActions>
+</sfObjectInfo>

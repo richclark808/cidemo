@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<style>
+			body {
+				font-family: sans-serif;
+			}
+			table.Details {
+				border: none;
+			}
+			.right {
+				text-align: right;
+			}
+			h3 {
+				color: blue;
+				border-bottom: 2px solid gray;
+			}
+
+			#chart_div {
+				 float: left;
+				 width: 50%;
+			}
+
+			table {
+				border-collapse: collapse;
+			}
+
+			td {
+				padding-right: 1em;
+			}
+
+			.overlined {
+				border-top: solid 2px black;
+				padding-top: 0.2em;
+			}
+
+		</style>
+
+
+	    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	
+	    <script type="text/javascript">
+	      google.load("visualization", "1", {packages:["corechart"]});
+	      google.setOnLoadCallback(drawChart);
+	      function drawChart() {
+	        var data = google.visualization.arrayToDataTable([
+	          ['Outcome', 'Count'],
+	          ['Successful', {success-count}],
+	          ['Skipped', {skipped-count}],
+	          ['Failed',  1]
+	        ]);
+	
+	        var options = {
+	            colors:['green','orange', 'red'],
+	            chartArea:{left:0,top:0,width:"50%",height:"100%"}
+	        };
+	
+	        var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+	        chart.draw(data, options);
+	      }
+	    </script>
+
+	</head>
+
+	<body>
+	{overview-body}
+	</body>
+</html>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<translations>
+  <translation key="Asset.Id" type="SfFieldLabel" value="Vermögenswert-ID"/>
+  <translation key="Asset.IsCompetitorProduct" type="SfFieldLabel" value="Mitbewerber-Vermögenswert"/>
+  <translation key="Asset.Name" type="SfFieldLabel" value="Vermögenswertname"/>
+  <translation key="Asset.ParentId" type="SfFieldLabel" value="Übergeordnete Vermögenswert-ID"/>
+  <translation key="Asset.RootAssetId" type="SfFieldLabel" value="Stammvermögenswert-ID"/>
+  <translation key="*.*.Asset Information" type="SfLayoutSectionLabel" value="Vermögenswertinformationen"/>
+</translations>

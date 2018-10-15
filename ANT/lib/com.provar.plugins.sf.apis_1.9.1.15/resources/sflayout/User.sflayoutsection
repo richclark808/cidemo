@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfLayoutSections>
+    <sfLayoutSection editHeading="false" n="User Info" s="" seqNum="0" t="Web Layout Section - true" modes="Detail">
+      <children>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="0">
+          <children>
+            <sfLI label="Name" n="Name" required="true" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="Name" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+            <sfLI label="Role" n="Role" s="" seqNum="1" t="Web Layout Item">
+              <children>
+                <sfLIC n="UserRoleId" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="1">
+          <children>
+            <sfLI label="Alias" n="Alias" required="true" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="Alias" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+            <sfLI editableForNew="false" editableForUpdate="false" label="User Type" n="User Type" s="" seqNum="1" t="Web Layout Item">
+              <children>
+                <sfLIC n="UserType" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="2">
+          <children>
+            <sfLI label="Email" n="Email" required="true" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="Email" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+            <sfLI label="Profile" n="Profile" required="true" s="" seqNum="1" t="Web Layout Item">
+              <children>
+                <sfLIC n="ProfileId" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="3">
+          <children>
+            <sfLI label="Username" n="Username" required="true" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="Username" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+            <sfLI label="Active" n="Active" s="" seqNum="1" t="Web Layout Item">
+              <children>
+                <sfLIC n="IsActive" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="4">
+          <children>
+            <sfLI label="Nickname" n="Nickname" required="true" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="CommunityNickname" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+            <sfLI label="Phone" n="Phone" s="" seqNum="1" t="Web Layout Item">
+              <children>
+                <sfLIC n="Phone" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="5">
+          <children>
+            <sfLI label="Title" n="Title" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="Title" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+            <sfLI label="Extension" n="Extension" s="" seqNum="1" t="Web Layout Item">
+              <children>
+                <sfLIC n="Extension" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="6">
+          <children>
+            <sfLI label="Company Name" n="Company Name" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="CompanyName" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+            <sfLI label="Fax" n="Fax" s="" seqNum="1" t="Web Layout Item">
+              <children>
+                <sfLIC n="Fax" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="7">
+          <children>
+            <sfLI label="Department" n="Department" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="Department" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+            <sfLI label="Cell" n="Cell" s="" seqNum="1" t="Web Layout Item">
+              <children>
+                <sfLIC n="MobilePhone" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="8">
+          <children>
+            <sfLI label="Division" n="Division" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="Division" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+            <sfLI label="Email Encoding" n="Email Encoding" required="true" s="" seqNum="1" t="Web Layout Item">
+              <children>
+                <sfLIC n="EmailEncodingKey" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="9">
+          <children>
+            <sfLI label="Address" n="Address" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="Address" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+            <sfLI label="Employee Number" n="Employee Number" s="" seqNum="1" t="Web Layout Item">
+              <children>
+                <sfLIC n="EmployeeNumber" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="10">
+          <children>
+            <sfLI label="Time Zone" n="Time Zone" required="true" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="TimeZoneSidKey" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+            <sfLI editableForNew="false" editableForUpdate="false" label="Last Modified By" n="Last Modified By" s="" seqNum="1" t="Web Layout Item">
+              <children>
+                <sfLIC n="LastModifiedById" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+                <sfLIC n=", " s="" seqNum="1" t="Web Layout Field" type="Separator"/>
+                <sfLIC n="LastModifiedDate" s="" seqNum="2" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="11">
+          <children>
+            <sfLI label="Locale" n="Locale" required="true" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="LocaleSidKey" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+            <sfLI editableForNew="false" editableForUpdate="false" label="" n="" s="" seqNum="1" t="Web Layout Item"/>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="12">
+          <children>
+            <sfLI label="Manager" n="Manager" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="ManagerId" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+            <sfLI editableForNew="false" editableForUpdate="false" label="" n="" s="" seqNum="1" t="Web Layout Item"/>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="13">
+          <children>
+            <sfLI label="Info Emails" n="Info Emails" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="ReceivesInfoEmails" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+            <sfLI editableForNew="false" editableForUpdate="false" label="" n="" s="" seqNum="1" t="Web Layout Item"/>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="14">
+          <children>
+            <sfLI label="Admin Info Emails" n="Admin Info Emails" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="ReceivesAdminInfoEmails" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+            <sfLI editableForNew="false" editableForUpdate="false" label="" n="" s="" seqNum="1" t="Web Layout Item"/>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="15">
+          <children>
+            <sfLI editableForNew="false" editableForUpdate="false" label="Last Login" n="Last Login" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="LastLoginDate" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+            <sfLI editableForNew="false" editableForUpdate="false" label="" n="" s="" seqNum="1" t="Web Layout Item"/>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="16">
+          <children>
+            <sfLI editableForNew="false" editableForUpdate="false" label="Created By" n="Created By" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="CreatedById" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+                <sfLIC n=", " s="" seqNum="1" t="Web Layout Field" type="Separator"/>
+                <sfLIC n="CreatedDate" s="" seqNum="2" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+            <sfLI editableForNew="false" editableForUpdate="false" label="" n="" s="" seqNum="1" t="Web Layout Item"/>
+          </children>
+        </sfLayoutRow>
+      </children>
+    </sfLayoutSection>
+    <sfLayoutSection detailHeading="false" n="General Information" s="" seqNum="0" t="Web Layout Section - true">
+      <children>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="0">
+          <children>
+            <sfLI label="Name" n="Name" required="true" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="Name" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+            <sfLI label="Role" n="Role" s="" seqNum="1" t="Web Layout Item">
+              <children>
+                <sfLIC n="UserRoleId" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="1">
+          <children>
+            <sfLI editableForNew="false" editableForUpdate="false" label="User License" n="User License" s="" seqNum="1" t="Web Layout Item">
+              <children>
+                <sfLIC n="UserType" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="2">
+          <children>
+            <sfLI label="Alias" n="Alias" required="true" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="Alias" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+            <sfLI label="Profile" n="Profile" required="true" s="" seqNum="1" t="Web Layout Item">
+              <children>
+                <sfLIC n="ProfileId" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="3">
+          <children>
+            <sfLI label="Email" n="Email" required="true" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="Email" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+            <sfLI label="Username" n="Username" required="true" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="Username" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+            <sfLI label="Active" n="Active" s="" seqNum="1" t="Web Layout Item">
+              <children>
+                <sfLIC n="IsActive" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="4">
+          <children>
+            <sfLI label="Username" n="Username" required="true" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="Username" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+            <sfLI label="Marketing User" n="Marketing User" s="" seqNum="1" t="Web Layout Item">
+              <children>
+                <sfLIC n="UserPermissionsMarketingUser" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="5">
+          <children>
+            <sfLI label="Nickname" n="Nickname" required="true" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="CommunityNickname" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+            <sfLI label="Offline User" n="Offline User" s="" seqNum="1" t="Web Layout Item">
+              <children>
+                <sfLIC n="UserPermissionsOfflineUser" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="6">
+          <children>
+            <sfLI label="Title" n="Title" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="Title" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+            <sfLI label="Knowledge User" n="Knowledge User" s="" seqNum="1" t="Web Layout Item">
+              <children>
+                <sfLIC n="UserPermissionsKnowledgeUser" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="7">
+          <children>
+            <sfLI label="Company" n="Company" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="CompanyName" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+            <sfLI label="Force.com Flow User" n="Force.com Flow User" s="" seqNum="1" t="Web Layout Item">
+              <children>
+                <sfLIC n="UserPermissionsInteractionUser" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="8">
+          <children>
+            <sfLI label="Department" n="Department" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="Department" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+            <sfLI label="Service Cloud User" n="Service Cloud User" s="" seqNum="1" t="Web Layout Item">
+              <children>
+                <sfLIC n="UserPermissionsSupportUser" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="9">
+          <children>
+            <sfLI label="Division" n="Division" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="Division" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+            <sfLI label="Site.com Contributor User" n="Site.com Contributor User" required="true" s="" seqNum="1" t="Web Layout Item">
+              <children>
+                <sfLIC n="UserPermissionsSiteforceContributorUser" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="10">
+          <children>
+            <sfLI label="Site.com Publisher User" n="Site.com Publisher User" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="UserPermissionsSiteforcePublisherUser" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="11">
+          <children>
+            <sfLI label="Work.com User" n="Work.com User" required="true" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="UserPermissionsWorkDotComUserFeature" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="12">
+          <children>
+            <sfLI label="Salesforce CRM Content User" n="Salesforce CRM Content User" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="UserPermissionsSFContentUser" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="13">
+          <children>
+            <sfLI label="Receive Salesforce CRM Content Email Alerts" n="Receive Salesforce CRM Content Email Alerts" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="UserPreferencesContentNoEmail" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="14">
+          <children>
+            <sfLI label="Allow Forecasting" n="Allow Forecasting" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="ForecastEnabled" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="15">
+          <children>
+            <sfLI editableForNew="false" editableForUpdate="false" label="Call Center" n="Call Center" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="CallCenterId" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="16">
+          <children>
+            <sfLI label="Phone" n="Phone" s="" seqNum="1" t="Web Layout Item">
+              <children>
+                <sfLIC n="Phone" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="17">
+          <children>
+            <sfLI label="Extension" n="Extension" s="" seqNum="1" t="Web Layout Item">
+              <children>
+                <sfLIC n="Extension" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="18">
+          <children>
+            <sfLI label="Fax" n="Fax" s="" seqNum="1" t="Web Layout Item">
+              <children>
+                <sfLIC n="Fax" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+		<sfLayoutRow n="LayoutRow" s="" seqNum="19">
+          <children>
+            <sfLI label="Cell" n="Cell" s="" seqNum="1" t="Web Layout Item">
+              <children>
+                <sfLIC n="MobilePhone" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+		<sfLayoutRow n="LayoutRow" s="" seqNum="20">
+          <children>
+            <sfLI label="Email Encoding" n="Email Encoding" required="true" s="" seqNum="1" t="Web Layout Item">
+              <children>
+                <sfLIC n="EmailEncodingKey" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+		<sfLayoutRow n="LayoutRow" s="" seqNum="21">
+          <children>
+            <sfLI label="Employee Number" n="Employee Number" s="" seqNum="1" t="Web Layout Item">
+              <children>
+                <sfLIC n="EmployeeNumber" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+      </children>
+    </sfLayoutSection>
+	<sfLayoutSection detailHeading="false" n="Mailing Address" s="" seqNum="1" t="Web Layout Section - true">
+      <children>
+		<sfLayoutRow n="LayoutRow" s="" seqNum="1">
+          <children>
+            <sfLI label="Address" n="Address" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="Address" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+	  </children>
+	</sfLayoutSection>
+	<sfLayoutSection detailHeading="false" n="Single Sign On Information" s="" seqNum="2" t="Web Layout Section - true">
+      <children>
+		<sfLayoutRow n="LayoutRow" s="" seqNum="1">
+          <children>
+            <sfLI label="Address" n="Address" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="FederationIdentifier" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+	  </children>
+	</sfLayoutSection>
+	<sfLayoutSection detailHeading="false" n="Locale Settings" s="" seqNum="3" t="Web Layout Section - true">
+      <children>
+		<sfLayoutRow n="LayoutRow" s="" seqNum="0">
+          <children>
+            <sfLI label="Time Zone" n="Time Zone" required="true" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="TimeZoneSidKey" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+		<sfLayoutRow n="LayoutRow" s="" seqNum="1">
+          <children>
+            <sfLI label="Locale" n="Locale" required="true" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="LocaleSidKey" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+		<sfLayoutRow n="LayoutRow" s="" seqNum="2">
+          <children>
+            <sfLI label="Language" n="Language" required="true" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="LanguageLocaleKey" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+	  </children>
+	</sfLayoutSection>
+	<sfLayoutSection detailHeading="false" n="Approver Settings" s="" seqNum="4" t="Web Layout Section - true">
+      <children>
+		<sfLayoutRow n="LayoutRow" s="" seqNum="0">
+          <children>
+            <sfLI label="Delegated Approver" n="Delegated Approver" required="true" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="DelegatedApproverId" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+		<sfLayoutRow n="LayoutRow" s="" seqNum="1">
+          <children>
+            <sfLI label="Manager" n="Manager" required="true" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="ManagerId" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+          </children>
+        </sfLayoutRow>
+	  </children>
+	</sfLayoutSection>
+	<sfLayoutSection detailHeading="false" n="Approver Settings" s="" seqNum="5" t="Web Layout Section - true">
+      <children>
+		<sfLayoutRow n="LayoutRow" s="" seqNum="0">
+          <children>
+            <sfLI label="Receive the Salesforce newsletter" n="Receive the Salesforce newsletter" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="ReceivesInfoEmails" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+            <sfLI editableForNew="false" editableForUpdate="false" label="" n="" s="" seqNum="1" t="Web Layout Item"/>
+          </children>
+        </sfLayoutRow>
+        <sfLayoutRow n="LayoutRow" s="" seqNum="1">
+          <children>
+            <sfLI label="Receive the Salesforce administrator newsletter" n="Receive the Salesforce administrator newsletter" s="" seqNum="0" t="Web Layout Item">
+              <children>
+                <sfLIC n="ReceivesAdminInfoEmails" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+              </children>
+            </sfLI>
+            <sfLI editableForNew="false" editableForUpdate="false" label="" n="" s="" seqNum="1" t="Web Layout Item"/>
+          </children>
+        </sfLayoutRow>
+	  </children>
+	</sfLayoutSection></sfLayoutSections>

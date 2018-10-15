@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfLayoutSections>
+	<sfLayoutSection detailHeading="false" n="Recurrence" s="" seqNum="2" t="Web Layout Section - true">
+	  <children>
+	    <sfLayoutRow n="LayoutRow" s="" seqNum="0">
+	      <children>
+	        <sfLI label="Recurrence" n="IsRecurrence" s="" seqNum="0" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="IsRecurrence" s="" seqNum="0" t="Web Layout Field" type="Field" locator="//input[@id='IsRecurrence']"/>
+	          </children>
+	        </sfLI>
+	      </children>
+	    </sfLayoutRow>
+	    <sfLayoutRow n="LayoutRow" s="" seqNum="1">
+	      <children>
+	        <sfLI label="Recurrence Start Date" n="RecurrenceStartDateOnly" s="" seqNum="0" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="RecurrenceStartDateOnly" s="" seqNum="0" t="Web Layout Field" type="Field" locator="//input[@id='RecurrenceStartDateOnly']"/>
+	          </children>
+	        </sfLI>
+	      </children>
+	    </sfLayoutRow>
+	    <sfLayoutRow n="LayoutRow" s="" seqNum="2">
+	      <children>
+	        <sfLI label="Recurrence End Date" n="RecurrenceEndDateOnly" s="" seqNum="0" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="RecurrenceEndDateOnly" s="" seqNum="0" t="Web Layout Field" type="Field"  locator="//input[@id='RecurrenceEndDateOnly']"/>
+	          </children>
+	        </sfLI>
+	      </children>
+	    </sfLayoutRow>
+	    <sfLayoutRow n="RecurrenceDailyLayoutRow" s="" seqNum="3">
+	      <children>
+	        <sfLI label="Recurrence Daily" n="RecurrenceDaily" s="" seqNum="0" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="RecurrenceDaily" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="radio" locator="//input[@id='rectypeftd']"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="Daily Weekdays" n="DailyWeekdays" s="" seqNum="1" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="DailyWeekdays" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="radio" locator="//input[@id='recdd0']"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="Daily Interval" n="dailyInterval" s="" seqNum="2" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="dailyInterval" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="radio" locator="//input[@id='recdd1']"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="Daily Interval Days" n="dailyIntervalDays" s="" seqNum="3" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="dailyIntervalDays" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="text" locator="//input[@id='di']"/>
+	          </children>
+	        </sfLI>
+	      </children>
+	    </sfLayoutRow>
+	    <sfLayoutRow n="RecurrenceWeeklyLayoutRow" s="" seqNum="4">
+	      <children>
+	        <sfLI label="Recurrence Weekly" n="recurrenceWeekly" s="" seqNum="0" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="recurrenceWeekly" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="radio" locator="//input[@id='rectypeftw']"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="Weekly Interval" n="weeklyInterval" s="" seqNum="1" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="weeklyInterval" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="text" locator="//input[@id='wi']"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="Weekly Sunday" n="weeklySunday" s="" seqNum="2" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="weeklySunday" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="checkbox" locator="//input[@id='1']"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="Weekly Monday" n="weeklyMonday" s="" seqNum="3" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="weeklyMonday" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="checkbox" locator="//input[@id='2']"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="Weekly Tuesday" n="weeklyTuesday" s="" seqNum="4" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="weeklyTuesday" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="checkbox" locator="//input[@id='4']"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="Weekly Wednesday" n="weeklyWednesday" s="" seqNum="5" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="weeklyWednesday" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="checkbox" locator="//input[@id='8']"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="Weekly Thursday" n="weeklyThursday" s="" seqNum="6" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="weeklyThursday" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="checkbox" locator="//input[@id='16']"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="Weekly Friday" n="weeklyFriday" s="" seqNum="7" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="weeklyFriday" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="checkbox" locator="//input[@id='32']"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="Weekly Saturday" n="weeklySaturday" s="" seqNum="8" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="weeklySaturday" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="checkbox" locator="//input[@id='64']"/>
+	          </children>
+	        </sfLI>
+	      </children>
+	    </sfLayoutRow>
+	    <sfLayoutRow n="RecurrenceMonthlyLayoutRow" s="" seqNum="5">
+	      <children>
+	        <sfLI label="Recurrence Monthly" n="recurrenceMonthly" s="" seqNum="0" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="recurrenceMonthly" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="radio" locator="//input[@id='rectypeftm']"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="Monthly Day of Month" n="monthlyDom" s="" seqNum="1" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="monthlyDom" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="radio" locator="//input[@id='recmm0']"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="Monthly Day of Month Day" n="monthlyDomDay" s="" seqNum="2" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="monthlyDomDay" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="select" locator="//select[@id='mdom']"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="Monthly Day of Month Interval" n="monthlyDomInterval" s="" seqNum="3" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="monthlyDomInterval" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="text" locator="//input[@id='mint']"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="Monthly Day of Week" n="Monthlydow" s="" seqNum="4" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="Monthlydow" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="radio" locator="//input[@id='recmm1']"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="Monthly Day of Week Week" n="monthlyDowWeek" s="" seqNum="5" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="monthlyDowWeek" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="select" locator="//select[@id='mnins']"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="Monthly Day of Week Day" n="monthlyDowDay" s="" seqNum="6" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="monthlyDowDay" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="select" locator="//select[@id='mndow']"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="Monthly Day of Week Interval" n="monthlyDowInterval" s="" seqNum="7" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="monthlyDowInterval" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="text" locator="//input[@id='mint']"/>
+	          </children>
+	        </sfLI>
+	      </children>
+	    </sfLayoutRow>
+	    <sfLayoutRow n="RecurrenceYearlyLayoutRow" s="" seqNum="6">
+	      <children>
+	        <sfLI label="Recurrence Yearly" n="recurrenceYearly" s="" seqNum="0" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="recurrenceYearly" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="radio" locator="//input[@id='rectypefty']"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="Yearly Day of Month" n="yearlyDom" s="" seqNum="1" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="yearlyDom" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="radio" locator="//input[@id='recyy0']"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="Yearly Day of Month Month" n="yearlyDomMonth" s="" seqNum="2" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="yearlyDomMonth" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="select" locator="//select[@id='ymoy']"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="Yearly Day of Month Day" n="yearlyDomDay" s="" seqNum="3" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="yearlyDomDay" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="select" locator="//select[@id='ydom']"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="Yearly Day of Week" n="yearlyDow" s="" seqNum="4" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="yearlyDow" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="radio" locator="//input[@id='recyy1']"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="Yearly Day of Week Week" n="yearlyDowWeek" s="" seqNum="5" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="yearlyDowWeek" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="select" locator="//select[@id='ynins']"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="Yearly Day of Week Day" n="yearlyDowDay" s="" seqNum="6" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="yearlyDowDay" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="select" locator="//select[@id='yndow']"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="Yearly Day of Week Month" n="yearlyDowMonth" s="" seqNum="7" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="monthlyDowMonth" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="select" locator="//select[@id='ynmoy']"/>
+	          </children>
+	        </sfLI>
+	      </children>
+	    </sfLayoutRow>
+	  </children>
+	</sfLayoutSection>
+	<sfLayoutSection detailHeading="false" n="Reminder" s="" seqNum="3" t="Web Layout Section - true">
+	  <children>
+	    <sfLayoutRow n="LayoutRow" s="" seqNum="0">
+	      <children>
+	        <sfLI label="Reminder" n="IsReminderSet" s="" seqNum="0" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="IsReminderSet" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="ReminderDate" n="ReminderDate" s="" seqNum="1" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="ReminderDate" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="date" locator="//input[@id='reminder_dt']"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="ReminderTime" n="ReminderTime" s="" seqNum="2" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="ReminderTime" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="select" locator="//select[@id='reminder_dt_time']"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="ReminderOccuranceDays" n="ReminderOccuranceDays" s="" seqNum="3" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="ReminderOccuranceDays" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="select" locator="//select[@id='reminder_ldt']"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="ReminderOccuranceTime" n="ReminderOccuranceTime" s="" seqNum="4" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="ReminderOccuranceTime" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="select" locator="//select[@id='reminder_ldt_time']"/>
+	          </children>
+	        </sfLI>
+	      </children>
+	    </sfLayoutRow>
+	  </children>
+	</sfLayoutSection>
+	<sfLayoutSection detailHeading="false" n="Followup Task Information" s="" seqNum="4" t="Web Layout Section - true" locator="//div[contains(@class, 'pbSubheader') and h3[text() = 'Task Information']][2]/following-sibling::div[contains(@class, 'pbSubsection')][1]">
+	  <children>
+	    <sfLayoutRow n="FollowUpTaskInfoRow0" s="" seqNum="0">
+	      <children>
+	        <sfLI label="Followup Assigned To" n="tsk1_fu" required="true" s="" seqNum="0" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="tsk1_fu" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="sfLookup" locator="//input[@id='tsk1_fu']"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="Followup Status" n="tsk12_fu" required="true" s="" seqNum="1" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="tsk12_fu" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="select" locator="^//select[@id='tsk12_fu']"/>
+	          </children>
+	        </sfLI>
+	      </children>
+	    </sfLayoutRow>
+	    <sfLayoutRow n="FollowupTaskInfoRow1" s="" seqNum="1">
+	      <children>
+	        <sfLI label="Followup Subject" n="tsk5_fu" required="true" s="" seqNum="0" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="tsk5_fu" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="sfCombo" locator="//input[@id='tsk5_fu']"/>
+	          </children>
+	        </sfLI>
+	      </children>
+	    </sfLayoutRow>
+	    <sfLayoutRow n="FollowupTaskInfoRow2" s="" seqNum="2">
+	      <children>
+	        <sfLI label="Followup Due Date" n="tsk4_fu" s="" seqNum="0" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="tsk4_fu" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="text" locator="//input[@id='tsk4_fu']"/>
+	          </children>
+	        </sfLI>
+	      </children>
+	    </sfLayoutRow>
+	    <sfLayoutRow n="FollowupTaskInfoRow3" s="" seqNum="3">
+	      <children>
+	        <sfLI label="Followup Priority" n="tsk13_fu" required="true" s="" seqNum="0" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="tsk13_fu" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="select" locator="^//select[@id='tsk13_fu']"/>
+	          </children>
+	        </sfLI>
+	      </children>
+	    </sfLayoutRow>
+	  </children>
+	</sfLayoutSection>
+	<sfLayoutSection detailHeading="false" n="Followup Description Information" s="" seqNum="5" t="Web Layout Section - true" locator="//div[contains(@class, 'pbSubheader') and h3[text() = 'Description Information']][2]/following-sibling::div[contains(@class, 'pbSubsection')][1]">
+	  <children>
+	    <sfLayoutRow n="FollowupComments" s="" seqNum="0">
+	      <children>
+	        <sfLI label="Followup Comments" n="tsk6_fu" s="" seqNum="0" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="tsk6_fu" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="textarea" locator="^//textarea[@id='tsk6_fu']"/>
+	          </children>
+	        </sfLI>
+	      </children>
+	    </sfLayoutRow>
+	  </children>
+	</sfLayoutSection>
+	<sfLayoutSection detailHeading="false" n="Followup Reminder" s="" seqNum="6" t="Web Layout Section - true" locator="//div[contains(@class, 'pbSubheader') and h3[text() = 'Reminder']]/following-sibling::div[contains(@class, 'pbSubsection')][1]">
+	  <children>
+	    <sfLayoutRow n="FollowupReminderLayoutRow" s="" seqNum="0">
+	      <children>
+	        <sfLI label="Followup Reminder" n="IsReminderSet_fu" s="" seqNum="0" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="IsReminderSet_fu" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="checkbox" locator="//input[@name='IsReminderSet_fu']"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="Followup ReminderDate" n="reminder_dt_fu" s="" seqNum="1" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="reminder_dt_fu" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="date" locator="//input[@id='reminder_dt_fu']"/>
+	          </children>
+	        </sfLI>
+	        <sfLI label="Followup ReminderTime" n="reminder_dt_fu_time" s="" seqNum="2" t="Web Layout Item">
+	          <children>
+	            <sfLIC n="reminder_dt_fu_time" s="" seqNum="0" t="Web Layout Field" type="Field" fieldType="select" locator="//select[@id='reminder_dt_fu_time']"/>
+	          </children>
+	        </sfLI>
+	      </children>
+	    </sfLayoutRow>
+	  </children>
+	</sfLayoutSection>
+</sfLayoutSections>

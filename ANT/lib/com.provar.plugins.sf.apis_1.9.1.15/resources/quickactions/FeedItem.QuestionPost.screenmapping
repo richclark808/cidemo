@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiScreen type="page"
+		  name="FeedItem.QuestionPost" 
+          label="Question quick action">
+          
+    <uiControl type="input" name="question" label="What would you like to know?" locator="//input[@id='publisherQuestionTitle']"/>
+    <uiControl type="pageControl" pageControl="com.provar.plugins.forcedotcom.core.ui.pagecontrols.cke.CkEditor" name="publisherRichTextEditor" label="Anything else? Add it here ..." locator="//div[@id='cke_publisherRichTextEditor']"/>
+    <uiButton type="button" name="publishersharebutton" label="Ask" locator="//input[@id='publishersharebutton']" />
+</uiScreen>

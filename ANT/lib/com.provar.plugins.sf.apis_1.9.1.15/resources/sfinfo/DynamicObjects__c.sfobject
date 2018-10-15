@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="DynamicObjects__c">
+  <fields>
+    <sfFieldInfo createable="N" name="Geolocation__c" updateable="N"/>
+  </fields>
+</sfObjectInfo>

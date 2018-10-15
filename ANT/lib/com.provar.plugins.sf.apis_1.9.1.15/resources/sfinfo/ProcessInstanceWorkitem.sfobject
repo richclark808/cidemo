@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo name="ProcessInstanceWorkitem">
+  	<standardActions>
+    	<sfActionLink n="Edit" t="Edit"/>
+    </standardActions>
+</sfObjectInfo>

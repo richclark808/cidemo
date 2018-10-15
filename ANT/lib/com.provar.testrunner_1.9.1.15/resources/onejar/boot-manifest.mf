@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: com.simontuffs.onejar.Boot
+One-Jar-Main-Class: com.otgsolutions.testbench.testexecution.container.java.LocalTestExecutionContainerRunner
+

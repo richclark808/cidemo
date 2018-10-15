@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<translations>
+  <translation key="Event.EventSubtype" type="SfFieldLabel" value="Subtipo de Compromisso"/>
+  <translation key="Event.IsAllDayEvent" type="SfFieldLabel" value="Compromisso Todo o Dia"/>
+  <translation key="Event.IsGroupEvent" type="SfFieldLabel" value="Compromisso de grupo"/>
+  <translation key="Event.IsRecurrence" type="SfFieldLabel" value="Criar série recorrente de Compromissos"/>
+</translations>

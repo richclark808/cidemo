@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="ContentVersion">
+  <fields>
+    <sfFieldInfo name="ContentDocumentId" updateable="N"/>
+    <sfFieldInfo name="ContentBodyId" updateable="N"/>
+    <sfFieldInfo createable="N" name="VersionNumber" updateable="N"/>
+    <sfFieldInfo name="SharingOption" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE defaultValue="true" id="-1" n="A" s="" t="Freeze Sharing Off"/>
+        <sfPLE id="-1" n="R" s="" t="Freeze Sharing On"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo name="SharingPrivacy" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE defaultValue="true" id="-1" n="N" s="" t="Visible to Anyone With Record Access"/>
+        <sfPLE id="-1" n="P" s="" t="Private on Records"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo name="PathOnClient" updateable="N"/>
+    <sfFieldInfo createable="N" name="RatingCount" updateable="N"/>
+    <sfFieldInfo name="ContentModifiedDate" updateable="N"/>
+    <sfFieldInfo createable="N" name="ContentModifiedById" updateable="N"/>
+    <sfFieldInfo createable="N" name="PositiveRatingCount" updateable="N"/>
+    <sfFieldInfo createable="N" name="NegativeRatingCount" updateable="N"/>
+    <sfFieldInfo createable="N" name="FeaturedContentBoost" updateable="N"/>
+    <sfFieldInfo createable="N" name="FeaturedContentDate" updateable="N"/>
+    <sfFieldInfo createable="N" name="FileType" updateable="N"/>
+    <sfFieldInfo createable="N" name="PublishStatus" restrictedPicklist="true" updateable="N">
+      <picklistEntries>
+        <sfPLE defaultValue="true" id="-1" n="U" s="" t="Upload Interrupted"/>
+        <sfPLE id="-1" n="P" s="" t="Public"/>
+        <sfPLE id="-1" n="R" s="" t="Private Library"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="N" name="ContentSize" updateable="N"/>
+    <sfFieldInfo createable="N" name="FileExtension" updateable="N"/>
+    <sfFieldInfo name="FirstPublishLocationId" updateable="N"/>
+    <sfFieldInfo name="Origin" restrictedPicklist="true" updateable="N">
+      <picklistEntries>
+        <sfPLE defaultValue="true" id="-1" n="C" s="" t="Content"/>
+        <sfPLE id="-1" n="H" s="" t="Chatter"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo name="NetworkId" updateable="N"/>
+    <sfFieldInfo name="ContentLocation" restrictedPicklist="true" updateable="N">
+      <picklistEntries>
+        <sfPLE defaultValue="true" id="-1" n="S" s="" t="Salesforce"/>
+        <sfPLE id="-1" n="E" s="" t="External"/>
+        <sfPLE id="-1" n="L" s="" t="Social Customer Service"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="N" name="TextPreview" updateable="N"/>
+    <sfFieldInfo createable="N" name="Checksum" updateable="N"/>
+    <sfFieldInfo createable="Y" name="IsMajorVersion"/>
+    <sfFieldInfo createable="Y" name="IsAssetEnabled"/>
+  </fields>
+</sfObjectInfo>

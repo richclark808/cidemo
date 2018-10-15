@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<translations>
+  <translation key="Lead.Id" type="SfFieldLabel" value="Lead-ID"/>
+  <translation key="Lead.LeadSource" type="SfFieldLabel" value="Lead-Quelle"/>
+  <translation key="*.*.Lead Information" type="SfLayoutSectionLabel" value="Lead-Informationen"/>
+</translations>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfRelatedList fieldName="RecordId" label="Groups" n="RecordAssociatedGroups" relationshipName="RecordAssociatedGroups" s="3-" t="Groups (RecordId)">
+  <children>
+    <sfRelatedListColumn n="CollaborationGroup.SmallPhotoUrl" s="" seq="0" t="Photo"/>
+    <sfRelatedListColumn n="CollaborationGroup.Name" s="" seq="1" t="Name"/>
+    <sfRelatedListColumn n="CollaborationGroup.MemberCount" s="" seq="2" t="Member Count"/>
+  </children>
+</sfRelatedList>

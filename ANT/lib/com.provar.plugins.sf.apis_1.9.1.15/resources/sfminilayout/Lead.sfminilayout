@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<miniLayout n="miniLayout" s="" t="Mini Layout">
+	<fields>
+		<string>Name</string>
+		<string>Company</string>
+		<string>Email</string>
+		<string>Status</string>
+	</fields>
+</miniLayout>

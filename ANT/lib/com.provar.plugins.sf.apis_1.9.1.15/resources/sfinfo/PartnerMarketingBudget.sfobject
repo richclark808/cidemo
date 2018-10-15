@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="PartnerMarketingBudget">
+  <fields>
+    <sfFieldInfo name="Type" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE defaultValue="true" id="-1" n="Marketing Funds" s=""/>
+        <sfPLE id="-1" n="Co-Operated Budget" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="N" name="TotalAllocatedAmount" updateable="N"/>
+    <sfFieldInfo createable="N" name="TotalApprovedFrs" updateable="N"/>
+    <sfFieldInfo createable="N" name="TotalApprovedFcs" updateable="N"/>
+    <sfFieldInfo createable="N" name="TotalReimbursedFcs" updateable="N"/>
+  </fields>
+</sfObjectInfo>

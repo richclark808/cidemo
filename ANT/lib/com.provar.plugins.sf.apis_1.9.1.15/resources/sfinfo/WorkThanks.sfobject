@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="WorkThanks">
+  <fields>
+    <sfFieldInfo name="GiverId" updateable="N"/>
+    <sfFieldInfo name="Message" updateable="N"/>
+    <sfFieldInfo createable="N" name="FeedItemId" updateable="N"/>
+  </fields>
+</sfObjectInfo>

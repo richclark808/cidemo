@@ -1,0 +1,94 @@
+ <testExecutionContainerDescriptor name="bundled" 
+                  title="Bundled APIs"
+                  factoryClass="com.provar.core.testexecution.controller.java.JavaTestExecutionContainerFactory">
+	<factoryParams>
+		<!--
+		<propertyValue name="vmArg">-Xdebug</propertyValue>
+		-->
+		<propertyValue name="vmArg">-Xrunjdwp:transport=dt_socket,server=y,suspend=n</propertyValue>
+		<propertyValue name="vmArg">-Xms32m</propertyValue>
+		<propertyValue name="vmArg">-Xmx256m</propertyValue>
+
+		<!--
+		<propertyValue name="classPathEntry">{seleniumJar}</propertyValue>
+		<propertyValue name="classPathEntry">dom4j-1.6.1.jar</propertyValue>
+		<propertyValue name="classPathEntry">stax-api-1.0.1.jar</propertyValue>
+		<propertyValue name="classPathEntry">xmlbeans-2.3.0.jar</propertyValue>
+		<propertyValue name="classPathEntry">javax.mail.jar</propertyValue>
+		-->
+
+        <!-- MySQL -->
+		<!--
+        <propertyValue name="classPathEntry">{coreJars}/mysql-connector-java-5.1.21-bin.jar</propertyValue>
+		-->
+
+        <!-- Oracle -->
+		<!--
+        <propertyValue name="classPathEntry">{coreJars}/ojdbc6.jar</propertyValue>
+		-->
+
+        <!-- PostgreSQL -->
+		<!--
+        <propertyValue name="classPathEntry">{coreJars}/postgresql-9.2-1002.jdbc4.jar</propertyValue>
+		-->
+
+        <!-- Websphere MQ -->
+		<!--
+        <propertyValue name="classPathEntry">{coreJars}/com.ibm.mq.jar</propertyValue>
+        <propertyValue name="classPathEntry">{coreJars}/com.ibm.mq.commonservices.jar</propertyValue>
+        <propertyValue name="classPathEntry">{coreJars}/com.ibm.mq.headers.jar</propertyValue>
+        <propertyValue name="classPathEntry">{coreJars}/com.ibm.mq.jmqi.jar</propertyValue>
+        <propertyValue name="classPathEntry">{coreJars}/connector.jar</propertyValue>
+		-->
+
+        <!-- Apache Tika (Content parsing) -->
+        <!-- NOTE: must be before Apache POI or method not found errors on StringUtil. -->
+		<!--
+		<propertyValue name="classPathEntry">{coreJars}/tika-app-1.8.jar</propertyValue>
+		-->
+
+        <!-- Apache POI (Excel) -->
+		<!--
+        <propertyValue name="classPathEntry">{coreJars}/poi-3.11-20141221.jar</propertyValue>
+        <propertyValue name="classPathEntry">{coreJars}/poi-ooxml-3.11-20141221.jar</propertyValue>
+        <propertyValue name="classPathEntry">{coreJars}/poi-ooxml-schemas-3.11-20141221.jar</propertyValue>
+		-->
+        
+        <!-- Microsoft Exchange -->
+		<!--
+        <propertyValue name="classPathEntry">{coreJars}/ews-java-api-2.0.jar</propertyValue>
+		-->
+        
+	</factoryParams>
+	<containerParams>
+		<propertyValue name="testApiPackage">com.provar.plugins.bundled.apis</propertyValue>
+		<propertyValue name="testApiPackage">com.provar.plugins.bundled.apis.db</propertyValue>
+		<propertyValue name="testApiPackage">com.provar.plugins.bundled.apis.control</propertyValue>
+		<propertyValue name="testApiPackage">com.provar.plugins.bundled.apis.bdd</propertyValue>
+		<propertyValue name="testApiPackage">com.provar.plugins.bundled.apis.io</propertyValue>
+		<propertyValue name="testApiPackage">com.provar.plugins.bundled.apis.list</propertyValue>
+		<propertyValue name="testApiPackage">com.provar.plugins.bundled.apis.messaging</propertyValue>
+		<propertyValue name="testApiPackage">com.provar.plugins.bundled.apis.string</propertyValue>
+		<propertyValue name="testApiPackage">com.provar.plugins.bundled.apis.ui</propertyValue>
+		<propertyValue name="testApiPackage">com.provar.plugins.bundled.apis.web</propertyValue>
+
+		<propertyValue name="testFunctionPackage">com.provar.plugins.bundled.functions</propertyValue>
+		
+		<propertyValue name="connectionHandlerPackage">com.provar.core.connection.excel</propertyValue>
+		<propertyValue name="connectionHandlerPackage">com.provar.core.connection.exchange</propertyValue>
+		<propertyValue name="connectionHandlerPackage">com.provar.core.connection.google</propertyValue>
+		<propertyValue name="connectionHandlerPackage">com.provar.core.connection.mysql</propertyValue>
+		<propertyValue name="connectionHandlerPackage">com.provar.core.connection.oracle</propertyValue>
+		<propertyValue name="connectionHandlerPackage">com.provar.core.connection.sqlserver</propertyValue>
+		<propertyValue name="connectionHandlerPackage">com.provar.core.connection.postgresql</propertyValue>
+		<propertyValue name="connectionHandlerPackage">com.provar.core.connection.qtp</propertyValue>
+		<propertyValue name="connectionHandlerPackage">com.provar.core.connection.websphere</propertyValue>
+
+		<!--propertyValue name="requiredBundle">{bundle:org.eclipse.update.configurator}</propertyValue>
+		<propertyValue name="requiredBundle">{bundle:org.eclipse.osgi.util}</propertyValue-->
+		<propertyValue name="mainBundle">{bundle:com.provar.plugins.bundled.apis}</propertyValue>
+
+	</containerParams>
+	<environmentVariables>
+	</environmentVariables>
+ </testExecutionContainerDescriptor>

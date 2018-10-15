@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<translations>
+  <translation key="Account.AccountNumber" type="SfFieldLabel" value="Accountnummer"/>
+  <translation key="Account.AccountSource" type="SfFieldLabel" value="Accountquelle"/>
+  <translation key="Account.Description" type="SfFieldLabel" value="Accountbeschreibung"/>
+  <translation key="Account.Fax" type="SfFieldLabel" value="Account-Fax-Nummer"/>
+  <translation key="Account.Id" type="SfFieldLabel" value="Account-ID"/>
+  <translation key="Account.Name" type="SfFieldLabel" value="Accountname"/>
+  <translation key="Account.ParentId" type="SfFieldLabel" value="ID des übergeordneten Accounts"/>
+  <translation key="Account.Phone" type="SfFieldLabel" value="Accounttelefon"/>
+  <translation key="Account.Rating" type="SfFieldLabel" value="Accountklassifizierung"/>
+  <translation key="Account.Site" type="SfFieldLabel" value="Accountstandort"/>
+  <translation key="Account.Type" type="SfFieldLabel" value="Accounttyp"/>
+  <translation key="*.*.Account Information" type="SfLayoutSectionLabel" value="Accountinformationen"/>
+</translations>

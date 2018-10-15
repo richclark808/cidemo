@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo label="Attached Content Document" name="AttachedContentDocument">
+  <standardActions>
+    <sfActionLink n="NewFile" t="Upload Files" modes="AttachedContentDocuments" newAction="true" lightningLabel="Add File" lightningActionName="AttachFileFromDevice"/>
+    <sfActionLink n="Preview" t="Preview" modes="AttachedContentDocuments" s="0" requiresRow="true" locator="td[contains(@class, 'actionColumn')]/a[contains(@href, 'javascript:OverlayDialogElement.showFilePreview')]"/>
+    <sfActionLink n="View" t="Download" modes="AttachedContentDocuments" s="1" requiresRow="true" locator="td[contains(@class, 'actionColumn')]/a[contains(@href, 'download')]"/>
+	<sfActionLink n="Delete" t="Del" modes="AttachedContentDocuments" s="2" requiresRow="true" locator="td[contains(@class, 'actionColumn')]/a[contains(@href, 'deleteredirect.jsp')]"/>standardActions>
+  </standardActions>
+</sfObjectInfo>

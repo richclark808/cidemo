@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo name="EmailStatus" label="Email Status">
+  	<standardActions>
+  		<sfActionLink n="email" t="Send an Email" modes="EmailStatuses" massAction="true"/>
+  		<sfActionLink n="all" t="View All" modes="EmailStatuses" massAction="true"/>
+  	</standardActions>
+</sfObjectInfo>

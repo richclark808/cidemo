@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="MacroInstruction">
+  <fields>
+    <sfFieldInfo name="Operation" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE id="-1" n="Select" s="" t="select"/>
+        <sfPLE id="-1" n="Set" s="" t="set"/>
+        <sfPLE id="-1" n="Insert" s="" t="insert"/>
+        <sfPLE id="-1" n="Submit" s="" t="submit"/>
+        <sfPLE id="-1" n="Close" s="" t="close"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo name="Target" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE id="-1" n="Field.CollaborationGroup.CollaborationType" s="" t="Access Type"/>
+        <sfPLE id="-1" n="Field.Contact.AccountId" s="" t="Account Name"/>
+        <sfPLE id="-1" n="Field.Opportunity.AccountId" s="" t="Account Name"/>
+        <sfPLE id="-1" n="Tab.Account" s="" t="Active Account Tab"/>
+        <sfPLE id="-1" n="Tab.AssetRelationship" s="" t="Active Asset Relationship Tab"/>
+        <sfPLE id="-1" n="Tab.Asset" s="" t="Active Asset Tab"/>
+        <sfPLE id="-1" n="Tab.Campaign" s="" t="Active Campaign Tab"/>
+        <sfPLE id="-1" n="Tab.Case" s="" t="Active Case Tab"/>
+        <sfPLE id="-1" n="Tab.ChannelProgramLevel" s="" t="Active Channel Program Level Tab"/>
+        <sfPLE id="-1" n="Tab.ChannelProgram" s="" t="Active Channel Program Tab"/>
+        <sfPLE id="-1" n="Tab.Contact" s="" t="Active Contact Tab"/>
+        <sfPLE id="-1" n="Tab.Contract" s="" t="Active Contract Tab"/>
+        <sfPLE id="-1" n="Tab.Duplicate_Field_Labels__c" s="" t="Active Duplicate Field Label Tab"/>
+        <sfPLE id="-1" n="Tab.Event" s="" t="Active Event Tab"/>
+        <sfPLE id="-1" n="Tab.FeedItem" s="" t="Active Feed Item Tab"/>
+        <sfPLE id="-1" n="Tab.CollaborationGroup" s="" t="Active Group Tab"/>
+        <sfPLE id="-1" n="Tab.Lead" s="" t="Active Lead Tab"/>
+        <sfPLE id="-1" n="Tab.myobj__c" s="" t="Active myobj Tab"/>
+        <sfPLE id="-1" n="Tab.Opportunity" s="" t="Active Opportunity Tab"/>
+        <sfPLE id="-1" n="Tab.PartnerFundAllocation" s="" t="Active Partner Fund Allocation Tab"/>
+        <sfPLE id="-1" n="Tab.PartnerFundClaim" s="" t="Active Partner Fund Claim Tab"/>
+        <sfPLE id="-1" n="Tab.PartnerFundRequest" s="" t="Active Partner Fund Request Tab"/>
+        <sfPLE id="-1" n="Tab.PartnerMarketingBudget" s="" t="Active Partner Marketing Budget Tab"/>
+        <sfPLE id="-1" n="Tab.PN1_KA__kav" s="" t="Active PN1 KA Tab"/>
+        <sfPLE id="-1" n="Tab.PN1__c" s="" t="Active PN1 Tab"/>
+        <sfPLE id="-1" n="Tab.Product2" s="" t="Active Product Tab"/>
+        <sfPLE id="-1" n="Tab.Quote" s="" t="Active Quote Tab"/>
+        <sfPLE id="-1" n="Tab.Release__kav" s="" t="Active Release Tab"/>
+        <sfPLE id="-1" n="Tab.SpendRequest__c" s="" t="Active SpendRequest Tab"/>
+        <sfPLE id="-1" n="Tab.Task" s="" t="Active Task Tab"/>
+        <sfPLE id="-1" n="Tab.cinnamon__TestExecution__c" s="" t="Active TestExecution Tab"/>
+        <sfPLE id="-1" n="Tab.cinnamon__TestSuite__c" s="" t="Active TestSuite Tab"/>
+        <sfPLE id="-1" n="Tab.cinnamon__Test__c" s="" t="Active Test Tab"/>
+        <sfPLE id="-1" n="Tab.User" s="" t="Active User Tab"/>
+        <sfPLE id="-1" n="Tab.WithHistory__c" s="" t="Active With History Tab"/>
+        <sfPLE id="-1" n="QuickAction.CollaborationGroup.NewGroupRecord" s="" t="Add Record Action"/>
+        <sfPLE id="-1" n="Field.Event.IsAllDayEvent" s="" t="All-Day Event"/>
+        <sfPLE id="-1" n="Field.CollaborationGroup.CanHaveGuests" s="" t="Allow customers"/>
+        <sfPLE id="-1" n="Field.Opportunity.Amount" s="" t="Amount"/>
+        <sfPLE id="-1" n="Field.Task.OwnerId" s="" t="Assigned To"/>
+        <sfPLE id="-1" n="Field.Event.OwnerId" s="" t="Assigned To"/>
+        <sfPLE id="-1" n="Field.OutgoingEmail.ContentDocumentIds.end" s="" t="Attachments"/>
+        <sfPLE id="-1" n="Field.OutgoingEmail.AttachmentIds.end" s="" t="Attachments"/>
+        <sfPLE id="-1" n="Field.OutgoingEmail.BccAddress" s="" t="BCC"/>
+        <sfPLE id="-1" n="Field.OutgoingEmail.BccAddress.begin" s="" t="BCC"/>
+        <sfPLE id="-1" n="Field.OutgoingEmail.BccAddress.end" s="" t="BCC"/>
+        <sfPLE id="-1" n="Field.EmailMessage.BccAddress.end" s="" t="BCC Addresses"/>
+        <sfPLE id="-1" n="Field.EmailMessage.BccAddress" s="" t="BCC Addresses"/>
+        <sfPLE id="-1" n="Field.CaseComment.CommentBody" s="" t="Body"/>
+        <sfPLE id="-1" n="Field.CaseComment.CommentBody.cursor" s="" t="Body"/>
+        <sfPLE id="-1" n="Field.Note.Body.begin" s="" t="Body"/>
+        <sfPLE id="-1" n="Field.Note.Body.cursor" s="" t="Body"/>
+        <sfPLE id="-1" n="Field.CaseComment.CommentBody.begin" s="" t="Body"/>
+        <sfPLE id="-1" n="Field.Note.Body" s="" t="Body"/>
+        <sfPLE id="-1" n="Field.Case.OwnerId" s="" t="Case Owner"/>
+        <sfPLE id="-1" n="Field.OutgoingEmail.CcAddress.end" s="" t="CC"/>
+        <sfPLE id="-1" n="Field.OutgoingEmail.CcAddress.begin" s="" t="CC"/>
+        <sfPLE id="-1" n="Field.OutgoingEmail.CcAddress" s="" t="CC"/>
+        <sfPLE id="-1" n="Field.EmailMessage.CcAddress" s="" t="CC Addresses"/>
+        <sfPLE id="-1" n="Field.EmailMessage.CcAddress.end" s="" t="CC Addresses"/>
+        <sfPLE id="-1" n="QuickAction.Task.Defer" s="" t="Change Date Action"/>
+        <sfPLE id="-1" n="QuickAction.Task.UpdatePriority" s="" t="Change Priority Action"/>
+        <sfPLE id="-1" n="QuickAction.Task.UpdateStatus" s="" t="Change Status Action"/>
+        <sfPLE id="-1" n="Field.Opportunity.CloseDate" s="" t="Close Date"/>
+        <sfPLE id="-1" n="Field.Task.Description.cursor" s="" t="Comments"/>
+        <sfPLE id="-1" n="Field.Task.Description" s="" t="Comments"/>
+        <sfPLE id="-1" n="Field.Task.Description.begin" s="" t="Comments"/>
+        <sfPLE id="-1" n="QuickAction.Case.CaseComment" s="" t="Community Action"/>
+        <sfPLE id="-1" n="Field.Lead.Company.begin" s="" t="Company"/>
+        <sfPLE id="-1" n="Field.Lead.Company.end" s="" t="Company"/>
+        <sfPLE id="-1" n="Field.Lead.Company" s="" t="Company"/>
+        <sfPLE id="-1" n="Field.Case.ContactId" s="" t="Contact Name"/>
+        <sfPLE id="-1" n="QuickAction.FeedItem.NewTaskFromFeedItem" s="" t="Create New Task Action"/>
+        <sfPLE id="-1" n="Field.CollaborationGroup.Description.begin" s="" t="Description"/>
+        <sfPLE id="-1" n="Field.Case.Description.cursor" s="" t="Description"/>
+        <sfPLE id="-1" n="Field.CollaborationGroup.Description" s="" t="Description"/>
+        <sfPLE id="-1" n="Field.Case.Description" s="" t="Description"/>
+        <sfPLE id="-1" n="Field.CollaborationGroup.Description.cursor" s="" t="Description"/>
+        <sfPLE id="-1" n="Field.Case.Description.begin" s="" t="Description"/>
+        <sfPLE id="-1" n="Field.Task.ActivityDate" s="" t="Due Date"/>
+        <sfPLE id="-1" n="QuickAction.Task.EditDescription" s="" t="Edit Comments Action"/>
+        <sfPLE id="-1" n="Field.Lead.Email" s="" t="Email"/>
+        <sfPLE id="-1" n="Field.Contact.Email" s="" t="Email"/>
+        <sfPLE id="-1" n="QuickAction.Quote.SendEmail" s="" t="Email Action"/>
+        <sfPLE id="-1" n="QuickAction.Case.Email" s="" t="Email Action"/>
+        <sfPLE id="-1" n="QuickAction.SendEmail" s="" t="Email Action"/>
+        <sfPLE id="-1" n="Field.EmailTemplate" s="" t="Email Template"/>
+        <sfPLE id="-1" n="Field.OutgoingEmail.EmailTemplateId" s="" t="Email Template"/>
+        <sfPLE id="-1" n="Field.Event.EndDateTime" s="" t="End"/>
+        <sfPLE id="-1" n="Field.EmailMessage.BccAddress.begin" s=""/>
+        <sfPLE id="-1" n="Field.EmailMessage.CcAddress.begin" s=""/>
+        <sfPLE id="-1" n="Field.EmailMessage.ToAddress.begin" s=""/>
+        <sfPLE id="-1" n="Field.Contact.FirstName.end" s="" t="First Name"/>
+        <sfPLE id="-1" n="Field.Lead.FirstName.begin" s="" t="First Name"/>
+        <sfPLE id="-1" n="Field.Contact.FirstName.begin" s="" t="First Name"/>
+        <sfPLE id="-1" n="Field.Lead.FirstName.end" s="" t="First Name"/>
+        <sfPLE id="-1" n="Field.Lead.FirstName" s="" t="First Name"/>
+        <sfPLE id="-1" n="Field.Contact.FirstName" s="" t="First Name"/>
+        <sfPLE id="-1" n="Field.OutgoingEmail.ValidatedFromAddress" s="" t="From"/>
+        <sfPLE id="-1" n="Field.EmailMessage.FromAddress" s="" t="From Address"/>
+        <sfPLE id="-1" n="Field.CollaborationGroupRecord.CollaborationGroupId" s="" t="Group"/>
+        <sfPLE id="-1" n="Field.CollaborationGroupMember.CollaborationGroupId" s="" t="Group"/>
+        <sfPLE id="-1" n="Field.CollaborationGroupMember.CollaborationRole" s="" t="Group Member Role"/>
+        <sfPLE id="-1" n="Field.EmailMessage.HtmlBody" s="" t="HTML Body"/>
+        <sfPLE id="-1" n="Field.OutgoingEmail.HtmlBody.begin" s="" t="HTML Body"/>
+        <sfPLE id="-1" n="Field.EmailMessage.HtmlBody.cursor" s="" t="HTML Body"/>
+        <sfPLE id="-1" n="Field.OutgoingEmail.HtmlBody.cursor" s="" t="HTML Body"/>
+        <sfPLE id="-1" n="Field.EmailMessage.HtmlBody.begin" s="" t="HTML Body"/>
+        <sfPLE id="-1" n="Field.OutgoingEmail.HtmlBody" s="" t="HTML Body"/>
+        <sfPLE id="-1" n="Field.Lead.LastName.end" s="" t="Last Name"/>
+        <sfPLE id="-1" n="Field.Lead.LastName" s="" t="Last Name"/>
+        <sfPLE id="-1" n="Field.Contact.LastName.begin" s="" t="Last Name"/>
+        <sfPLE id="-1" n="Field.Contact.LastName" s="" t="Last Name"/>
+        <sfPLE id="-1" n="Field.Lead.LastName.begin" s="" t="Last Name"/>
+        <sfPLE id="-1" n="Field.Contact.LastName.end" s="" t="Last Name"/>
+        <sfPLE id="-1" n="Field.Event.Location" s="" t="Location"/>
+        <sfPLE id="-1" n="Field.Event.Location.end" s="" t="Location"/>
+        <sfPLE id="-1" n="Field.Event.Location.begin" s="" t="Location"/>
+        <sfPLE id="-1" n="QuickAction.LogACall" s="" t="Log a Call Action"/>
+        <sfPLE id="-1" n="Field.CollaborationGroupMember.MemberId" s="" t="Member"/>
+        <sfPLE id="-1" n="Field.CollaborationGroup.Name.begin" s="" t="Name"/>
+        <sfPLE id="-1" n="Field.Event.WhoId" s="" t="Name"/>
+        <sfPLE id="-1" n="Field.CollaborationGroup.Name.end" s="" t="Name"/>
+        <sfPLE id="-1" n="Field.Task.WhoId" s="" t="Name"/>
+        <sfPLE id="-1" n="Field.CollaborationGroup.Name" s="" t="Name"/>
+        <sfPLE id="-1" n="QuickAction.NewCase" s="" t="New Case Action"/>
+        <sfPLE id="-1" n="QuickAction.Case.NewChildCase" s="" t="New Child Case Action"/>
+        <sfPLE id="-1" n="QuickAction.NewEvent" s="" t="New Event Action"/>
+        <sfPLE id="-1" n="QuickAction.NewGroup" s="" t="New Group Action"/>
+        <sfPLE id="-1" n="QuickAction.CollaborationGroup.NewGroupMember" s="" t="New Group Member Action"/>
+        <sfPLE id="-1" n="QuickAction.NewLead" s="" t="New Lead Action"/>
+        <sfPLE id="-1" n="QuickAction.NewNote" s="" t="New Note Action"/>
+        <sfPLE id="-1" n="QuickAction.NewOpportunity" s="" t="New Opportunity Action"/>
+        <sfPLE id="-1" n="QuickAction.NewTask" s="" t="New Task Action"/>
+        <sfPLE id="-1" n="Field.Opportunity.NextStep" s="" t="Next Step"/>
+        <sfPLE id="-1" n="Field.Opportunity.NextStep.end" s="" t="Next Step"/>
+        <sfPLE id="-1" n="Field.Opportunity.NextStep.begin" s="" t="Next Step"/>
+        <sfPLE id="-1" n="Field.Opportunity.Name.begin" s="" t="Opportunity Name"/>
+        <sfPLE id="-1" n="Field.Opportunity.Name" s="" t="Opportunity Name"/>
+        <sfPLE id="-1" n="Field.Opportunity.Name.end" s="" t="Opportunity Name"/>
+        <sfPLE id="-1" n="Field.Case.ParentId" s="" t="Parent Case"/>
+        <sfPLE id="-1" n="Field.Contact.Phone" s="" t="Phone"/>
+        <sfPLE id="-1" n="Field.Lead.Phone" s="" t="Phone"/>
+        <sfPLE id="-1" n="Field.Case.Priority" s="" t="Priority"/>
+        <sfPLE id="-1" n="Field.Task.Priority" s="" t="Priority"/>
+        <sfPLE id="-1" n="Field.Note.IsPrivate" s="" t="Private"/>
+        <sfPLE id="-1" n="Field.CollaborationGroupRecord.RecordId" s="" t="Record"/>
+        <sfPLE id="-1" n="Field.OutgoingEmail.RelatedToId" s="" t="Related To"/>
+        <sfPLE id="-1" n="Field.Task.WhatId" s="" t="Related To"/>
+        <sfPLE id="-1" n="Field.Event.WhatId" s="" t="Related To"/>
+        <sfPLE id="-1" n="Field.Lead.Salutation" s="" t="Salutation"/>
+        <sfPLE id="-1" n="Field.Contact.Salutation" s="" t="Salutation"/>
+        <sfPLE id="-1" n="Field.Opportunity.StageName" s="" t="Stage"/>
+        <sfPLE id="-1" n="Field.Event.StartDateTime" s="" t="Start"/>
+        <sfPLE id="-1" n="Field.Case.Status" s="" t="Status"/>
+        <sfPLE id="-1" n="Field.Task.Status" s="" t="Status"/>
+        <sfPLE id="-1" n="Field.OutgoingEmail.Subject" s="" t="Subject"/>
+        <sfPLE id="-1" n="Field.OutgoingEmail.Subject.begin" s="" t="Subject"/>
+        <sfPLE id="-1" n="Field.EmailMessage.Subject" s="" t="Subject"/>
+        <sfPLE id="-1" n="Field.Case.Subject" s="" t="Subject"/>
+        <sfPLE id="-1" n="Field.Event.Subject" s="" t="Subject"/>
+        <sfPLE id="-1" n="Field.EmailMessage.Subject.end" s="" t="Subject"/>
+        <sfPLE id="-1" n="Field.Case.Subject.end" s="" t="Subject"/>
+        <sfPLE id="-1" n="Field.OutgoingEmail.Subject.end" s="" t="Subject"/>
+        <sfPLE id="-1" n="Field.EmailMessage.Subject.begin" s="" t="Subject"/>
+        <sfPLE id="-1" n="Field.Case.Subject.begin" s="" t="Subject"/>
+        <sfPLE id="-1" n="Field.Task.Subject" s="" t="Subject"/>
+        <sfPLE id="-1" n="Field.Contact.Title.end" s="" t="Title"/>
+        <sfPLE id="-1" n="Field.Lead.Title.begin" s="" t="Title"/>
+        <sfPLE id="-1" n="Field.Lead.Title" s="" t="Title"/>
+        <sfPLE id="-1" n="Field.Note.Title.begin" s="" t="Title"/>
+        <sfPLE id="-1" n="Field.Note.Title" s="" t="Title"/>
+        <sfPLE id="-1" n="Field.Contact.Title.begin" s="" t="Title"/>
+        <sfPLE id="-1" n="Field.Contact.Title" s="" t="Title"/>
+        <sfPLE id="-1" n="Field.Lead.Title.end" s="" t="Title"/>
+        <sfPLE id="-1" n="Field.Note.Title.end" s="" t="Title"/>
+        <sfPLE id="-1" n="Field.OutgoingEmail.ToAddress.end" s="" t="To"/>
+        <sfPLE id="-1" n="Field.OutgoingEmail.ToAddress.begin" s="" t="To"/>
+        <sfPLE id="-1" n="Field.OutgoingEmail.ToAddress" s="" t="To"/>
+        <sfPLE id="-1" n="Field.EmailMessage.ToAddress" s="" t="To Addresses"/>
+        <sfPLE id="-1" n="Field.EmailMessage.ToAddress.end" s="" t="To Addresses"/>
+        <sfPLE id="-1" n="QuickAction.Case._LightningUpdateCase" s="" t="Update Case Action"/>
+        <sfPLE id="-1" n="QuickAction.Contact._LightningRelatedContact" s="" t="Update Contact Action"/>
+      </picklistEntries>
+    </sfFieldInfo>
+  </fields>
+</sfObjectInfo>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<translations>
+	<translation type="SfFieldLabel" key="Case.ContactId" value="Contactpersoonsnaam">
+		<!-- Required because Provar produces "Contactpersoonnaam" (without the 's'). -->
+	</translation>
+</translations>

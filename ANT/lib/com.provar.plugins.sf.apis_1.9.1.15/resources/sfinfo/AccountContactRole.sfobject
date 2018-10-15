@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo name="AccountContactRole" label="Account Contact Role">
+    <standardActions>
+        <sfActionLink n="newRole" t="New" modes="AccountContactRoles" newAction="true"/>
+        <sfActionLink n="edit" t="Edit" target="sf:ui:target?object=AccountContactRole&amp;action=edit" modes="AccountContactRoles" requiresRow="true" />
+        <sfActionLink n="Delete" t="Delete" target="sf:ui:target?object=AccountContactRole&amp;action=delete" requiresRow="true" modes="AccountContactRoles" />
+    </standardActions>
+    <fields>
+    	<sfFieldInfo name="Role" label="Role"/>
+    	<sfFieldInfo name="IsPrimary" createable="Y" updateable="Y"/>
+    </fields>
+</sfObjectInfo>

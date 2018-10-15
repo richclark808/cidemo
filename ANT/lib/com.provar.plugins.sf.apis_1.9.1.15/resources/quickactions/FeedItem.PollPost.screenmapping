@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiScreen type="page"
+		  name="FeedItem.PollPost" 
+          label="Poll quick action">
+          
+    <uiControl type="input" name="publishereditablearea" label="What would you like to ask?" locator="//textarea[@id='publishereditablearea']"/>
+    <uiTable name="pollChoicesTable" label="Poll Choices Table" locator="//div[@class='publisherpollchoice']">
+    	<uiRow name="pollRow" label="Poll Row" >
+			<uiControl type="input" name="choice" label="Choice" locator="input"/>
+		</uiRow>
+	</uiTable>	
+    <uiButton type="link" name="addMoreChoices" label="Add more choices" locator="//a[@id='polladdchoice']" />
+    <uiButton type="button" name="publishersharebutton" label="Share" locator="//input[@id='publishersharebutton']" />
+</uiScreen>

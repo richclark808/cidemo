@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfRelatedList fieldName="LinkedEntityId" label="Files" n="AttachedContentDocuments" relationshipName="AttachedContentDocuments" s="3-" t="Files (LinkedEntityId)">
+  <children>
+    <sfRelatedListColumn n="Title" s="" seq="0" t="Title"/>
+    <sfRelatedListColumn n="LastModifiedDate" s="" seq="1" t="Last Modified"/>
+    <sfRelatedListColumn n="CreatedById" alias="CreatedBy.Name" s="" seq="2" t="Created By"/>
+    <sfRelatedListColumn n="ContentSize" s="" seq="3" t="Size"/>
+    <sfRelatedListColumn n="FileType" s="" seq="4" t="File Type"/>
+    <sfRelatedListColumn n="FileExtension" s="" seq="5" t="File Extension"/>
+    <sfRelatedListColumn n="ContentUrl" s="" seq="6" t="Content URL"/>
+    <sfRelatedListColumn n="ExternalDataSourceName" s="" seq="7" t="External Data Source"/>
+    <sfRelatedListColumn n="ExternalDataSourceType" s="" seq="8" t="Type"/>
+  </children>
+  <lightningColumns>
+    <sfRelatedListColumn n="Title" s="" seq="0" t="Title" />
+    <sfRelatedListColumn n="CreatedById" s="" seq="1" t="Owner"/>
+    <sfRelatedListColumn n="LastModifiedDate" s="" seq="2" t="Last Modified"/>
+    <sfRelatedListColumn n="ContentSize" s="" seq="3" t="Content Size"/>
+    <sfRelatedListColumn n="FileExtension" s="" seq="4" t="Extension"/>
+  </lightningColumns>
+</sfRelatedList>

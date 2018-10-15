@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="Contract">
+  <fields>
+    <sfFieldInfo defaultPermissions="RW" name="AccountId"/>
+    <sfFieldInfo name="ActivatedById" updateable="Y"/>
+    <sfFieldInfo name="ActivatedDate" updateable="Y"/>
+    <sfFieldInfo name="Status" required="N" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE id="-1" n="In Approval Process" s=""/>
+        <sfPLE id="-1" n="Activated" s=""/>
+        <sfPLE id="-1" n="Draft" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="N" defaultPermissions="RW" name="StatusCode" restrictedPicklist="true" updateable="N">
+      <picklistEntries>
+        <sfPLE id="-1" n="Draft" s=""/>
+        <sfPLE id="-1" n="InApproval" s="" t="In Approval Process"/>
+        <sfPLE id="-1" n="Activated" s=""/>
+        <sfPLE id="-1" n="Terminated" s=""/>
+        <sfPLE id="-1" n="Expired" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="N" defaultPermissions="RW" name="LastApprovedDate" updateable="N"/>
+    <sfFieldInfo name="OwnerExpirationNotice" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE id="-1" n="15" s="" t="15 Days"/>
+        <sfPLE id="-1" n="30" s="" t="30 Days"/>
+        <sfPLE id="-1" n="45" s="" t="45 Days"/>
+        <sfPLE id="-1" n="60" s="" t="60 Days"/>
+        <sfPLE id="-1" n="90" s="" t="90 Days"/>
+        <sfPLE id="-1" n="120" s="" t="120 Days"/>
+      </picklistEntries>
+    </sfFieldInfo>
+  </fields>
+  <standardActions>
+    <sfActionLink modes="Contracts List" n="newCtrc" newAction="true" t="New Contract"/>
+    <sfActionLink modes="Contracts" n="edit" requiresRow="true" t="Edit" target="sf:ui:target?object=Contract&amp;action=edit"/>
+    <sfActionLink modes="Contracts" n="Delete" requiresRow="true" target="sf:ui:target?object=Contract&amp;action=delete"/>
+    <sfActionLink n="ChangeStatus"/>
+    <sfActionLink n="Terminate" s=""/>
+  </standardActions>
+</sfObjectInfo>

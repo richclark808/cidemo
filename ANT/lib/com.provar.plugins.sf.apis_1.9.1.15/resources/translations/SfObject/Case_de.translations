@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<translations>
+  <translation key="Case.CaseNumber" type="SfFieldLabel" value="Kundenvorgangs-Nr."/>
+  <translation key="Case.Id" type="SfFieldLabel" value="Kundenvorgangs-ID"/>
+  <translation key="Case.Origin" type="SfFieldLabel" value="Kundenvorgangsursprung"/>
+  <translation key="Case.ParentId" type="SfFieldLabel" value="ID des übergeordneten Kundenvorgangs"/>
+  <translation key="Case.Reason" type="SfFieldLabel" value="Kundenvorgangsursache"/>
+  <translation key="Case.Type" type="SfFieldLabel" value="Kundenvorgangstyp"/>
+  <translation key="*.*.Case Information" type="SfLayoutSectionLabel" value="Kundenvorgangsinformationen"/>
+</translations>

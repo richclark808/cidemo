@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><AppiumAUT><XCUIElementTypeApplication type="XCUIElementTypeApplication" name="ServiceMax Field Service" label="ServiceMax Field Service" enabled="true" visible="true" x="0" y="0" width="768" height="1024">
+  <XCUIElementTypeWindow type="XCUIElementTypeWindow" enabled="true" visible="true" x="0" y="0" width="768" height="1024">
+    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="0" width="768" height="1024">
+      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" visibleInFrame="true" x="0" y="0" width="768" height="20"/>
+      <XCUIElementTypeScrollView type="XCUIElementTypeScrollView" enabled="true" visible="false" visibleInFrame="true" x="0" y="0" width="768" height="1024"/>
+      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="20" width="768" height="1004">
+        <XCUIElementTypeWebView type="XCUIElementTypeWebView" enabled="true" visible="true" x="0" y="20" width="768" height="1004">
+          <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="20" width="768" height="1004">
+            <XCUIElementTypeOther type="XCUIElementTypeOther" name="ServiceMax LUMA/SUMA Application" label="ServiceMax LUMA/SUMA Application" enabled="true" visible="true" x="0" y="20" width="768" height="1004">
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" visibleInFrame="true" x="9" y="34" width="50" height="20">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Cancel" name="Cancel" label="Cancel" enabled="true" visible="false" visibleInFrame="true" x="9" y="32" width="50" height="23"/>
+              </XCUIElementTypeOther>
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" visibleInFrame="true" x="340" y="32" width="88" height="23">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="New Event" name="New Event" label="New Event" enabled="true" visible="false" visibleInFrame="true" x="340" y="30" width="88" height="26"/>
+              </XCUIElementTypeOther>
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" visibleInFrame="true" x="724" y="34" width="35" height="20">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Save" name="Save" label="Save" enabled="true" visible="false" visibleInFrame="true" x="724" y="32" width="35" height="23"/>
+              </XCUIElementTypeOther>
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" visibleInFrame="true" x="9" y="83" width="44" height="20">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Times" name="Times" label="Times" enabled="true" visible="false" visibleInFrame="true" x="9" y="81" width="43" height="23"/>
+              </XCUIElementTypeOther>
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" visibleInFrame="true" x="9" y="134" width="84" height="20">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Information" name="Information" label="Information" enabled="true" visible="false" visibleInFrame="true" x="9" y="132" width="84" height="23"/>
+              </XCUIElementTypeOther>
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="166" y="87" width="589" height="23">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Times" name="Times" label="Times" enabled="true" visible="true" x="166" y="85" width="49" height="26"/>
+              </XCUIElementTypeOther>
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="153" y="120" width="603" height="31">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Start Date and Time" name="Start Date and Time" label="Start Date and Time" enabled="true" visible="true" x="161" y="125" width="126" height="21"/>
+                <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" visibleInFrame="true" x="290" y="126" width="7" height="19">
+                  <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="*" name="*" label="*" enabled="true" visible="false" visibleInFrame="true" x="290" y="126" width="7" height="19"/>
+                </XCUIElementTypeOther>
+              </XCUIElementTypeOther>
+              <XCUIElementTypeTextField type="XCUIElementTypeTextField" value="22/09/17 02:57" label="" enabled="true" visible="false" visibleInFrame="true" x="162" y="151" width="555" height="25"/>
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" visibleInFrame="true" x="727" y="154" width="10" height="18">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="" name="" label="" enabled="true" visible="false" visibleInFrame="true" x="727" y="154" width="10" height="18"/>
+              </XCUIElementTypeOther>
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="153" y="186" width="603" height="31">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="End Date and Time" name="End Date and Time" label="End Date and Time" enabled="true" visible="true" x="161" y="191" width="122" height="21"/>
+                <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" visibleInFrame="true" x="286" y="192" width="7" height="19">
+                  <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="*" name="*" label="*" enabled="true" visible="false" visibleInFrame="true" x="286" y="192" width="7" height="19"/>
+                </XCUIElementTypeOther>
+              </XCUIElementTypeOther>
+              <XCUIElementTypeTextField type="XCUIElementTypeTextField" value="22/09/17 03:57" label="" enabled="true" visible="false" visibleInFrame="true" x="162" y="217" width="555" height="25"/>
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" visibleInFrame="true" x="727" y="220" width="10" height="18">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="" name="" label="" enabled="true" visible="false" visibleInFrame="true" x="727" y="220" width="10" height="18"/>
+              </XCUIElementTypeOther>
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="166" y="277" width="589" height="23">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Information" name="Information" label="Information" enabled="true" visible="true" x="166" y="275" width="96" height="26"/>
+              </XCUIElementTypeOther>
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="153" y="309" width="603" height="31">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Subject" name="Subject" label="Subject" enabled="true" visible="true" x="161" y="314" width="48" height="21"/>
+                <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" visibleInFrame="true" x="211" y="316" width="7" height="19">
+                  <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="*" name="*" label="*" enabled="true" visible="false" visibleInFrame="true" x="211" y="316" width="7" height="19"/>
+                </XCUIElementTypeOther>
+              </XCUIElementTypeOther>
+              <XCUIElementTypeTextField type="XCUIElementTypeTextField" label="" enabled="true" visible="true" x="162" y="340" width="585" height="25"/>
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="153" y="375" width="610" height="31">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Description" name="Description" label="Description" enabled="true" visible="true" x="161" y="380" width="72" height="21"/>
+              </XCUIElementTypeOther>
+              <XCUIElementTypeTextView type="XCUIElementTypeTextView" enabled="true" visible="true" x="162" y="406" width="591" height="79"/>
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="0" width="0" height="0">
+                <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="1024" width="0" height="0"/>
+              </XCUIElementTypeOther>
+            </XCUIElementTypeOther>
+          </XCUIElementTypeOther>
+        </XCUIElementTypeWebView>
+      </XCUIElementTypeOther>
+    </XCUIElementTypeOther>
+  </XCUIElementTypeWindow>
+  <XCUIElementTypeWindow type="XCUIElementTypeWindow" enabled="true" visible="false" visibleInFrame="true" x="0" y="0" width="768" height="1024">
+    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" visibleInFrame="true" x="0" y="0" width="768" height="1024"/>
+  </XCUIElementTypeWindow>
+  <XCUIElementTypeWindow type="XCUIElementTypeWindow" enabled="true" visible="true" x="0" y="0" width="768" height="1024">
+    <XCUIElementTypeStatusBar type="XCUIElementTypeStatusBar" enabled="true" visible="true" x="0" y="0" width="768" height="20">
+      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" visibleInFrame="true" x="0" y="0" width="768" height="20"/>
+      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="0" width="768" height="20">
+        <XCUIElementTypeOther type="XCUIElementTypeOther" name="iPad" label="iPad" enabled="true" visible="true" x="6" y="0" width="25" height="20"/>
+        <XCUIElementTypeOther type="XCUIElementTypeOther" value="SSID" name="3 of 3 Wi-Fi bars" label="3 of 3 Wi-Fi bars" enabled="true" visible="true" x="36" y="0" width="13" height="20"/>
+        <XCUIElementTypeOther type="XCUIElementTypeOther" name="02:58" label="02:58" enabled="true" visible="true" x="368" y="0" width="36" height="20"/>
+        <XCUIElementTypeOther type="XCUIElementTypeOther" name="Bluetooth on" label="Bluetooth on" enabled="true" visible="true" x="682" y="0" width="8" height="20"/>
+        <XCUIElementTypeOther type="XCUIElementTypeOther" name="100% battery power, Charging" label="100% battery power, Charging" enabled="true" visible="true" x="696" y="0" width="67" height="20"/>
+        <XCUIElementTypeOther type="XCUIElementTypeOther" name="100% battery power" label="100% battery power" enabled="true" visible="true" x="696" y="0" width="31" height="20"/>
+      </XCUIElementTypeOther>
+    </XCUIElementTypeStatusBar>
+  </XCUIElementTypeWindow>
+</XCUIElementTypeApplication></AppiumAUT>

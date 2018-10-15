@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfQuickAction label="Update Case" n="Case._LightningUpdateCase" s="" standardLabel="Update" t="Update Case" targetSObject="Case" type="Update">
+  <quickActionLayout n="Case._LightningUpdateCase" profileLayout="false" s="" t="Quick Action Layout">
+    <layoutTypes>
+      <sfLayoutType layoutType="QuickAction" n="QuickAction" t="Web Layout Type">
+        <children>
+          <sfLayoutSection customLabel="false" detailHeading="false" editHeading="false" s="" seqNum="0" t="Web Layout Section - null">
+            <children>
+              <sfLayoutRow n="LayoutRow" s="" seqNum="0">
+                <children>
+                  <sfLI editableForNew="false" editableForUpdate="false" n="CaseNumber" s="" seqNum="0" t="Web Layout Item">
+                    <children>
+                      <sfLIC n="CaseNumber" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+                    </children>
+                  </sfLI>
+                  <sfLI editableForNew="false" editableForUpdate="false" n="OwnerId" s="" seqNum="1" t="Web Layout Item">
+                    <children>
+                      <sfLIC n="OwnerId" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+                    </children>
+                  </sfLI>
+                </children>
+              </sfLayoutRow>
+              <sfLayoutRow n="LayoutRow" s="" seqNum="1">
+                <children>
+                  <sfLI editableForNew="false" editableForUpdate="false" n="Status" s="" seqNum="0" t="Web Layout Item">
+                    <children>
+                      <sfLIC n="Status" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+                    </children>
+                  </sfLI>
+				  <sfLI editableForNew="false" editableForUpdate="false" n="Priority" s="" seqNum="1" t="Web Layout Item">
+                    <children>
+                      <sfLIC n="Priority" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+                    </children>
+                  </sfLI>               
+                </children>
+              </sfLayoutRow>
+              <sfLayoutRow n="LayoutRow" s="" seqNum="2">
+                <children>
+                  <sfLI editableForNew="false" editableForUpdate="false" n="Subject" s="" seqNum="0" t="Web Layout Item">
+                    <children>
+                      <sfLIC n="Subject" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+                    </children>
+                  </sfLI>  
+                </children>
+              </sfLayoutRow>
+              <sfLayoutRow n="LayoutRow" s="" seqNum="3">
+                <children>
+                  <sfLI editableForNew="false" editableForUpdate="false" n="Description" s="" seqNum="0" t="Web Layout Item">
+                    <children>
+                      <sfLIC n="Description" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+                    </children>
+                  </sfLI>  
+                </children>
+              </sfLayoutRow>
+            </children>
+          </sfLayoutSection>
+        </children>
+      </sfLayoutType>
+    </layoutTypes>
+  </quickActionLayout>
+</sfQuickAction>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiScreen type="page"
+		  name="lookup" 
+          label="Record Type selection screen">
+          
+    <uiBlock name="selectRecordType" type="frame" visualGrouping="true" label="Select Record Type">  
+        <uiControl type="select" name="RecordType" label="Record Type" locator="//select[@id='p3']" binding="sf:ui:binding:object?object={targetUrl:object}&amp;field=RecordTypeId"/>
+        <uiButton name="save" label="Continue" locator="//input[@name='save' and @type='submit']"/>
+        <uiButton name="cancel" label="Cancel" locator="//input[@name='cancel' and @type='submit']"/>
+    </uiBlock>
+
+    <uiBlock name="availableRecordTypes" visualGrouping="true" label="Available Record Types">  
+        <uiTable name="availableRecordTypesTable" label="Available Record Types Table" locator="//table[contains(@class,'recordTypeInfo')]//tbody/tr[not(@class='headerRow')]" binding = "sf:ui:binding:object?object={targetUrl:object}&amp;action=recordTypeNew">	
+		    <uiRow name="recordTypesRow" label="Record Types Row" excludeFromComponentPath="true">
+				<uiControl name="recordTypeName" label="Record Type Name" locator=".//th[contains(@class,'recordTypeName')]" binding="sf:ui:binding:object?object={targetUrl:object}&amp;field=recordTypeName">
+              		<facetLocators>
+        				<entry>
+          					<key valueClass="string">columnAttributes</key>
+          					<value valueClass="string">^//table[contains(@class,'recordTypeInfo')]//tbody/tr[@class='headerRow']//th[contains(@class,'recordTypeName')]</value>
+        				</entry>
+      				</facetLocators>
+      			</uiControl>
+            	<uiControl name="recordTypeDescription" label="Description" locator=".//td[contains(@class,'recordTypeDescription')]" binding="sf:ui:binding:object?object={targetUrl:object}&amp;field=recordTypeDescription">
+            		<facetLocators>
+        				<entry>
+          					<key valueClass="string">columnAttributes</key>
+          					<value valueClass="string">^//table[contains(@class,'recordTypeInfo')]//tbody/tr[@class='headerRow']//th[contains(@class,'recordTypeDescription')]</value>
+        				</entry>
+      				</facetLocators>	
+	        	</uiControl>
+	        </uiRow>
+    	</uiTable>
+    </uiBlock>
+    
+
+</uiScreen>

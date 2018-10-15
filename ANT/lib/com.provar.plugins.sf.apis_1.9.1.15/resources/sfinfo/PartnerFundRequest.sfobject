@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="PartnerFundRequest">
+  <fields>
+    <sfFieldInfo name="Activity">
+      <picklistEntries>
+        <sfPLE defaultValue="true" id="-1" n="Advertisement" s=""/>
+        <sfPLE id="-1" n="Banner Ads" s=""/>
+        <sfPLE id="-1" n="Conference" s=""/>
+        <sfPLE id="-1" n="Direct Mail" s=""/>
+        <sfPLE id="-1" n="Email" s=""/>
+        <sfPLE id="-1" n="Other" s=""/>
+        <sfPLE id="-1" n="Partners" s=""/>
+        <sfPLE id="-1" n="Public Relations" s=""/>
+        <sfPLE id="-1" n="Referral Program" s=""/>
+        <sfPLE id="-1" n="Telemarketing" s=""/>
+        <sfPLE id="-1" n="Trade Show" s=""/>
+        <sfPLE id="-1" n="Webinar" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo name="Status" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE defaultValue="true" id="-1" n="Draft" s=""/>
+        <sfPLE id="-1" n="Approved" s=""/>
+        <sfPLE id="-1" n="Rejected" s=""/>
+        <sfPLE id="-1" n="Submitted" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="N" name="TotalApprovedFcs" updateable="N"/>
+    <sfFieldInfo createable="N" name="TotalReimbursedFcs" updateable="N"/>
+  </fields>
+</sfObjectInfo>

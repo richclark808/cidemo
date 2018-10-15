@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" label="Case Contact Role" name="CaseContactRole">
+  <fields>
+    <sfFieldInfo name="CasesId" updateable="N"/>
+    <sfFieldInfo createable="N" name="CreatedDate"/>
+    <sfFieldInfo createable="N" name="CreatedById"/>
+    <sfFieldInfo createable="N" name="LastModifiedDate"/>
+    <sfFieldInfo createable="N" name="LastModifiedById"/>
+  </fields>
+  <standardActions>
+    <sfActionLink modes="CaseContactRoles" n="newRole" newAction="true" t="New"/>
+    <sfActionLink modes="CaseContactRoles" n="email" t="Send an Email"/>
+    <sfActionLink modes="CaseContactRoles" n="edit" requiresRow="true" t="Edit" target="sf:ui:target?object=CaseContactRole&amp;action=edit"/>
+    <sfActionLink modes="CaseContactRoles" n="Delete" requiresRow="true" target="sf:ui:target?object=CaseContactRole&amp;action=delete"/>
+  </standardActions>
+</sfObjectInfo>

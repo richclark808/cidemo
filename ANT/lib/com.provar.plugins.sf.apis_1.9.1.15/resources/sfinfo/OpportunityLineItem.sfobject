@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="OpportunityLineItem">
+  <fields>
+    <sfFieldInfo defaultPermissions="RW" name="OpportunityId" updateable="N"/>
+    <sfFieldInfo createable="N" defaultPermissions="RW" name="SortOrder" updateable="N"/>
+    <sfFieldInfo defaultPermissions="RW" name="PricebookEntryId" updateable="N"/>
+    <sfFieldInfo defaultPermissions="RW" name="Product2Id" updateable="N"/>
+    <sfFieldInfo defaultPermissions="RW" name="Quantity"/>
+    <sfFieldInfo defaultPermissions="RW" name="UnitPrice"/>
+    <sfFieldInfo createable="N" name="Name" updateable="N"/>
+    <sfFieldInfo createable="Y" name="TotalPrice" updateable="Y"/>
+    <sfFieldInfo createable="N" name="CreatedDate"/>
+    <sfFieldInfo createable="N" name="CreatedById"/>
+    <sfFieldInfo createable="N" name="LastModifiedDate"/>
+    <sfFieldInfo createable="N" name="LastModifiedById"/>
+  </fields>
+  <standardActions>
+    <sfActionLink lightningActionName="MultiAdd" lightningLabel="Add Products" modes="OpportunityLineItems" n="addProd" t="Select Product"/>
+    <sfActionLink lightningActionName="MultiEdit" lightningLabel="Edit Products" modes="OpportunityLineItems" n="editProd" t="Edit All"/>
+    <sfActionLink lightningActionName="ChoosePricebook" modes="OpportunityLineItems" n="choosePB" t="Choose Price Book"/>
+    <sfActionLink modes="" n="addProd2" t="Add Product"/>
+    <sfActionLink modes="OpportunityLineItems" n="sort" t="Sort"/>
+    <sfActionLink n="edit" t="Edit"/>
+    <sfActionLink n="delete" t="Delete"/>
+  </standardActions>
+</sfObjectInfo>

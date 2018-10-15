@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="TopicAssignment">
+  <fields>
+    <sfFieldInfo name="NetworkId" updateable="N"/>
+    <sfFieldInfo name="TopicId" updateable="N"/>
+    <sfFieldInfo name="EntityId" updateable="N"/>
+    <sfFieldInfo createable="N" name="EntityKeyPrefix" updateable="N"/>
+    <sfFieldInfo createable="N" name="EntityType" updateable="N"/>
+    <sfFieldInfo createable="N" name="CreatedDate"/>
+    <sfFieldInfo createable="N" name="CreatedById"/>
+  </fields>
+</sfObjectInfo>

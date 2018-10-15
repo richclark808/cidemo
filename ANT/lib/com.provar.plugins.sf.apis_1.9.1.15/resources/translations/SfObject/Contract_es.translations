@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<translations>
+  <translation key="Contract.ContractNumber" type="SfFieldLabel" value="Número de contrato"/>
+  <translation key="Contract.ContractTerm" type="SfFieldLabel" value="Duración del contrato"/>
+  <translation key="Contract.EndDate" type="SfFieldLabel" value="Fecha final del contrato"/>
+  <translation key="Contract.Id" type="SfFieldLabel" value="Id. de contrato"/>
+  <translation key="Contract.StartDate" type="SfFieldLabel" value="Fecha de inicio del contrato"/>
+  <translation key="*.*.Contract Information" type="SfLayoutSectionLabel" value="Información del contrato"/>
+</translations>

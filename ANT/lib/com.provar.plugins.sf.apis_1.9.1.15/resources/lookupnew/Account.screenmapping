@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiScreen> 
+    <uiBlock name="newBlock" visualGrouping="true" label="New Account">  
+        <uiControl type="text" name="Name" label="Account Name" locator="//input[@id='2']"/>
+        <uiControl type="textarea" name="MailingStreet" label="Billing Address" locator="//textarea[@id='street']"/>
+        <uiControl type="text" name="MailingCity" label="City" locator="//input[@id='city']"/>
+        <uiControl type="text" name="MailingState" label="State" locator="//*[@id='state']"/>
+        <uiControl type="text" name="MailingPostalCode" label="Zip/Postal Code" locator="//input[@id='zip']"/>
+        <uiControl type="text" name="MailingCountry" label="Country" locator="//*[@id='country']"/>
+        <uiControl type="text" name="Phone" label="Phone" locator="//input[@id='10']"/>
+        <uiControl type="text" name="Fax" label="Fax" locator="//input[@id='11']"/>
+        <uiControl type="text" name="Website" label="Website" locator="//input[@id='12']"/>
+    </uiBlock>
+</uiScreen>

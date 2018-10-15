@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<translations>
+  <translation key="Order.EffectiveDate" type="SfFieldLabel" value="Startdatum des Auftrags"/>
+  <translation key="Order.EndDate" type="SfFieldLabel" value="Enddatum des Auftrags"/>
+  <translation key="Order.Id" type="SfFieldLabel" value="Auftrags-ID"/>
+  <translation key="Order.IsReductionOrder" type="SfFieldLabel" value="Reduzierungsauftrag"/>
+  <translation key="Order.Name" type="SfFieldLabel" value="Auftragsname"/>
+  <translation key="Order.OrderNumber" type="SfFieldLabel" value="Auftragsnummer"/>
+  <translation key="Order.OrderReferenceNumber" type="SfFieldLabel" value="Auftragsreferenznummer"/>
+  <translation key="Order.OriginalOrderId" type="SfFieldLabel" value="Auftrags-ID"/>
+  <translation key="Order.PoDate" type="SfFieldLabel" value="Auftragsdatum"/>
+  <translation key="Order.TotalAmount" type="SfFieldLabel" value="Auftragsbetrag"/>
+  <translation key="Order.Type" type="SfFieldLabel" value="Auftragstyp"/>
+  <translation key="*.*.Order Information" type="SfLayoutSectionLabel" value="Auftragsinformationen"/>
+</translations>

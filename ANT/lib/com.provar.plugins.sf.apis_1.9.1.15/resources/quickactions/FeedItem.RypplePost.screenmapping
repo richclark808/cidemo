@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiScreen type="page"
+		  name="FeedItem.RypplePost" 
+          label="Thanks">
+          
+    <uiControl type="input" name="thanksRecipientInputBox" label="Who do you want to thank?" locator="//textarea[@id='thanksRecipientInputBox']"/>
+    <uiControl type="input" name="publishereditablearea" label="What would you like to ask?" locator="//textarea[@id='publishereditablearea']"/>
+    
+    <uiControl type="link" name="changeBadge" label="Change Badge" locator="//div[@id='badgeInfo']//a" />
+
+	<uiButton type="button" name="publishersharebutton" label="Share" locator="//input[@id='publishersharebutton']" />
+
+</uiScreen>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout xmlns="http://soap.sforce.com/2006/04/metadata" pageLoadWait="ui:wait:locator:locator=//input[@name%3d'save']&amp;timeout={timeout}" label="Contact quick create">
+    <layoutSections>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field locator="//input[@id='name_first']">FirstName</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field locator="//input[@id='name_last']">LastName</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field locator="//input[@id='email']">Email</field>
+            </layoutItems>
+        </layoutColumns>
+    </layoutSections>
+    <customButtons locator="//td[@id='bottomButtonRow']//input[@name='save']">save</customButtons>
+    <customButtons locator="//td[@id='bottomButtonRow']//input[@name='cancel']">cancel</customButtons>
+</Layout>

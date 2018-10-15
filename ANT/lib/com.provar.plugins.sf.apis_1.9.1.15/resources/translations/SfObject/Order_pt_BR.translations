@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<translations>
+  <translation key="Order.EffectiveDate" type="SfFieldLabel" value="Data de início do pedido"/>
+  <translation key="Order.EndDate" type="SfFieldLabel" value="Data de término do pedido"/>
+  <translation key="Order.Id" type="SfFieldLabel" value="ID do pedido"/>
+  <translation key="Order.IsReductionOrder" type="SfFieldLabel" value="Pedido de redução"/>
+  <translation key="Order.Name" type="SfFieldLabel" value="Nome do pedido"/>
+  <translation key="Order.OrderNumber" type="SfFieldLabel" value="Número do pedido"/>
+  <translation key="Order.OrderReferenceNumber" type="SfFieldLabel" value="Número de referência do pedido"/>
+  <translation key="Order.OriginalOrderId" type="SfFieldLabel" value="ID do pedido"/>
+  <translation key="Order.PoDate" type="SfFieldLabel" value="Data do pedido de compra"/>
+  <translation key="Order.PoNumber" type="SfFieldLabel" value="Número do pedido de compra"/>
+  <translation key="Order.TotalAmount" type="SfFieldLabel" value="Valor do pedido"/>
+  <translation key="Order.Type" type="SfFieldLabel" value="Tipo do pedido"/>
+  <translation key="*.*.Order Information" type="SfLayoutSectionLabel" value="Informações do pedido"/>
+</translations>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="CollaborationGroup">
+  <fields>
+    <sfFieldInfo createable="N" name="MemberCount" updateable="N"/>
+    <sfFieldInfo name="CollaborationType" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE id="-1" n="Public" s=""/>
+        <sfPLE id="-1" n="Private" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="N" name="CreatedDate"/>
+    <sfFieldInfo createable="N" name="CreatedById"/>
+    <sfFieldInfo createable="N" name="LastModifiedDate"/>
+    <sfFieldInfo createable="N" name="LastModifiedById"/>
+    <sfFieldInfo createable="N" name="FullPhotoUrl" updateable="N"/>
+    <sfFieldInfo createable="N" name="MediumPhotoUrl" updateable="N"/>
+    <sfFieldInfo createable="N" name="SmallPhotoUrl" updateable="N"/>
+    <sfFieldInfo createable="N" name="LastFeedModifiedDate" updateable="N"/>
+    <sfFieldInfo name="NetworkId" updateable="N"/>
+    <sfFieldInfo createable="Y" name="IsArchived" updateable="Y"/>
+    <sfFieldInfo createable="Y" name="IsAutoArchiveDisabled" updateable="Y"/>
+    <sfFieldInfo createable="N" name="BannerPhotoUrl" updateable="N"/>
+    <sfFieldInfo createable="Y" name="IsBroadcast" updateable="Y"/>
+  </fields>
+  <standardActions>
+    <sfActionLink n="DeleteBannerPhotoAction" s=""/>
+    <sfActionLink n="DeletePhotoAction" s=""/>
+    <sfActionLink n="UpdateBannerPhotoAction" s=""/>
+    <sfActionLink n="UpdatePhotoAction" s=""/>
+    <sfActionLink n="ViewPhotoAction" s=""/>
+  </standardActions>
+</sfObjectInfo>

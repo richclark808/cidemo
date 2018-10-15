@@ -1,0 +1,7 @@
+<sfRelatedList fieldName="OpportunityLineItemId" label="Schedule" n="OpportunityLineItemSchedules" nameAlias="RelatedScheduleList" relationshipName="OpportunityLineItemSchedules" s="3-" t="Schedule">
+	<children>
+	    <sfRelatedListColumn n="ScheduleDate" s="" seq="0" t="Date"/>
+	    <sfRelatedListColumn n="Revenue" s="" seq="1" t="Revenue"/>
+	    <sfRelatedListColumn n="Description" s="" seq="2" t="Comments"/>
+  	</children>
+</sfRelatedList>

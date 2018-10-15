@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiScreen type="window"
+		  name="lookup" 
+          label="SF Lookup screen"
+          window="lookup"
+          beforeWait="ui:wait:locator?locator=//div[@class%3d'pbBody']/table[@class%3d'list']&amp;frame=resultsFrame">
+          
+    <uiBlock name="searchFrame" type="frame" visualGrouping="true" label="Search">  
+        <uiControl type="text" name="SearchName" label="Search" locator="//input[@id='lksrch']"/>
+        <uiButton name="go" label="Go!" locator="//input[@name='go']" afterWait="ui:wait:timed?seconds=2"/>
+        <uiButton name="new" label="New" locator="//input[@name='new']"/>
+    </uiBlock>
+
+    <uiBlock name="resultsFrame" type="frame" visualGrouping="true" label="Results">  
+        <uiTable name="resultsTable">
+            <uiColumn name="nameColumn">
+              <uiButton name="nameSelector" label="Result Name link" locator="//tr[contains(@class,'dataRow')][{rowLocator}]/th/a"/>
+            </uiColumn>
+        </uiTable>
+    </uiBlock>
+
+</uiScreen>

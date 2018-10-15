@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiScreen type="page"
+		  name="FeedItem.LinkPost" 
+          label="Link quick action">
+          
+   	<uiControl type="input" name="url" label="Link URL" locator="//table[@class='postInput']//input[@id='url']"/>
+   	<uiControl type="input" name="urlName" label="Link Name" locator="//table[@class='postInput']//input[@id='urlName']"/>
+    <uiControl type="pageControl" pageControl="com.provar.plugins.forcedotcom.core.ui.pagecontrols.cke.CkEditor" name="publisherRichTextEditor" label="Say something about this link" locator="//div[@id='cke_publisherRichTextEditor']"/>
+    <uiButton type="button" name="publishersharebutton" label="Share" locator="//input[@id='publishersharebutton']" />    
+</uiScreen>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<translations>
+	<translation type="SfLayoutSectionLabel" key="*.*.{SfObject.Label:en_US} Information" value="{SfObject.Label}gegevens"/>
+	<translation type="SfLayoutSectionLabel" key="*.*.Additional Information" value="Aanvullende gegevens"/>
+	<translation type="SfLayoutSectionLabel" key="*.*.Contact information" value="Contactinformatie"/>
+	<translation type="SfLayoutSectionLabel" key="*.*.Contact Information" value="Contactinformatie"/>
+	<translation type="SfLayoutSectionLabel" key="*.*.Custom Links" value="Contactinformatie"/>
+	<translation type="SfLayoutSectionLabel" key="*.*.Description Information" value="Beschrijvingsgegevens"/>
+	<translation type="SfLayoutSectionLabel" key="*.*.System Information" value="Systeeminformatie"/>
+	<translation type="SfLayoutSectionLabel" key="*.*.Web Information" value="Webgegevens"/>
+</translations>

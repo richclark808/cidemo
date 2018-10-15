@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo name="AttachedContentNote" label="Notes">
+ <standardActions>
+ 	<sfActionLink n="newNote" t="New" modes="RelatedContentNoteList AttachedContentNotes" newAction="true"/>
+ 	<sfActionLink modes="View AttachedContentNotes" n="Delete" requiresRow="true" s="3"/>
+  </standardActions>
+</sfObjectInfo>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfLayoutSections>
+	<sfLayoutSection detailHeading="false" n="Solution Information" s="" seqNum="4" t="Web Layout Section - true" locator="//div[contains(@class, 'pbSubheader') and h3[text() = 'Solution Information']][1]/following-sibling::div[contains(@class, 'pbSubsection')][1]">
+	  <children>
+	    <sfLayoutRow n="submitSolRow" s="" seqNum="0" >
+	      <children>
+	        <sfLI label="Submit to public solutions" n="submitSol" s="" seqNum="0" t="Web Layout Item" required="false">
+	          <children>
+	            <sfLIC n="submitSol" s="" seqNum="0" t="SubmitSol" type="Field" fieldType="checkbox" locator="//input[@id='submitSol']"/>
+	          </children>
+	        </sfLI>
+	      </children>
+	    </sfLayoutRow>
+	    <sfLayoutRow n="solTitleRow" s="" seqNum="0" >
+	      <children>
+	        <sfLI label="Solution Title" n="solTitle" s="" seqNum="0" t="Web Layout Item" required="false">
+	          <children>
+	            <sfLIC n="solTitle" s="" seqNum="0" t="SolTitle" type="Field" fieldType="text" locator="//input[@id='solTitle']"/>
+	          </children>
+	        </sfLI>
+	      </children>
+	    </sfLayoutRow>
+	    <sfLayoutRow n="solNoteRow" s="" seqNum="0" >
+	      <children>
+	        <sfLI label="Solution Details" n="solNote" s="" seqNum="0" t="Web Layout Item" required="false">
+	          <children>
+	            <sfLIC n="solNote" s="" seqNum="0" t="SolNote" type="Field" fieldType="textarea" locator="//textarea[@id='solNote']"/>
+	          </children>
+	        </sfLI>
+	      </children>
+	    </sfLayoutRow>
+	  </children>
+	</sfLayoutSection>
+</sfLayoutSections>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo name="AssetRelationship">
+  	<fields>
+ 		<sfFieldInfo name="AssetId" defaultPermissions="RW"/>
+ 		<sfFieldInfo name="RelatedAssetId" defaultPermissions="RW"/>
+ 		<sfFieldInfo name="FromDate" defaultPermissions="RW"/>
+ 		<sfFieldInfo name="ToDate" defaultPermissions="RW"/>
+  	</fields>
+</sfObjectInfo>

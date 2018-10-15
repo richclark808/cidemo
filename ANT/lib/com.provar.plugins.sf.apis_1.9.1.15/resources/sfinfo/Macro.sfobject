@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="Macro">
+  <fields>
+    <sfFieldInfo name="StartingContext" restrictedPicklist="true" updateable="N">
+      <picklistEntries>
+        <sfPLE id="-1" n="Account" s=""/>
+        <sfPLE id="-1" n="Asset" s=""/>
+        <sfPLE id="-1" n="AssetRelationship" s="" t="Asset Relationship"/>
+        <sfPLE id="-1" n="Campaign" s=""/>
+        <sfPLE id="-1" n="Case" s=""/>
+        <sfPLE id="-1" n="ChannelProgram" s="" t="Channel Program"/>
+        <sfPLE id="-1" n="ChannelProgramLevel" s="" t="Channel Program Level"/>
+        <sfPLE id="-1" n="Contact" s=""/>
+        <sfPLE id="-1" n="Contract" s=""/>
+        <sfPLE id="-1" n="Duplicate_Field_Labels__c" s="" t="Duplicate Field Label"/>
+        <sfPLE id="-1" n="Event" s=""/>
+        <sfPLE id="-1" n="FeedItem" s="" t="Feed Item"/>
+        <sfPLE id="-1" n="CollaborationGroup" s="" t="Group"/>
+        <sfPLE id="-1" n="Lead" s=""/>
+        <sfPLE id="-1" n="myobj__c" s="" t="myobj"/>
+        <sfPLE id="-1" n="Opportunity" s=""/>
+        <sfPLE id="-1" n="PartnerFundAllocation" s="" t="Partner Fund Allocation"/>
+        <sfPLE id="-1" n="PartnerFundClaim" s="" t="Partner Fund Claim"/>
+        <sfPLE id="-1" n="PartnerFundRequest" s="" t="Partner Fund Request"/>
+        <sfPLE id="-1" n="PartnerMarketingBudget" s="" t="Partner Marketing Budget"/>
+        <sfPLE id="-1" n="PN1__c" s="" t="PN1"/>
+        <sfPLE id="-1" n="PN1_KA__kav" s="" t="PN1 KA"/>
+        <sfPLE id="-1" n="Product2" s="" t="Product"/>
+        <sfPLE id="-1" n="Quote" s=""/>
+        <sfPLE id="-1" n="Release__kav" s="" t="Release"/>
+        <sfPLE id="-1" n="SpendRequest__c" s="" t="SpendRequest"/>
+        <sfPLE id="-1" n="Task" s=""/>
+        <sfPLE id="-1" n="cinnamon__Test__c" s="" t="Test"/>
+        <sfPLE id="-1" n="cinnamon__TestExecution__c" s="" t="TestExecution"/>
+        <sfPLE id="-1" n="cinnamon__TestSuite__c" s="" t="TestSuite"/>
+        <sfPLE id="-1" n="User" s=""/>
+        <sfPLE id="-1" n="WithHistory__c" s="" t="With History"/>
+      </picklistEntries>
+    </sfFieldInfo>
+  </fields>
+</sfObjectInfo>

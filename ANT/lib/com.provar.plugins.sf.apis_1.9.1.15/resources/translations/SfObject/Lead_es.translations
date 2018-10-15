@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<translations>
+  <translation key="Lead.Id" type="SfFieldLabel" value="Id. de candidato"/>
+  <translation key="Lead.LeadSource" type="SfFieldLabel" value="Origen del candidato"/>
+  <translation key="*.*.Lead Information" type="SfLayoutSectionLabel" value="Información de los candidatos"/>
+</translations>

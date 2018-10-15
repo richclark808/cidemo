@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiScreen type="sfPage" 
+          label="Opportunity Partners screen">
+          
+	<uiControl type="radio" 
+			   name="NoPrimary" 
+			   label="No Primary" 
+			   locator="//input[@id='primary-1']"/>
+
+	<uiTable name="OpportunityPartners" 
+	         locator="//table[contains(@class,'detailList')]/tbody/tr[contains(@class,'detailRow')]/td/table/tbody" 
+	         label="Opportunity Contact Roles"
+	         >
+	    <uiRow name="OpportunityPartner"
+	           label="Opportunity Contact Role"
+	    	   repeating="true" 
+	    	   binding="sf:ui:binding:object?object=OpportunityPartner"
+	           locator="/tr[td/input[@id != 'primary-1' and starts-with(@id,'primary')]][{rowLocator}]"
+	           emptyRowLocator="//input[starts-with(@id,'primary') and @value = ''] and //input[starts-with(@id,'contact') and @type='text' and @value = ''] and //select[starts-with(@id,'role') and @value='']"
+	           >
+			<uiColumn>
+				<uiControl name="Primary" 
+				           locator="/td/input[starts-with(@id,'primary')]" 
+				           binding="sf:ui:binding:object?object=OpportunityPartner&amp;field=IsPrimary"
+				           />
+			</uiColumn>
+			<uiColumn>
+				<uiControl name="AccountToId"
+						   label="Partner" 
+				           locator="/td/span/input[starts-with(@id,'p7') and @type='text']" 
+				           binding="sf:ui:binding:object?object=OpportunityPartner&amp;field=AccountToId"
+				           />
+			</uiColumn>
+			<uiColumn>
+				<uiControl name="Role" 
+				           locator="/td/select[starts-with(@id,'p8')]" 
+				           binding="sf:ui:binding:object?object=OpportunityPartner&amp;field=Role"
+				           />
+			</uiColumn>
+		</uiRow>
+	</uiTable>
+
+	<uiButton name="save"
+	          label="Save" 
+	          binding="sf:ui:binding:object?object=OpportunityPartner&amp;action=save"
+	          locator="//td[@id='bottomButtonRow']//input[@name='save']" 
+	          />
+	<uiButton name="cancel" 
+	          label="Cancel" 
+	          binding="sf:ui:binding:object?object=OpportunityPartner&amp;action=cancel"
+	          locator="//td[@id='bottomButtonRow']//input[@name='cancel']" 
+	          />
+	
+</uiScreen>

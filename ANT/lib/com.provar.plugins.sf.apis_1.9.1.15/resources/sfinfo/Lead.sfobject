@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" listViewFilterType="l" name="Lead">
+  <fields>
+    <sfFieldInfo createable="Y" defaultPermissions="RW" name="Company" updateable="Y"/>
+    <sfFieldInfo createable="Y" defaultPermissions="RW" name="ConvertedAccountId" updateable="N"/>
+    <sfFieldInfo createable="Y" defaultPermissions="RW" name="ConvertedContactId" updateable="N"/>
+    <sfFieldInfo createable="Y" name="ConvertedDate"/>
+    <sfFieldInfo createable="Y" defaultPermissions="RW" name="ConvertedOpportunityId" updateable="N"/>
+    <sfFieldInfo createable="N" defaultPermissions="RW" name="EmailBouncedDate" updateable="Y"/>
+    <sfFieldInfo createable="N" defaultPermissions="RW" name="EmailBouncedReason" updateable="Y"/>
+    <sfFieldInfo defaultPermissions="RW" name="CampaignId" internal="true"/>
+    <sfFieldInfo createable="Y" name="IsConverted"/>
+    <sfFieldInfo createable="Y" name="IsUnreadByOwner" updateable="Y"/>
+    <sfFieldInfo createable="N" name="Name" updateable="N"/>
+    <sfFieldInfo createable="N" defaultPermissions="RW" name="PhotoUrl" updateable="N"/>
+    <sfFieldInfo createable="Y" name="AnnualRevenue" updateable="Y"/>
+  </fields>
+  <standardActions>
+    <sfActionLink buttonName="dupes" modes="View" n="FindDup" t="Find Duplicates"/>
+    <sfActionLink modes="View" n="XClean" t="Check Integration Status"/>
+    <sfActionLink modes="View" n="EmailHighlightAction" t="Send Email"/>
+    <sfActionLink modes="View" n="CallHighlightAction" t="Call"/>
+    <sfActionLink modes="View" n="SmsHighlightAction" t="Send Text"/>
+    <sfActionLink buttonName="datadotcomclean" modes="View" n="ListClean" t="Clean"/>
+    <sfActionLink massAction="true" modes="List" n="2" t="Change Status"/>
+    <sfActionLink massAction="true" modes="List" n="assign" t="Change Owner"/>
+    <sfActionLink massAction="true" modes="List" n="3" t="Add to Campaign"/>
+    <sfActionLink modes="View" n="ChooseCampaign" t="Choose a Campaign"/>
+    <sfActionLink modes="List Home" n="MassAddToCampaign" t="Add to Campaign"/>
+    <sfActionLink modes="List Home" n="SendListEmailAction" t="Send List Email"/>
+    <sfActionLink n="ChangeStatus"/>
+  </standardActions>
+  <childRelationships>
+    <sfObjectRelationship childName="ProcessInstanceHistory" field="TargetObjectId" n="RelatedProcessHistoryList" relationshipName="RelatedProcessHistoryList" s="2-"/>
+    <sfObjectRelationship alias="RelatedOpportunityList" childName="Opportunity" field="LeadId" n="Opportunities" relationshipName="Opportunities" s="2-" t="Opportunity"/>
+    <sfObjectRelationship alias="RelatedContentDistributionList" childName="ContentDistribution" field="RelatedRecordId" n="RelatedContentDistributionList" relationshipName="RelatedContentDistributionList" s="2-" t="Content Deliveries"/>
+  </childRelationships>
+</sfObjectInfo>

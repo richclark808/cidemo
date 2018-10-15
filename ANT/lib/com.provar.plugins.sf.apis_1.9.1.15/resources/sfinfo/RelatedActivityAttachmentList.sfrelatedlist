@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfRelatedList fieldName="ParentId" label="Attachments" n="Attachments" relationshipName="Attachments" s="3-" t="Attachments (ParentId)">
+  <children>
+    <sfRelatedListColumn n="Title" s="" seq="0" t="File Name" />
+    <sfRelatedListColumn n="ContentSize" s="" seq="1" t="Size"/>
+    <sfRelatedListColumn n="LastModifiedDate" s="" seq="2" t="Last Modified"/>
+  </children>
+</sfRelatedList>

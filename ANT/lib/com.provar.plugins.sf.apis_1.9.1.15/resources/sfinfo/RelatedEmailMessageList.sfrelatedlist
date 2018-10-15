@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfRelatedList fieldName="ParentId" label="Emails" n="EmailMessages" relationshipName="EmailMessages" s="3-" t="Emails (ParentId)">
+  <children>
+  	<sfRelatedListColumn n="Status" s="" seq="0"/>
+  	<sfRelatedListColumn n="Incoming" s="" seq="1"/>
+    <sfRelatedListColumn n="Subject" s="" seq="2"/>
+    <sfRelatedListColumn n="FromAddress" s="" seq="3" t="Email Address"/>
+    <sfRelatedListColumn n="MessageDate" s="" seq="4" t="Message Date"/>
+    <sfRelatedListColumn n="ToAddress" s="" seq="5" t="To Address"/>
+  </children>
+</sfRelatedList>

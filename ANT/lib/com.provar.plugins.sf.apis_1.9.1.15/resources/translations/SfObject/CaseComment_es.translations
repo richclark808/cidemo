@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<translations>
+  <translation key="CaseComment.Id" type="SfFieldLabel" value="Id. de comentario del caso"/>
+  <translation key="CaseComment.CommentBody" type="SfFieldLabel" value="Comentario"/>
+  <translation key="CaseComment.IsPublished" type="SfFieldLabel" value="Público"/>
+</translations>

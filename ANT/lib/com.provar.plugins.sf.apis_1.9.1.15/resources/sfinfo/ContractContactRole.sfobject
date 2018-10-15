@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="ContractContactRole">
+  <fields>
+    <sfFieldInfo name="ContractId" updateable="N"/>
+    <sfFieldInfo createable="Y" name="IsPrimary" updateable="Y"/>
+    <sfFieldInfo createable="N" name="CreatedDate"/>
+    <sfFieldInfo createable="N" name="CreatedById"/>
+    <sfFieldInfo createable="N" name="LastModifiedDate"/>
+    <sfFieldInfo createable="N" name="LastModifiedById"/>
+  </fields>
+  <standardActions>
+    <sfActionLink modes="ContractContactRoles" n="newRole" newAction="true" t="New"/>
+  </standardActions>
+</sfObjectInfo>

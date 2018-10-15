@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo name="ContentDistribution" label="Content Delivery">
+ <standardActions>
+    <sfActionLink n="deliverContent" t="Deliver Content" modes="RelatedContentDistributionList" newAction="true"/>
+    <sfActionLink n="View" t="Preview" modes="RelatedContentDistributionList" requiresRow="true" locator="td[contains(@class, 'actionColumn')]/a[contains(@href, '/sfc/p/#')]"/>
+  </standardActions>
+</sfObjectInfo>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo name="OpenActivity" label="Open Activity" columnNameAlias="Task">
+  <standardActions>
+    <sfActionLink n="task" t="New Task" target="sf:ui:target?object=Task&amp;action=New" modes="Lead OpenActivities" lightningActionName="NewTask"/>
+    <sfActionLink n="event" t="New Event" target="sf:ui:target?object=OpenActivity&amp;action=new&amp;mapping=screenmappings/OpenActivityEvent.screenmapping" modes="Lead OpenActivities" lightningActionName="NewEvent"/>
+    <sfActionLink n="newproposemeeting" t="New Meeting Request" modes="Lead OpenActivities"/>
+    <sfActionLink n="new" t="New"/>
+    <sfActionLink n="Edit" t="Edit" modes="OpenActivities" requiresRow="true" locator="td[contains(@class, 'actionColumn')]/a[contains(@href, '/e?retURL=') or contains(@href, '%2Fe%3FretURL%3D')]"/>
+    <sfActionLink n="cls" t="Close" modes="OpenActivities" requiresRow="true" locator="td[contains(@class, 'actionColumn')]/a[contains(@href, '/e?close=1') or contains(@href, '%2Fe%3Fclose%3D1')]"/>
+    <sfActionLink n="Delete" t="Del" modes="OpenActivities" requiresRow="true" lightningLabel="Delete" locator="td[contains(@class, 'actionColumn')]/a[contains(@href, 'deleteredirect.jsp')]"/>
+  	<sfActionLink n="MakePublic" t="Make Public" modes="OpenActivities" requiresRow="true" locator="td[contains(@class, 'actionColumn')]/a[contains(@href, '%27%2Fui%2Fcore%2Factivity%2FActivityVisibilityEdit')]"/>
+    <sfActionLink n="MakePrivate" t="Make Private" modes="OpenActivities" requiresRow="true" locator="td[contains(@class, 'actionColumn')]/a[contains(@href, '%27%2Fui%2Fcore%2Factivity%2FActivityVisibilityEdit')]"/>
+  </standardActions>
+</sfObjectInfo>

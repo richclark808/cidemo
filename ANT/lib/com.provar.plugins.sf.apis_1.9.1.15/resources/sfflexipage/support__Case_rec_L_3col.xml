@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SfFlexiPage n="support__Case_rec_L_3col" s="" sobjectType="Case" t="support__Case_rec_L_3col" template="flexipage:recordHomeThreeColTemplateDesktop" type="RecordPage">
+  <regions>
+    <SfFlexiPageRegion n="main" s="" t="" type="Region">
+      <children>
+        <SfFlexiPageComponentInstance n="force:highlightsPanel" s="0" t="">
+          <properties>
+            <entry>
+              <key valueClass="string">collapsed</key>
+              <value valueClass="string">true</value>
+            </entry>
+            <entry>
+              <key valueClass="string">numVisibleActions</key>
+              <value valueClass="string">1</value>
+            </entry>
+          </properties>
+        </SfFlexiPageComponentInstance>
+        <SfFlexiPageComponentInstance content="tabs" n="flexipage__tabset" s="1" t=""/>
+      </children>
+    </SfFlexiPageRegion>
+    <SfFlexiPageRegion n="rightsidebar" s="" t="" type="Region">
+      <children>
+        <SfFlexiPageComponentInstance content="rightSidebarTabs" n="flexipage__tabset" s="0" t=""/>
+      </children>
+    </SfFlexiPageRegion>
+    <SfFlexiPageRegion n="leftsidebar" s="" t="" type="Region">
+      <children>
+        <SfFlexiPageComponentInstance n="console:relatedRecord" s="0" t="">
+          <properties>
+            <entry>
+              <key valueClass="string">lookupFieldName</key>
+              <value valueClass="string">Id</value>
+            </entry>
+            <entry>
+              <key valueClass="string">updateQuickActionName</key>
+              <value valueClass="string">Case._LightningUpdateCase</value>
+            </entry>
+          </properties>
+        </SfFlexiPageComponentInstance>
+        <SfFlexiPageComponentInstance n="console:relatedRecord" s="1" t="">
+          <properties>
+            <entry>
+              <key valueClass="string">lookupFieldName</key>
+              <value valueClass="string">ContactId</value>
+            </entry>
+            <entry>
+              <key valueClass="string">updateQuickActionName</key>
+              <value valueClass="string">Contact._LightningRelatedContact</value>
+            </entry>
+          </properties>
+        </SfFlexiPageComponentInstance>
+        <SfFlexiPageComponentInstance n="force:relatedListSingleContainer" s="2" t="">
+          <properties>
+            <entry>
+              <key valueClass="string">relatedListApiName</key>
+              <value valueClass="string">Cases</value>
+            </entry>
+            <entry>
+              <key valueClass="string">parentFieldApiName</key>
+              <value valueClass="string">Case.ContactId</value>
+            </entry>
+          </properties>
+        </SfFlexiPageComponentInstance>
+      </children>
+    </SfFlexiPageRegion>
+  </regions>
+  <facets>
+    <SfFlexiPageRegion n="feedTabContent" s="" t="" type="Facet">
+      <children>
+        <SfFlexiPageComponentInstance n="forceChatter:recordFeedContainer" s="0" t=""/>
+      </children>
+    </SfFlexiPageRegion>
+    <SfFlexiPageRegion n="detailTabContent" s="" t="" type="Facet">
+      <children>
+        <SfFlexiPageComponentInstance n="force:detailPanel" s="0" t=""/>
+      </children>
+    </SfFlexiPageRegion>
+    <SfFlexiPageRegion n="tabs" s="" t="" type="Facet">
+      <children>
+        <SfFlexiPageComponentInstance content="feedTabContent" n="flexipage__tab" s="0" t="Standard.Tab.feed">
+          <properties>
+            <entry>
+              <key valueClass="string">active</key>
+              <value valueClass="string">true</value>
+            </entry>
+          </properties>
+        </SfFlexiPageComponentInstance>
+        <SfFlexiPageComponentInstance content="detailTabContent" n="flexipage__tab" s="1" t="Standard.Tab.detail"/>
+      </children>
+    </SfFlexiPageRegion>
+    <SfFlexiPageRegion n="relatedTabContent" s="" t="" type="Facet">
+      <children>
+        <SfFlexiPageComponentInstance n="force:relatedListSingleContainer" s="0" t="">
+          <properties>
+            <entry>
+              <key valueClass="string">relatedListApiName</key>
+              <value valueClass="string">CombinedAttachments</value>
+            </entry>
+            <entry>
+              <key valueClass="string">parentFieldApiName</key>
+              <value valueClass="string">Case.Id</value>
+            </entry>
+          </properties>
+        </SfFlexiPageComponentInstance>
+        <SfFlexiPageComponentInstance n="force:relatedListSingleContainer" s="1" t="">
+          <properties>
+            <entry>
+              <key valueClass="string">relatedListApiName</key>
+              <value valueClass="string">ActivityHistories</value>
+            </entry>
+            <entry>
+              <key valueClass="string">parentFieldApiName</key>
+              <value valueClass="string">Case.Id</value>
+            </entry>
+          </properties>
+        </SfFlexiPageComponentInstance>
+        <SfFlexiPageComponentInstance n="force:relatedListSingleContainer" s="2" t="">
+          <properties>
+            <entry>
+              <key valueClass="string">relatedListApiName</key>
+              <value valueClass="string">OpenActivities</value>
+            </entry>
+            <entry>
+              <key valueClass="string">parentFieldApiName</key>
+              <value valueClass="string">Case.Id</value>
+            </entry>
+          </properties>
+        </SfFlexiPageComponentInstance>
+      </children>
+    </SfFlexiPageRegion>
+    <SfFlexiPageRegion n="rightSidebarTabs" s="" t="" type="Facet">
+      <children>
+        <SfFlexiPageComponentInstance content="relatedTabContent" n="flexipage__tab" s="0" t="Standard.Tab.relatedLists"/>
+      </children>
+    </SfFlexiPageRegion>
+  </facets>
+</SfFlexiPage>

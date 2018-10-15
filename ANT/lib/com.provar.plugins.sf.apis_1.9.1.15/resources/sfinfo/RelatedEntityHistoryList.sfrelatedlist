@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfRelatedList fieldName="ParentId" label="History" n="Histories" relationshipName="Histories" s="3-" t="Entity History (ParentId)">
+	<children>
+		<sfRelatedListColumn n="CreatedDate" s="" seq="0" t="Date"/>
+		<sfRelatedListColumn n="User" s="" seq="1" t="User"/>
+		<sfRelatedListColumn n="Action" s="" seq="2" t="Action"/>
+	</children>
+	<lightningColumns>
+	    <sfRelatedListColumn n="CreatedDate" s="" seq="0" t="Date"/>
+		<sfRelatedListColumn n="Field" s="" seq="1" t="Field"/>
+		<sfRelatedListColumn n="User" s="" seq="2" t="User"/>
+		<sfRelatedListColumn n="OldValue" s="" seq="3" t="Original Value"/>
+		<sfRelatedListColumn n="NewValue" s="" seq="4" t="New Value"/>
+	</lightningColumns>
+</sfRelatedList>

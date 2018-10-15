@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<translations>
+  <translation key="CampaignMember.Id" type="SfFieldLabel" value="ID do membro da campanha"/>
+  <translation key="*.*.Campaign Member Information" type="SfLayoutSectionLabel" value="Informações do Membro da campanha"/>
+</translations>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<translations>
+  <translation key="Task.IsRecurrence" type="SfFieldLabel" value="Crear serie recurrente de tareas"/>
+  <translation key="Task.RecurrenceRegeneratedType" type="SfFieldLabel" value="Repetir esta tarea"/>
+  <translation key="Task.TaskSubtype" type="SfFieldLabel" value="Subtipo de tarea"/>
+  <translation key="*.*.Task Information" type="SfLayoutSectionLabel" value="Información de tareas"/>
+</translations>

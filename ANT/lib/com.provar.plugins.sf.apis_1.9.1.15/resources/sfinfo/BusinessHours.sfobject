@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo name="BusinessHours">
+  <lookupColumns>BUSINESSHOURS.BUSINESS_HOURS_NAME,BUSINESSHOURS.ACTIVE,BUSINESSHOURS.DEFAULT_BUSINESS_HOURS</lookupColumns>
+</sfObjectInfo>

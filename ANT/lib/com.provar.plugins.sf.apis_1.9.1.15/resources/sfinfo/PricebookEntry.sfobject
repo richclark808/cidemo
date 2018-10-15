@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" label="Price Book Entry" name="PricebookEntry">
+  <fields>
+    <sfFieldInfo createable="N" name="Name" updateable="N"/>
+    <sfFieldInfo name="Pricebook2Id" updateable="N"/>
+    <sfFieldInfo name="Product2Id" updateable="N"/>
+    <sfFieldInfo createable="Y" name="IsActive" updateable="Y"/>
+    <sfFieldInfo createable="N" name="CreatedDate"/>
+    <sfFieldInfo createable="N" name="CreatedById"/>
+    <sfFieldInfo createable="N" name="LastModifiedDate"/>
+    <sfFieldInfo createable="N" name="LastModifiedById"/>
+    <sfFieldInfo createable="N" name="ProductCode" updateable="N"/>
+  </fields>
+  <standardActions>
+    <sfActionLink modes="PricebookEntries, RelatedPricebookEntryListForPricebook, RelatedStandardPriceList" n="View" requiresRow="true" s="1"/>
+    <sfActionLink modes="PricebookEntries, RelatedPricebookEntryListForPricebook, RelatedStandardPriceList" n="Edit" requiresRow="true" s="2"/>
+    <sfActionLink lightningLabel="Delete" modes="PricebookEntries, RelatedPricebookEntryListForPricebook, RelatedStandardPriceList" n="Delete" requiresRow="true" s="3" t="Del"/>
+    <sfActionLink buttonName="add" modes="RelatedPricebookEntryListForPricebook" n="addProduct" t="Add"/>
+    <sfActionLink lightningActionName="AddPricebookEntryOnProduct" modes="PricebookEntries" n="add" t="Add to Price Book"/>
+    <sfActionLink buttonName="add" lightningLabel="Add Standard Price" modes="PricebookEntries RelatedStandardPriceList" n="AddStandardPrice" t="Add"/>
+    <sfActionLink buttonName="edit" modes="PricebookEntries, RelatedPricebookEntryListForPricebook" n="editAll" t="Edit All"/>
+  </standardActions>
+</sfObjectInfo>

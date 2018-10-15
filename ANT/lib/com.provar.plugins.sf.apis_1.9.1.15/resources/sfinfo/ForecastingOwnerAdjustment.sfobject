@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="ForecastingOwnerAdjustment">
+  <fields>
+    <sfFieldInfo createable="N" name="ForecastingItemId" updateable="N"/>
+    <sfFieldInfo createable="N" name="PeriodId" updateable="N"/>
+    <sfFieldInfo name="ForecastOwnerId" updateable="N"/>
+    <sfFieldInfo name="StartDate" updateable="N"/>
+    <sfFieldInfo name="ProductFamily" updateable="N">
+      <picklistEntries>
+        <sfPLE id="-1" n="None" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo name="ForecastingItemCategory" updateable="N">
+      <picklistEntries>
+        <sfPLE id="-1" n="OmittedOnly" s=""/>
+        <sfPLE id="-1" n="PipelineOnly" s=""/>
+        <sfPLE id="-1" n="BestCaseOnly" s=""/>
+        <sfPLE id="-1" n="CommitOnly" s=""/>
+        <sfPLE id="-1" n="ClosedOnly" s=""/>
+        <sfPLE id="-1" n="OpenPipeline" s=""/>
+        <sfPLE id="-1" n="BestCaseForecast" s=""/>
+        <sfPLE id="-1" n="CommitForecast" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo name="ForecastCategoryName" updateable="N"/>
+    <sfFieldInfo name="ForecastingTypeId" updateable="N"/>
+  </fields>
+</sfObjectInfo>

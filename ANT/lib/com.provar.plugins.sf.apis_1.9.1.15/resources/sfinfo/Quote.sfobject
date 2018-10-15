@@ -1,0 +1,1228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="Quote">
+  <fields>
+    <sfFieldInfo defaultPermissions="RW" name="OpportunityId" updateable="Y"/>
+    <sfFieldInfo defaultPermissions="RW" name="Pricebook2Id"/>
+    <sfFieldInfo defaultPermissions="RW" name="QuoteNumber"/>
+    <sfFieldInfo defaultPermissions="RW" name="LineItemCount"/>
+    <sfFieldInfo defaultPermissions="RW" name="CanCreateQuoteLineItems" updateable="N"/>
+    <sfFieldInfo createable="Y" name="QuoteToStreet" updateable="Y"/>
+    <sfFieldInfo createable="Y" name="QuoteToCity" updateable="Y"/>
+    <sfFieldInfo createable="Y" name="QuoteToState" updateable="Y"/>
+    <sfFieldInfo createable="Y" name="QuoteToPostalCode" updateable="Y"/>
+    <sfFieldInfo createable="Y" name="QuoteToCountry" updateable="Y"/>
+    <sfFieldInfo createable="Y" name="QuoteToStateCode" restrictedPicklist="true" updateable="Y">
+      <picklistEntries>
+        <sfPLE id="-1" n="AC" s="" t="Acre"/>
+        <sfPLE id="-1" n="AG" s="" t="Agrigento"/>
+        <sfPLE id="-1" n="AG" s="" t="Aguascalientes"/>
+        <sfPLE id="-1" n="AL" s="" t="Alabama"/>
+        <sfPLE id="-1" n="AL" s="" t="Alagoas"/>
+        <sfPLE id="-1" n="AK" s="" t="Alaska"/>
+        <sfPLE id="-1" n="AB" s="" t="Alberta"/>
+        <sfPLE id="-1" n="AL" s="" t="Alessandria"/>
+        <sfPLE id="-1" n="AP" s="" t="Amapá"/>
+        <sfPLE id="-1" n="AM" s="" t="Amazonas"/>
+        <sfPLE id="-1" n="AN" s="" t="Ancona"/>
+        <sfPLE id="-1" n="AN" s="" t="Andaman and Nicobar Islands"/>
+        <sfPLE id="-1" n="AP" s="" t="Andhra Pradesh"/>
+        <sfPLE id="-1" n="34" s="" t="Anhui"/>
+        <sfPLE id="-1" n="AO" s="" t="Aosta"/>
+        <sfPLE id="-1" n="AR" s="" t="Arezzo"/>
+        <sfPLE id="-1" n="AZ" s="" t="Arizona"/>
+        <sfPLE id="-1" n="AR" s="" t="Arkansas"/>
+        <sfPLE id="-1" n="AR" s="" t="Arunachal Pradesh"/>
+        <sfPLE id="-1" n="AP" s="" t="Ascoli Piceno"/>
+        <sfPLE id="-1" n="AS" s="" t="Assam"/>
+        <sfPLE id="-1" n="AT" s="" t="Asti"/>
+        <sfPLE id="-1" n="ACT" s="" t="Australian Capital Territory"/>
+        <sfPLE id="-1" n="AV" s="" t="Avellino"/>
+        <sfPLE id="-1" n="BA" s="" t="Bahia"/>
+        <sfPLE id="-1" n="BC" s="" t="Baja California"/>
+        <sfPLE id="-1" n="BS" s="" t="Baja California Sur"/>
+        <sfPLE id="-1" n="BA" s="" t="Bari"/>
+        <sfPLE id="-1" n="BT" s="" t="Barletta-Andria-Trani"/>
+        <sfPLE id="-1" n="11" s="" t="Beijing"/>
+        <sfPLE id="-1" n="BL" s="" t="Belluno"/>
+        <sfPLE id="-1" n="BN" s="" t="Benevento"/>
+        <sfPLE id="-1" n="BG" s="" t="Bergamo"/>
+        <sfPLE id="-1" n="BI" s="" t="Biella"/>
+        <sfPLE id="-1" n="BR" s="" t="Bihar"/>
+        <sfPLE id="-1" n="BO" s="" t="Bologna"/>
+        <sfPLE id="-1" n="BZ" s="" t="Bolzano"/>
+        <sfPLE id="-1" n="BS" s="" t="Brescia"/>
+        <sfPLE id="-1" n="BR" s="" t="Brindisi"/>
+        <sfPLE id="-1" n="BC" s="" t="British Columbia"/>
+        <sfPLE id="-1" n="CA" s="" t="Cagliari"/>
+        <sfPLE id="-1" n="CA" s="" t="California"/>
+        <sfPLE id="-1" n="CL" s="" t="Caltanissetta"/>
+        <sfPLE id="-1" n="CM" s="" t="Campeche"/>
+        <sfPLE id="-1" n="CB" s="" t="Campobasso"/>
+        <sfPLE id="-1" n="CI" s="" t="Carbonia-Iglesias"/>
+        <sfPLE id="-1" n="CW" s="" t="Carlow"/>
+        <sfPLE id="-1" n="CE" s="" t="Caserta"/>
+        <sfPLE id="-1" n="CT" s="" t="Catania"/>
+        <sfPLE id="-1" n="CZ" s="" t="Catanzaro"/>
+        <sfPLE id="-1" n="CN" s="" t="Cavan"/>
+        <sfPLE id="-1" n="CE" s="" t="Ceará"/>
+        <sfPLE id="-1" n="CH" s="" t="Chandigarh"/>
+        <sfPLE id="-1" n="CT" s="" t="Chhattisgarh"/>
+        <sfPLE id="-1" n="CS" s="" t="Chiapas"/>
+        <sfPLE id="-1" n="CH" s="" t="Chieti"/>
+        <sfPLE id="-1" n="CH" s="" t="Chihuahua"/>
+        <sfPLE id="-1" n="50" s="" t="Chongqing"/>
+        <sfPLE id="-1" n="CE" s="" t="Clare"/>
+        <sfPLE id="-1" n="CO" s="" t="Coahuila"/>
+        <sfPLE id="-1" n="CL" s="" t="Colima"/>
+        <sfPLE id="-1" n="CO" s="" t="Colorado"/>
+        <sfPLE id="-1" n="CO" s="" t="Como"/>
+        <sfPLE id="-1" n="CT" s="" t="Connecticut"/>
+        <sfPLE id="-1" n="CO" s="" t="Cork"/>
+        <sfPLE id="-1" n="CS" s="" t="Cosenza"/>
+        <sfPLE id="-1" n="CR" s="" t="Cremona"/>
+        <sfPLE id="-1" n="KR" s="" t="Crotone"/>
+        <sfPLE id="-1" n="CN" s="" t="Cuneo"/>
+        <sfPLE id="-1" n="DN" s="" t="Dadra and Nagar Haveli"/>
+        <sfPLE id="-1" n="DD" s="" t="Daman and Diu"/>
+        <sfPLE id="-1" n="DE" s="" t="Delaware"/>
+        <sfPLE id="-1" n="DL" s="" t="Delhi"/>
+        <sfPLE id="-1" n="DC" s="" t="District of Columbia"/>
+        <sfPLE id="-1" n="DF" s="" t="Distrito Federal"/>
+        <sfPLE id="-1" n="DL" s="" t="Donegal"/>
+        <sfPLE id="-1" n="D" s="" t="Dublin"/>
+        <sfPLE id="-1" n="DG" s="" t="Durango"/>
+        <sfPLE id="-1" n="EN" s="" t="Enna"/>
+        <sfPLE id="-1" n="ES" s="" t="Espírito Santo"/>
+        <sfPLE id="-1" n="DF" s="" t="Federal District"/>
+        <sfPLE id="-1" n="FM" s="" t="Fermo"/>
+        <sfPLE id="-1" n="FE" s="" t="Ferrara"/>
+        <sfPLE id="-1" n="FI" s="" t="Florence"/>
+        <sfPLE id="-1" n="FL" s="" t="Florida"/>
+        <sfPLE id="-1" n="FG" s="" t="Foggia"/>
+        <sfPLE id="-1" n="FC" s="" t="Forlì-Cesena"/>
+        <sfPLE id="-1" n="FR" s="" t="Frosinone"/>
+        <sfPLE id="-1" n="35" s="" t="Fujian"/>
+        <sfPLE id="-1" n="G" s="" t="Galway"/>
+        <sfPLE id="-1" n="62" s="" t="Gansu"/>
+        <sfPLE id="-1" n="GE" s="" t="Genoa"/>
+        <sfPLE id="-1" n="GA" s="" t="Georgia"/>
+        <sfPLE id="-1" n="GA" s="" t="Goa"/>
+        <sfPLE id="-1" n="GO" s="" t="Goiás"/>
+        <sfPLE id="-1" n="GO" s="" t="Gorizia"/>
+        <sfPLE id="-1" n="GR" s="" t="Grosseto"/>
+        <sfPLE id="-1" n="GT" s="" t="Guanajuato"/>
+        <sfPLE id="-1" n="44" s="" t="Guangdong"/>
+        <sfPLE id="-1" n="45" s="" t="Guangxi"/>
+        <sfPLE id="-1" n="GR" s="" t="Guerrero"/>
+        <sfPLE id="-1" n="52" s="" t="Guizhou"/>
+        <sfPLE id="-1" n="GJ" s="" t="Gujarat"/>
+        <sfPLE id="-1" n="46" s="" t="Hainan"/>
+        <sfPLE id="-1" n="HR" s="" t="Haryana"/>
+        <sfPLE id="-1" n="HI" s="" t="Hawaii"/>
+        <sfPLE id="-1" n="13" s="" t="Hebei"/>
+        <sfPLE id="-1" n="23" s="" t="Heilongjiang"/>
+        <sfPLE id="-1" n="41" s="" t="Henan"/>
+        <sfPLE id="-1" n="HG" s="" t="Hidalgo"/>
+        <sfPLE id="-1" n="HP" s="" t="Himachal Pradesh"/>
+        <sfPLE id="-1" n="91" s="" t="Hong Kong"/>
+        <sfPLE id="-1" n="42" s="" t="Hubei"/>
+        <sfPLE id="-1" n="43" s="" t="Hunan"/>
+        <sfPLE id="-1" n="ID" s="" t="Idaho"/>
+        <sfPLE id="-1" n="IL" s="" t="Illinois"/>
+        <sfPLE id="-1" n="IM" s="" t="Imperia"/>
+        <sfPLE id="-1" n="IN" s="" t="Indiana"/>
+        <sfPLE id="-1" n="IA" s="" t="Iowa"/>
+        <sfPLE id="-1" n="IS" s="" t="Isernia"/>
+        <sfPLE id="-1" n="JA" s="" t="Jalisco"/>
+        <sfPLE id="-1" n="JK" s="" t="Jammu and Kashmir"/>
+        <sfPLE id="-1" n="JH" s="" t="Jharkhand"/>
+        <sfPLE id="-1" n="32" s="" t="Jiangsu"/>
+        <sfPLE id="-1" n="36" s="" t="Jiangxi"/>
+        <sfPLE id="-1" n="22" s="" t="Jilin"/>
+        <sfPLE id="-1" n="KS" s="" t="Kansas"/>
+        <sfPLE id="-1" n="KA" s="" t="Karnataka"/>
+        <sfPLE id="-1" n="KY" s="" t="Kentucky"/>
+        <sfPLE id="-1" n="KL" s="" t="Kerala"/>
+        <sfPLE id="-1" n="KY" s="" t="Kerry"/>
+        <sfPLE id="-1" n="KE" s="" t="Kildare"/>
+        <sfPLE id="-1" n="KK" s="" t="Kilkenny"/>
+        <sfPLE id="-1" n="AQ" s="" t="L'Aquila"/>
+        <sfPLE id="-1" n="LD" s="" t="Lakshadweep"/>
+        <sfPLE id="-1" n="LS" s="" t="Laois"/>
+        <sfPLE id="-1" n="SP" s="" t="La Spezia"/>
+        <sfPLE id="-1" n="LT" s="" t="Latina"/>
+        <sfPLE id="-1" n="LE" s="" t="Lecce"/>
+        <sfPLE id="-1" n="LC" s="" t="Lecco"/>
+        <sfPLE id="-1" n="LM" s="" t="Leitrim"/>
+        <sfPLE id="-1" n="21" s="" t="Liaoning"/>
+        <sfPLE id="-1" n="LK" s="" t="Limerick"/>
+        <sfPLE id="-1" n="LI" s="" t="Livorno"/>
+        <sfPLE id="-1" n="LO" s="" t="Lodi"/>
+        <sfPLE id="-1" n="LD" s="" t="Longford"/>
+        <sfPLE id="-1" n="LA" s="" t="Louisiana"/>
+        <sfPLE id="-1" n="LH" s="" t="Louth"/>
+        <sfPLE id="-1" n="LU" s="" t="Lucca"/>
+        <sfPLE id="-1" n="92" s="" t="Macao"/>
+        <sfPLE id="-1" n="MC" s="" t="Macerata"/>
+        <sfPLE id="-1" n="MP" s="" t="Madhya Pradesh"/>
+        <sfPLE id="-1" n="MH" s="" t="Maharashtra"/>
+        <sfPLE id="-1" n="ME" s="" t="Maine"/>
+        <sfPLE id="-1" n="MN" s="" t="Manipur"/>
+        <sfPLE id="-1" n="MB" s="" t="Manitoba"/>
+        <sfPLE id="-1" n="MN" s="" t="Mantua"/>
+        <sfPLE id="-1" n="MA" s="" t="Maranhão"/>
+        <sfPLE id="-1" n="MD" s="" t="Maryland"/>
+        <sfPLE id="-1" n="MS" s="" t="Massa and Carrara"/>
+        <sfPLE id="-1" n="MA" s="" t="Massachusetts"/>
+        <sfPLE id="-1" n="MT" s="" t="Matera"/>
+        <sfPLE id="-1" n="MT" s="" t="Mato Grosso"/>
+        <sfPLE id="-1" n="MS" s="" t="Mato Grosso do Sul"/>
+        <sfPLE id="-1" n="MO" s="" t="Mayo"/>
+        <sfPLE id="-1" n="MH" s="" t="Meath"/>
+        <sfPLE id="-1" n="VS" s="" t="Medio Campidano"/>
+        <sfPLE id="-1" n="ML" s="" t="Meghalaya"/>
+        <sfPLE id="-1" n="ME" s="" t="Messina"/>
+        <sfPLE id="-1" n="ME" s="" t="Mexico State"/>
+        <sfPLE id="-1" n="MI" s="" t="Michigan"/>
+        <sfPLE id="-1" n="MI" s="" t="Michoacán"/>
+        <sfPLE id="-1" n="MI" s="" t="Milan"/>
+        <sfPLE id="-1" n="MG" s="" t="Minas Gerais"/>
+        <sfPLE id="-1" n="MN" s="" t="Minnesota"/>
+        <sfPLE id="-1" n="MS" s="" t="Mississippi"/>
+        <sfPLE id="-1" n="MO" s="" t="Missouri"/>
+        <sfPLE id="-1" n="MZ" s="" t="Mizoram"/>
+        <sfPLE id="-1" n="MO" s="" t="Modena"/>
+        <sfPLE id="-1" n="MN" s="" t="Monaghan"/>
+        <sfPLE id="-1" n="MT" s="" t="Montana"/>
+        <sfPLE id="-1" n="MB" s="" t="Monza and Brianza"/>
+        <sfPLE id="-1" n="MO" s="" t="Morelos"/>
+        <sfPLE id="-1" n="NL" s="" t="Nagaland"/>
+        <sfPLE id="-1" n="NA" s="" t="Naples"/>
+        <sfPLE id="-1" n="NA" s="" t="Nayarit"/>
+        <sfPLE id="-1" n="NE" s="" t="Nebraska"/>
+        <sfPLE id="-1" n="15" s="" t="Nei Mongol"/>
+        <sfPLE id="-1" n="NV" s="" t="Nevada"/>
+        <sfPLE id="-1" n="NB" s="" t="New Brunswick"/>
+        <sfPLE id="-1" n="NL" s="" t="Newfoundland and Labrador"/>
+        <sfPLE id="-1" n="NH" s="" t="New Hampshire"/>
+        <sfPLE id="-1" n="NJ" s="" t="New Jersey"/>
+        <sfPLE id="-1" n="NM" s="" t="New Mexico"/>
+        <sfPLE id="-1" n="NSW" s="" t="New South Wales"/>
+        <sfPLE id="-1" n="NY" s="" t="New York"/>
+        <sfPLE id="-1" n="64" s="" t="Ningxia"/>
+        <sfPLE id="-1" n="NC" s="" t="North Carolina"/>
+        <sfPLE id="-1" n="ND" s="" t="North Dakota"/>
+        <sfPLE id="-1" n="NT" s="" t="Northern Territory"/>
+        <sfPLE id="-1" n="NT" s="" t="Northwest Territories"/>
+        <sfPLE id="-1" n="NO" s="" t="Novara"/>
+        <sfPLE id="-1" n="NS" s="" t="Nova Scotia"/>
+        <sfPLE id="-1" n="NL" s="" t="Nuevo León"/>
+        <sfPLE id="-1" n="NU" s="" t="Nunavut"/>
+        <sfPLE id="-1" n="NU" s="" t="Nuoro"/>
+        <sfPLE id="-1" n="OA" s="" t="Oaxaca"/>
+        <sfPLE id="-1" n="OR" s="" t="Odisha"/>
+        <sfPLE id="-1" n="OY" s="" t="Offaly"/>
+        <sfPLE id="-1" n="OG" s="" t="Ogliastra"/>
+        <sfPLE id="-1" n="OH" s="" t="Ohio"/>
+        <sfPLE id="-1" n="OK" s="" t="Oklahoma"/>
+        <sfPLE id="-1" n="OT" s="" t="Olbia-Tempio"/>
+        <sfPLE id="-1" n="ON" s="" t="Ontario"/>
+        <sfPLE id="-1" n="OR" s="" t="Oregon"/>
+        <sfPLE id="-1" n="OR" s="" t="Oristano"/>
+        <sfPLE id="-1" n="PD" s="" t="Padua"/>
+        <sfPLE id="-1" n="PA" s="" t="Palermo"/>
+        <sfPLE id="-1" n="PA" s="" t="Pará"/>
+        <sfPLE id="-1" n="PB" s="" t="Paraíba"/>
+        <sfPLE id="-1" n="PR" s="" t="Paraná"/>
+        <sfPLE id="-1" n="PR" s="" t="Parma"/>
+        <sfPLE id="-1" n="PV" s="" t="Pavia"/>
+        <sfPLE id="-1" n="PA" s="" t="Pennsylvania"/>
+        <sfPLE id="-1" n="PE" s="" t="Pernambuco"/>
+        <sfPLE id="-1" n="PG" s="" t="Perugia"/>
+        <sfPLE id="-1" n="PU" s="" t="Pesaro and Urbino"/>
+        <sfPLE id="-1" n="PE" s="" t="Pescara"/>
+        <sfPLE id="-1" n="PC" s="" t="Piacenza"/>
+        <sfPLE id="-1" n="PI" s="" t="Piauí"/>
+        <sfPLE id="-1" n="PI" s="" t="Pisa"/>
+        <sfPLE id="-1" n="PT" s="" t="Pistoia"/>
+        <sfPLE id="-1" n="PN" s="" t="Pordenone"/>
+        <sfPLE id="-1" n="PZ" s="" t="Potenza"/>
+        <sfPLE id="-1" n="PO" s="" t="Prato"/>
+        <sfPLE id="-1" n="PE" s="" t="Prince Edward Island"/>
+        <sfPLE id="-1" n="PY" s="" t="Puducherry"/>
+        <sfPLE id="-1" n="PB" s="" t="Puebla"/>
+        <sfPLE id="-1" n="PB" s="" t="Punjab"/>
+        <sfPLE id="-1" n="63" s="" t="Qinghai"/>
+        <sfPLE id="-1" n="QC" s="" t="Quebec"/>
+        <sfPLE id="-1" n="QLD" s="" t="Queensland"/>
+        <sfPLE id="-1" n="QE" s="" t="Querétaro"/>
+        <sfPLE id="-1" n="QR" s="" t="Quintana Roo"/>
+        <sfPLE id="-1" n="RG" s="" t="Ragusa"/>
+        <sfPLE id="-1" n="RJ" s="" t="Rajasthan"/>
+        <sfPLE id="-1" n="RA" s="" t="Ravenna"/>
+        <sfPLE id="-1" n="RC" s="" t="Reggio Calabria"/>
+        <sfPLE id="-1" n="RE" s="" t="Reggio Emilia"/>
+        <sfPLE id="-1" n="RI" s="" t="Rhode Island"/>
+        <sfPLE id="-1" n="RI" s="" t="Rieti"/>
+        <sfPLE id="-1" n="RN" s="" t="Rimini"/>
+        <sfPLE id="-1" n="RJ" s="" t="Rio de Janeiro"/>
+        <sfPLE id="-1" n="RN" s="" t="Rio Grande do Norte"/>
+        <sfPLE id="-1" n="RS" s="" t="Rio Grande do Sul"/>
+        <sfPLE id="-1" n="RM" s="" t="Rome"/>
+        <sfPLE id="-1" n="RO" s="" t="Rondônia"/>
+        <sfPLE id="-1" n="RR" s="" t="Roraima"/>
+        <sfPLE id="-1" n="RN" s="" t="Roscommon"/>
+        <sfPLE id="-1" n="RO" s="" t="Rovigo"/>
+        <sfPLE id="-1" n="SA" s="" t="Salerno"/>
+        <sfPLE id="-1" n="SL" s="" t="San Luis Potosí"/>
+        <sfPLE id="-1" n="SC" s="" t="Santa Catarina"/>
+        <sfPLE id="-1" n="SP" s="" t="São Paulo"/>
+        <sfPLE id="-1" n="SK" s="" t="Saskatchewan"/>
+        <sfPLE id="-1" n="SS" s="" t="Sassari"/>
+        <sfPLE id="-1" n="SV" s="" t="Savona"/>
+        <sfPLE id="-1" n="SE" s="" t="Sergipe"/>
+        <sfPLE id="-1" n="61" s="" t="Shaanxi"/>
+        <sfPLE id="-1" n="37" s="" t="Shandong"/>
+        <sfPLE id="-1" n="31" s="" t="Shanghai"/>
+        <sfPLE id="-1" n="14" s="" t="Shanxi"/>
+        <sfPLE id="-1" n="51" s="" t="Sichuan"/>
+        <sfPLE id="-1" n="SI" s="" t="Siena"/>
+        <sfPLE id="-1" n="SK" s="" t="Sikkim"/>
+        <sfPLE id="-1" n="SI" s="" t="Sinaloa"/>
+        <sfPLE id="-1" n="SO" s="" t="Sligo"/>
+        <sfPLE id="-1" n="SO" s="" t="Sondrio"/>
+        <sfPLE id="-1" n="SO" s="" t="Sonora"/>
+        <sfPLE id="-1" n="SA" s="" t="South Australia"/>
+        <sfPLE id="-1" n="SC" s="" t="South Carolina"/>
+        <sfPLE id="-1" n="SD" s="" t="South Dakota"/>
+        <sfPLE id="-1" n="SR" s="" t="Syracuse"/>
+        <sfPLE id="-1" n="TB" s="" t="Tabasco"/>
+        <sfPLE id="-1" n="71" s="" t="Taiwan"/>
+        <sfPLE id="-1" n="TM" s="" t="Tamaulipas"/>
+        <sfPLE id="-1" n="TN" s="" t="Tamil Nadu"/>
+        <sfPLE id="-1" n="TA" s="" t="Taranto"/>
+        <sfPLE id="-1" n="TAS" s="" t="Tasmania"/>
+        <sfPLE id="-1" n="TN" s="" t="Tennessee"/>
+        <sfPLE id="-1" n="TE" s="" t="Teramo"/>
+        <sfPLE id="-1" n="TR" s="" t="Terni"/>
+        <sfPLE id="-1" n="TX" s="" t="Texas"/>
+        <sfPLE id="-1" n="12" s="" t="Tianjin"/>
+        <sfPLE id="-1" n="TA" s="" t="Tipperary"/>
+        <sfPLE id="-1" n="TL" s="" t="Tlaxcala"/>
+        <sfPLE id="-1" n="TO" s="" t="Tocantins"/>
+        <sfPLE id="-1" n="TP" s="" t="Trapani"/>
+        <sfPLE id="-1" n="TN" s="" t="Trento"/>
+        <sfPLE id="-1" n="TV" s="" t="Treviso"/>
+        <sfPLE id="-1" n="TS" s="" t="Trieste"/>
+        <sfPLE id="-1" n="TR" s="" t="Tripura"/>
+        <sfPLE id="-1" n="TO" s="" t="Turin"/>
+        <sfPLE id="-1" n="UD" s="" t="Udine"/>
+        <sfPLE id="-1" n="UT" s="" t="Utah"/>
+        <sfPLE id="-1" n="UT" s="" t="Uttarakhand"/>
+        <sfPLE id="-1" n="UP" s="" t="Uttar Pradesh"/>
+        <sfPLE id="-1" n="VA" s="" t="Varese"/>
+        <sfPLE id="-1" n="VE" s="" t="Venice"/>
+        <sfPLE id="-1" n="VE" s="" t="Veracruz"/>
+        <sfPLE id="-1" n="VB" s="" t="Verbano-Cusio-Ossola"/>
+        <sfPLE id="-1" n="VC" s="" t="Vercelli"/>
+        <sfPLE id="-1" n="VT" s="" t="Vermont"/>
+        <sfPLE id="-1" n="VR" s="" t="Verona"/>
+        <sfPLE id="-1" n="VV" s="" t="Vibo Valentia"/>
+        <sfPLE id="-1" n="VI" s="" t="Vicenza"/>
+        <sfPLE id="-1" n="VIC" s="" t="Victoria"/>
+        <sfPLE id="-1" n="VA" s="" t="Virginia"/>
+        <sfPLE id="-1" n="VT" s="" t="Viterbo"/>
+        <sfPLE id="-1" n="WA" s="" t="Washington"/>
+        <sfPLE id="-1" n="WD" s="" t="Waterford"/>
+        <sfPLE id="-1" n="WB" s="" t="West Bengal"/>
+        <sfPLE id="-1" n="WA" s="" t="Western Australia"/>
+        <sfPLE id="-1" n="WH" s="" t="Westmeath"/>
+        <sfPLE id="-1" n="WV" s="" t="West Virginia"/>
+        <sfPLE id="-1" n="WX" s="" t="Wexford"/>
+        <sfPLE id="-1" n="WW" s="" t="Wicklow"/>
+        <sfPLE id="-1" n="WI" s="" t="Wisconsin"/>
+        <sfPLE id="-1" n="WY" s="" t="Wyoming"/>
+        <sfPLE id="-1" n="65" s="" t="Xinjiang"/>
+        <sfPLE id="-1" n="54" s="" t="Xizang"/>
+        <sfPLE id="-1" n="YU" s="" t="Yucatán"/>
+        <sfPLE id="-1" n="YT" s="" t="Yukon Territories"/>
+        <sfPLE id="-1" n="53" s="" t="Yunnan"/>
+        <sfPLE id="-1" n="ZA" s="" t="Zacatecas"/>
+        <sfPLE id="-1" n="33" s="" t="Zhejiang"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="Y" name="QuoteToCountryCode" restrictedPicklist="true" updateable="Y">
+      <picklistEntries>
+        <sfPLE id="-1" n="AF" s="" t="Afghanistan"/>
+        <sfPLE id="-1" n="AX" s="" t="Aland Islands"/>
+        <sfPLE id="-1" n="AL" s="" t="Albania"/>
+        <sfPLE id="-1" n="DZ" s="" t="Algeria"/>
+        <sfPLE id="-1" n="AD" s="" t="Andorra"/>
+        <sfPLE id="-1" n="AO" s="" t="Angola"/>
+        <sfPLE id="-1" n="AI" s="" t="Anguilla"/>
+        <sfPLE id="-1" n="AQ" s="" t="Antarctica"/>
+        <sfPLE id="-1" n="AG" s="" t="Antigua and Barbuda"/>
+        <sfPLE id="-1" n="AR" s="" t="Argentina"/>
+        <sfPLE id="-1" n="AM" s="" t="Armenia"/>
+        <sfPLE id="-1" n="AW" s="" t="Aruba"/>
+        <sfPLE id="-1" n="AU" s="" t="Australia"/>
+        <sfPLE id="-1" n="AT" s="" t="Austria"/>
+        <sfPLE id="-1" n="AZ" s="" t="Azerbaijan"/>
+        <sfPLE id="-1" n="BS" s="" t="Bahamas"/>
+        <sfPLE id="-1" n="BH" s="" t="Bahrain"/>
+        <sfPLE id="-1" n="BD" s="" t="Bangladesh"/>
+        <sfPLE id="-1" n="BB" s="" t="Barbados"/>
+        <sfPLE id="-1" n="BY" s="" t="Belarus"/>
+        <sfPLE id="-1" n="BE" s="" t="Belgium"/>
+        <sfPLE id="-1" n="BZ" s="" t="Belize"/>
+        <sfPLE id="-1" n="BJ" s="" t="Benin"/>
+        <sfPLE id="-1" n="BM" s="" t="Bermuda"/>
+        <sfPLE id="-1" n="BT" s="" t="Bhutan"/>
+        <sfPLE id="-1" n="BO" s="" t="Bolivia, Plurinational State of"/>
+        <sfPLE id="-1" n="BQ" s="" t="Bonaire, Sint Eustatius and Saba"/>
+        <sfPLE id="-1" n="BA" s="" t="Bosnia and Herzegovina"/>
+        <sfPLE id="-1" n="BW" s="" t="Botswana"/>
+        <sfPLE id="-1" n="BV" s="" t="Bouvet Island"/>
+        <sfPLE id="-1" n="BR" s="" t="Brazil"/>
+        <sfPLE id="-1" n="IO" s="" t="British Indian Ocean Territory"/>
+        <sfPLE id="-1" n="BN" s="" t="Brunei Darussalam"/>
+        <sfPLE id="-1" n="BG" s="" t="Bulgaria"/>
+        <sfPLE id="-1" n="BF" s="" t="Burkina Faso"/>
+        <sfPLE id="-1" n="BI" s="" t="Burundi"/>
+        <sfPLE id="-1" n="KH" s="" t="Cambodia"/>
+        <sfPLE id="-1" n="CM" s="" t="Cameroon"/>
+        <sfPLE id="-1" n="CA" s="" t="Canada"/>
+        <sfPLE id="-1" n="CV" s="" t="Cape Verde"/>
+        <sfPLE id="-1" n="KY" s="" t="Cayman Islands"/>
+        <sfPLE id="-1" n="CF" s="" t="Central African Republic"/>
+        <sfPLE id="-1" n="TD" s="" t="Chad"/>
+        <sfPLE id="-1" n="CL" s="" t="Chile"/>
+        <sfPLE id="-1" n="CN" s="" t="China"/>
+        <sfPLE id="-1" n="CX" s="" t="Christmas Island"/>
+        <sfPLE id="-1" n="CC" s="" t="Cocos (Keeling) Islands"/>
+        <sfPLE id="-1" n="CO" s="" t="Colombia"/>
+        <sfPLE id="-1" n="KM" s="" t="Comoros"/>
+        <sfPLE id="-1" n="CG" s="" t="Congo"/>
+        <sfPLE id="-1" n="CD" s="" t="Congo, the Democratic Republic of the"/>
+        <sfPLE id="-1" n="CK" s="" t="Cook Islands"/>
+        <sfPLE id="-1" n="CR" s="" t="Costa Rica"/>
+        <sfPLE id="-1" n="CI" s="" t="Cote d'Ivoire"/>
+        <sfPLE id="-1" n="HR" s="" t="Croatia"/>
+        <sfPLE id="-1" n="CU" s="" t="Cuba"/>
+        <sfPLE id="-1" n="CW" s="" t="Curaçao"/>
+        <sfPLE id="-1" n="CY" s="" t="Cyprus"/>
+        <sfPLE id="-1" n="CZ" s="" t="Czech Republic"/>
+        <sfPLE id="-1" n="DK" s="" t="Denmark"/>
+        <sfPLE id="-1" n="DJ" s="" t="Djibouti"/>
+        <sfPLE id="-1" n="DM" s="" t="Dominica"/>
+        <sfPLE id="-1" n="DO" s="" t="Dominican Republic"/>
+        <sfPLE id="-1" n="EC" s="" t="Ecuador"/>
+        <sfPLE id="-1" n="EG" s="" t="Egypt"/>
+        <sfPLE id="-1" n="SV" s="" t="El Salvador"/>
+        <sfPLE id="-1" n="GQ" s="" t="Equatorial Guinea"/>
+        <sfPLE id="-1" n="ER" s="" t="Eritrea"/>
+        <sfPLE id="-1" n="EE" s="" t="Estonia"/>
+        <sfPLE id="-1" n="ET" s="" t="Ethiopia"/>
+        <sfPLE id="-1" n="FK" s="" t="Falkland Islands (Malvinas)"/>
+        <sfPLE id="-1" n="FO" s="" t="Faroe Islands"/>
+        <sfPLE id="-1" n="FJ" s="" t="Fiji"/>
+        <sfPLE id="-1" n="FI" s="" t="Finland"/>
+        <sfPLE id="-1" n="FR" s="" t="France"/>
+        <sfPLE id="-1" n="GF" s="" t="French Guiana"/>
+        <sfPLE id="-1" n="PF" s="" t="French Polynesia"/>
+        <sfPLE id="-1" n="TF" s="" t="French Southern Territories"/>
+        <sfPLE id="-1" n="GA" s="" t="Gabon"/>
+        <sfPLE id="-1" n="GM" s="" t="Gambia"/>
+        <sfPLE id="-1" n="GE" s="" t="Georgia"/>
+        <sfPLE id="-1" n="DE" s="" t="Germany"/>
+        <sfPLE id="-1" n="GH" s="" t="Ghana"/>
+        <sfPLE id="-1" n="GI" s="" t="Gibraltar"/>
+        <sfPLE id="-1" n="GR" s="" t="Greece"/>
+        <sfPLE id="-1" n="GL" s="" t="Greenland"/>
+        <sfPLE id="-1" n="GD" s="" t="Grenada"/>
+        <sfPLE id="-1" n="GP" s="" t="Guadeloupe"/>
+        <sfPLE id="-1" n="GT" s="" t="Guatemala"/>
+        <sfPLE id="-1" n="GG" s="" t="Guernsey"/>
+        <sfPLE id="-1" n="GN" s="" t="Guinea"/>
+        <sfPLE id="-1" n="GW" s="" t="Guinea-Bissau"/>
+        <sfPLE id="-1" n="GY" s="" t="Guyana"/>
+        <sfPLE id="-1" n="HT" s="" t="Haiti"/>
+        <sfPLE id="-1" n="HM" s="" t="Heard Island and McDonald Islands"/>
+        <sfPLE id="-1" n="VA" s="" t="Holy See (Vatican City State)"/>
+        <sfPLE id="-1" n="HN" s="" t="Honduras"/>
+        <sfPLE id="-1" n="HU" s="" t="Hungary"/>
+        <sfPLE id="-1" n="IS" s="" t="Iceland"/>
+        <sfPLE defaultValue="true" id="-1" n="IN" s="" t="India"/>
+        <sfPLE id="-1" n="ID" s="" t="Indonesia"/>
+        <sfPLE id="-1" n="IR" s="" t="Iran, Islamic Republic of"/>
+        <sfPLE id="-1" n="IQ" s="" t="Iraq"/>
+        <sfPLE id="-1" n="IE" s="" t="Ireland"/>
+        <sfPLE id="-1" n="IM" s="" t="Isle of Man"/>
+        <sfPLE id="-1" n="IL" s="" t="Israel"/>
+        <sfPLE id="-1" n="IT" s="" t="Italy"/>
+        <sfPLE id="-1" n="JM" s="" t="Jamaica"/>
+        <sfPLE id="-1" n="JP" s="" t="Japan"/>
+        <sfPLE id="-1" n="JE" s="" t="Jersey"/>
+        <sfPLE id="-1" n="JO" s="" t="Jordan"/>
+        <sfPLE id="-1" n="KZ" s="" t="Kazakhstan"/>
+        <sfPLE id="-1" n="KE" s="" t="Kenya"/>
+        <sfPLE id="-1" n="KI" s="" t="Kiribati"/>
+        <sfPLE id="-1" n="KP" s="" t="Korea, Democratic People's Republic of"/>
+        <sfPLE id="-1" n="KR" s="" t="Korea, Republic of"/>
+        <sfPLE id="-1" n="KW" s="" t="Kuwait"/>
+        <sfPLE id="-1" n="KG" s="" t="Kyrgyzstan"/>
+        <sfPLE id="-1" n="LA" s="" t="Lao People's Democratic Republic"/>
+        <sfPLE id="-1" n="LV" s="" t="Latvia"/>
+        <sfPLE id="-1" n="LB" s="" t="Lebanon"/>
+        <sfPLE id="-1" n="LS" s="" t="Lesotho"/>
+        <sfPLE id="-1" n="LR" s="" t="Liberia"/>
+        <sfPLE id="-1" n="LY" s="" t="Libya"/>
+        <sfPLE id="-1" n="LI" s="" t="Liechtenstein"/>
+        <sfPLE id="-1" n="LT" s="" t="Lithuania"/>
+        <sfPLE id="-1" n="LU" s="" t="Luxembourg"/>
+        <sfPLE id="-1" n="MO" s="" t="Macao"/>
+        <sfPLE id="-1" n="MK" s="" t="Macedonia, the former Yugoslav Republic of"/>
+        <sfPLE id="-1" n="MG" s="" t="Madagascar"/>
+        <sfPLE id="-1" n="MW" s="" t="Malawi"/>
+        <sfPLE id="-1" n="MY" s="" t="Malaysia"/>
+        <sfPLE id="-1" n="MV" s="" t="Maldives"/>
+        <sfPLE id="-1" n="ML" s="" t="Mali"/>
+        <sfPLE id="-1" n="MT" s="" t="Malta"/>
+        <sfPLE id="-1" n="MQ" s="" t="Martinique"/>
+        <sfPLE id="-1" n="MR" s="" t="Mauritania"/>
+        <sfPLE id="-1" n="MU" s="" t="Mauritius"/>
+        <sfPLE id="-1" n="YT" s="" t="Mayotte"/>
+        <sfPLE id="-1" n="MX" s="" t="Mexico"/>
+        <sfPLE id="-1" n="MD" s="" t="Moldova, Republic of"/>
+        <sfPLE id="-1" n="MC" s="" t="Monaco"/>
+        <sfPLE id="-1" n="MN" s="" t="Mongolia"/>
+        <sfPLE id="-1" n="ME" s="" t="Montenegro"/>
+        <sfPLE id="-1" n="MS" s="" t="Montserrat"/>
+        <sfPLE id="-1" n="MA" s="" t="Morocco"/>
+        <sfPLE id="-1" n="MZ" s="" t="Mozambique"/>
+        <sfPLE id="-1" n="MM" s="" t="Myanmar"/>
+        <sfPLE id="-1" n="NA" s="" t="Namibia"/>
+        <sfPLE id="-1" n="NR" s="" t="Nauru"/>
+        <sfPLE id="-1" n="NP" s="" t="Nepal"/>
+        <sfPLE id="-1" n="NL" s="" t="Netherlands"/>
+        <sfPLE id="-1" n="NC" s="" t="New Caledonia"/>
+        <sfPLE id="-1" n="NZ" s="" t="New Zealand"/>
+        <sfPLE id="-1" n="NI" s="" t="Nicaragua"/>
+        <sfPLE id="-1" n="NE" s="" t="Niger"/>
+        <sfPLE id="-1" n="NG" s="" t="Nigeria"/>
+        <sfPLE id="-1" n="NU" s="" t="Niue"/>
+        <sfPLE id="-1" n="NF" s="" t="Norfolk Island"/>
+        <sfPLE id="-1" n="NO" s="" t="Norway"/>
+        <sfPLE id="-1" n="OM" s="" t="Oman"/>
+        <sfPLE id="-1" n="PK" s="" t="Pakistan"/>
+        <sfPLE id="-1" n="PS" s="" t="Palestine"/>
+        <sfPLE id="-1" n="PA" s="" t="Panama"/>
+        <sfPLE id="-1" n="PG" s="" t="Papua New Guinea"/>
+        <sfPLE id="-1" n="PY" s="" t="Paraguay"/>
+        <sfPLE id="-1" n="PE" s="" t="Peru"/>
+        <sfPLE id="-1" n="PH" s="" t="Philippines"/>
+        <sfPLE id="-1" n="PN" s="" t="Pitcairn"/>
+        <sfPLE id="-1" n="PL" s="" t="Poland"/>
+        <sfPLE id="-1" n="PT" s="" t="Portugal"/>
+        <sfPLE id="-1" n="QA" s="" t="Qatar"/>
+        <sfPLE id="-1" n="RE" s="" t="Reunion"/>
+        <sfPLE id="-1" n="RO" s="" t="Romania"/>
+        <sfPLE id="-1" n="RU" s="" t="Russian Federation"/>
+        <sfPLE id="-1" n="RW" s="" t="Rwanda"/>
+        <sfPLE id="-1" n="BL" s="" t="Saint Barthélemy"/>
+        <sfPLE id="-1" n="SH" s="" t="Saint Helena, Ascension and Tristan da Cunha"/>
+        <sfPLE id="-1" n="KN" s="" t="Saint Kitts and Nevis"/>
+        <sfPLE id="-1" n="LC" s="" t="Saint Lucia"/>
+        <sfPLE id="-1" n="MF" s="" t="Saint Martin (French part)"/>
+        <sfPLE id="-1" n="PM" s="" t="Saint Pierre and Miquelon"/>
+        <sfPLE id="-1" n="VC" s="" t="Saint Vincent and the Grenadines"/>
+        <sfPLE id="-1" n="WS" s="" t="Samoa"/>
+        <sfPLE id="-1" n="SM" s="" t="San Marino"/>
+        <sfPLE id="-1" n="ST" s="" t="Sao Tome and Principe"/>
+        <sfPLE id="-1" n="SA" s="" t="Saudi Arabia"/>
+        <sfPLE id="-1" n="SN" s="" t="Senegal"/>
+        <sfPLE id="-1" n="RS" s="" t="Serbia"/>
+        <sfPLE id="-1" n="SC" s="" t="Seychelles"/>
+        <sfPLE id="-1" n="SL" s="" t="Sierra Leone"/>
+        <sfPLE id="-1" n="SG" s="" t="Singapore"/>
+        <sfPLE id="-1" n="SX" s="" t="Sint Maarten (Dutch part)"/>
+        <sfPLE id="-1" n="SK" s="" t="Slovakia"/>
+        <sfPLE id="-1" n="SI" s="" t="Slovenia"/>
+        <sfPLE id="-1" n="SB" s="" t="Solomon Islands"/>
+        <sfPLE id="-1" n="SO" s="" t="Somalia"/>
+        <sfPLE id="-1" n="ZA" s="" t="South Africa"/>
+        <sfPLE id="-1" n="GS" s="" t="South Georgia and the South Sandwich Islands"/>
+        <sfPLE id="-1" n="SS" s="" t="South Sudan"/>
+        <sfPLE id="-1" n="ES" s="" t="Spain"/>
+        <sfPLE id="-1" n="LK" s="" t="Sri Lanka"/>
+        <sfPLE id="-1" n="SD" s="" t="Sudan"/>
+        <sfPLE id="-1" n="SR" s="" t="Suriname"/>
+        <sfPLE id="-1" n="SJ" s="" t="Svalbard and Jan Mayen"/>
+        <sfPLE id="-1" n="SZ" s="" t="Swaziland"/>
+        <sfPLE id="-1" n="SE" s="" t="Sweden"/>
+        <sfPLE id="-1" n="CH" s="" t="Switzerland"/>
+        <sfPLE id="-1" n="SY" s="" t="Syrian Arab Republic"/>
+        <sfPLE id="-1" n="TW" s="" t="Taiwan"/>
+        <sfPLE id="-1" n="TJ" s="" t="Tajikistan"/>
+        <sfPLE id="-1" n="TZ" s="" t="Tanzania, United Republic of"/>
+        <sfPLE id="-1" n="TH" s="" t="Thailand"/>
+        <sfPLE id="-1" n="TL" s="" t="Timor-Leste"/>
+        <sfPLE id="-1" n="TG" s="" t="Togo"/>
+        <sfPLE id="-1" n="TK" s="" t="Tokelau"/>
+        <sfPLE id="-1" n="TO" s="" t="Tonga"/>
+        <sfPLE id="-1" n="TT" s="" t="Trinidad and Tobago"/>
+        <sfPLE id="-1" n="TN" s="" t="Tunisia"/>
+        <sfPLE id="-1" n="TR" s="" t="Turkey"/>
+        <sfPLE id="-1" n="TM" s="" t="Turkmenistan"/>
+        <sfPLE id="-1" n="TC" s="" t="Turks and Caicos Islands"/>
+        <sfPLE id="-1" n="TV" s="" t="Tuvalu"/>
+        <sfPLE id="-1" n="UG" s="" t="Uganda"/>
+        <sfPLE id="-1" n="UA" s="" t="Ukraine"/>
+        <sfPLE id="-1" n="AE" s="" t="United Arab Emirates"/>
+        <sfPLE id="-1" n="GB" s="" t="United Kingdom"/>
+        <sfPLE id="-1" n="US" s="" t="United States"/>
+        <sfPLE id="-1" n="UY" s="" t="Uruguay"/>
+        <sfPLE id="-1" n="UZ" s="" t="Uzbekistan"/>
+        <sfPLE id="-1" n="VU" s="" t="Vanuatu"/>
+        <sfPLE id="-1" n="VE" s="" t="Venezuela, Bolivarian Republic of"/>
+        <sfPLE id="-1" n="VN" s="" t="Viet Nam"/>
+        <sfPLE id="-1" n="VG" s="" t="Virgin Islands, British"/>
+        <sfPLE id="-1" n="WF" s="" t="Wallis and Futuna"/>
+        <sfPLE id="-1" n="EH" s="" t="Western Sahara"/>
+        <sfPLE id="-1" n="YE" s="" t="Yemen"/>
+        <sfPLE id="-1" n="ZM" s="" t="Zambia"/>
+        <sfPLE id="-1" n="ZW" s="" t="Zimbabwe"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="Y" name="QuoteToLatitude" updateable="Y"/>
+    <sfFieldInfo createable="Y" name="QuoteToLongitude" updateable="Y"/>
+    <sfFieldInfo createable="Y" name="QuoteToGeocodeAccuracy" restrictedPicklist="true" updateable="Y">
+      <picklistEntries>
+        <sfPLE id="-1" n="Address" s=""/>
+        <sfPLE id="-1" n="NearAddress" s=""/>
+        <sfPLE id="-1" n="Block" s=""/>
+        <sfPLE id="-1" n="Street" s=""/>
+        <sfPLE id="-1" n="ExtendedZip" s=""/>
+        <sfPLE id="-1" n="Zip" s=""/>
+        <sfPLE id="-1" n="Neighborhood" s=""/>
+        <sfPLE id="-1" n="City" s=""/>
+        <sfPLE id="-1" n="County" s=""/>
+        <sfPLE id="-1" n="State" s=""/>
+        <sfPLE id="-1" n="Unknown" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="N" name="QuoteToAddress" updateable="N"/>
+    <sfFieldInfo createable="Y" name="AdditionalStreet" updateable="Y"/>
+    <sfFieldInfo createable="Y" name="AdditionalCity" updateable="Y"/>
+    <sfFieldInfo createable="Y" name="AdditionalState" updateable="Y"/>
+    <sfFieldInfo createable="Y" name="AdditionalPostalCode" updateable="Y"/>
+    <sfFieldInfo createable="Y" name="AdditionalCountry" updateable="Y"/>
+    <sfFieldInfo createable="Y" name="AdditionalStateCode" restrictedPicklist="true" updateable="Y">
+      <picklistEntries>
+        <sfPLE id="-1" n="AC" s="" t="Acre"/>
+        <sfPLE id="-1" n="AG" s="" t="Agrigento"/>
+        <sfPLE id="-1" n="AG" s="" t="Aguascalientes"/>
+        <sfPLE id="-1" n="AL" s="" t="Alabama"/>
+        <sfPLE id="-1" n="AL" s="" t="Alagoas"/>
+        <sfPLE id="-1" n="AK" s="" t="Alaska"/>
+        <sfPLE id="-1" n="AB" s="" t="Alberta"/>
+        <sfPLE id="-1" n="AL" s="" t="Alessandria"/>
+        <sfPLE id="-1" n="AP" s="" t="Amapá"/>
+        <sfPLE id="-1" n="AM" s="" t="Amazonas"/>
+        <sfPLE id="-1" n="AN" s="" t="Ancona"/>
+        <sfPLE id="-1" n="AN" s="" t="Andaman and Nicobar Islands"/>
+        <sfPLE id="-1" n="AP" s="" t="Andhra Pradesh"/>
+        <sfPLE id="-1" n="34" s="" t="Anhui"/>
+        <sfPLE id="-1" n="AO" s="" t="Aosta"/>
+        <sfPLE id="-1" n="AR" s="" t="Arezzo"/>
+        <sfPLE id="-1" n="AZ" s="" t="Arizona"/>
+        <sfPLE id="-1" n="AR" s="" t="Arkansas"/>
+        <sfPLE id="-1" n="AR" s="" t="Arunachal Pradesh"/>
+        <sfPLE id="-1" n="AP" s="" t="Ascoli Piceno"/>
+        <sfPLE id="-1" n="AS" s="" t="Assam"/>
+        <sfPLE id="-1" n="AT" s="" t="Asti"/>
+        <sfPLE id="-1" n="ACT" s="" t="Australian Capital Territory"/>
+        <sfPLE id="-1" n="AV" s="" t="Avellino"/>
+        <sfPLE id="-1" n="BA" s="" t="Bahia"/>
+        <sfPLE id="-1" n="BC" s="" t="Baja California"/>
+        <sfPLE id="-1" n="BS" s="" t="Baja California Sur"/>
+        <sfPLE id="-1" n="BA" s="" t="Bari"/>
+        <sfPLE id="-1" n="BT" s="" t="Barletta-Andria-Trani"/>
+        <sfPLE id="-1" n="11" s="" t="Beijing"/>
+        <sfPLE id="-1" n="BL" s="" t="Belluno"/>
+        <sfPLE id="-1" n="BN" s="" t="Benevento"/>
+        <sfPLE id="-1" n="BG" s="" t="Bergamo"/>
+        <sfPLE id="-1" n="BI" s="" t="Biella"/>
+        <sfPLE id="-1" n="BR" s="" t="Bihar"/>
+        <sfPLE id="-1" n="BO" s="" t="Bologna"/>
+        <sfPLE id="-1" n="BZ" s="" t="Bolzano"/>
+        <sfPLE id="-1" n="BS" s="" t="Brescia"/>
+        <sfPLE id="-1" n="BR" s="" t="Brindisi"/>
+        <sfPLE id="-1" n="BC" s="" t="British Columbia"/>
+        <sfPLE id="-1" n="CA" s="" t="Cagliari"/>
+        <sfPLE id="-1" n="CA" s="" t="California"/>
+        <sfPLE id="-1" n="CL" s="" t="Caltanissetta"/>
+        <sfPLE id="-1" n="CM" s="" t="Campeche"/>
+        <sfPLE id="-1" n="CB" s="" t="Campobasso"/>
+        <sfPLE id="-1" n="CI" s="" t="Carbonia-Iglesias"/>
+        <sfPLE id="-1" n="CW" s="" t="Carlow"/>
+        <sfPLE id="-1" n="CE" s="" t="Caserta"/>
+        <sfPLE id="-1" n="CT" s="" t="Catania"/>
+        <sfPLE id="-1" n="CZ" s="" t="Catanzaro"/>
+        <sfPLE id="-1" n="CN" s="" t="Cavan"/>
+        <sfPLE id="-1" n="CE" s="" t="Ceará"/>
+        <sfPLE id="-1" n="CH" s="" t="Chandigarh"/>
+        <sfPLE id="-1" n="CT" s="" t="Chhattisgarh"/>
+        <sfPLE id="-1" n="CS" s="" t="Chiapas"/>
+        <sfPLE id="-1" n="CH" s="" t="Chieti"/>
+        <sfPLE id="-1" n="CH" s="" t="Chihuahua"/>
+        <sfPLE id="-1" n="50" s="" t="Chongqing"/>
+        <sfPLE id="-1" n="CE" s="" t="Clare"/>
+        <sfPLE id="-1" n="CO" s="" t="Coahuila"/>
+        <sfPLE id="-1" n="CL" s="" t="Colima"/>
+        <sfPLE id="-1" n="CO" s="" t="Colorado"/>
+        <sfPLE id="-1" n="CO" s="" t="Como"/>
+        <sfPLE id="-1" n="CT" s="" t="Connecticut"/>
+        <sfPLE id="-1" n="CO" s="" t="Cork"/>
+        <sfPLE id="-1" n="CS" s="" t="Cosenza"/>
+        <sfPLE id="-1" n="CR" s="" t="Cremona"/>
+        <sfPLE id="-1" n="KR" s="" t="Crotone"/>
+        <sfPLE id="-1" n="CN" s="" t="Cuneo"/>
+        <sfPLE id="-1" n="DN" s="" t="Dadra and Nagar Haveli"/>
+        <sfPLE id="-1" n="DD" s="" t="Daman and Diu"/>
+        <sfPLE id="-1" n="DE" s="" t="Delaware"/>
+        <sfPLE id="-1" n="DL" s="" t="Delhi"/>
+        <sfPLE id="-1" n="DC" s="" t="District of Columbia"/>
+        <sfPLE id="-1" n="DF" s="" t="Distrito Federal"/>
+        <sfPLE id="-1" n="DL" s="" t="Donegal"/>
+        <sfPLE id="-1" n="D" s="" t="Dublin"/>
+        <sfPLE id="-1" n="DG" s="" t="Durango"/>
+        <sfPLE id="-1" n="EN" s="" t="Enna"/>
+        <sfPLE id="-1" n="ES" s="" t="Espírito Santo"/>
+        <sfPLE id="-1" n="DF" s="" t="Federal District"/>
+        <sfPLE id="-1" n="FM" s="" t="Fermo"/>
+        <sfPLE id="-1" n="FE" s="" t="Ferrara"/>
+        <sfPLE id="-1" n="FI" s="" t="Florence"/>
+        <sfPLE id="-1" n="FL" s="" t="Florida"/>
+        <sfPLE id="-1" n="FG" s="" t="Foggia"/>
+        <sfPLE id="-1" n="FC" s="" t="Forlì-Cesena"/>
+        <sfPLE id="-1" n="FR" s="" t="Frosinone"/>
+        <sfPLE id="-1" n="35" s="" t="Fujian"/>
+        <sfPLE id="-1" n="G" s="" t="Galway"/>
+        <sfPLE id="-1" n="62" s="" t="Gansu"/>
+        <sfPLE id="-1" n="GE" s="" t="Genoa"/>
+        <sfPLE id="-1" n="GA" s="" t="Georgia"/>
+        <sfPLE id="-1" n="GA" s="" t="Goa"/>
+        <sfPLE id="-1" n="GO" s="" t="Goiás"/>
+        <sfPLE id="-1" n="GO" s="" t="Gorizia"/>
+        <sfPLE id="-1" n="GR" s="" t="Grosseto"/>
+        <sfPLE id="-1" n="GT" s="" t="Guanajuato"/>
+        <sfPLE id="-1" n="44" s="" t="Guangdong"/>
+        <sfPLE id="-1" n="45" s="" t="Guangxi"/>
+        <sfPLE id="-1" n="GR" s="" t="Guerrero"/>
+        <sfPLE id="-1" n="52" s="" t="Guizhou"/>
+        <sfPLE id="-1" n="GJ" s="" t="Gujarat"/>
+        <sfPLE id="-1" n="46" s="" t="Hainan"/>
+        <sfPLE id="-1" n="HR" s="" t="Haryana"/>
+        <sfPLE id="-1" n="HI" s="" t="Hawaii"/>
+        <sfPLE id="-1" n="13" s="" t="Hebei"/>
+        <sfPLE id="-1" n="23" s="" t="Heilongjiang"/>
+        <sfPLE id="-1" n="41" s="" t="Henan"/>
+        <sfPLE id="-1" n="HG" s="" t="Hidalgo"/>
+        <sfPLE id="-1" n="HP" s="" t="Himachal Pradesh"/>
+        <sfPLE id="-1" n="91" s="" t="Hong Kong"/>
+        <sfPLE id="-1" n="42" s="" t="Hubei"/>
+        <sfPLE id="-1" n="43" s="" t="Hunan"/>
+        <sfPLE id="-1" n="ID" s="" t="Idaho"/>
+        <sfPLE id="-1" n="IL" s="" t="Illinois"/>
+        <sfPLE id="-1" n="IM" s="" t="Imperia"/>
+        <sfPLE id="-1" n="IN" s="" t="Indiana"/>
+        <sfPLE id="-1" n="IA" s="" t="Iowa"/>
+        <sfPLE id="-1" n="IS" s="" t="Isernia"/>
+        <sfPLE id="-1" n="JA" s="" t="Jalisco"/>
+        <sfPLE id="-1" n="JK" s="" t="Jammu and Kashmir"/>
+        <sfPLE id="-1" n="JH" s="" t="Jharkhand"/>
+        <sfPLE id="-1" n="32" s="" t="Jiangsu"/>
+        <sfPLE id="-1" n="36" s="" t="Jiangxi"/>
+        <sfPLE id="-1" n="22" s="" t="Jilin"/>
+        <sfPLE id="-1" n="KS" s="" t="Kansas"/>
+        <sfPLE id="-1" n="KA" s="" t="Karnataka"/>
+        <sfPLE id="-1" n="KY" s="" t="Kentucky"/>
+        <sfPLE id="-1" n="KL" s="" t="Kerala"/>
+        <sfPLE id="-1" n="KY" s="" t="Kerry"/>
+        <sfPLE id="-1" n="KE" s="" t="Kildare"/>
+        <sfPLE id="-1" n="KK" s="" t="Kilkenny"/>
+        <sfPLE id="-1" n="AQ" s="" t="L'Aquila"/>
+        <sfPLE id="-1" n="LD" s="" t="Lakshadweep"/>
+        <sfPLE id="-1" n="LS" s="" t="Laois"/>
+        <sfPLE id="-1" n="SP" s="" t="La Spezia"/>
+        <sfPLE id="-1" n="LT" s="" t="Latina"/>
+        <sfPLE id="-1" n="LE" s="" t="Lecce"/>
+        <sfPLE id="-1" n="LC" s="" t="Lecco"/>
+        <sfPLE id="-1" n="LM" s="" t="Leitrim"/>
+        <sfPLE id="-1" n="21" s="" t="Liaoning"/>
+        <sfPLE id="-1" n="LK" s="" t="Limerick"/>
+        <sfPLE id="-1" n="LI" s="" t="Livorno"/>
+        <sfPLE id="-1" n="LO" s="" t="Lodi"/>
+        <sfPLE id="-1" n="LD" s="" t="Longford"/>
+        <sfPLE id="-1" n="LA" s="" t="Louisiana"/>
+        <sfPLE id="-1" n="LH" s="" t="Louth"/>
+        <sfPLE id="-1" n="LU" s="" t="Lucca"/>
+        <sfPLE id="-1" n="92" s="" t="Macao"/>
+        <sfPLE id="-1" n="MC" s="" t="Macerata"/>
+        <sfPLE id="-1" n="MP" s="" t="Madhya Pradesh"/>
+        <sfPLE id="-1" n="MH" s="" t="Maharashtra"/>
+        <sfPLE id="-1" n="ME" s="" t="Maine"/>
+        <sfPLE id="-1" n="MN" s="" t="Manipur"/>
+        <sfPLE id="-1" n="MB" s="" t="Manitoba"/>
+        <sfPLE id="-1" n="MN" s="" t="Mantua"/>
+        <sfPLE id="-1" n="MA" s="" t="Maranhão"/>
+        <sfPLE id="-1" n="MD" s="" t="Maryland"/>
+        <sfPLE id="-1" n="MS" s="" t="Massa and Carrara"/>
+        <sfPLE id="-1" n="MA" s="" t="Massachusetts"/>
+        <sfPLE id="-1" n="MT" s="" t="Matera"/>
+        <sfPLE id="-1" n="MT" s="" t="Mato Grosso"/>
+        <sfPLE id="-1" n="MS" s="" t="Mato Grosso do Sul"/>
+        <sfPLE id="-1" n="MO" s="" t="Mayo"/>
+        <sfPLE id="-1" n="MH" s="" t="Meath"/>
+        <sfPLE id="-1" n="VS" s="" t="Medio Campidano"/>
+        <sfPLE id="-1" n="ML" s="" t="Meghalaya"/>
+        <sfPLE id="-1" n="ME" s="" t="Messina"/>
+        <sfPLE id="-1" n="ME" s="" t="Mexico State"/>
+        <sfPLE id="-1" n="MI" s="" t="Michigan"/>
+        <sfPLE id="-1" n="MI" s="" t="Michoacán"/>
+        <sfPLE id="-1" n="MI" s="" t="Milan"/>
+        <sfPLE id="-1" n="MG" s="" t="Minas Gerais"/>
+        <sfPLE id="-1" n="MN" s="" t="Minnesota"/>
+        <sfPLE id="-1" n="MS" s="" t="Mississippi"/>
+        <sfPLE id="-1" n="MO" s="" t="Missouri"/>
+        <sfPLE id="-1" n="MZ" s="" t="Mizoram"/>
+        <sfPLE id="-1" n="MO" s="" t="Modena"/>
+        <sfPLE id="-1" n="MN" s="" t="Monaghan"/>
+        <sfPLE id="-1" n="MT" s="" t="Montana"/>
+        <sfPLE id="-1" n="MB" s="" t="Monza and Brianza"/>
+        <sfPLE id="-1" n="MO" s="" t="Morelos"/>
+        <sfPLE id="-1" n="NL" s="" t="Nagaland"/>
+        <sfPLE id="-1" n="NA" s="" t="Naples"/>
+        <sfPLE id="-1" n="NA" s="" t="Nayarit"/>
+        <sfPLE id="-1" n="NE" s="" t="Nebraska"/>
+        <sfPLE id="-1" n="15" s="" t="Nei Mongol"/>
+        <sfPLE id="-1" n="NV" s="" t="Nevada"/>
+        <sfPLE id="-1" n="NB" s="" t="New Brunswick"/>
+        <sfPLE id="-1" n="NL" s="" t="Newfoundland and Labrador"/>
+        <sfPLE id="-1" n="NH" s="" t="New Hampshire"/>
+        <sfPLE id="-1" n="NJ" s="" t="New Jersey"/>
+        <sfPLE id="-1" n="NM" s="" t="New Mexico"/>
+        <sfPLE id="-1" n="NSW" s="" t="New South Wales"/>
+        <sfPLE id="-1" n="NY" s="" t="New York"/>
+        <sfPLE id="-1" n="64" s="" t="Ningxia"/>
+        <sfPLE id="-1" n="NC" s="" t="North Carolina"/>
+        <sfPLE id="-1" n="ND" s="" t="North Dakota"/>
+        <sfPLE id="-1" n="NT" s="" t="Northern Territory"/>
+        <sfPLE id="-1" n="NT" s="" t="Northwest Territories"/>
+        <sfPLE id="-1" n="NO" s="" t="Novara"/>
+        <sfPLE id="-1" n="NS" s="" t="Nova Scotia"/>
+        <sfPLE id="-1" n="NL" s="" t="Nuevo León"/>
+        <sfPLE id="-1" n="NU" s="" t="Nunavut"/>
+        <sfPLE id="-1" n="NU" s="" t="Nuoro"/>
+        <sfPLE id="-1" n="OA" s="" t="Oaxaca"/>
+        <sfPLE id="-1" n="OR" s="" t="Odisha"/>
+        <sfPLE id="-1" n="OY" s="" t="Offaly"/>
+        <sfPLE id="-1" n="OG" s="" t="Ogliastra"/>
+        <sfPLE id="-1" n="OH" s="" t="Ohio"/>
+        <sfPLE id="-1" n="OK" s="" t="Oklahoma"/>
+        <sfPLE id="-1" n="OT" s="" t="Olbia-Tempio"/>
+        <sfPLE id="-1" n="ON" s="" t="Ontario"/>
+        <sfPLE id="-1" n="OR" s="" t="Oregon"/>
+        <sfPLE id="-1" n="OR" s="" t="Oristano"/>
+        <sfPLE id="-1" n="PD" s="" t="Padua"/>
+        <sfPLE id="-1" n="PA" s="" t="Palermo"/>
+        <sfPLE id="-1" n="PA" s="" t="Pará"/>
+        <sfPLE id="-1" n="PB" s="" t="Paraíba"/>
+        <sfPLE id="-1" n="PR" s="" t="Paraná"/>
+        <sfPLE id="-1" n="PR" s="" t="Parma"/>
+        <sfPLE id="-1" n="PV" s="" t="Pavia"/>
+        <sfPLE id="-1" n="PA" s="" t="Pennsylvania"/>
+        <sfPLE id="-1" n="PE" s="" t="Pernambuco"/>
+        <sfPLE id="-1" n="PG" s="" t="Perugia"/>
+        <sfPLE id="-1" n="PU" s="" t="Pesaro and Urbino"/>
+        <sfPLE id="-1" n="PE" s="" t="Pescara"/>
+        <sfPLE id="-1" n="PC" s="" t="Piacenza"/>
+        <sfPLE id="-1" n="PI" s="" t="Piauí"/>
+        <sfPLE id="-1" n="PI" s="" t="Pisa"/>
+        <sfPLE id="-1" n="PT" s="" t="Pistoia"/>
+        <sfPLE id="-1" n="PN" s="" t="Pordenone"/>
+        <sfPLE id="-1" n="PZ" s="" t="Potenza"/>
+        <sfPLE id="-1" n="PO" s="" t="Prato"/>
+        <sfPLE id="-1" n="PE" s="" t="Prince Edward Island"/>
+        <sfPLE id="-1" n="PY" s="" t="Puducherry"/>
+        <sfPLE id="-1" n="PB" s="" t="Puebla"/>
+        <sfPLE id="-1" n="PB" s="" t="Punjab"/>
+        <sfPLE id="-1" n="63" s="" t="Qinghai"/>
+        <sfPLE id="-1" n="QC" s="" t="Quebec"/>
+        <sfPLE id="-1" n="QLD" s="" t="Queensland"/>
+        <sfPLE id="-1" n="QE" s="" t="Querétaro"/>
+        <sfPLE id="-1" n="QR" s="" t="Quintana Roo"/>
+        <sfPLE id="-1" n="RG" s="" t="Ragusa"/>
+        <sfPLE id="-1" n="RJ" s="" t="Rajasthan"/>
+        <sfPLE id="-1" n="RA" s="" t="Ravenna"/>
+        <sfPLE id="-1" n="RC" s="" t="Reggio Calabria"/>
+        <sfPLE id="-1" n="RE" s="" t="Reggio Emilia"/>
+        <sfPLE id="-1" n="RI" s="" t="Rhode Island"/>
+        <sfPLE id="-1" n="RI" s="" t="Rieti"/>
+        <sfPLE id="-1" n="RN" s="" t="Rimini"/>
+        <sfPLE id="-1" n="RJ" s="" t="Rio de Janeiro"/>
+        <sfPLE id="-1" n="RN" s="" t="Rio Grande do Norte"/>
+        <sfPLE id="-1" n="RS" s="" t="Rio Grande do Sul"/>
+        <sfPLE id="-1" n="RM" s="" t="Rome"/>
+        <sfPLE id="-1" n="RO" s="" t="Rondônia"/>
+        <sfPLE id="-1" n="RR" s="" t="Roraima"/>
+        <sfPLE id="-1" n="RN" s="" t="Roscommon"/>
+        <sfPLE id="-1" n="RO" s="" t="Rovigo"/>
+        <sfPLE id="-1" n="SA" s="" t="Salerno"/>
+        <sfPLE id="-1" n="SL" s="" t="San Luis Potosí"/>
+        <sfPLE id="-1" n="SC" s="" t="Santa Catarina"/>
+        <sfPLE id="-1" n="SP" s="" t="São Paulo"/>
+        <sfPLE id="-1" n="SK" s="" t="Saskatchewan"/>
+        <sfPLE id="-1" n="SS" s="" t="Sassari"/>
+        <sfPLE id="-1" n="SV" s="" t="Savona"/>
+        <sfPLE id="-1" n="SE" s="" t="Sergipe"/>
+        <sfPLE id="-1" n="61" s="" t="Shaanxi"/>
+        <sfPLE id="-1" n="37" s="" t="Shandong"/>
+        <sfPLE id="-1" n="31" s="" t="Shanghai"/>
+        <sfPLE id="-1" n="14" s="" t="Shanxi"/>
+        <sfPLE id="-1" n="51" s="" t="Sichuan"/>
+        <sfPLE id="-1" n="SI" s="" t="Siena"/>
+        <sfPLE id="-1" n="SK" s="" t="Sikkim"/>
+        <sfPLE id="-1" n="SI" s="" t="Sinaloa"/>
+        <sfPLE id="-1" n="SO" s="" t="Sligo"/>
+        <sfPLE id="-1" n="SO" s="" t="Sondrio"/>
+        <sfPLE id="-1" n="SO" s="" t="Sonora"/>
+        <sfPLE id="-1" n="SA" s="" t="South Australia"/>
+        <sfPLE id="-1" n="SC" s="" t="South Carolina"/>
+        <sfPLE id="-1" n="SD" s="" t="South Dakota"/>
+        <sfPLE id="-1" n="SR" s="" t="Syracuse"/>
+        <sfPLE id="-1" n="TB" s="" t="Tabasco"/>
+        <sfPLE id="-1" n="71" s="" t="Taiwan"/>
+        <sfPLE id="-1" n="TM" s="" t="Tamaulipas"/>
+        <sfPLE id="-1" n="TN" s="" t="Tamil Nadu"/>
+        <sfPLE id="-1" n="TA" s="" t="Taranto"/>
+        <sfPLE id="-1" n="TAS" s="" t="Tasmania"/>
+        <sfPLE id="-1" n="TN" s="" t="Tennessee"/>
+        <sfPLE id="-1" n="TE" s="" t="Teramo"/>
+        <sfPLE id="-1" n="TR" s="" t="Terni"/>
+        <sfPLE id="-1" n="TX" s="" t="Texas"/>
+        <sfPLE id="-1" n="12" s="" t="Tianjin"/>
+        <sfPLE id="-1" n="TA" s="" t="Tipperary"/>
+        <sfPLE id="-1" n="TL" s="" t="Tlaxcala"/>
+        <sfPLE id="-1" n="TO" s="" t="Tocantins"/>
+        <sfPLE id="-1" n="TP" s="" t="Trapani"/>
+        <sfPLE id="-1" n="TN" s="" t="Trento"/>
+        <sfPLE id="-1" n="TV" s="" t="Treviso"/>
+        <sfPLE id="-1" n="TS" s="" t="Trieste"/>
+        <sfPLE id="-1" n="TR" s="" t="Tripura"/>
+        <sfPLE id="-1" n="TO" s="" t="Turin"/>
+        <sfPLE id="-1" n="UD" s="" t="Udine"/>
+        <sfPLE id="-1" n="UT" s="" t="Utah"/>
+        <sfPLE id="-1" n="UT" s="" t="Uttarakhand"/>
+        <sfPLE id="-1" n="UP" s="" t="Uttar Pradesh"/>
+        <sfPLE id="-1" n="VA" s="" t="Varese"/>
+        <sfPLE id="-1" n="VE" s="" t="Venice"/>
+        <sfPLE id="-1" n="VE" s="" t="Veracruz"/>
+        <sfPLE id="-1" n="VB" s="" t="Verbano-Cusio-Ossola"/>
+        <sfPLE id="-1" n="VC" s="" t="Vercelli"/>
+        <sfPLE id="-1" n="VT" s="" t="Vermont"/>
+        <sfPLE id="-1" n="VR" s="" t="Verona"/>
+        <sfPLE id="-1" n="VV" s="" t="Vibo Valentia"/>
+        <sfPLE id="-1" n="VI" s="" t="Vicenza"/>
+        <sfPLE id="-1" n="VIC" s="" t="Victoria"/>
+        <sfPLE id="-1" n="VA" s="" t="Virginia"/>
+        <sfPLE id="-1" n="VT" s="" t="Viterbo"/>
+        <sfPLE id="-1" n="WA" s="" t="Washington"/>
+        <sfPLE id="-1" n="WD" s="" t="Waterford"/>
+        <sfPLE id="-1" n="WB" s="" t="West Bengal"/>
+        <sfPLE id="-1" n="WA" s="" t="Western Australia"/>
+        <sfPLE id="-1" n="WH" s="" t="Westmeath"/>
+        <sfPLE id="-1" n="WV" s="" t="West Virginia"/>
+        <sfPLE id="-1" n="WX" s="" t="Wexford"/>
+        <sfPLE id="-1" n="WW" s="" t="Wicklow"/>
+        <sfPLE id="-1" n="WI" s="" t="Wisconsin"/>
+        <sfPLE id="-1" n="WY" s="" t="Wyoming"/>
+        <sfPLE id="-1" n="65" s="" t="Xinjiang"/>
+        <sfPLE id="-1" n="54" s="" t="Xizang"/>
+        <sfPLE id="-1" n="YU" s="" t="Yucatán"/>
+        <sfPLE id="-1" n="YT" s="" t="Yukon Territories"/>
+        <sfPLE id="-1" n="53" s="" t="Yunnan"/>
+        <sfPLE id="-1" n="ZA" s="" t="Zacatecas"/>
+        <sfPLE id="-1" n="33" s="" t="Zhejiang"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="Y" name="AdditionalCountryCode" restrictedPicklist="true" updateable="Y">
+      <picklistEntries>
+        <sfPLE id="-1" n="AF" s="" t="Afghanistan"/>
+        <sfPLE id="-1" n="AX" s="" t="Aland Islands"/>
+        <sfPLE id="-1" n="AL" s="" t="Albania"/>
+        <sfPLE id="-1" n="DZ" s="" t="Algeria"/>
+        <sfPLE id="-1" n="AD" s="" t="Andorra"/>
+        <sfPLE id="-1" n="AO" s="" t="Angola"/>
+        <sfPLE id="-1" n="AI" s="" t="Anguilla"/>
+        <sfPLE id="-1" n="AQ" s="" t="Antarctica"/>
+        <sfPLE id="-1" n="AG" s="" t="Antigua and Barbuda"/>
+        <sfPLE id="-1" n="AR" s="" t="Argentina"/>
+        <sfPLE id="-1" n="AM" s="" t="Armenia"/>
+        <sfPLE id="-1" n="AW" s="" t="Aruba"/>
+        <sfPLE id="-1" n="AU" s="" t="Australia"/>
+        <sfPLE id="-1" n="AT" s="" t="Austria"/>
+        <sfPLE id="-1" n="AZ" s="" t="Azerbaijan"/>
+        <sfPLE id="-1" n="BS" s="" t="Bahamas"/>
+        <sfPLE id="-1" n="BH" s="" t="Bahrain"/>
+        <sfPLE id="-1" n="BD" s="" t="Bangladesh"/>
+        <sfPLE id="-1" n="BB" s="" t="Barbados"/>
+        <sfPLE id="-1" n="BY" s="" t="Belarus"/>
+        <sfPLE id="-1" n="BE" s="" t="Belgium"/>
+        <sfPLE id="-1" n="BZ" s="" t="Belize"/>
+        <sfPLE id="-1" n="BJ" s="" t="Benin"/>
+        <sfPLE id="-1" n="BM" s="" t="Bermuda"/>
+        <sfPLE id="-1" n="BT" s="" t="Bhutan"/>
+        <sfPLE id="-1" n="BO" s="" t="Bolivia, Plurinational State of"/>
+        <sfPLE id="-1" n="BQ" s="" t="Bonaire, Sint Eustatius and Saba"/>
+        <sfPLE id="-1" n="BA" s="" t="Bosnia and Herzegovina"/>
+        <sfPLE id="-1" n="BW" s="" t="Botswana"/>
+        <sfPLE id="-1" n="BV" s="" t="Bouvet Island"/>
+        <sfPLE id="-1" n="BR" s="" t="Brazil"/>
+        <sfPLE id="-1" n="IO" s="" t="British Indian Ocean Territory"/>
+        <sfPLE id="-1" n="BN" s="" t="Brunei Darussalam"/>
+        <sfPLE id="-1" n="BG" s="" t="Bulgaria"/>
+        <sfPLE id="-1" n="BF" s="" t="Burkina Faso"/>
+        <sfPLE id="-1" n="BI" s="" t="Burundi"/>
+        <sfPLE id="-1" n="KH" s="" t="Cambodia"/>
+        <sfPLE id="-1" n="CM" s="" t="Cameroon"/>
+        <sfPLE id="-1" n="CA" s="" t="Canada"/>
+        <sfPLE id="-1" n="CV" s="" t="Cape Verde"/>
+        <sfPLE id="-1" n="KY" s="" t="Cayman Islands"/>
+        <sfPLE id="-1" n="CF" s="" t="Central African Republic"/>
+        <sfPLE id="-1" n="TD" s="" t="Chad"/>
+        <sfPLE id="-1" n="CL" s="" t="Chile"/>
+        <sfPLE id="-1" n="CN" s="" t="China"/>
+        <sfPLE id="-1" n="CX" s="" t="Christmas Island"/>
+        <sfPLE id="-1" n="CC" s="" t="Cocos (Keeling) Islands"/>
+        <sfPLE id="-1" n="CO" s="" t="Colombia"/>
+        <sfPLE id="-1" n="KM" s="" t="Comoros"/>
+        <sfPLE id="-1" n="CG" s="" t="Congo"/>
+        <sfPLE id="-1" n="CD" s="" t="Congo, the Democratic Republic of the"/>
+        <sfPLE id="-1" n="CK" s="" t="Cook Islands"/>
+        <sfPLE id="-1" n="CR" s="" t="Costa Rica"/>
+        <sfPLE id="-1" n="CI" s="" t="Cote d'Ivoire"/>
+        <sfPLE id="-1" n="HR" s="" t="Croatia"/>
+        <sfPLE id="-1" n="CU" s="" t="Cuba"/>
+        <sfPLE id="-1" n="CW" s="" t="Curaçao"/>
+        <sfPLE id="-1" n="CY" s="" t="Cyprus"/>
+        <sfPLE id="-1" n="CZ" s="" t="Czech Republic"/>
+        <sfPLE id="-1" n="DK" s="" t="Denmark"/>
+        <sfPLE id="-1" n="DJ" s="" t="Djibouti"/>
+        <sfPLE id="-1" n="DM" s="" t="Dominica"/>
+        <sfPLE id="-1" n="DO" s="" t="Dominican Republic"/>
+        <sfPLE id="-1" n="EC" s="" t="Ecuador"/>
+        <sfPLE id="-1" n="EG" s="" t="Egypt"/>
+        <sfPLE id="-1" n="SV" s="" t="El Salvador"/>
+        <sfPLE id="-1" n="GQ" s="" t="Equatorial Guinea"/>
+        <sfPLE id="-1" n="ER" s="" t="Eritrea"/>
+        <sfPLE id="-1" n="EE" s="" t="Estonia"/>
+        <sfPLE id="-1" n="ET" s="" t="Ethiopia"/>
+        <sfPLE id="-1" n="FK" s="" t="Falkland Islands (Malvinas)"/>
+        <sfPLE id="-1" n="FO" s="" t="Faroe Islands"/>
+        <sfPLE id="-1" n="FJ" s="" t="Fiji"/>
+        <sfPLE id="-1" n="FI" s="" t="Finland"/>
+        <sfPLE id="-1" n="FR" s="" t="France"/>
+        <sfPLE id="-1" n="GF" s="" t="French Guiana"/>
+        <sfPLE id="-1" n="PF" s="" t="French Polynesia"/>
+        <sfPLE id="-1" n="TF" s="" t="French Southern Territories"/>
+        <sfPLE id="-1" n="GA" s="" t="Gabon"/>
+        <sfPLE id="-1" n="GM" s="" t="Gambia"/>
+        <sfPLE id="-1" n="GE" s="" t="Georgia"/>
+        <sfPLE id="-1" n="DE" s="" t="Germany"/>
+        <sfPLE id="-1" n="GH" s="" t="Ghana"/>
+        <sfPLE id="-1" n="GI" s="" t="Gibraltar"/>
+        <sfPLE id="-1" n="GR" s="" t="Greece"/>
+        <sfPLE id="-1" n="GL" s="" t="Greenland"/>
+        <sfPLE id="-1" n="GD" s="" t="Grenada"/>
+        <sfPLE id="-1" n="GP" s="" t="Guadeloupe"/>
+        <sfPLE id="-1" n="GT" s="" t="Guatemala"/>
+        <sfPLE id="-1" n="GG" s="" t="Guernsey"/>
+        <sfPLE id="-1" n="GN" s="" t="Guinea"/>
+        <sfPLE id="-1" n="GW" s="" t="Guinea-Bissau"/>
+        <sfPLE id="-1" n="GY" s="" t="Guyana"/>
+        <sfPLE id="-1" n="HT" s="" t="Haiti"/>
+        <sfPLE id="-1" n="HM" s="" t="Heard Island and McDonald Islands"/>
+        <sfPLE id="-1" n="VA" s="" t="Holy See (Vatican City State)"/>
+        <sfPLE id="-1" n="HN" s="" t="Honduras"/>
+        <sfPLE id="-1" n="HU" s="" t="Hungary"/>
+        <sfPLE id="-1" n="IS" s="" t="Iceland"/>
+        <sfPLE defaultValue="true" id="-1" n="IN" s="" t="India"/>
+        <sfPLE id="-1" n="ID" s="" t="Indonesia"/>
+        <sfPLE id="-1" n="IR" s="" t="Iran, Islamic Republic of"/>
+        <sfPLE id="-1" n="IQ" s="" t="Iraq"/>
+        <sfPLE id="-1" n="IE" s="" t="Ireland"/>
+        <sfPLE id="-1" n="IM" s="" t="Isle of Man"/>
+        <sfPLE id="-1" n="IL" s="" t="Israel"/>
+        <sfPLE id="-1" n="IT" s="" t="Italy"/>
+        <sfPLE id="-1" n="JM" s="" t="Jamaica"/>
+        <sfPLE id="-1" n="JP" s="" t="Japan"/>
+        <sfPLE id="-1" n="JE" s="" t="Jersey"/>
+        <sfPLE id="-1" n="JO" s="" t="Jordan"/>
+        <sfPLE id="-1" n="KZ" s="" t="Kazakhstan"/>
+        <sfPLE id="-1" n="KE" s="" t="Kenya"/>
+        <sfPLE id="-1" n="KI" s="" t="Kiribati"/>
+        <sfPLE id="-1" n="KP" s="" t="Korea, Democratic People's Republic of"/>
+        <sfPLE id="-1" n="KR" s="" t="Korea, Republic of"/>
+        <sfPLE id="-1" n="KW" s="" t="Kuwait"/>
+        <sfPLE id="-1" n="KG" s="" t="Kyrgyzstan"/>
+        <sfPLE id="-1" n="LA" s="" t="Lao People's Democratic Republic"/>
+        <sfPLE id="-1" n="LV" s="" t="Latvia"/>
+        <sfPLE id="-1" n="LB" s="" t="Lebanon"/>
+        <sfPLE id="-1" n="LS" s="" t="Lesotho"/>
+        <sfPLE id="-1" n="LR" s="" t="Liberia"/>
+        <sfPLE id="-1" n="LY" s="" t="Libya"/>
+        <sfPLE id="-1" n="LI" s="" t="Liechtenstein"/>
+        <sfPLE id="-1" n="LT" s="" t="Lithuania"/>
+        <sfPLE id="-1" n="LU" s="" t="Luxembourg"/>
+        <sfPLE id="-1" n="MO" s="" t="Macao"/>
+        <sfPLE id="-1" n="MK" s="" t="Macedonia, the former Yugoslav Republic of"/>
+        <sfPLE id="-1" n="MG" s="" t="Madagascar"/>
+        <sfPLE id="-1" n="MW" s="" t="Malawi"/>
+        <sfPLE id="-1" n="MY" s="" t="Malaysia"/>
+        <sfPLE id="-1" n="MV" s="" t="Maldives"/>
+        <sfPLE id="-1" n="ML" s="" t="Mali"/>
+        <sfPLE id="-1" n="MT" s="" t="Malta"/>
+        <sfPLE id="-1" n="MQ" s="" t="Martinique"/>
+        <sfPLE id="-1" n="MR" s="" t="Mauritania"/>
+        <sfPLE id="-1" n="MU" s="" t="Mauritius"/>
+        <sfPLE id="-1" n="YT" s="" t="Mayotte"/>
+        <sfPLE id="-1" n="MX" s="" t="Mexico"/>
+        <sfPLE id="-1" n="MD" s="" t="Moldova, Republic of"/>
+        <sfPLE id="-1" n="MC" s="" t="Monaco"/>
+        <sfPLE id="-1" n="MN" s="" t="Mongolia"/>
+        <sfPLE id="-1" n="ME" s="" t="Montenegro"/>
+        <sfPLE id="-1" n="MS" s="" t="Montserrat"/>
+        <sfPLE id="-1" n="MA" s="" t="Morocco"/>
+        <sfPLE id="-1" n="MZ" s="" t="Mozambique"/>
+        <sfPLE id="-1" n="MM" s="" t="Myanmar"/>
+        <sfPLE id="-1" n="NA" s="" t="Namibia"/>
+        <sfPLE id="-1" n="NR" s="" t="Nauru"/>
+        <sfPLE id="-1" n="NP" s="" t="Nepal"/>
+        <sfPLE id="-1" n="NL" s="" t="Netherlands"/>
+        <sfPLE id="-1" n="NC" s="" t="New Caledonia"/>
+        <sfPLE id="-1" n="NZ" s="" t="New Zealand"/>
+        <sfPLE id="-1" n="NI" s="" t="Nicaragua"/>
+        <sfPLE id="-1" n="NE" s="" t="Niger"/>
+        <sfPLE id="-1" n="NG" s="" t="Nigeria"/>
+        <sfPLE id="-1" n="NU" s="" t="Niue"/>
+        <sfPLE id="-1" n="NF" s="" t="Norfolk Island"/>
+        <sfPLE id="-1" n="NO" s="" t="Norway"/>
+        <sfPLE id="-1" n="OM" s="" t="Oman"/>
+        <sfPLE id="-1" n="PK" s="" t="Pakistan"/>
+        <sfPLE id="-1" n="PS" s="" t="Palestine"/>
+        <sfPLE id="-1" n="PA" s="" t="Panama"/>
+        <sfPLE id="-1" n="PG" s="" t="Papua New Guinea"/>
+        <sfPLE id="-1" n="PY" s="" t="Paraguay"/>
+        <sfPLE id="-1" n="PE" s="" t="Peru"/>
+        <sfPLE id="-1" n="PH" s="" t="Philippines"/>
+        <sfPLE id="-1" n="PN" s="" t="Pitcairn"/>
+        <sfPLE id="-1" n="PL" s="" t="Poland"/>
+        <sfPLE id="-1" n="PT" s="" t="Portugal"/>
+        <sfPLE id="-1" n="QA" s="" t="Qatar"/>
+        <sfPLE id="-1" n="RE" s="" t="Reunion"/>
+        <sfPLE id="-1" n="RO" s="" t="Romania"/>
+        <sfPLE id="-1" n="RU" s="" t="Russian Federation"/>
+        <sfPLE id="-1" n="RW" s="" t="Rwanda"/>
+        <sfPLE id="-1" n="BL" s="" t="Saint Barthélemy"/>
+        <sfPLE id="-1" n="SH" s="" t="Saint Helena, Ascension and Tristan da Cunha"/>
+        <sfPLE id="-1" n="KN" s="" t="Saint Kitts and Nevis"/>
+        <sfPLE id="-1" n="LC" s="" t="Saint Lucia"/>
+        <sfPLE id="-1" n="MF" s="" t="Saint Martin (French part)"/>
+        <sfPLE id="-1" n="PM" s="" t="Saint Pierre and Miquelon"/>
+        <sfPLE id="-1" n="VC" s="" t="Saint Vincent and the Grenadines"/>
+        <sfPLE id="-1" n="WS" s="" t="Samoa"/>
+        <sfPLE id="-1" n="SM" s="" t="San Marino"/>
+        <sfPLE id="-1" n="ST" s="" t="Sao Tome and Principe"/>
+        <sfPLE id="-1" n="SA" s="" t="Saudi Arabia"/>
+        <sfPLE id="-1" n="SN" s="" t="Senegal"/>
+        <sfPLE id="-1" n="RS" s="" t="Serbia"/>
+        <sfPLE id="-1" n="SC" s="" t="Seychelles"/>
+        <sfPLE id="-1" n="SL" s="" t="Sierra Leone"/>
+        <sfPLE id="-1" n="SG" s="" t="Singapore"/>
+        <sfPLE id="-1" n="SX" s="" t="Sint Maarten (Dutch part)"/>
+        <sfPLE id="-1" n="SK" s="" t="Slovakia"/>
+        <sfPLE id="-1" n="SI" s="" t="Slovenia"/>
+        <sfPLE id="-1" n="SB" s="" t="Solomon Islands"/>
+        <sfPLE id="-1" n="SO" s="" t="Somalia"/>
+        <sfPLE id="-1" n="ZA" s="" t="South Africa"/>
+        <sfPLE id="-1" n="GS" s="" t="South Georgia and the South Sandwich Islands"/>
+        <sfPLE id="-1" n="SS" s="" t="South Sudan"/>
+        <sfPLE id="-1" n="ES" s="" t="Spain"/>
+        <sfPLE id="-1" n="LK" s="" t="Sri Lanka"/>
+        <sfPLE id="-1" n="SD" s="" t="Sudan"/>
+        <sfPLE id="-1" n="SR" s="" t="Suriname"/>
+        <sfPLE id="-1" n="SJ" s="" t="Svalbard and Jan Mayen"/>
+        <sfPLE id="-1" n="SZ" s="" t="Swaziland"/>
+        <sfPLE id="-1" n="SE" s="" t="Sweden"/>
+        <sfPLE id="-1" n="CH" s="" t="Switzerland"/>
+        <sfPLE id="-1" n="SY" s="" t="Syrian Arab Republic"/>
+        <sfPLE id="-1" n="TW" s="" t="Taiwan"/>
+        <sfPLE id="-1" n="TJ" s="" t="Tajikistan"/>
+        <sfPLE id="-1" n="TZ" s="" t="Tanzania, United Republic of"/>
+        <sfPLE id="-1" n="TH" s="" t="Thailand"/>
+        <sfPLE id="-1" n="TL" s="" t="Timor-Leste"/>
+        <sfPLE id="-1" n="TG" s="" t="Togo"/>
+        <sfPLE id="-1" n="TK" s="" t="Tokelau"/>
+        <sfPLE id="-1" n="TO" s="" t="Tonga"/>
+        <sfPLE id="-1" n="TT" s="" t="Trinidad and Tobago"/>
+        <sfPLE id="-1" n="TN" s="" t="Tunisia"/>
+        <sfPLE id="-1" n="TR" s="" t="Turkey"/>
+        <sfPLE id="-1" n="TM" s="" t="Turkmenistan"/>
+        <sfPLE id="-1" n="TC" s="" t="Turks and Caicos Islands"/>
+        <sfPLE id="-1" n="TV" s="" t="Tuvalu"/>
+        <sfPLE id="-1" n="UG" s="" t="Uganda"/>
+        <sfPLE id="-1" n="UA" s="" t="Ukraine"/>
+        <sfPLE id="-1" n="AE" s="" t="United Arab Emirates"/>
+        <sfPLE id="-1" n="GB" s="" t="United Kingdom"/>
+        <sfPLE id="-1" n="US" s="" t="United States"/>
+        <sfPLE id="-1" n="UY" s="" t="Uruguay"/>
+        <sfPLE id="-1" n="UZ" s="" t="Uzbekistan"/>
+        <sfPLE id="-1" n="VU" s="" t="Vanuatu"/>
+        <sfPLE id="-1" n="VE" s="" t="Venezuela, Bolivarian Republic of"/>
+        <sfPLE id="-1" n="VN" s="" t="Viet Nam"/>
+        <sfPLE id="-1" n="VG" s="" t="Virgin Islands, British"/>
+        <sfPLE id="-1" n="WF" s="" t="Wallis and Futuna"/>
+        <sfPLE id="-1" n="EH" s="" t="Western Sahara"/>
+        <sfPLE id="-1" n="YE" s="" t="Yemen"/>
+        <sfPLE id="-1" n="ZM" s="" t="Zambia"/>
+        <sfPLE id="-1" n="ZW" s="" t="Zimbabwe"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="Y" name="AdditionalLatitude" updateable="Y"/>
+    <sfFieldInfo createable="Y" name="AdditionalLongitude" updateable="Y"/>
+    <sfFieldInfo createable="Y" name="AdditionalGeocodeAccuracy" restrictedPicklist="true" updateable="Y">
+      <picklistEntries>
+        <sfPLE id="-1" n="Address" s=""/>
+        <sfPLE id="-1" n="NearAddress" s=""/>
+        <sfPLE id="-1" n="Block" s=""/>
+        <sfPLE id="-1" n="Street" s=""/>
+        <sfPLE id="-1" n="ExtendedZip" s=""/>
+        <sfPLE id="-1" n="Zip" s=""/>
+        <sfPLE id="-1" n="Neighborhood" s=""/>
+        <sfPLE id="-1" n="City" s=""/>
+        <sfPLE id="-1" n="County" s=""/>
+        <sfPLE id="-1" n="State" s=""/>
+        <sfPLE id="-1" n="Unknown" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="N" name="AdditionalAddress" updateable="N"/>
+    <sfFieldInfo createable="N" name="AccountId" updateable="N"/>
+    <sfFieldInfo createable="N" name="Discount" updateable="N"/>
+    <sfFieldInfo createable="N" name="GrandTotal" updateable="N"/>
+  </fields>
+  <standardActions>
+    <sfActionLink modes="Quotes" n="newQuote" newAction="true" t="New Quote"/>
+  </standardActions>
+</sfObjectInfo>

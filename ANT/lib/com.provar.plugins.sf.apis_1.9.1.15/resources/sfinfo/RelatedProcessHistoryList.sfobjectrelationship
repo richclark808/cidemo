@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectRelationship childName="ProcessInstanceHistory" field="TargetObjectId" n="RelatedProcessHistoryList" relationshipName="RelatedProcessHistoryList" s="2-" t="RelatedProcessHistoryList"/>

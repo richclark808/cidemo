@@ -1,0 +1,5 @@
+<antlib>
+    <taskdef name="compile" classname="com.provar.testrunner.ant.CompileTask"/>    
+    <taskdef name="run" classname="com.provar.testrunner.ant.RunnerTask"/>    
+    <taskdef name="testCycleReport" classname="com.provar.testrunner.ant.TestCycleReportTask"/>    
+</antlib>

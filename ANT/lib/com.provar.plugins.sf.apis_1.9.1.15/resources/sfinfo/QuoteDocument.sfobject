@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo name="QuoteDocument" label="Quote PDF">
+  	<standardActions>
+  		<sfActionLink n="email" t="Email" modes="QuoteDocuments" s="1" requiresRow="true"/>
+  		<sfActionLink n="delete" t="del" modes="QuoteDocuments" s="2"  requiresRow="true"/>
+    	<sfActionLink n="view" t="View" modes="QuoteDocuments" s="3"  requiresRow="true"/>
+  	</standardActions>
+</sfObjectInfo>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" label="OpportunityTeamMember" name="OpportunityTeamMember">
+  <fields>
+    <sfFieldInfo name="OpportunityId" updateable="N"/>
+    <sfFieldInfo name="UserId" updateable="N"/>
+    <sfFieldInfo createable="N" name="Name" updateable="N"/>
+    <sfFieldInfo createable="N" name="Title" updateable="N"/>
+    <sfFieldInfo name="OpportunityAccessLevel" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE id="-1" n="None" s="" t="Private"/>
+        <sfPLE id="-1" n="Read" s="" t="Read Only"/>
+        <sfPLE id="-1" n="Edit" s="" t="Read/Write"/>
+        <sfPLE id="-1" n="All" s="" t="Owner"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="N" name="CreatedDate"/>
+    <sfFieldInfo createable="N" name="CreatedById"/>
+    <sfFieldInfo createable="N" name="LastModifiedDate"/>
+    <sfFieldInfo createable="N" name="LastModifiedById"/>
+  </fields>
+  <standardActions>
+    <sfActionLink alias="add" buttonName="add" modes="OpportunityTeamMembers" n="AddOppTeam" t="Add"/>
+    <sfActionLink alias="addDefault" buttonName="addDefault" modes="OpportunityTeamMembers" n="AddDefaultTeam" t="Add Default Team"/>
+    <sfActionLink modes="OpportunityTeamMembers" n="OppTeamMemberMultiEdit" t="Add Opportunity Team Members"/>
+    <sfActionLink modes="OpportunityTeamMembers" n="AddOppTeamMember" t="Add Team Member"/>
+    <sfActionLink alias="delTeam" buttonName="delTeam" modes="OpportunityTeamMembers" n="DeleteTeam" t="Delete All"/>
+    <sfActionLink alias="showAccessButton" buttonName="showAccessButton" modes="OpportunityTeamMembers" n="DisplayAccess" t="Display Access"/>
+    <sfActionLink modes="OpportunityTeamMembers" n="Delete" requiresRow="true" s="3" target="sf:ui:target?object=OpportunityTeamMember&amp;action=delete"/>
+  </standardActions>
+</sfObjectInfo>

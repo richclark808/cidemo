@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<translations>
+  <translation key="Contact.Description" type="SfFieldLabel" value="Descripción del contacto"/>
+  <translation key="Contact.Id" type="SfFieldLabel" value="Id. de contacto"/>
+  <translation key="Contact.Name" type="SfFieldLabel" value="Nombre del contacto"/>
+  <translation key="Contact.FullName" type="SfFieldLabel" value="Nombre completo"/>
+  <translation key="Contact.Owner_Alias" type="SfFieldLabel" value="Alias del propietario del contacto"/>
+  <translation key="*.*.Contact Information" type="SfLayoutSectionLabel" value="Información del contacto"/>
+</translations>

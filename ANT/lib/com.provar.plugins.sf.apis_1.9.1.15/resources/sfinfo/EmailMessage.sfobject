@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="EmailMessage">
+  <compactLayoutFields>FromAddress,ToAddress,TextBody</compactLayoutFields>
+  <fields>
+    <sfFieldInfo name="ParentId" updateable="N"/>
+    <sfFieldInfo name="ActivityId" updateable="N"/>
+    <sfFieldInfo createable="N" name="CreatedById"/>
+    <sfFieldInfo createable="N" name="CreatedDate"/>
+    <sfFieldInfo createable="N" name="LastModifiedDate"/>
+    <sfFieldInfo createable="N" name="LastModifiedById"/>
+    <sfFieldInfo name="ValidatedFromAddress" restrictedPicklist="true" updateable="N">
+      <picklistEntries>
+        <sfPLE id="-1" n="geraint.waters@makepositive.com" s="" t="Geraint Waters &lt;geraint.waters@makepositive.com&gt;"/>
+        <sfPLE id="-1" n="provartestpoc@gmail.com" s="" t="Geraint Waters &lt;provartestpoc@gmail.com&gt;"/>
+        <sfPLE id="-1" n="piyush.srivastav@makepositive.com" s="" t="Piyush Srivastav &lt;piyush.srivastav@makepositive.com&gt;"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo name="Incoming" updateable="N"/>
+    <sfFieldInfo name="Status" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE id="-1" n="0" s="" t="New"/>
+        <sfPLE id="-1" n="1" s="" t="Read"/>
+        <sfPLE id="-1" n="2" s="" t="Replied"/>
+        <sfPLE id="-1" n="3" s="" t="Sent"/>
+        <sfPLE id="-1" n="4" s="" t="Forwarded"/>
+        <sfPLE id="-1" n="5" s="" t="Draft"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo name="ReplyToEmailMessageId" updateable="N"/>
+    <sfFieldInfo createable="N" name="IsExternallyVisible" updateable="N"/>
+    <sfFieldInfo createable="Y" name="IsClientManaged"/>
+    <sfFieldInfo name="RelatedToId" updateable="N"/>
+  </fields>
+  <standardActions>
+    <sfActionLink modes="EmailMessages" n="newEmail" newAction="true" t="Send an Email"/>
+    <sfActionLink locator="td[contains(@class, 'actionColumn')]/a[contains(text(), 'Reply')]" modes="EmailMessages" n="Reply" requiresRow="true" s="0"/>
+    <sfActionLink locator="td[contains(@class, 'actionColumn')]/a[contains(text(), 'To All')]" modes="EmailMessages" n="ReplyAll" requiresRow="true" s="1" t="To All"/>
+    <sfActionLink locator="td[contains(@class, 'actionColumn')]/a[contains(@href, 'deleteredirect.jsp')]" modes="EmailMessages" n="Delete" requiresRow="true" s="2" t="Del"/>
+  </standardActions>
+</sfObjectInfo>

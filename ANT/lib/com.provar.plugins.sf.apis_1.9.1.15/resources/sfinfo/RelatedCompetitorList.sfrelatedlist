@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfRelatedList fieldName="OpportunityId" label="Competitors" n="OpportunityCompetitors" relationshipName="OpportunityCompetitors" s="3-" t="Competitors (OpportunityId)">
+  <children>
+    <sfRelatedListColumn n="CompetitorName" s="" seq="0" t="Competitor Name"/>
+    <sfRelatedListColumn n="Strengths" s="" seq="1"/>
+    <sfRelatedListColumn n="Weaknesses" s="" seq="2"/>
+  </children>
+</sfRelatedList>

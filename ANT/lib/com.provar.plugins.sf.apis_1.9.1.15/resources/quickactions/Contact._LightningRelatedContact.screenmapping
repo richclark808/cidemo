@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfQuickAction label="Update Contact" n="Contact._LightningRelatedContact" s="" standardLabel="Update" t="Update Contact" targetSObject="Contact" type="Update">
+  <quickActionLayout n="Contact._LightningRelatedContact" profileLayout="false" s="" t="Quick Action Layout">
+    <layoutTypes>
+      <sfLayoutType layoutType="QuickAction" n="QuickAction" t="Web Layout Type">
+        <children>
+          <sfLayoutSection customLabel="false" detailHeading="false" editHeading="false" s="" seqNum="0" t="Web Layout Section - null">
+            <children>
+              <sfLayoutRow n="LayoutRow" s="" seqNum="0">
+                <children>
+                  <sfLI editableForNew="false" editableForUpdate="false" n="Contact Name" s="" seqNum="0" t="Web Layout Item">
+                    <children>
+                      <sfLIC n="Name" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+                    </children>
+                  </sfLI>
+                </children>
+              </sfLayoutRow>
+              <sfLayoutRow n="LayoutRow" s="" seqNum="1">
+                <children>
+                  <sfLI editableForNew="false" editableForUpdate="false" n="Title" s="" seqNum="0" t="Web Layout Item">
+                    <children>
+                      <sfLIC n="Title" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+                    </children>
+                  </sfLI>
+				  <sfLI editableForNew="false" editableForUpdate="false" n="AccountId" s="" seqNum="1" t="Web Layout Item">
+                    <children>
+                      <sfLIC n="AccountId" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+                    </children>
+                  </sfLI>               
+                </children>
+              </sfLayoutRow>
+              <sfLayoutRow n="LayoutRow" s="" seqNum="2">
+                <children>
+                  <sfLI editableForNew="false" editableForUpdate="false" n="Email" s="" seqNum="0" t="Web Layout Item">
+                    <children>
+                      <sfLIC n="Email" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+                    </children>
+                  </sfLI>
+				  <sfLI editableForNew="false" editableForUpdate="false" n="Phone" s="" seqNum="1" t="Web Layout Item">
+                    <children>
+                      <sfLIC n="Phone" s="" seqNum="0" t="Web Layout Field" type="Field"/>
+                    </children>
+                  </sfLI>  
+                </children>
+              </sfLayoutRow>
+            </children>
+          </sfLayoutSection>
+        </children>
+      </sfLayoutType>
+    </layoutTypes>
+  </quickActionLayout>
+</sfQuickAction>

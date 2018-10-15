@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="ForecastingQuota">
+  <fields>
+    <sfFieldInfo createable="N" name="PeriodId" updateable="N"/>
+    <sfFieldInfo name="ProductFamily">
+      <picklistEntries>
+        <sfPLE id="-1" n="None" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo name="QuotaOwnerId" required="N"/>
+    <sfFieldInfo createable="N" name="CreatedDate"/>
+    <sfFieldInfo createable="N" name="CreatedById"/>
+    <sfFieldInfo createable="N" name="LastModifiedDate"/>
+    <sfFieldInfo createable="N" name="LastModifiedById"/>
+    <sfFieldInfo name="ForecastingTypeId" updateable="N"/>
+  </fields>
+</sfObjectInfo>

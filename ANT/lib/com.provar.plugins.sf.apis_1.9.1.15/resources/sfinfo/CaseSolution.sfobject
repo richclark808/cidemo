@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo name="CaseSolution" label="Case Solution">
+  	<standardActions>
+  		<sfActionLink n="edit"  t="Edit" modes="RelatedCaseList"  requiresRow="true" s="1"/>
+    	<sfActionLink n="close"  t="cls" modes="RelatedCaseList"  requiresRow="true" s="2"/>
+    	<sfActionLink n="delete" t="Del" modes="RelatedSolutionList" requiresRow="true" s="1"/>
+  	</standardActions>
+</sfObjectInfo>

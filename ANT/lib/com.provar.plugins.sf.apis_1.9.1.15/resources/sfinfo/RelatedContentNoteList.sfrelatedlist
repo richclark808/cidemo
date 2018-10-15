@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfRelatedList fieldName="LinkedEntityId" label="Notes" n="AttachedContentNotes" alias="RelatedContentNoteList" relationshipName="RelatedContentNoteList" s="3-" t="Notes (ParentId)">
+  <children>
+    <sfRelatedListColumn n="Title" s="" seq="0" t="Title"/>
+    <sfRelatedListColumn n="LastModifiedDate" s="" seq="1" t="Last Modified"/>
+    <sfRelatedListColumn n="CreatedById" s="" seq="2" t="Created By"/>
+    <sfRelatedListColumn n="TextPreview" s="" seq="3" t="Text Preview"/>
+  </children>
+  <lightningColumns>
+    <sfRelatedListColumn n="Title" s="" seq="0" t="Title"/>
+    <sfRelatedListColumn n="TextPreview" s="" seq="1" t="Text Preview"/>
+    <sfRelatedListColumn n="CreatedById" s="" seq="2" t="Created By"/>
+    <sfRelatedListColumn n="LastModifiedDate" s="" seq="3" t="Last Modified"/>
+    <sfRelatedListColumn n="LastModifiedBy" s="" seq="4" t="Last Modified By"/>
+  </lightningColumns>
+</sfRelatedList>

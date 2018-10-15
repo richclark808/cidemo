@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="Event">
+  <compactLayoutFields>Subject,Location,StartDateTime,EndDateTime</compactLayoutFields>
+  <fields>
+    <sfFieldInfo defaultPermissions="RW" name="Subject">
+      <picklistEntries>
+        <sfPLE id="-1" n="Call" s=""/>
+        <sfPLE id="-1" n="Email" s=""/>
+        <sfPLE id="-1" n="Meeting" s=""/>
+        <sfPLE id="-1" n="Send Letter/Quote" s=""/>
+        <sfPLE id="-1" n="Other" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo defaultPermissions="RW" name="ActivityDateTime"/>
+    <sfFieldInfo defaultPermissions="RW" name="ActivityDate"/>
+    <sfFieldInfo defaultPermissions="RW" name="DurationInMinutes"/>
+    <sfFieldInfo defaultPermissions="RW" name="StartDateTime"/>
+    <sfFieldInfo defaultPermissions="RW" name="EndDateTime"/>
+    <sfFieldInfo createable="N" defaultPermissions="RW" name="AccountId" updateable="N"/>
+    <sfFieldInfo defaultPermissions="RW" name="ShowAs" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE defaultValue="true" id="-1" n="Busy" s=""/>
+        <sfPLE id="-1" n="OutOfOffice" s="" t="Out of Office"/>
+        <sfPLE id="-1" n="Free" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="N" defaultPermissions="RW" name="GroupEventType" restrictedPicklist="true" updateable="N">
+      <picklistEntries>
+        <sfPLE defaultValue="true" id="-1" n="0" s="" t="Non-group Event"/>
+        <sfPLE id="-1" n="1" s="" t="Group Event"/>
+        <sfPLE id="-1" n="2" s="" t="Proposed Event"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="Y" name="IsRecurrence"/>
+    <sfFieldInfo createable="Y" name="IsReminderSet" updateable="Y"/>
+    <sfFieldInfo createable="N" defaultPermissions="RW" name="RecurrenceActivityId" updateable="N"/>
+    <sfFieldInfo defaultPermissions="RW" name="RecurrenceStartDateTime"/>
+    <sfFieldInfo defaultPermissions="RW" name="RecurrenceEndDateOnly"/>
+    <sfFieldInfo defaultPermissions="RW" name="RecurrenceTimeZoneSidKey" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE id="-1" n="Pacific/Kiritimati" s="" t="(GMT+14:00) Line Is. Time (Pacific/Kiritimati)"/>
+        <sfPLE id="-1" n="Pacific/Enderbury" s="" t="(GMT+13:00) Phoenix Is. Time (Pacific/Enderbury)"/>
+        <sfPLE id="-1" n="Pacific/Tongatapu" s="" t="(GMT+13:00) Tonga Time (Pacific/Tongatapu)"/>
+        <sfPLE id="-1" n="Pacific/Chatham" s="" t="(GMT+12:45) Chatham Standard Time (Pacific/Chatham)"/>
+        <sfPLE id="-1" n="Asia/Kamchatka" s="" t="(GMT+12:00) Petropavlovsk-Kamchatski Time (Asia/Kamchatka)"/>
+        <sfPLE id="-1" n="Pacific/Auckland" s="" t="(GMT+12:00) New Zealand Standard Time (Pacific/Auckland)"/>
+        <sfPLE id="-1" n="Pacific/Fiji" s="" t="(GMT+12:00) Fiji Time (Pacific/Fiji)"/>
+        <sfPLE id="-1" n="Pacific/Guadalcanal" s="" t="(GMT+11:00) Solomon Is. Time (Pacific/Guadalcanal)"/>
+        <sfPLE id="-1" n="Pacific/Norfolk" s="" t="(GMT+11:00) Norfolk Time (Pacific/Norfolk)"/>
+        <sfPLE id="-1" n="Australia/Lord_Howe" s="" t="(GMT+10:30) Lord Howe Standard Time (Australia/Lord_Howe)"/>
+        <sfPLE id="-1" n="Australia/Brisbane" s="" t="(GMT+10:00) Australian Eastern Standard Time (Queensland) (Australia/Brisbane)"/>
+        <sfPLE id="-1" n="Australia/Sydney" s="" t="(GMT+10:00) Australian Eastern Standard Time (New South Wales) (Australia/Sydney)"/>
+        <sfPLE id="-1" n="Australia/Adelaide" s="" t="(GMT+09:30) Australian Central Standard Time (South Australia) (Australia/Adelaide)"/>
+        <sfPLE id="-1" n="Australia/Darwin" s="" t="(GMT+09:30) Australian Central Standard Time (Northern Territory) (Australia/Darwin)"/>
+        <sfPLE id="-1" n="Asia/Seoul" s="" t="(GMT+09:00) Korea Standard Time (Asia/Seoul)"/>
+        <sfPLE id="-1" n="Asia/Tokyo" s="" t="(GMT+09:00) Japan Standard Time (Asia/Tokyo)"/>
+        <sfPLE id="-1" n="Asia/Hong_Kong" s="" t="(GMT+08:00) Hong Kong Time (Asia/Hong_Kong)"/>
+        <sfPLE id="-1" n="Asia/Kuala_Lumpur" s="" t="(GMT+08:00) Malaysia Time (Asia/Kuala_Lumpur)"/>
+        <sfPLE id="-1" n="Asia/Manila" s="" t="(GMT+08:00) Philippines Time (Asia/Manila)"/>
+        <sfPLE id="-1" n="Asia/Shanghai" s="" t="(GMT+08:00) China Standard Time (Asia/Shanghai)"/>
+        <sfPLE id="-1" n="Asia/Singapore" s="" t="(GMT+08:00) Singapore Time (Asia/Singapore)"/>
+        <sfPLE id="-1" n="Asia/Taipei" s="" t="(GMT+08:00) China Standard Time (Asia/Taipei)"/>
+        <sfPLE id="-1" n="Australia/Perth" s="" t="(GMT+08:00) Australian Western Standard Time (Australia/Perth)"/>
+        <sfPLE id="-1" n="Asia/Bangkok" s="" t="(GMT+07:00) Indochina Time (Asia/Bangkok)"/>
+        <sfPLE id="-1" n="Asia/Ho_Chi_Minh" s="" t="(GMT+07:00) Indochina Time (Asia/Ho_Chi_Minh)"/>
+        <sfPLE id="-1" n="Asia/Jakarta" s="" t="(GMT+07:00) West Indonesia Time (Asia/Jakarta)"/>
+        <sfPLE id="-1" n="Asia/Rangoon" s="" t="(GMT+06:30) Myanmar Time (Asia/Rangoon)"/>
+        <sfPLE id="-1" n="Asia/Dhaka" s="" t="(GMT+06:00) Bangladesh Time (Asia/Dhaka)"/>
+        <sfPLE id="-1" n="Asia/Kathmandu" s="" t="(GMT+05:45) Nepal Time (Asia/Kathmandu)"/>
+        <sfPLE id="-1" n="Asia/Colombo" s="" t="(GMT+05:30) India Standard Time (Asia/Colombo)"/>
+        <sfPLE id="-1" n="Asia/Kolkata" s="" t="(GMT+05:30) India Standard Time (Asia/Kolkata)"/>
+        <sfPLE id="-1" n="Asia/Karachi" s="" t="(GMT+05:00) Pakistan Time (Asia/Karachi)"/>
+        <sfPLE id="-1" n="Asia/Tashkent" s="" t="(GMT+05:00) Uzbekistan Time (Asia/Tashkent)"/>
+        <sfPLE id="-1" n="Asia/Yekaterinburg" s="" t="(GMT+05:00) Yekaterinburg Time (Asia/Yekaterinburg)"/>
+        <sfPLE id="-1" n="Asia/Kabul" s="" t="(GMT+04:30) Afghanistan Time (Asia/Kabul)"/>
+        <sfPLE id="-1" n="Asia/Tehran" s="" t="(GMT+04:30) Iran Daylight Time (Asia/Tehran)"/>
+        <sfPLE id="-1" n="Asia/Baku" s="" t="(GMT+04:00) Azerbaijan Time (Asia/Baku)"/>
+        <sfPLE id="-1" n="Asia/Dubai" s="" t="(GMT+04:00) Gulf Standard Time (Asia/Dubai)"/>
+        <sfPLE id="-1" n="Asia/Tbilisi" s="" t="(GMT+04:00) Georgia Time (Asia/Tbilisi)"/>
+        <sfPLE id="-1" n="Asia/Yerevan" s="" t="(GMT+04:00) Armenia Time (Asia/Yerevan)"/>
+        <sfPLE id="-1" n="Africa/Nairobi" s="" t="(GMT+03:00) Eastern African Time (Africa/Nairobi)"/>
+        <sfPLE id="-1" n="Asia/Baghdad" s="" t="(GMT+03:00) Arabia Standard Time (Asia/Baghdad)"/>
+        <sfPLE id="-1" n="Asia/Beirut" s="" t="(GMT+03:00) Eastern European Summer Time (Asia/Beirut)"/>
+        <sfPLE id="-1" n="Asia/Jerusalem" s="" t="(GMT+03:00) Israel Daylight Time (Asia/Jerusalem)"/>
+        <sfPLE id="-1" n="Asia/Kuwait" s="" t="(GMT+03:00) Arabia Standard Time (Asia/Kuwait)"/>
+        <sfPLE id="-1" n="Asia/Riyadh" s="" t="(GMT+03:00) Arabia Standard Time (Asia/Riyadh)"/>
+        <sfPLE id="-1" n="Europe/Athens" s="" t="(GMT+03:00) Eastern European Summer Time (Europe/Athens)"/>
+        <sfPLE id="-1" n="Europe/Bucharest" s="" t="(GMT+03:00) Eastern European Summer Time (Europe/Bucharest)"/>
+        <sfPLE id="-1" n="Europe/Helsinki" s="" t="(GMT+03:00) Eastern European Summer Time (Europe/Helsinki)"/>
+        <sfPLE id="-1" n="Europe/Istanbul" s="" t="(GMT+03:00) Eastern European Time (Europe/Istanbul)"/>
+        <sfPLE id="-1" n="Europe/Minsk" s="" t="(GMT+03:00) Moscow Standard Time (Europe/Minsk)"/>
+        <sfPLE id="-1" n="Europe/Moscow" s="" t="(GMT+03:00) Moscow Standard Time (Europe/Moscow)"/>
+        <sfPLE id="-1" n="Africa/Cairo" s="" t="(GMT+02:00) Eastern European Time (Africa/Cairo)"/>
+        <sfPLE id="-1" n="Africa/Johannesburg" s="" t="(GMT+02:00) South Africa Standard Time (Africa/Johannesburg)"/>
+        <sfPLE id="-1" n="Europe/Amsterdam" s="" t="(GMT+02:00) Central European Summer Time (Europe/Amsterdam)"/>
+        <sfPLE id="-1" n="Europe/Berlin" s="" t="(GMT+02:00) Central European Summer Time (Europe/Berlin)"/>
+        <sfPLE id="-1" n="Europe/Brussels" s="" t="(GMT+02:00) Central European Summer Time (Europe/Brussels)"/>
+        <sfPLE id="-1" n="Europe/Paris" s="" t="(GMT+02:00) Central European Summer Time (Europe/Paris)"/>
+        <sfPLE id="-1" n="Europe/Prague" s="" t="(GMT+02:00) Central European Summer Time (Europe/Prague)"/>
+        <sfPLE id="-1" n="Europe/Rome" s="" t="(GMT+02:00) Central European Summer Time (Europe/Rome)"/>
+        <sfPLE id="-1" n="Africa/Algiers" s="" t="(GMT+01:00) Central European Time (Africa/Algiers)"/>
+        <sfPLE id="-1" n="Europe/Dublin" s="" t="(GMT+01:00) Irish Summer Time (Europe/Dublin)"/>
+        <sfPLE id="-1" n="Europe/Lisbon" s="" t="(GMT+01:00) Western European Summer Time (Europe/Lisbon)"/>
+        <sfPLE id="-1" n="Europe/London" s="" t="(GMT+01:00) British Summer Time (Europe/London)"/>
+        <sfPLE id="-1" n="Africa/Casablanca" s="" t="(GMT+00:00) Western European Time (Africa/Casablanca)"/>
+        <sfPLE id="-1" n="America/Scoresbysund" s="" t="(GMT+00:00) Eastern Greenland Summer Time (America/Scoresbysund)"/>
+        <sfPLE id="-1" n="Atlantic/Azores" s="" t="(GMT+00:00) Azores Summer Time (Atlantic/Azores)"/>
+        <sfPLE id="-1" n="GMT" s="" t="(GMT+00:00) Greenwich Mean Time (GMT)"/>
+        <sfPLE id="-1" n="Atlantic/Cape_Verde" s="" t="(GMT-01:00) Cape Verde Time (Atlantic/Cape_Verde)"/>
+        <sfPLE id="-1" n="Atlantic/South_Georgia" s="" t="(GMT-02:00) South Georgia Standard Time (Atlantic/South_Georgia)"/>
+        <sfPLE id="-1" n="America/St_Johns" s="" t="(GMT-02:30) Newfoundland Daylight Time (America/St_Johns)"/>
+        <sfPLE id="-1" n="America/Argentina/Buenos_Aires" s="" t="(GMT-03:00) Argentine Time (America/Argentina/Buenos_Aires)"/>
+        <sfPLE id="-1" n="America/Halifax" s="" t="(GMT-03:00) Atlantic Daylight Time (America/Halifax)"/>
+        <sfPLE id="-1" n="America/Sao_Paulo" s="" t="(GMT-03:00) Brasilia Time (America/Sao_Paulo)"/>
+        <sfPLE id="-1" n="Atlantic/Bermuda" s="" t="(GMT-03:00) Atlantic Daylight Time (Atlantic/Bermuda)"/>
+        <sfPLE id="-1" n="America/Caracas" s="" t="(GMT-04:00) Venezuela Time (America/Caracas)"/>
+        <sfPLE id="-1" n="America/Indiana/Indianapolis" s="" t="(GMT-04:00) Eastern Daylight Time (America/Indiana/Indianapolis)"/>
+        <sfPLE id="-1" n="America/New_York" s="" t="(GMT-04:00) Eastern Daylight Time (America/New_York)"/>
+        <sfPLE id="-1" n="America/Puerto_Rico" s="" t="(GMT-04:00) Atlantic Standard Time (America/Puerto_Rico)"/>
+        <sfPLE id="-1" n="America/Santiago" s="" t="(GMT-04:00) Chile Time (America/Santiago)"/>
+        <sfPLE id="-1" n="America/Bogota" s="" t="(GMT-05:00) Colombia Time (America/Bogota)"/>
+        <sfPLE id="-1" n="America/Chicago" s="" t="(GMT-05:00) Central Daylight Time (America/Chicago)"/>
+        <sfPLE id="-1" n="America/Lima" s="" t="(GMT-05:00) Peru Time (America/Lima)"/>
+        <sfPLE id="-1" n="America/Mexico_City" s="" t="(GMT-05:00) Central Daylight Time (America/Mexico_City)"/>
+        <sfPLE id="-1" n="America/Panama" s="" t="(GMT-05:00) Eastern Standard Time (America/Panama)"/>
+        <sfPLE id="-1" n="America/Denver" s="" t="(GMT-06:00) Mountain Daylight Time (America/Denver)"/>
+        <sfPLE id="-1" n="America/El_Salvador" s="" t="(GMT-06:00) Central Standard Time (America/El_Salvador)"/>
+        <sfPLE id="-1" n="America/Mazatlan" s="" t="(GMT-06:00) Mountain Daylight Time (America/Mazatlan)"/>
+        <sfPLE id="-1" n="America/Los_Angeles" s="" t="(GMT-07:00) Pacific Daylight Time (America/Los_Angeles)"/>
+        <sfPLE id="-1" n="America/Phoenix" s="" t="(GMT-07:00) Mountain Standard Time (America/Phoenix)"/>
+        <sfPLE id="-1" n="America/Tijuana" s="" t="(GMT-07:00) Pacific Daylight Time (America/Tijuana)"/>
+        <sfPLE id="-1" n="America/Anchorage" s="" t="(GMT-08:00) Alaska Daylight Time (America/Anchorage)"/>
+        <sfPLE id="-1" n="Pacific/Pitcairn" s="" t="(GMT-08:00) Pitcairn Standard Time (Pacific/Pitcairn)"/>
+        <sfPLE id="-1" n="America/Adak" s="" t="(GMT-09:00) Hawaii-Aleutian Daylight Time (America/Adak)"/>
+        <sfPLE id="-1" n="Pacific/Gambier" s="" t="(GMT-09:00) Gambier Time (Pacific/Gambier)"/>
+        <sfPLE id="-1" n="Pacific/Marquesas" s="" t="(GMT-09:30) Marquesas Time (Pacific/Marquesas)"/>
+        <sfPLE id="-1" n="Pacific/Honolulu" s="" t="(GMT-10:00) Hawaii-Aleutian Standard Time (Pacific/Honolulu)"/>
+        <sfPLE id="-1" n="Pacific/Niue" s="" t="(GMT-11:00) Niue Time (Pacific/Niue)"/>
+        <sfPLE id="-1" n="Pacific/Pago_Pago" s="" t="(GMT-11:00) Samoa Standard Time (Pacific/Pago_Pago)"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo defaultPermissions="RW" name="RecurrenceType" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE id="-1" n="RecursDaily" s="" t="Recurs Daily"/>
+        <sfPLE id="-1" n="RecursEveryWeekday" s="" t="Recurs Every Weekday"/>
+        <sfPLE id="-1" n="RecursMonthly" s="" t="Recurs Monthly"/>
+        <sfPLE id="-1" n="RecursMonthlyNth" s="" t="Recurs Monthy Nth"/>
+        <sfPLE id="-1" n="RecursWeekly" s="" t="Recurs Weekly"/>
+        <sfPLE id="-1" n="RecursYearly" s="" t="Recurs Yearly"/>
+        <sfPLE id="-1" n="RecursYearlyNth" s="" t="Recurs Yearly Nth"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo defaultPermissions="RW" name="RecurrenceInterval"/>
+    <sfFieldInfo defaultPermissions="RW" name="RecurrenceDayOfWeekMask"/>
+    <sfFieldInfo defaultPermissions="RW" name="RecurrenceDayOfMonth"/>
+    <sfFieldInfo defaultPermissions="RW" name="RecurrenceInstance" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE id="-1" n="First" s="" t="1st"/>
+        <sfPLE id="-1" n="Second" s="" t="2nd"/>
+        <sfPLE id="-1" n="Third" s="" t="3rd"/>
+        <sfPLE id="-1" n="Fourth" s="" t="4th"/>
+        <sfPLE id="-1" n="Last" s="" t="last"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo defaultPermissions="RW" name="RecurrenceMonthOfYear" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE id="-1" n="January" s=""/>
+        <sfPLE id="-1" n="February" s=""/>
+        <sfPLE id="-1" n="March" s=""/>
+        <sfPLE id="-1" n="April" s=""/>
+        <sfPLE id="-1" n="May" s=""/>
+        <sfPLE id="-1" n="June" s=""/>
+        <sfPLE id="-1" n="July" s=""/>
+        <sfPLE id="-1" n="August" s=""/>
+        <sfPLE id="-1" n="September" s=""/>
+        <sfPLE id="-1" n="October" s=""/>
+        <sfPLE id="-1" n="November" s=""/>
+        <sfPLE id="-1" n="December" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo defaultPermissions="RW" name="ReminderDateTime"/>
+    <sfFieldInfo defaultPermissions="RW" name="EventSubtype" restrictedPicklist="true" updateable="N">
+      <picklistEntries>
+        <sfPLE id="-1" n="Event" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo defaultPermissions="RW" name="Email" typeName="email"/>
+    <sfFieldInfo defaultPermissions="RW" name="Phone"/>
+    <sfFieldInfo defaultPermissions="RW" name="WhoCount"/>
+    <sfFieldInfo defaultPermissions="RW" name="WhatCount"/>
+  </fields>
+  <standardActions>
+    <sfActionLink modes="Edit New Clone" n="savenewtask" t="Save and New Task"/>
+    <sfActionLink modes="Edit New Clone" n="savenewevent" t="Save and New Event"/>
+    <sfActionLink buttonName="newTask" modes="View" n="FollowupTask" t="Create Follow-Up Task"/>
+    <sfActionLink buttonName="newEvent" modes="View" n="FollowupEvent" t="Create Follow-Up Event"/>
+    <sfActionLink buttonName="vcal" modes="View" n="AddToOutlook" t="Add to Outlook"/>
+    <sfActionLink n="NewSfdcEvent" s=""/>
+    <sfActionLink n="Today" s=""/>
+  </standardActions>
+</sfObjectInfo>

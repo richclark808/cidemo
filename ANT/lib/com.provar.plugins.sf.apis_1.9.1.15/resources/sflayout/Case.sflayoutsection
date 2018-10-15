@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfLayoutSections>
+	<sfLayoutSection detailHeading="false" n="Comments" s="" seqNum="4" t="Web Layout Section - true" locator="//div[contains(@class, 'pbSubheader') and h3[text() = 'Description Information']][1]/following-sibling::div[contains(@class, 'pbSubsection')][1]">
+	  <children>
+	    <sfLayoutRow n="InternalCommentsLayoutRow" s="" seqNum="0" >
+	      <children>
+	        <sfLI label="Internal Comments" n="InternalComments" s="" seqNum="0" t="Web Layout Item" required="false">
+	          <children>
+	            <sfLIC n="InternalComments" s="" seqNum="0" t="InternalComments" type="Field" fieldType="textarea" locator="/table//tr/td[contains(@class,'labelCol') and (.//text() = 'Internal Comments' )]/following-sibling::td[contains(@class,'dataCol') or contains(@class,'data2Col')][1]//textarea"/>
+	          </children>
+	        </sfLI>
+	      </children>
+	    </sfLayoutRow>
+	  </children>
+	</sfLayoutSection>
+	<sfLayoutSection detailHeading="false" n="Optional" s="" seqNum="5" t="Web Layout Section - true">
+	  <children>
+	    <sfLayoutRow n="RulesLayoutRow" s="" seqNum="0" >
+	      <children>
+	        <sfLI label="Assign using active assignment rules" n="showRunAssignmentRulesCheckbox" s="" seqNum="0" t="Web Layout Item" required="false">
+	          <children>
+	            <sfLIC n="showRunAssignmentRulesCheckbox" s="" seqNum="0" t="Assign using active assignment rules" type="Field" fieldType="checkbox" locator="/table//tr[1]//td[1]//input"/>
+	          </children>
+	        </sfLI>
+	      </children>
+	    </sfLayoutRow>
+	    <sfLayoutRow n="EmailLayoutRow" s="" seqNum="1" >
+	      <children>
+	        <sfLI label="Send notification email to contact" n="showEmailCheckbox" s="" seqNum="0" t="Web Layout Item" required="false">
+	          <children>
+	            <sfLIC n="showEmailCheckbox" s="" seqNum="0" t="Send notification email to contact" type="Field" fieldType="checkbox" locator="/table//tr[2]//td[1]//input"/>
+	          </children>
+	        </sfLI>
+	      </children>
+	    </sfLayoutRow>
+	  </children>
+	</sfLayoutSection>
+</sfLayoutSections>

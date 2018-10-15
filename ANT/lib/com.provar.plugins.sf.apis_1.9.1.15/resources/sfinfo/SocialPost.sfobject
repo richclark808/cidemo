@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="SocialPost">
+  <fields>
+    <sfFieldInfo name="Provider" restrictedPicklist="true" updateable="N">
+      <picklistEntries>
+        <sfPLE id="-1" n="Twitter" s=""/>
+        <sfPLE id="-1" n="Facebook" s=""/>
+        <sfPLE id="-1" n="LinkedIn" s=""/>
+        <sfPLE id="-1" n="YouTube" s=""/>
+        <sfPLE id="-1" n="Klout" s=""/>
+        <sfPLE id="-1" n="Rypple" s=""/>
+        <sfPLE id="-1" n="GooglePlus" s="" t="Google+"/>
+        <sfPLE id="-1" n="SinaWeibo" s="" t="Sina Weibo"/>
+        <sfPLE id="-1" n="WeChat" s=""/>
+        <sfPLE id="-1" n="Line" s=""/>
+        <sfPLE id="-1" n="WhatsApp" s=""/>
+        <sfPLE id="-1" n="Pinterest" s=""/>
+        <sfPLE id="-1" n="Instagram" s=""/>
+        <sfPLE id="-1" n="vKontakte" s=""/>
+        <sfPLE id="-1" n="Azure" s=""/>
+        <sfPLE id="-1" n="Skype" s=""/>
+        <sfPLE id="-1" n="Telegram" s=""/>
+        <sfPLE id="-1" n="Snapchat" s=""/>
+        <sfPLE id="-1" n="Messenger" s=""/>
+        <sfPLE id="-1" n="Kik" s=""/>
+        <sfPLE id="-1" n="KakaoTalk" s=""/>
+        <sfPLE id="-1" n="QQ" s=""/>
+        <sfPLE id="-1" n="SMS" s=""/>
+        <sfPLE id="-1" n="Spark" s=""/>
+        <sfPLE id="-1" n="Other" s="" t="Other Media Type"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="N" name="TruncatedContent" updateable="N"/>
+  </fields>
+</sfObjectInfo>

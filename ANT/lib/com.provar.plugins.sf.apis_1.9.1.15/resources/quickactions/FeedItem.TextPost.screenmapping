@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiScreen type="page"
+		  name="FeedItem.TextPost" 
+          label="Post quick action">
+          
+    <uiControl type="pageControl" pageControl="com.provar.plugins.forcedotcom.core.ui.pagecontrols.cke.CkEditor" name="publisherRichTextEditor" label="Write something" locator="//div[@id='cke_publisherRichTextEditor']"/>
+    <uiButton type="button" name="publishersharebutton" label="Share" locator="//input[@id='publishersharebutton']" />
+</uiScreen>

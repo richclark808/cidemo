@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<miniLayout n="miniLayout" s="" t="Mini Layout">
+	<fields>
+		<string>ContactId</string>
+		<string>Status</string>
+		<string>Priority</string>
+		<string>Origin</string>
+		<string>Subject</string>
+		<string>Description</string>
+	</fields>
+</miniLayout>

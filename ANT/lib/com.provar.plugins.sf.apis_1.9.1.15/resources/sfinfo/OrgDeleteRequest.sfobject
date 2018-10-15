@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="OrgDeleteRequest">
+  <fields>
+    <sfFieldInfo name="OwnerId" required="N" updateable="N"/>
+    <sfFieldInfo name="RequestType" restrictedPicklist="true" updateable="N">
+      <picklistEntries>
+        <sfPLE id="-1" n="Deactivate" s=""/>
+        <sfPLE id="-1" n="Reactivate" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+  </fields>
+</sfObjectInfo>

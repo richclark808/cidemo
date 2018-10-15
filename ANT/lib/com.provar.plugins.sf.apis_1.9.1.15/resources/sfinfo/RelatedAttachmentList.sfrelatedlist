@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfRelatedList fieldName="ParentId" label="Attachments" n="CombinedAttachments" relationshipName="CombinedAttachments" s="3-" t="Attachments (ParentId)">
+  <children>
+    <sfRelatedListColumn n="Title" s="" seq="0" t="File Name" />
+    <sfRelatedListColumn n="ContentSize" s="" seq="1" t="Size"/>
+    <sfRelatedListColumn n="LastModifiedDate" s="" seq="2" t="Last Modified"/>
+    <sfRelatedListColumn n="CreatedById" alias="CreatedBy.Name" s="" seq="3" t="Created By"/>
+  </children>
+  <lightningColumns>
+    <sfRelatedListColumn n="Title" s="" seq="0" t="Title" />
+    <sfRelatedListColumn n="LastModifiedDate" s="" seq="1" t="Last Modified"/>
+    <sfRelatedListColumn n="ContentSize" s="" seq="2" t="Content Size"/>
+    <sfRelatedListColumn n="FileExtension" s="" seq="3" t="Extension"/>
+  </lightningColumns>
+</sfRelatedList>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo name="AccountPartner" label="Account Partner">
+  <standardActions>
+    <sfActionLink n="NewPartner" t="New" modes="AccountPartnersFrom" massAction="true" newAction="true"/>
+    <sfActionLink n="Delete" t="Del" modes="AccountPartnersFrom" requiresRow="true" locator="td[contains(@class, 'actionColumn')]/a[contains(@href, 'deleteredirect.jsp')]"/>
+    <sfActionLink n="New" t="New" modes="detail"/>
+  </standardActions>
+</sfObjectInfo>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo name="default">
+  <fields>
+  	<!-- Address fields -->
+  	<sfFieldInfo name="Address" createable="N" updateable="N"/>
+  	<sfFieldInfo name="City" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="Company" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="Country" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="CountryCode" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="GeocodeAccuracy" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="Latitude" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="Longitude" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="PostalCode" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="State" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="StateCode" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="Street" createable="Y" updateable="Y"/>
+
+  	<!-- Billing Address fields -->
+  	<sfFieldInfo name="BillingAddress" createable="N" updateable="N"/>
+  	<sfFieldInfo name="BillingCity" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="BillingCountry" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="BillingCountryCode" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="BillingGeocodeAccuracy" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="BillingLatitude" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="BillingLongitude" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="BillingPostalCode" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="BillingPostalCountry" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="BillingState" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="BillingStateCode" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="BillingStreet" createable="Y" updateable="Y"/>
+
+  	<!-- Mailing Address fields -->
+  	<sfFieldInfo name="MailingAddress" createable="N" updateable="N"/>
+  	<sfFieldInfo name="MailingCity" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="MailingCountry" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="MailingCountryCode" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="MailingGeocodeAccuracy" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="MailingLatitude" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="MailingLongitude" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="MailingPostalCode" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="MailingPostalCountry" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="MailingState" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="MailingStateCode" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="MailingStreet" createable="Y" updateable="Y"/>
+
+  	<!-- Other Address fields -->
+  	<sfFieldInfo name="OtherAddress" createable="N" updateable="N"/>
+  	<sfFieldInfo name="OtherCity" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="OtherCountry" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="OtherCountryCode" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="OtherGeocodeAccuracy" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="OtherLatitude" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="OtherLongitude" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="OtherPostalCode" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="OtherPostalCountry" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="OtherState" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="OtherStateCode" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="OtherStreet" createable="Y" updateable="Y"/>
+
+  	<!-- Shipping Address fields -->
+  	<sfFieldInfo name="ShippingAddress" createable="N" updateable="N"/>
+  	<sfFieldInfo name="ShippingCity" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="ShippingCountry" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="ShippingCountryCode" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="ShippingGeocodeAccuracy" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="ShippingLatitude" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="ShippingLongitude" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="ShippingPostalCode" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="ShippingPostalCountry" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="ShippingState" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="ShippingStateCode" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="ShippingStreet" createable="Y" updateable="Y"/>
+
+  	<!-- Other -->
+  	<sfFieldInfo name="IsPrivate" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="Name" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="OwnerId" required="N"/>
+ 	<sfFieldInfo name="PhotoUrl" defaultPermissions="RW" createable="N" updateable="N"/>
+
+  	<!--
+  	<sfFieldInfo name="FirstName" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="LastName" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="LastReferencedDate" createable="N" updateable="N"/>
+  	<sfFieldInfo name="LastViewedDate" createable="N" updateable="N"/>
+  	<sfFieldInfo name="Id" createable="N" updateable="N"/>
+  	<sfFieldInfo name="IsDeleted" createable="N" updateable="N"/>
+  	<sfFieldInfo name="Name" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="RecordTypeId" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="Salutation" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="Status" createable="Y" updateable="Y"/>
+  	<sfFieldInfo name="SystemModstamp" createable="N" updateable="N"/>
+  	-->
+  </fields>
+</sfObjectInfo>

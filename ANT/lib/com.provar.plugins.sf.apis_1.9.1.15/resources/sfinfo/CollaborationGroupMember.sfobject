@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="CollaborationGroupMember">
+  <fields>
+    <sfFieldInfo name="CollaborationGroupId" updateable="N"/>
+    <sfFieldInfo name="MemberId" updateable="N"/>
+    <sfFieldInfo name="CollaborationRole" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE id="-1" n="Admin" s="" t="Manager"/>
+        <sfPLE id="-1" n="Standard" s="" t="Member"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo name="NotificationFrequency" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE id="-1" n="P" s="" t="Email on Each Post"/>
+        <sfPLE id="-1" n="D" s="" t="Daily Digests"/>
+        <sfPLE id="-1" n="W" s="" t="Weekly Digests"/>
+        <sfPLE defaultValue="true" id="-1" n="N" s="" t="Never"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="N" name="CreatedDate"/>
+    <sfFieldInfo createable="N" name="CreatedById"/>
+    <sfFieldInfo createable="N" name="LastModifiedDate"/>
+    <sfFieldInfo createable="N" name="LastModifiedById"/>
+    <sfFieldInfo createable="N" name="LastFeedAccessDate" updateable="N"/>
+    <sfFieldInfo createable="N" name="NetworkId" updateable="N"/>
+  </fields>
+</sfObjectInfo>

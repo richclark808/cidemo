@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="PartnerFundClaim">
+  <fields>
+    <sfFieldInfo name="Status" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE defaultValue="true" id="-1" n="Draft" s=""/>
+        <sfPLE id="-1" n="Approved" s=""/>
+        <sfPLE id="-1" n="Rejected" s=""/>
+        <sfPLE id="-1" n="Paid" s=""/>
+        <sfPLE id="-1" n="Submitted" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="N" name="BudgetId" updateable="N"/>
+    <sfFieldInfo createable="N" name="AllocationId" updateable="N"/>
+    <sfFieldInfo createable="N" name="ChannelPartnerId" updateable="N"/>
+  </fields>
+</sfObjectInfo>

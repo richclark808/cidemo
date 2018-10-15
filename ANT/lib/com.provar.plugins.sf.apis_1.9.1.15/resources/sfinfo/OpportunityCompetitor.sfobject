@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" label="Opportunity: Competitor" name="OpportunityCompetitor">
+  <fields>
+    <sfFieldInfo name="OpportunityId" updateable="N"/>
+    <sfFieldInfo createable="N" name="CreatedById"/>
+    <sfFieldInfo createable="N" name="CreatedDate"/>
+    <sfFieldInfo createable="N" name="LastModifiedById"/>
+    <sfFieldInfo createable="N" name="LastModifiedDate"/>
+  </fields>
+  <standardActions>
+    <sfActionLink modes="OpportunityCompetitors" n="newComp" newAction="true" t="New"/>
+    <sfActionLink modes="OpportunityCompetitors" n="Edit" requiresRow="true" s="1"/>
+    <sfActionLink modes="OpportunityCompetitors" n="Delete" requiresRow="true" s="2" t="Del"/>
+  </standardActions>
+</sfObjectInfo>

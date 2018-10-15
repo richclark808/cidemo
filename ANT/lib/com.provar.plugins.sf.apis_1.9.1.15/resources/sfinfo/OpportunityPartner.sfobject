@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo name="OpportunityPartner" label="OpportunityPartner">
+    <standardActions>
+        <sfActionLink n="newPartner" t="New" newAction="true" modes="OpportunityPartnersFrom"/>
+        <sfActionLink n="edit" t="Edit" target="sf:ui:target?object=OpportunityPartner&amp;action=edit&amp;mapping=screenmappings/OpportunityPartner.screenmapping" modes="OpportunityPartnersFrom" requiresRow="true"/>
+        <sfActionLink n="delete" t="Delete" modes="OpportunityPartnersFrom" requiresRow="true" locator="td[contains(@class, 'actionColumn')]/a[contains(@href, 'deleteredirect.jsp')]"/>
+    </standardActions>
+</sfObjectInfo>

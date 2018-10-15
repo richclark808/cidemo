@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="IdeaComment">
+  <fields>
+    <sfFieldInfo name="IdeaId" updateable="N"/>
+    <sfFieldInfo createable="N" name="CommunityId" updateable="N"/>
+    <sfFieldInfo createable="N" name="CreatorFullPhotoUrl" updateable="N"/>
+    <sfFieldInfo createable="N" name="CreatorSmallPhotoUrl" updateable="N"/>
+    <sfFieldInfo createable="N" name="CreatorName" updateable="N"/>
+    <sfFieldInfo createable="N" name="UpVotes" updateable="N"/>
+  </fields>
+</sfObjectInfo>

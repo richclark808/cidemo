@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="KnowledgeArticleVersion">
+  <fields>
+    <sfFieldInfo createable="N" name="KnowledgeArticleId" updateable="N"/>
+    <sfFieldInfo createable="N" name="OwnerId" required="Y" updateable="N"/>
+    <sfFieldInfo createable="N" name="ValidationStatus" updateable="N">
+      <picklistEntries>
+        <sfPLE defaultValue="true" id="-1" n="Not Validated" s=""/>
+        <sfPLE id="-1" n="Validated" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="N" name="PublishStatus" restrictedPicklist="true" updateable="N">
+      <picklistEntries>
+        <sfPLE defaultValue="true" id="-1" n="Draft" s=""/>
+        <sfPLE id="-1" n="Online" s="" t="Published"/>
+        <sfPLE id="-1" n="Archived" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="N" name="VersionNumber" updateable="N"/>
+    <sfFieldInfo createable="N" name="CreatedDate"/>
+    <sfFieldInfo createable="N" name="CreatedById"/>
+    <sfFieldInfo createable="N" name="LastModifiedDate"/>
+    <sfFieldInfo createable="N" name="LastModifiedById"/>
+    <sfFieldInfo createable="N" name="Language" restrictedPicklist="true" updateable="N">
+      <picklistEntries>
+        <sfPLE id="-1" n="en_US" s="" t="English"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="N" name="Title" updateable="N"/>
+    <sfFieldInfo createable="N" name="UrlName" updateable="N"/>
+    <sfFieldInfo createable="N" name="ArchivedDate" updateable="N"/>
+    <sfFieldInfo createable="N" name="ArchivedById" updateable="N"/>
+    <sfFieldInfo createable="N" name="Summary" updateable="N"/>
+    <sfFieldInfo createable="N" name="FirstPublishedDate" updateable="N"/>
+    <sfFieldInfo createable="N" name="LastPublishedDate" updateable="N"/>
+    <sfFieldInfo createable="N" name="ArticleArchivedById" updateable="N"/>
+    <sfFieldInfo createable="N" name="ArticleArchivedDate" updateable="N"/>
+    <sfFieldInfo createable="N" name="ArticleCaseAttachCount" updateable="N"/>
+    <sfFieldInfo createable="N" name="ArticleCreatedById" updateable="N"/>
+    <sfFieldInfo createable="N" name="ArticleCreatedDate" updateable="N"/>
+    <sfFieldInfo createable="N" name="ArticleMasterLanguage" restrictedPicklist="true" updateable="N">
+      <picklistEntries>
+        <sfPLE id="-1" n="en_US" s="" t="English"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="N" name="ArticleTotalViewCount" updateable="N"/>
+    <sfFieldInfo createable="N" name="SourceId" updateable="N"/>
+    <sfFieldInfo createable="N" name="AssignedToId" updateable="N"/>
+    <sfFieldInfo createable="N" name="AssignedById" updateable="N"/>
+    <sfFieldInfo createable="N" name="AssignmentDate" updateable="N"/>
+    <sfFieldInfo createable="N" name="AssignmentDueDate" updateable="N"/>
+    <sfFieldInfo createable="N" name="AssignmentNote" updateable="N"/>
+    <sfFieldInfo createable="N" name="ArticleType" restrictedPicklist="true" updateable="N">
+      <picklistEntries>
+        <sfPLE id="-1" n="Release__kav" s=""/>
+        <sfPLE id="-1" n="PN1_KA__kav" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+  </fields>
+</sfObjectInfo>

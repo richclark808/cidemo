@@ -1,0 +1,62 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.provar.plugins.sf.apis
+Archiver-Version: Plexus Archiver
+Built-By: ProvarDev
+Require-Bundle: org.eclipse.equinox.common;bundle-version="3.6.0",com.
+ provar.core.connection;bundle-version="1.1.63",com.provar.core.conten
+ t;bundle-version="1.1.63",com.provar.core.model.api;bundle-version="1
+ .1.63",com.provar.core.model.base;bundle-version="1.1.63",com.provar.
+ core.model.test;bundle-version="1.1.63",com.provar.core.model.ui;bund
+ le-version="1.0.0",com.provar.core.support;bundle-version="1.1.63",co
+ m.provar.core.support.expression;bundle-version="1.1.63",com.provar.c
+ ore.testexecution.common;bundle-version="1.1.63",com.provar.core.test
+ execution.container;bundle-version="1.1.63",com.provar.core.testapi;b
+ undle-version="1.1.63",com.provar.core.lib.selenium;bundle-version="3
+ .4.0",com.provar.plugins.bundled.apis;bundle-version="1.8.2",com.prov
+ ar.core.lib.apache.tika;bundle-version="1.13.0",org.eclipse.core.jobs
+ ;bundle-version="3.6.1",org.eclipse.osgi;bundle-version="3.7.2",org.e
+ clipse.equinox.common,org.eclipse.osgi.services,org.eclipse.osgi.util
+ ,org.eclipse.update.configurator;bundle-version="3.3.300",com.google.
+ gson;bundle-version="2.2.4",org.eclipse.core.runtime;bundle-version="
+ 3.10.0",com.google.guava,com.provar.core.translation,org.apache.commo
+ ns.httpclient
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: PROVAR
+Ant-Version: Apache Ant 1.8.2
+Export-Package: com.provar.plugins.forcedotcom.core.connection,com.pro
+ var.plugins.forcedotcom.core.model,com.provar.plugins.forcedotcom.cor
+ e.model.service,com.provar.plugins.forcedotcom.core.osgi,com.provar.p
+ lugins.forcedotcom.core.support,com.provar.plugins.forcedotcom.core.t
+ estapis,com.provar.plugins.forcedotcom.core.ui,com.provar.plugins.for
+ cedotcom.core.ui.locator.resolver,com.provar.plugins.forcedotcom.core
+ .ui.pagecontrols.aura.ui,com.provar.plugins.forcedotcom.core.ui.pagec
+ ontrols.cke,com.provar.plugins.forcedotcom.core.ui.pagecontrols.drawl
+ oop,com.provar.plugins.forcedotcom.core.ui.pagecontrols.smax,com.prov
+ ar.plugins.forcedotcom.core.ui.pagecontrols.vlocity,com.provar.plugin
+ s.forcedotcom.core.ui.vf,com.provar.plugins.forcedotcom.core.ui.vf.co
+ mponents,com.provar.plugins.forcedotcom.core.uiscaffolds,com.sforce.s
+ oap.apex,com.sforce.soap.metadata,com.sforce.soap.partner,com.sforce.
+ soap.partner.fault,com.sforce.soap.partner.sobject,com.sforce.soap.to
+ oling,com.sforce.ws,com.sforce.ws.bind,com.sforce.ws.parser,com.sforc
+ e.ws.tools,com.sforce.ws.transport,com.sforce.ws.types,com.sforce.ws.
+ util,com.sforce.ws.wsdl,org.apache.commons.beanutils,org.apache.commo
+ ns.beanutils.converters,org.apache.commons.beanutils.locale,org.apach
+ e.commons.beanutils.locale.converters,org.apache.commons.collections
+Bundle-Name: Provar SF plugin Test APIs
+Bundle-Version: 1.9.1.15
+Bundle-ClassPath: .,lib/force-partner-42.0.0.jar,lib/force-apex-42.0.0
+ .jar,lib/force-metadata-42.0.0.jar,lib/force-wsc-42.0.0.jar,lib/org.e
+ clipse.equinox.common_3.6.200.v20130402-1505.jar,lib/org.eclipse.osgi
+ _3.10.2.v20150203-1939.jar,lib/cglib-nodep-2.2.3.jar,lib/xmlbeans-2.3
+ .0.jar,lib/jericho-html-3.3.jar,lib/tagsoup-1.2.1.jar,lib/force-tooli
+ ng-35.0.0.jar,lib/commons-io-1.3.1.jar,lib/jackson-core-asl-1.9.13.ja
+ r,lib/jackson-mapper-asl-1.9.13.jar,lib/commons-logging-1.0.4.jar,lib
+ /commons-beanutils-1.7.0.jar
+Bundle-Activator: com.provar.plugins.forcedotcom.core.osgi.SfPluginAct
+ ivator
+Created-By: 1.7.0_02-b13 (Oracle Corporation)
+Build-Jdk: 1.8.0_171
+Eclipse-BundleShape: dir
+

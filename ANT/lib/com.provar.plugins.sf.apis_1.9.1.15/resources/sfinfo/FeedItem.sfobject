@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="FeedItem">
+  <compactLayoutFields>Subject,Location,StartDateTime,EndDateTime</compactLayoutFields>
+  <fields>
+    <sfFieldInfo createable="N" name="BestCommentId" updateable="N"/>
+    <sfFieldInfo createable="N" name="CommentCount" updateable="N"/>
+    <sfFieldInfo createable="N" name="InsertedById" updateable="N"/>
+    <sfFieldInfo createable="Y" name="IsRichText" updateable="Y"/>
+    <sfFieldInfo name="LastEditDate" updateable="N"/>
+    <sfFieldInfo name="LastEditById" updateable="N"/>
+    <sfFieldInfo createable="N" name="LastModifiedDate"/>
+    <sfFieldInfo createable="N" name="LikeCount" updateable="N"/>
+    <sfFieldInfo name="LinkUrl" updateable="N"/>
+    <sfFieldInfo name="NetworkScope" restrictedPicklist="true" updateable="N">
+      <picklistEntries>
+        <sfPLE id="-1" n="AllNetworks" s="" t="All Networks"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo name="ParentId" updateable="N"/>
+    <sfFieldInfo name="Type" restrictedPicklist="true" updateable="N">
+      <picklistEntries>
+        <sfPLE id="-1" n="TrackedChange" s="" t="Tracked Change"/>
+        <sfPLE id="-1" n="UserStatus" s="" t="User Status"/>
+        <sfPLE id="-1" n="TextPost" s="" t="Text Post"/>
+        <sfPLE id="-1" n="AdvancedTextPost" s="" t="Advanced Text Post"/>
+        <sfPLE id="-1" n="LinkPost" s="" t="Link Post"/>
+        <sfPLE id="-1" n="ContentPost" s="" t="Content Post"/>
+        <sfPLE id="-1" n="PollPost" s="" t="Poll"/>
+        <sfPLE id="-1" n="RypplePost" s="" t="Work.com Thanks"/>
+        <sfPLE id="-1" n="ProfileSkillPost" s="" t="Profile Skill Post"/>
+        <sfPLE id="-1" n="DashboardComponentSnapshot" s="" t="Dashboard Component Snapshot"/>
+        <sfPLE id="-1" n="ApprovalPost" s="" t="Approval Post"/>
+        <sfPLE id="-1" n="CaseCommentPost" s="" t="Case Comment Feed"/>
+        <sfPLE id="-1" n="ReplyPost" s="" t="Reply Post"/>
+        <sfPLE id="-1" n="EmailMessageEvent" s="" t="Email Message Feed"/>
+        <sfPLE id="-1" n="CallLogPost" s="" t="Call Log Feed"/>
+        <sfPLE id="-1" n="ChangeStatusPost" s="" t="Change Status Feed"/>
+        <sfPLE id="-1" n="AttachArticleEvent" s="" t="Attached Article"/>
+        <sfPLE id="-1" n="MilestoneEvent" s="" t="Milestone Event"/>
+        <sfPLE id="-1" n="ActivityEvent" s="" t="Activity Change"/>
+        <sfPLE id="-1" n="ChatTranscriptPost" s="" t="Chat Transcript Post"/>
+        <sfPLE id="-1" n="CollaborationGroupCreated" s="" t="Collaboration Group Created"/>
+        <sfPLE id="-1" n="CollaborationGroupUnarchived" s="" t="Collaboration Group Reactivated"/>
+        <sfPLE id="-1" n="SocialPost" s="" t="Social Post"/>
+        <sfPLE id="-1" n="QuestionPost" s="" t="Question Post"/>
+        <sfPLE id="-1" n="FacebookPost" s="" t="Facebook Post"/>
+        <sfPLE id="-1" n="BasicTemplateFeedItem" s="" t="Basic Template Post"/>
+        <sfPLE id="-1" n="CreateRecordEvent" s="" t="Created Record"/>
+        <sfPLE id="-1" n="CanvasPost" s="" t="Canvas"/>
+        <sfPLE id="-1" n="AnnouncementPost" s="" t="a"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo name="RelatedRecordId" updateable="N"/>
+    <sfFieldInfo name="Revision" updateable="N"/>
+    <sfFieldInfo name="Visibility" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE id="-1" n="AllUsers" s="" t="All Users"/>
+        <sfPLE id="-1" n="InternalUsers" s="" t="Internal Users"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo name="Status" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE id="-1" n="Published" s=""/>
+        <sfPLE id="-1" n="PendingReview" s=""/>
+        <sfPLE id="-1" n="Draft" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+  </fields>
+  <standardActions>
+    <sfActionLink n="EditTopics" s=""/>
+  </standardActions>
+</sfObjectInfo>

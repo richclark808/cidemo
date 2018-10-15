@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<translations>
+  <translation key="Contact.Description" type="SfFieldLabel" value="Kontaktbeschreibung"/>
+  <translation key="Contact.Id" type="SfFieldLabel" value="Kontakt-ID"/>
+  <translation key="Contact.LastCURequestDate" type="SfFieldLabel" value="Datum der letzten Kontaktpflegeanfrage"/>
+  <translation key="Contact.LastCUUpdateDate" type="SfFieldLabel" value="Speicherdatum der letzten Kontaktpflegeanfrage"/>
+  <translation key="*.*.Contact Information" type="SfLayoutSectionLabel" value="Kontaktinformationen"/>
+</translations>

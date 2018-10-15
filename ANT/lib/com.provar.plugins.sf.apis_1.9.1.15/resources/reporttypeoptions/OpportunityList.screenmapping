@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiScreen type="page"
+		  name="OpportunityList" 
+          label="Report Options for Opportunity report types">
+
+    <uiControl name="status" label="Opportunity Status" locator="//select[@id='filterPanel_open']"/>
+
+    <uiControl name="probability" label="Probability" locator="//select[@id='filterPanel_probability']"/>
+
+</uiScreen>

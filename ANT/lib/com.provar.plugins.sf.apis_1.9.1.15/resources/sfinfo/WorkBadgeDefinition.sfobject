@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="WorkBadgeDefinition">
+  <fields>
+    <sfFieldInfo createable="Y" name="IsCompanyWide" updateable="Y"/>
+    <sfFieldInfo createable="Y" name="IsActive" updateable="Y"/>
+    <sfFieldInfo createable="Y" name="IsLimitPerUser" updateable="Y"/>
+    <sfFieldInfo createable="N" name="GivenBadgeCount" updateable="N"/>
+    <sfFieldInfo name="RewardFundId" internal="true"/>
+  </fields>
+</sfObjectInfo>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiScreen>
+    <uiBlock name="newBlock" visualGrouping="true" label="New Contact">  
+        <uiControl type="text" name="FirstName" label="First Name" locator="//input[@id='name_first']"/>
+        <uiControl type="text" name="LastName" label="Last Name" locator="//input[@id='name_last']"/>
+        <uiControl type="text" name="Email" label="Email" locator="//input[@id='email']"/>
+        <uiControl type="textarea" name="MailingStreet" label="Mailing Street" locator="//textarea[@id='street']"/>
+        <uiControl type="text" name="MailingCity" label="Mailing City" locator="//input[@id='city']"/>
+        <uiControl type="text" name="MailingState" label="Mailing State/Province" locator="//*[@id='state']"/>
+        <uiControl type="text" name="MailingPostalCode" label="Mailing Zip/Postal Code" locator="//input[@id='zip']"/>
+        <uiControl type="text" name="MailingCountry" label="Mailing Country" locator="//*[@id='country']"/>
+        <uiControl type="text" name="Phone" label="Phone" locator="//input[@id='phone1']"/>
+        <uiControl type="text" name="Fax" label="Fax" locator="//input[@id='phone2']"/>
+    </uiBlock>
+</uiScreen>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="Solution">
+  <fields>
+    <sfFieldInfo defaultPermissions="RW" name="SolutionNumber"/>
+    <sfFieldInfo defaultPermissions="RW" name="SolutionName"/>
+    <sfFieldInfo createable="N" defaultPermissions="RW" name="TimesUsed" updateable="N"/>
+    <sfFieldInfo createable="N" name="CreatedDate"/>
+    <sfFieldInfo createable="N" name="CreatedById"/>
+    <sfFieldInfo createable="N" name="LastModifiedDate"/>
+    <sfFieldInfo createable="N" name="LastModifiedById"/>
+  </fields>
+</sfObjectInfo>

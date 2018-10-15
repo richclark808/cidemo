@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo name="OpportunitySplit" label="Opportunity Split">
+    <standardActions>
+        <sfActionLink n="EditOpportunitySplits" t="Edit Opportunity Splits" modes="RelatedOpportunitySplits" requiresRow="false" massAction="true" locator=".//input[@type='button' and @name='edit' and contains(@onclick, '/ui/opportunity/OpportunitySplitEdit')]"/>
+    </standardActions>
+</sfObjectInfo>

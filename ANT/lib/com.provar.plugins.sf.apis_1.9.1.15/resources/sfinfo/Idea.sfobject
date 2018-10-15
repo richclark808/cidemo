@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo name="Idea">
+    <fields>
+      <sfFieldInfo name="Title" defaultPermissions="RW"/>
+      <sfFieldInfo name="CommunityId" defaultPermissions="RW"/>
+      <sfFieldInfo name="Body" defaultPermissions="RW"/>
+      <sfFieldInfo name="NumComments" defaultPermissions="RW"/>
+      <sfFieldInfo name="VoteScore" defaultPermissions="RW" createable="N" updateable="N"/>
+      <sfFieldInfo name="VoteTotal" defaultPermissions="RW" createable="N" updateable="N"/>
+      <sfFieldInfo name="Categories" defaultPermissions="RW"/>
+      <sfFieldInfo name="LastCommentDate" defaultPermissions="RW"/>
+      <sfFieldInfo name="LastCommentId" defaultPermissions="RW" createable="N" updateable="N"/>
+      <sfFieldInfo name="ParentIdeaId" defaultPermissions="RW" createable="N" updateable="N"/>
+      <sfFieldInfo name="AttachmentName" defaultPermissions="RW"/>
+      <sfFieldInfo name="AttachmentContentType" defaultPermissions="RW"/>
+      <sfFieldInfo name="AttachmentLength" defaultPermissions="RW"/>
+      <sfFieldInfo name="AttachmentBody" defaultPermissions="RW"/>
+      <sfFieldInfo name="CreatorFullPhotoUrl" defaultPermissions="RW" createable="N" updateable="N"/>
+      <sfFieldInfo name="CreatorSmallPhotoUrl" defaultPermissions="RW" createable="N" updateable="N"/>
+      <sfFieldInfo name="CreatorName" defaultPermissions="RW" createable="N" updateable="N"/>
+      <sfFieldInfo name="IdeaThemeId" defaultPermissions="RW"/>
+	  <sfFieldInfo name="RecordTypeId" createable="N" updateable="N"/>
+</fields>
+</sfObjectInfo>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfRelatedList fieldName="TargetObjectId" label="Approval History" n="ProcessSteps" relationshipName="RelatedProcessHistoryList" s="3-" t="Approval History (TargetObjectId)">
+	<children>
+		<sfRelatedListColumn n="CreatedDate" s="" seq="0" t="Date"/>
+		<sfRelatedListColumn n="toLabel(StepStatus)" s="" seq="1" t="Status"/>
+		<sfRelatedListColumn n="ActorId" alias="Actor.Name" s="" seq="2" t="Assigned To"/>
+		<sfRelatedListColumn n="OriginalActorId" alias="OriginalActor.Name" s="" seq="3" t="Actual Approver"/>
+		<sfRelatedListColumn n="Comments" s="" seq="4"/>
+		<sfRelatedListColumn n="ProcessInstanceNode.NodeStatus" alias="overallStatus" s="" seq="5" t="Overall Status" locator=".//preceding-sibling::tr[contains(@class, 'extraRow')]//td[6]"/>
+	</children>
+	<lightningColumns>
+    	<sfRelatedListColumn n="ProcessInstanceNode.ProcessNodeName" s="" seq="0" t="Step Name" />
+    	<sfRelatedListColumn n="ProcessInstanceStep.CreatedDate" s="" seq="1" t="Date"/>
+    	<sfRelatedListColumn n="ProcessInstanceStep.StepStatus" s="" seq="2" t="Status"/>
+    	<sfRelatedListColumn n="ProcessInstanceStep.ActorId" s="" seq="3" t="Assigned To"/>
+    	<sfRelatedListColumn n="ProcessInstanceStep.OriginalActorId" s="" seq="4" t="Actual Approver"/>
+    	<sfRelatedListColumn n="ProcessInstanceStep.Comments" s="" seq="5" t="Comments"/>
+	</lightningColumns>
+</sfRelatedList>

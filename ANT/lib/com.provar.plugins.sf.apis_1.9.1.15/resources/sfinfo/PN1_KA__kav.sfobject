@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="PN1_KA__kav">
+  <fields>
+    <sfFieldInfo createable="N" name="KnowledgeArticleId" updateable="N"/>
+    <sfFieldInfo createable="N" name="OwnerId" required="Y" updateable="N"/>
+    <sfFieldInfo createable="N" name="PublishStatus" restrictedPicklist="true" updateable="N">
+      <picklistEntries>
+        <sfPLE defaultValue="true" id="-1" n="Draft" s=""/>
+        <sfPLE id="-1" n="Online" s="" t="Published"/>
+        <sfPLE id="-1" n="Archived" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="N" name="VersionNumber" updateable="N"/>
+    <sfFieldInfo createable="Y" name="IsVisibleInPkb" updateable="Y"/>
+    <sfFieldInfo createable="Y" name="IsVisibleInCsp" updateable="Y"/>
+    <sfFieldInfo createable="Y" name="IsVisibleInPrm" updateable="Y"/>
+    <sfFieldInfo name="Language" restrictedPicklist="true" updateable="N">
+      <picklistEntries>
+        <sfPLE id="-1" n="en_US" s="" t="English"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="N" name="ArchivedDate" updateable="N"/>
+    <sfFieldInfo createable="N" name="ArchivedById" updateable="N"/>
+    <sfFieldInfo createable="N" name="FirstPublishedDate" updateable="N"/>
+    <sfFieldInfo createable="N" name="LastPublishedDate" updateable="N"/>
+    <sfFieldInfo createable="N" name="ArticleArchivedById" updateable="N"/>
+    <sfFieldInfo createable="N" name="ArticleArchivedDate" updateable="N"/>
+    <sfFieldInfo createable="N" name="ArticleCaseAttachCount" updateable="N"/>
+    <sfFieldInfo createable="N" name="ArticleCreatedById" updateable="N"/>
+    <sfFieldInfo createable="N" name="ArticleCreatedDate" updateable="N"/>
+    <sfFieldInfo createable="N" name="ArticleMasterLanguage" restrictedPicklist="true" updateable="N">
+      <picklistEntries>
+        <sfPLE id="-1" n="en_US" s="" t="English"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="N" name="ArticleTotalViewCount" updateable="N"/>
+    <sfFieldInfo createable="N" name="SourceId" updateable="N"/>
+    <sfFieldInfo createable="N" name="ArticleType" restrictedPicklist="true" updateable="N">
+      <picklistEntries>
+        <sfPLE id="-1" n="Release__kav" s=""/>
+        <sfPLE id="-1" n="PN1_KA__kav" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="N" name="AssignedToId" updateable="N"/>
+    <sfFieldInfo createable="N" name="AssignedById" updateable="N"/>
+    <sfFieldInfo createable="N" name="AssignmentDate" updateable="N"/>
+    <sfFieldInfo createable="N" name="AssignmentDueDate" updateable="N"/>
+    <sfFieldInfo createable="N" name="AssignmentNote" updateable="N"/>
+    <sfFieldInfo name="File1__ContentType__s" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE id="-1" n="application/pdf" s=""/>
+        <sfPLE id="-1" n="application/vnd.ms-powerpoint" s=""/>
+        <sfPLE id="-1" n="application/vnd.openxmlformats-officedocument.presentationml.presentation" s=""/>
+        <sfPLE id="-1" n="application/vnd.ms-powerpoint.presentation.macroEnabled.12" s=""/>
+        <sfPLE id="-1" n="application/vnd.openxmlformats-officedocument.presentationml.template" s=""/>
+        <sfPLE id="-1" n="application/msword" s=""/>
+        <sfPLE id="-1" n="application/vnd.openxmlformats-officedocument.wordprocessingml.document" s=""/>
+        <sfPLE id="-1" n="application/vnd.ms-word.document.macroEnabled.12" s=""/>
+        <sfPLE id="-1" n="application/vnd.openxmlformats-officedocument.wordprocessingml.template" s=""/>
+        <sfPLE id="-1" n="application/vnd.openxmlformats-officedocument.presentationml.slideshow" s=""/>
+        <sfPLE id="-1" n="application/vnd.ms-excel" s=""/>
+        <sfPLE id="-1" n="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" s=""/>
+        <sfPLE id="-1" n="application/vnd.ms-excel.sheet.macroEnabled.12" s=""/>
+        <sfPLE id="-1" n="application/vnd.openxmlformats-officedocument.spreadsheetml.template" s=""/>
+        <sfPLE id="-1" n="audio/x-aac" s=""/>
+        <sfPLE id="-1" n="video/x-msvideo" s=""/>
+        <sfPLE id="-1" n="image/bmp" s=""/>
+        <sfPLE id="-1" n="text/csv" s=""/>
+        <sfPLE id="-1" n="application/postscript" s=""/>
+        <sfPLE id="-1" n="application/octet-stream" s=""/>
+        <sfPLE id="-1" n="application/x-shockwave-flash" s=""/>
+        <sfPLE id="-1" n="image/gif" s=""/>
+        <sfPLE id="-1" n="text/html" s=""/>
+        <sfPLE id="-1" n="image/jpeg" s=""/>
+        <sfPLE id="-1" n="application/javascript" s=""/>
+        <sfPLE id="-1" n="audio/mpeg" s=""/>
+        <sfPLE id="-1" n="video/mpeg" s=""/>
+        <sfPLE id="-1" n="video/quicktime" s=""/>
+        <sfPLE id="-1" n="application/vnd.oasis.opendocument.presentation" s=""/>
+        <sfPLE id="-1" n="application/vnd.oasis.opendocument.spreadsheet" s=""/>
+        <sfPLE id="-1" n="application/vnd.oasis.opendocument.text" s=""/>
+        <sfPLE id="-1" n="video/ogg" s=""/>
+        <sfPLE id="-1" n="image/png" s=""/>
+        <sfPLE id="-1" n="image/vnd.adobe.photoshop" s=""/>
+        <sfPLE id="-1" n="application/rtf" s=""/>
+        <sfPLE id="-1" n="text/snote" s=""/>
+        <sfPLE id="-1" n="text/stypi" s=""/>
+        <sfPLE id="-1" n="text/plain" s=""/>
+        <sfPLE id="-1" n="application/vnd.visio" s=""/>
+        <sfPLE id="-1" n="audio/x-ms-wmv" s=""/>
+        <sfPLE id="-1" n="application/xml" s=""/>
+        <sfPLE id="-1" n="application/zip" s=""/>
+        <sfPLE id="-1" n="application/x-gzip" s=""/>
+        <sfPLE id="-1" n="text/webviewhtml" s=""/>
+        <sfPLE id="-1" n="message/rfc822" s=""/>
+        <sfPLE id="-1" n="application/x-zip-compressed" s=""/>
+        <sfPLE id="-1" n="video/x-ms-asf" s=""/>
+        <sfPLE id="-1" n="image/vnd.dwg" s=""/>
+        <sfPLE id="-1" n="application/java-archive" s=""/>
+        <sfPLE id="-1" n="application/x-javascript" s=""/>
+        <sfPLE id="-1" n="application/opx" s=""/>
+        <sfPLE id="-1" n="image/x-photoshop" s=""/>
+        <sfPLE id="-1" n="image/tiff" s=""/>
+        <sfPLE id="-1" n="audio/x-wav" s=""/>
+        <sfPLE id="-1" n="text/css" s=""/>
+        <sfPLE id="-1" n="audio/mp4" s=""/>
+        <sfPLE id="-1" n="video/x-m4v" s=""/>
+        <sfPLE id="-1" n="video/mp4" s=""/>
+        <sfPLE id="-1" n="audio/x-ms-wma" s=""/>
+        <sfPLE id="-1" n="image/svg+xml" s=""/>
+        <sfPLE id="-1" n="text/x-c" s=""/>
+        <sfPLE id="-1" n="text/x-c++" s=""/>
+        <sfPLE id="-1" n="application/x-java-source" s=""/>
+        <sfPLE id="-1" n="application/x-sql" s=""/>
+        <sfPLE id="-1" n="application/xhtml+xml" s=""/>
+        <sfPLE id="-1" n="application/vnd.ms-infopath" s=""/>
+        <sfPLE id="-1" n="application/vnd.google-apps.document" s=""/>
+        <sfPLE id="-1" n="application/vnd.google-apps.presentation" s=""/>
+        <sfPLE id="-1" n="application/vnd.google-apps.spreadsheet" s=""/>
+        <sfPLE id="-1" n="application/vnd.google-apps.drawing" s=""/>
+        <sfPLE id="-1" n="application/vnd.google-apps.form" s=""/>
+        <sfPLE id="-1" n="application/vnd.google-apps.script" s=""/>
+        <sfPLE id="-1" n="application/vnd.box.notes" s=""/>
+        <sfPLE id="-1" n="text/vnd.salesforce.quip-doc" s=""/>
+        <sfPLE id="-1" n="text/vnd.salesforce.quip-sheet" s=""/>
+        <sfPLE id="-1" n="application/octet-stream;type=unknown" s=""/>
+        <sfPLE id="-1" n="application/html" s=""/>
+        <sfPLE id="-1" n="text/xml" s=""/>
+        <sfPLE id="-1" n="text/rtf" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="N" name="File1__Length__s" updateable="N"/>
+  </fields>
+</sfObjectInfo>

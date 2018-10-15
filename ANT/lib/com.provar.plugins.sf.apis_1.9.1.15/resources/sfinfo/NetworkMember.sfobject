@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="NetworkMember">
+  <fields>
+    <sfFieldInfo createable="N" name="CreatedDate"/>
+    <sfFieldInfo createable="N" name="CreatedById"/>
+    <sfFieldInfo createable="N" name="NetworkId" updateable="N"/>
+    <sfFieldInfo createable="N" name="MemberId" updateable="N"/>
+    <sfFieldInfo createable="N" name="DigestFrequency" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE id="-1" n="D" s="" t="Daily"/>
+        <sfPLE id="-1" n="W" s="" t="Weekly"/>
+        <sfPLE defaultValue="true" id="-1" n="N" s="" t="Never"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="N" name="DefaultGroupNotificationFrequency" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE id="-1" n="P" s="" t="Email on Each Post"/>
+        <sfPLE id="-1" n="D" s="" t="Daily Digests"/>
+        <sfPLE id="-1" n="W" s="" t="Weekly Digests"/>
+        <sfPLE defaultValue="true" id="-1" n="N" s="" t="Never"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="N" name="PreferencesDisableAllFeedsEmail"/>
+    <sfFieldInfo createable="N" name="PreferencesDisableFollowersEmail"/>
+    <sfFieldInfo createable="N" name="PreferencesDisableProfilePostEmail"/>
+    <sfFieldInfo createable="N" name="PreferencesDisableChangeCommentEmail"/>
+    <sfFieldInfo createable="N" name="PreferencesDisableLaterCommentEmail"/>
+    <sfFieldInfo createable="N" name="PreferencesDisProfPostCommentEmail"/>
+    <sfFieldInfo createable="N" name="PreferencesDisableMentionsPostEmail"/>
+    <sfFieldInfo createable="N" name="PreferencesDisMentionsCommentEmail"/>
+    <sfFieldInfo createable="N" name="PreferencesDisableLikeEmail"/>
+    <sfFieldInfo createable="N" name="PreferencesDisCommentAfterLikeEmail"/>
+    <sfFieldInfo createable="N" name="PreferencesDisableBookmarkEmail"/>
+    <sfFieldInfo createable="N" name="PreferencesDisableSharePostEmail"/>
+    <sfFieldInfo createable="N" name="PreferencesDisableItemFlaggedEmail"/>
+    <sfFieldInfo createable="N" name="PreferencesDisableMessageEmail"/>
+    <sfFieldInfo createable="N" name="PreferencesDisableEndorsementEmail"/>
+    <sfFieldInfo createable="N" name="PreferencesDisablePendingReviewEmail"/>
+    <sfFieldInfo createable="N" name="PreferencesDisableDirectMessageEmail"/>
+    <sfFieldInfo createable="N" name="ReputationPoints"/>
+    <sfFieldInfo createable="N" name="LastChatterActivityDate" updateable="N"/>
+  </fields>
+</sfObjectInfo>

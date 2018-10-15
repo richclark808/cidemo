@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo name="CaseTeamMember" label="Case Team Member" keyPrefix="0B6">
+    <standardActions>
+	    <sfActionLink n="newMember" t="Update Case Team Members" modes="TeamMembers" newAction="true"/>
+	    <sfActionLink n="Remove" t="Remove" modes="TeamMembers" requiresRow="true" locator="td[contains(@class, 'actionColumn')]/a[contains(@href, 'deleteredirect.jsp')]"/>
+    </standardActions>
+</sfObjectInfo>

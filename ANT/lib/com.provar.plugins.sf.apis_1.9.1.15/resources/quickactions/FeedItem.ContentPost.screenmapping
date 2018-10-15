@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiScreen type="page"
+		  name="FeedItem.ContentPost" 
+          label="File quick action">
+          
+    <uiControl type="link" name="chatterLinkFileAction" label="Select a file from Salesforce" locator="//a[@id='chatterLinkFileAction']" />
+    <uiControl type="link" name="chatterUploadFileAction" label="Select a file from your computer" locator="//a[@id='chatterUploadFileAction']" />
+    <uiControl type="pageControl" pageControl="com.provar.plugins.forcedotcom.core.ui.pagecontrols.cke.CkEditor" name="publisherRichTextEditor" label="Say something" locator="//div[@id='cke_publisherRichTextEditor']"/>
+
+	<uiBlock name="chatterFile" label="Select computer file" visualGrouping="true">
+    	<uiButton type="fileButton" name="chatterFile" label="Choose a file" locator="//input[@id='chatterFile']" />
+    </uiBlock>
+
+	<!--uiBlock type="frame" name="chatterChoose" label="Select File to Attach" visualGrouping="true" locator="//iframe[@id='chatterFindExistingContentContentId']">
+    	<uiButton type="link" name="allFilesBrowseItem" label="All Files" locator="//a[@id='allFilesBrowseItem']" />
+    	<uiButton type="link" name="recentFilesBrowseItem" label="Recent" locator="//a[@id='recentFilesBrowseItem']" />
+    	<uiButton type="link" name="myFiles" label="My Files" locator="//a[@id='myFiles']/span" />
+    	<uiButton type="link" name="ownedByMe" label="Owned by Me" locator="//ul[@id='chatterAllMyFiles']//a[1]/span" />
+    	<uiButton type="link" name="sharedWithMe" label="Shared with Me" locator="//ul[@id='chatterAllMyFiles']//a[2]/span" />
+    	<uiButton type="link" name="following" label="Following" locator="//ul[@id='chatterAllMyFiles']//a[3]/span" />
+    	<uiButton type="link" name="contentFilesInWorkspacesLink" label="Files in my Libraries" locator="//a[@id='contentFilesInWorkspacesLink']/span" />
+    	<uiControl type="input" name="searchBox" label="Search Field" locator="//div[contains(@class='zen-searchBox']//input" />
+    	<uiButton type="link" name="searchButton" label="Search Button" locator="//div[contains(@class='zen-searchBox']//a[@title='Search']" />
+    	
+    	<uiTable name="filesTable" label="Files Table" locator="//form[@id='000000000000000_actionForm']//table">
+		    <uiRow name="filesRow"
+		           label="Files Row"
+		    	   repeating="true" 
+		           locator="tbody/tr"
+		           >
+              <uiButton type="link" name="attach" label="Attach" locator="td[contains(@class,'attach')]/a"/>
+              <uiControl name="name" label="Name" locator="td[contains(@class,'title')]/span"/>
+	        </uiRow>
+    	</uiTable>
+    </uiBlock-->
+
+	<uiButton type="button" name="publishersharebutton" label="Share" locator="//input[@id='publishersharebutton']" />
+
+</uiScreen>

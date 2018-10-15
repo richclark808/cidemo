@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<translations>
+	<!-- We need the English language label for each standard object because this isn't supplied in the .object metadata file unless overridden. -->
+	<!-- NOTE: Let's keep this in alphabetical order. -->
+	<translation type="SfObjectLabel" key="Account" value="Account" plural="Accounts"/>
+	<translation type="SfObjectLabel" key="Case" value="Case" plural="Cases"/>
+	<translation type="SfObjectLabel" key="Opportunity" value="Opportunity" plural="Opportunities"/>
+</translations>

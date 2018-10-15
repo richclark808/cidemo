@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" label="Campaign Member" name="CampaignMember">
+  <fields>
+    <sfFieldInfo name="State"/>
+    <sfFieldInfo name="Country"/>
+  </fields>
+  <standardActions>
+    <sfActionLink buttonName="newOpp" modes="View" n="Create_Opportunity" t="Create Opportunity"/>
+    <sfActionLink buttonName="convert" modes="View" n="ConvertLead" t="Convert Lead"/>
+    <sfActionLink lightningLabel="Add to Campaign" modes="CampaignMembers" n="addCampaign" newAction="true" t="Add to Campaign"/>
+    <sfActionLink modes="CampaignMembers" n="Edit" requiresRow="true" s="1"/>
+    <sfActionLink lightningLabel="Delete" modes="CampaignMembers" n="Delete" requiresRow="true" s="2" t="Del"/>
+    <sfActionLink modes="CampaignMembers" n="View" requiresRow="true" s="3"/>
+  </standardActions>
+</sfObjectInfo>

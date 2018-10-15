@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<translations>
+  <translation key="Event.EventSubtype" type="SfFieldLabel" value="Untertyp des Ereignisses"/>
+  <translation key="Event.GroupEventType" type="SfFieldLabel" value="Gruppenereignistyp"/>
+  <translation key="Event.IsAllDayEvent" type="SfFieldLabel" value="Ganztägiges Ereignis"/>
+  <translation key="Event.IsGroupEvent" type="SfFieldLabel" value="Ist Gruppen-Ereignis"/>
+  <translation key="Event.IsRecurrence" type="SfFieldLabel" value="Serie wiederkehrender Ereignisse erstellen"/>
+</translations>

@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.1
+Created-By: 11.0-b15 (Sun Microsystems Inc.)
+Main-Class: com.simontuffs.onejar.Boot
+One-Jar-Main-Class: com.otgsolutions.testbench.testexecution.container
+ .java.LocalTestExecutionContainerRunner
+

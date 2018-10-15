@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfRelatedList fieldName="ParentId" label="Case Comments" n="CaseComments" relationshipName="CaseComments" s="3-" t="Case Comments (ParentId)">
+  <children>
+    <sfRelatedListColumn n="IsPublished" s="" seq="0" t="Public"/>
+    <sfRelatedListColumn alias="Comment" n="CommentBody" s="" seq="1" t="Comment"/>
+  </children>
+  <lightningColumns>
+    <sfRelatedListColumn n="CreatedById" s="" seq="0" t="User" />
+    <sfRelatedListColumn n="IsPublished" s="" seq="1" t="Public"/>
+    <sfRelatedListColumn n="CreatedDate" s="" seq="2" t="Created Date"/>
+    <sfRelatedListColumn n="CommentBody" s="" seq="3" t="Comment"/>
+  </lightningColumns>
+</sfRelatedList>

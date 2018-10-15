@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfLayoutSections>
+	<sfLayoutSection detailHeading="false" n="Optional" s="" seqNum="4" t="Web Layout Section - true">
+	  <children>
+	    <sfLayoutRow n="RulesLayoutRow" s="" seqNum="0" >
+	      <children>
+	        <sfLI label="Assign using active assignment rule" n="showRunAssignmentRulesCheckbox" s="" seqNum="0" t="Web Layout Item" required="false">
+	          <children>
+	            <sfLIC n="showRunAssignmentRulesCheckbox" s="" seqNum="0" t="Assign using active assignment rule" type="Field" fieldType="checkbox" locator="/table//tr[1]//td[1]//input"/>
+	          </children>
+	        </sfLI>
+	      </children>
+	    </sfLayoutRow>
+	  </children>
+	</sfLayoutSection>
+</sfLayoutSections>

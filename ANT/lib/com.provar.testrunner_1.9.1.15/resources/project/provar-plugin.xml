@@ -1,0 +1,15 @@
+ <testExecutionContainerDescriptor name="project" 
+                  title="Project APIs"
+                  factoryClass="com.provar.core.testexecution.controller.java.JavaTestExecutionContainerFactory"
+                  projectPlugin="true"
+                  restartOnProjectBinChange="true">
+	<factoryParams>
+	<!--
+		<propertyValue name="vmArg">-Xdebug</propertyValue>
+		<propertyValue name="vmArg">-Xrunjdwp:transport=dt_socket,address=10001,server=y,suspend=y</propertyValue>
+	-->
+		<propertyValue name="vmArg">-Xms48m</propertyValue>
+		<propertyValue name="vmArg">-Xmx240m</propertyValue>
+		<propertyValue name="classPathEntry">bin</propertyValue>
+	</factoryParams>
+ </testExecutionContainerDescriptor>

@@ -1,0 +1,50 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.provar.testrunner</groupId>
+	<artifactId>com.provar.testrunner</artifactId>
+	<name>Provar Test Runner</name>
+	<packaging>eclipse-plugin</packaging>
+
+	<parent>
+		<artifactId>com.provar.build</artifactId>
+		<groupId>com.provar.build</groupId>
+		<version>1.9.1.15</version>
+		<relativePath>../../Java/com.provar.build/pom.xml</relativePath>
+	</parent>
+
+	<properties>
+		<tycho.version>0.25.0</tycho.version>
+	</properties>
+
+	<repositories>
+		<!-- add Oxygen repository to resolve dependencies -->
+		<repository>
+			<id>Provar_build</id>
+			<layout>p2</layout>
+			<url>file:/F:/eclipse-p2-4.7.1e/repository</url>
+		</repository>
+	</repositories>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-compiler-plugin</artifactId>
+				<version>${tycho.version}</version>
+				<configuration>
+					<compilerArgument>-warn:none</compilerArgument>
+					<compilerArgument>-err:none</compilerArgument>
+				</configuration>
+			</plugin>
+			<plugin>
+				<!-- enable tycho build extension -->
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-maven-plugin</artifactId>
+				<version>${tycho.version}</version>
+				<extensions>true</extensions>
+			</plugin>
+		</plugins>
+	</build>
+	<version>1.9.1.15</version>
+</project>

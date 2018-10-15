@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfRelatedList fieldName="Product2Id" label="Price Books" n="PricebookEntries" relationshipName="PricebookEntries" s="3-" t="Price Books (Product2Id)">
+  <children>
+    <sfRelatedListColumn n="Pricebook2.Name" s="" seq="0" t="Price Book Name"/>
+    <sfRelatedListColumn n="UnitPrice" s="" seq="1" t="List Price"/>
+    <sfRelatedListColumn n="UseStandardPrice" s="" seq="2" t="Use Standard Price"/>
+    <sfRelatedListColumn n="IsActive" s="" seq="3" t="Active"/>
+  </children>
+</sfRelatedList>

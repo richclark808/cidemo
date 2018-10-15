@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<translations>
+	<translation type="SfLanguageElement" key="ReferenceIdSuffix" value="-ID"/>
+	<translation type="SfLanguageElement" key="ReferenceNameLabelFormat" value="{SfField.Label}naam"/>
+	
+	<translation type="SfLanguageElement" key="Owner" value="Eigenaar"/>
+	<translation type="SfLanguageElement" key="OwnerLabelFormat" value="{SfObject.Label}-eigenaar"/>
+	
+	<translation type="SfLanguageElement" key="NameLabelFormat" value="{SfObject.Label}naam"/>
+</translations>

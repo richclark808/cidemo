@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="Site">
+  <fields>
+    <sfFieldInfo createable="N" name="Name" updateable="N"/>
+    <sfFieldInfo createable="N" name="Subdomain" updateable="N"/>
+    <sfFieldInfo createable="N" name="UrlPathPrefix" updateable="N"/>
+    <sfFieldInfo createable="N" name="GuestUserId" updateable="N"/>
+    <sfFieldInfo createable="N" name="Status" restrictedPicklist="true" updateable="N">
+      <picklistEntries>
+        <sfPLE id="-1" n="Active" s=""/>
+        <sfPLE id="-1" n="Inactive" s="" t="In Maintenance"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="N" name="AdminId" updateable="N"/>
+    <sfFieldInfo createable="N" name="OptionsEnableFeeds" updateable="N"/>
+    <sfFieldInfo createable="N" name="OptionsRequireHttps" updateable="N"/>
+    <sfFieldInfo createable="N" name="OptionsAllowHomePage" updateable="N"/>
+    <sfFieldInfo createable="N" name="OptionsAllowStandardIdeasPages" updateable="N"/>
+    <sfFieldInfo createable="N" name="OptionsAllowStandardSearch" updateable="N"/>
+    <sfFieldInfo createable="N" name="OptionsAllowStandardLookups" updateable="N"/>
+    <sfFieldInfo createable="N" name="OptionsAllowStandardAnswersPages" updateable="N"/>
+    <sfFieldInfo createable="N" name="OptionsAllowGuestSupportApi" updateable="N"/>
+    <sfFieldInfo createable="N" name="OptionsAllowStandardPortalPages" updateable="N"/>
+    <sfFieldInfo createable="N" name="OptionsCspUpgradeInsecureRequests" updateable="N"/>
+    <sfFieldInfo createable="N" name="OptionsContentSniffingProtection" updateable="N"/>
+    <sfFieldInfo createable="N" name="OptionsBrowserXssProtection" updateable="N"/>
+    <sfFieldInfo createable="N" name="OptionsReferrerPolicyOriginWhenCrossOrigin" updateable="N"/>
+    <sfFieldInfo createable="N" name="Description" updateable="N"/>
+    <sfFieldInfo createable="N" name="MasterLabel" updateable="N"/>
+    <sfFieldInfo createable="N" name="AnalyticsTrackingCode" updateable="N"/>
+    <sfFieldInfo createable="N" name="SiteType" restrictedPicklist="true" updateable="N">
+      <picklistEntries>
+        <sfPLE id="-1" n="Siteforce" s="" t="Site.com"/>
+        <sfPLE id="-1" n="Visualforce" s="" t="Force.com"/>
+        <sfPLE id="-1" n="ChatterNetwork" s="" t="Community"/>
+        <sfPLE id="-1" n="ChatterNetworkPicasso" s="" t="Site.com Community"/>
+        <sfPLE id="-1" n="User" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="N" name="ClickjackProtectionLevel" restrictedPicklist="true" updateable="N">
+      <picklistEntries>
+        <sfPLE id="-1" n="AllowAllFraming" s="" t="Allow framing by any page (no protection)"/>
+        <sfPLE defaultValue="true" id="-1" n="SameOriginOnly" s="" t="Allow framing by the same origin only (recommended)"/>
+        <sfPLE id="-1" n="NoFraming" s="" t="Don't allow framing by any page (most protection)"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="N" name="DailyBandwidthLimit" updateable="N"/>
+    <sfFieldInfo createable="N" name="DailyBandwidthUsed" updateable="N"/>
+    <sfFieldInfo createable="N" name="DailyRequestTimeLimit" updateable="N"/>
+    <sfFieldInfo createable="N" name="DailyRequestTimeUsed" updateable="N"/>
+    <sfFieldInfo createable="N" name="MonthlyPageViewsEntitlement" updateable="N"/>
+    <sfFieldInfo createable="N" name="CreatedDate"/>
+    <sfFieldInfo createable="N" name="CreatedById"/>
+    <sfFieldInfo createable="N" name="LastModifiedDate"/>
+    <sfFieldInfo createable="N" name="LastModifiedById"/>
+  </fields>
+</sfObjectInfo>

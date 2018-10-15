@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" label="Case Comment" name="CaseComment">
+  <fields>
+    <sfFieldInfo name="ParentId" updateable="N"/>
+    <sfFieldInfo createable="Y" name="IsPublished" updateable="Y"/>
+  </fields>
+  <standardActions>
+    <sfActionLink modes="CaseComments" n="newComment" newAction="true" t="New"/>
+    <sfActionLink modes="CaseComments" n="Edit" requiresRow="true"/>
+    <sfActionLink lightningLabel="Delete" modes="CaseComments" n="Delete" requiresRow="true" t="Del"/>
+    <sfActionLink modes="CaseComments" n="MakePublicPrivate" requiresRow="true" t="Make Public/Private"/>
+  </standardActions>
+</sfObjectInfo>

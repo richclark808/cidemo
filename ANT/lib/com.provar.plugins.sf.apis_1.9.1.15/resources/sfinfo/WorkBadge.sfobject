@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="WorkBadge">
+  <fields>
+    <sfFieldInfo name="DefinitionId" updateable="N"/>
+    <sfFieldInfo name="RecipientId" updateable="N"/>
+    <sfFieldInfo createable="N" name="GiverId" updateable="N"/>
+    <sfFieldInfo createable="N" name="ImageUrl" updateable="N"/>
+    <sfFieldInfo createable="N" name="Description" updateable="N"/>
+    <sfFieldInfo createable="N" name="Message" updateable="N"/>
+    <sfFieldInfo name="RewardId" internal="true"/>
+  </fields>
+</sfObjectInfo>

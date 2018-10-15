@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo name="CaseArticle">
+    <standardActions>
+	    <sfActionLink n="searchArticles" t="Find Articles" modes="CaseArticles"/>
+	    <sfActionLink n="detach" t="Detach" modes="CaseArticles" requiresRow="true"/>
+    </standardActions>
+</sfObjectInfo>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo name="Document" label="Document">
+<defaultListViewColumns>DOCUMENT.NAME, DOCUMENT.DESCRIPTION, DOCUMENT.BODYLENGTH, DOCUMENT.LASTMODIFIEDDATE, DOCUMENT.TYPE, DOCUMENT.AUTHORID</defaultListViewColumns>
+<homeListColumns>DOCUMENT.NAME, DOCUMENT.DESCRIPTION, DOCUMENT.TYPE</homeListColumns>
+
+  	<standardActions>
+    	<sfActionLink n="View"  target="sf:ui:target?pageObject=com.provar.plugins.forcedotcom.core.ui.pageobjects.DocumentView"/>
+    	 <sfActionLink n="List" t="List" modes="detail"/>
+  	</standardActions>
+</sfObjectInfo>

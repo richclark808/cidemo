@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo name="AccountContactRelation" label="Account Contact Relation">
+    <standardActions>
+        <sfActionLink n="AddRelation" t="Add Relationship" modes="AccountContactRelations" newAction="true"/>
+        <sfActionLink n="New" t="New Contact" modes="AccountContactRelations" newAction="true"/>
+        <sfActionLink n="newContact" t="New Contact" modes="AccountContactRelations" newAction="true"/>
+        <sfActionLink n="ViewRelation" t="View Relationship" modes="AccountContactRelations" requiresRow="true" locator="td[contains(@class, 'actionColumn')]/a[contains(@href, '/07k')]"/>
+        <sfActionLink n="RemoveRelation" t="Remove Relationship" modes="AccountContactRelations" requiresRow="true" locator="td[contains(@class, 'actionColumn')]/a[contains(@href, 'deleteredirect.jsp')]"/>
+  	 	<sfActionLink n="Edit" t="Edit" modes="AccountContactRelations" requiresRow="true" locator="td[contains(@class, 'actionColumn')]/a[contains(@href, '/e?retURL=')]"/>
+    </standardActions>
+</sfObjectInfo>

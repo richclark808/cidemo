@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiScreen type="page"
+		  name="changeOwner" 
+          label="SF Object change owner screen">
+          
+    <uiBlock name="selectOwner" visualGrouping="true" label="Select New Owner">  
+        
+        <uiControl name="newOwn" label="Owner" binding="sf:ui:binding:object?object={targetUrl:object}&amp;field=OwnerId"/>
+        
+        <uiControl type="checkbox" name="transOpenOpps" label="Transfer open opportunities" locator="//input[@id='transOpenOpps']" />
+        <uiControl type="checkbox" name="transClosedOpps" label="Transfer closed opportunities" locator="//input[@id='transClosedOpps']" />
+        <uiControl type="checkbox" name="transOwnedCases" label="Transfer open cases" locator="//input[@id='transOwnedCases']" />
+        <uiControl type="checkbox" name="transClosedCase" label="Transfer closed cases" locator="//input[@id='transClosedCase']" />
+        <uiControl type="checkbox" name="keepTeam" label="Keep Account Team" locator="//input[@id='keepTeam']" />
+        <uiControl type="checkbox" name="sendMail" label="Send Notification Email" locator="//input[@id='sendMail']" />
+        
+        <uiButton name="save" label="Save" locator="//input[@name='save' and @type='submit']"/>
+        <uiButton name="cancel" label="Cancel" locator="//input[@name='cancel' and @type='submit']"/>
+    </uiBlock>
+
+</uiScreen>

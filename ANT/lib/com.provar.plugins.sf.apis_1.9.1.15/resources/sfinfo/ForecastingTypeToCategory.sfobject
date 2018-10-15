@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="ForecastingTypeToCategory">
+  <fields>
+    <sfFieldInfo createable="N" name="CreatedDate"/>
+    <sfFieldInfo createable="N" name="CreatedById"/>
+    <sfFieldInfo createable="N" name="LastModifiedDate"/>
+    <sfFieldInfo createable="N" name="LastModifiedById"/>
+    <sfFieldInfo createable="N" name="ForecastingTypeId" updateable="N"/>
+    <sfFieldInfo createable="N" name="ForecastingItemCategory" updateable="N">
+      <picklistEntries>
+        <sfPLE id="-1" n="OmittedOnly" s=""/>
+        <sfPLE id="-1" n="PipelineOnly" s=""/>
+        <sfPLE id="-1" n="BestCaseOnly" s=""/>
+        <sfPLE id="-1" n="CommitOnly" s=""/>
+        <sfPLE id="-1" n="ClosedOnly" s=""/>
+        <sfPLE id="-1" n="OpenPipeline" s=""/>
+        <sfPLE id="-1" n="BestCaseForecast" s=""/>
+        <sfPLE id="-1" n="CommitForecast" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="N" name="DisplayPosition" updateable="N"/>
+  </fields>
+</sfObjectInfo>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiScreen type="sfPage" 
+          label="Opportunity Contact Roles screen"
+          locator="selenium:ui:locator:xpath:">
+          
+	<uiControl type="text" name="Subject" label="Subject" locator="//input[@id='tsk5']"/>
+	<uiButton name="save"
+	          label="Save" 
+	          locator="//td[@id='bottomButtonRow']//input[@name='save']" 
+	          />
+	<uiButton name="cancel" 
+	          label="Cancel" 
+	          locator="//td[@id='bottomButtonRow']//input[@name='cancel']" 
+	          />
+</uiScreen>

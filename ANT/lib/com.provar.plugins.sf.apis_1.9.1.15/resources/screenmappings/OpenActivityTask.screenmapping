@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiScreen type="sfPage" 
+          label="New Task screen"
+          locator="selenium:ui:locator:xpath:">
+    
+    <uiBlock name="taskInformation" 
+             label="Task Information"
+             visualGrouping="true" 
+             >  
+             
+		<uiControl name="AssignedTo" 
+				   label="Assigned To" 
+				   binding="sf:ui:binding:object?object=OpenActivity&amp;field=OwnerId"
+				   locator="//input[@id='tsk1']"/>
+				   
+		<uiControl name="Subject" 
+				   label="Subject" 
+				   binding="sf:ui:binding:object?object=OpenActivity&amp;field=Subject"
+				   locator="//input[@id='tsk5']"/>
+	</uiBlock>
+	
+    <uiBlock name="additionalInformation" 
+             label="Additional Information"
+             visualGrouping="true" 
+             >  
+		<uiControl name="Status" 
+				   label="Status" 
+				   binding="sf:ui:binding:object?object=OpenActivity&amp;field=Status"
+				   locator="//select[@id='tsk12']"/>
+				   
+		<uiControl name="Priority" 
+				   label="Priority" 
+				   binding="sf:ui:binding:object?object=OpenActivity&amp;field=Priority"
+				   locator="//select[@id='tsk13']"/>
+	</uiBlock>
+	
+    <uiBlock name="recurrence" 
+             label="Recurrence"
+             visualGrouping="true" 
+             >  
+
+		<uiControl name="IsRecurrence" 
+				   label="Recurrence" 
+				   binding="sf:ui:binding:object?object=Task&amp;field=IsRecurrence"
+				   locator="//input[@id='IsRecurrence']"/>
+				   
+		<uiControl name="RecurrenceStartDateOnly" 
+				   label="Recurrence Start Date" 
+				   binding="sf:ui:binding:object?object=Task&amp;field=RecurrenceStartDateOnly"
+				   locator="//input[@id='RecurrenceStartDateOnly']"/>
+
+		<uiControl name="RecurrenceEndDateOnly" 
+				   label="Recurrence End Date" 
+				   binding="sf:ui:binding:object?object=Task&amp;field=RecurrenceEndDateOnly"
+				   locator="//input[@id='RecurrenceEndDateOnly']"/>
+
+	    <uiBlock name="recurrenceDaily" 
+	             label="Recurrence Daily"
+	             visualGrouping="true" 
+	             >  
+	
+			<uiControl type="radio"
+					   name="Daily" 
+					   label="Daily" 
+					   locator="//input[@id='rectypeftd']"/>
+
+			<uiControl type="radio"
+					   name="DailyWeekdays" 
+					   label="Daily Weekdays" 
+					   locator="//input[@id='recdd0']"/>
+
+			<uiControl type="radio"
+					   name="DailyInterval" 
+					   label="Daily Interval" 
+					   locator="//input[@id='recdd1']"/>
+
+			<uiControl type="text"
+					   name="DailyInterval" 
+					   label="Daily Interval Days" 
+					   locator="//input[@id='di']"/>
+		</uiBlock>
+
+	    <uiBlock name="recurrenceWeekly" 
+	             label="Recurrence Weekly"
+	             visualGrouping="true" 
+	             >  
+	
+			<uiControl type="radio"
+					   name="Weekly" 
+					   label="Weekly" 
+					   locator="//input[@id='rectypeftw']"/>
+
+			<uiControl type="text"
+					   name="WeeklyInterval" 
+					   label="Weekly Interval" 
+					   locator="//input[@id='wi']"/>
+
+			<uiControl type="radio"
+					   name="WeeklySunday" 
+					   label="Weekly Sunday" 
+					   locator="//input[@id='1']"/>
+
+			<uiControl type="radio"
+					   name="WeeklyMonday" 
+					   label="Weekly Monday" 
+					   locator="//input[@id='2']"/>
+
+			<uiControl type="radio"
+					   name="WeeklyTuesday" 
+					   label="Weekly Tuesday" 
+					   locator="//input[@id='3']"/>
+
+			<uiControl type="radio"
+					   name="WeeklyWednesday" 
+					   label="Weekly Wednesday" 
+					   locator="//input[@id='4']"/>
+
+			<uiControl type="radio"
+					   name="WeeklyThursday" 
+					   label="Weekly Thursday" 
+					   locator="//input[@id='5']"/>
+
+			<uiControl type="radio"
+					   name="WeeklyFriday" 
+					   label="Weekly Friday" 
+					   locator="//input[@id='6']"/>
+
+			<uiControl type="radio"
+					   name="WeeklySaturday" 
+					   label="Weekly Saturday" 
+					   locator="//input[@id='7']"/>
+		</uiBlock>
+		
+	    <uiBlock name="recurrenceMonthly" 
+	             label="Recurrence Monthly"
+	             visualGrouping="true" 
+	             >  
+	
+			<uiControl type="radio"
+					   name="Monthly" 
+					   label="Monthly" 
+					   locator="//input[@id='rectypeftm']"/>
+
+			<uiControl type="radio"
+					   name="MonthlyDom" 
+					   label="Monthly Day of Month" 
+					   locator="//input[@id='recmm0']"/>
+
+			<uiControl type="select"
+					   name="MonthlyDomDay" 
+					   label="Monthly Day of Month Day" 
+					   locator="//select[@id='mdom']"/>
+
+			<uiControl type="text"
+					   name="MonthlyDomInterval" 
+					   label="Monthly Day of Month Interval" 
+					   locator="//input[@id='mint']"/>
+
+			<uiControl type="radio"
+					   name="MonthlyDow" 
+					   label="Monthly Day of Week" 
+					   locator="//input[@id='recmm1']"/>
+
+			<uiControl type="select"
+					   name="MonthlyDowWeek" 
+					   label="Monthly Day of Week Week" 
+					   locator="//select[@id='mnins']"/>
+
+			<uiControl type="select"
+					   name="MonthlyDowDay" 
+					   label="Monthly Day of Week Day" 
+					   locator="//select[@id='mndow']"/>
+
+			<uiControl type="text"
+					   name="MonthlyDowInterval" 
+					   label="Monthly Day of Week Interval" 
+					   locator="//input[@id='mnint']"/>
+
+		</uiBlock>
+		
+	    <uiBlock name="recurrenceYearly" 
+	             label="Recurrence Yearly"
+	             visualGrouping="true" 
+	             >  
+	
+			<uiControl type="radio"
+					   name="Yearly" 
+					   label="Yearly" 
+					   locator="//input[@id='rectypefty']"/>
+
+			<uiControl type="radio"
+					   name="YearlyDom" 
+					   label="Yearly Day of Month" 
+					   locator="//input[@id='recyy0']"/>
+
+			<uiControl type="select"
+					   name="YearlyDomDay" 
+					   label="Yearly Day of Month Month" 
+					   locator="//select[@id='ymoy']"/>
+
+			<uiControl type="select"
+					   name="YearlyDomInterval" 
+					   label="Yearly Day of Month Day" 
+					   locator="//select[@id='ydom']"/>
+
+			<uiControl type="radio"
+					   name="YearlyDow" 
+					   label="Yearly Day of Week" 
+					   locator="//input[@id='recyy1']"/>
+
+			<uiControl type="select"
+					   name="YearlyDowWeek" 
+					   label="Yearly Day of Week Week" 
+					   locator="//select[@id='ynins']"/>
+
+			<uiControl type="select"
+					   name="YearlyDowDay" 
+					   label="Yearly Day of Week Day" 
+					   locator="//select[@id='yndow']"/>
+
+			<uiControl type="select"
+					   name="YearlyDowMonth" 
+					   label="Yearly Day of Week Month" 
+					   locator="//select[@id='ynmoy']"/>
+		</uiBlock>
+		
+	</uiBlock>
+
+    <uiBlock name="reminder" 
+             label="Reminder"
+             visualGrouping="true" 
+             >  
+		<uiControl type="radio"
+				   name="IsReminderSet" 
+				   label="Reminder" 
+				   binding="sf:ui:binding:object?object=OpenActivity&amp;field=IsReminderSet"
+				   locator="//input[@id='reminder_select_check']"/>
+				   
+		<uiControl name="ReminderDate" 
+				   label="Reminder Date" 
+				   binding="sf:ui:binding:object?object=OpenActivity&amp;field=ReminderDateTime&amp;facet=date"
+				   locator="//input[@id='reminder_dt']"/>
+
+		<uiControl name="ReminderTime" 
+				   label="Reminder Time" 
+				   binding="sf:ui:binding:object?object=OpenActivity&amp;field=ReminderDateTime&amp;facet=timeSelect30"
+				   locator="//select[@id='reminder_dt_time']"/>
+	</uiBlock>
+	
+	<uiButton name="save"
+	          label="Save" 
+	          binding="sf:ui:binding:object?object=OpenActivity&amp;action=save"
+	          locator="//td[@id='bottomButtonRow']//input[@name='save']" 
+	          />
+	          
+	<uiButton name="cancel" 
+	          label="Cancel" 
+	          binding="sf:ui:binding:object?object=OpenActivity&amp;action=cancel"
+	          locator="//td[@id='bottomButtonRow']//input[@name='cancel']" 
+	          />
+
+</uiScreen>

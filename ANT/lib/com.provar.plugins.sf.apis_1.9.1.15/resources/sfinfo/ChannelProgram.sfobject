@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="ChannelProgram">
+  <fields>
+    <sfFieldInfo name="Category">
+      <picklistEntries>
+        <sfPLE defaultValue="true" id="-1" n="Reseller" s=""/>
+        <sfPLE id="-1" n="SI" s=""/>
+        <sfPLE id="-1" n="Distributor" s=""/>
+        <sfPLE id="-1" n="VAR" s=""/>
+        <sfPLE id="-1" n="OEM" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="Y" name="IsActive" updateable="Y"/>
+  </fields>
+</sfObjectInfo>

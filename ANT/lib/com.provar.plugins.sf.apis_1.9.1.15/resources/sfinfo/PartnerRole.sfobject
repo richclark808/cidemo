@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="PartnerRole">
+  <fields>
+    <sfFieldInfo createable="N" name="MasterLabel" updateable="N"/>
+    <sfFieldInfo createable="N" name="ApiName" updateable="N"/>
+    <sfFieldInfo createable="N" name="SortOrder" updateable="N"/>
+    <sfFieldInfo createable="N" name="ReverseRole" updateable="N">
+      <picklistEntries>
+        <sfPLE id="-1" n="System Integrator" s=""/>
+        <sfPLE id="-1" n="Agency" s=""/>
+        <sfPLE id="-1" n="Advertiser" s=""/>
+        <sfPLE id="-1" n="VAR/Reseller" s=""/>
+        <sfPLE id="-1" n="Distributor" s=""/>
+        <sfPLE id="-1" n="Developer" s=""/>
+        <sfPLE id="-1" n="Broker" s=""/>
+        <sfPLE id="-1" n="Lender" s=""/>
+        <sfPLE id="-1" n="Supplier" s=""/>
+        <sfPLE id="-1" n="Institution" s=""/>
+        <sfPLE id="-1" n="Contractor" s=""/>
+        <sfPLE id="-1" n="Dealer" s=""/>
+        <sfPLE id="-1" n="Consultant" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo createable="N" name="CreatedById"/>
+    <sfFieldInfo createable="N" name="CreatedDate"/>
+    <sfFieldInfo createable="N" name="LastModifiedById"/>
+    <sfFieldInfo createable="N" name="LastModifiedDate"/>
+  </fields>
+</sfObjectInfo>
