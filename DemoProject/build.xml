@@ -5,9 +5,9 @@
 	<property name="testproject.results" value="DemoProject/Results"/>
 	
 
-	<taskdef name="Provar-Compile" 
+	<!--taskdef name="Provar-Compile" 
 		classname="com.provar.testrunner.ant.CompileTask" 
-		classpath="${provar.home}/ant/ant-provar.jar"/>
+		classpath="${provar.home}/ant/ant-provar.jar"/-->
 	<taskdef name="Run-Test-Case" 
 		classname="com.provar.testrunner.ant.RunnerTask" 
 		classpath="${provar.home}/ant/ant-provar.jar;${provar.home}/ant/ant-provar-bundled.jar;${provar.home}/ant/ant-provar-sf.jar"/>
