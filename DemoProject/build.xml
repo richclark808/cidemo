@@ -4,6 +4,7 @@
 	<property name="testproject.home" value="DemoProject"/>
 	<property name="testproject.results" value="DemoProject/Results"/>
 	
+
 	<taskdef name="Provar-Compile" 
 		classname="com.provar.testrunner.ant.CompileTask" 
 		classpath="${provar.home}/ant/ant-provar.jar"/>
@@ -12,13 +13,13 @@
 		classpath="${provar.home}/ant/ant-provar.jar;${provar.home}/ant/ant-provar-bundled.jar;${provar.home}/ant/ant-provar-sf.jar"/>
 	<taskdef name="Test-Cycle-Report" 
 		classname="com.provar.testrunner.ant.TestCycleReportTask" 
-		classpath="${provar.home}/ant/antprovar.jar;${provar.home}/ant/ant-provar-bundled.jar;${provar.home}/ant/ant-provar-project.jar;${provar.home}/ant/antprovar-sf.jar"/>
+		classpath="${provar.home}/ant/ant-provar.jar;${provar.home}/ant/ant-provar-bundled.jar;${provar.home}/ant/ant-provar-project.jar;${provar.home}/ant/antprovar-sf.jar"/>
 
 	<target name="runtests">
 	
-		<Provar-Compile 
+		<!--Provar-Compile 
 		provarHome="${provar.home}" 
-		projectPath="${testproject.home}"/>
+		projectPath="${testproject.home}"/ -->
 	
 		<Run-Test-Case provarHome="${provar.home}" 
 				projectPath="${testproject.home}" 
