@@ -33,7 +33,7 @@
 				salesforceMetadataCache="Reuse" 
 				projectCachePath="../../.provarCaches" 
 				testOutputlevel="WARNING" 
-				licensePath="${env.PROVAR_HOME}/.licenses"
+				licensePath="../${env.PROVAR_HOME}/.licenses"
 				pluginOutputlevel="WARNING"
 				stopTestRunOnError="false"
 				invokeTestRunMonitor="true"
