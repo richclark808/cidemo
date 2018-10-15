@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite failures="0" hostname="Richards-MacBook-Pro-4.local" id="0" name="CIProject/tests" package="" skipped="0" tests="1" time="7.451" timestamp="Mon Oct 15 15:48:38 BST 2018">
+	    <properties>
+		      <property name="excludeCallableTestCases" value="true" />
+
+		      <property name="testEnvironment" value="" />
+
+		      <property name="pluginOutputLevel" value="WARNING" />
+
+		      <property name="projectPath" value=".." />
+
+		      <property name="salesforceMetadataCache" value="Reuse" />
+
+		      <property name="resultsPathDisposition" value="Replace" />
+
+		      <property name="testOutputLevel" value="WARNING" />
+
+		      <property name="webBrowserType" value="Google Chrome" />
+
+		      <property name="resultsPath" value="../ANT/Results" />
+
+		      <property name="webBrowserConfiguration" value="Full Screen" />
+
+		      <property name="projectCachePath" value="/Users/richardclark/Provar/CIProject/CIProject/ANT/../../.provarCaches" />
+
+	    </properties>
+
+	    <testcase classname="tests/Test Case 1.testcase" name="Test Case 1.testcase" time="7.242">
+	</testcase>
+
+  </testsuite>
+</testsuites>

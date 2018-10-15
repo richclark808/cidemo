@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<style>
+			body {
+				font-family: sans-serif;
+			}
+			table.Details {
+				border: none;
+			}
+			.right {
+				text-align: right;
+			}
+			h3 {
+				color: blue;
+				border-bottom: 2px solid gray;
+			}
+
+			#chart_div {
+				 float: left;
+				 width: 50%;
+			}
+
+			table {
+				border-collapse: collapse;
+			}
+
+			td {
+				padding-right: 1em;
+			}
+
+			.overlined {
+				border-top: solid 2px black;
+				padding-top: 0.2em;
+			}
+
+		</style>
+
+
+	    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	
+	    <script type="text/javascript">
+	      google.load("visualization", "1", {packages:["corechart"]});
+	      google.setOnLoadCallback(drawChart);
+	      function drawChart() {
+	        var data = google.visualization.arrayToDataTable([
+	          ['Outcome', 'Count'],
+	          ['Successful', {success-count}],
+	          ['Skipped', 0],
+	          ['Failed',  1]
+	        ]);
+	
+	        var options = {
+	            colors:['green','orange', 'red'],
+	            chartArea:{left:0,top:0,width:"50%",height:"100%"}
+	        };
+	
+	        var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+	        chart.draw(data, options);
+	      }
+	    </script>
+
+	</head>
+
+	<body>
+	<div style='float: right;'><img src='provar_logo_400x100.png' height='50'/></div>
+<h2>Provar Test Run Overview</h2>
+<h3 style='clear:both'>Run Details</h3>
+<table class='Details'>
+<tr><td>Project Path:</td><td>/Users/richardclark/Provar/CIProject/CIProject</td></tr>
+<tr><td>Test Environment:</td><td>[default]</td></tr>
+<tr><td>Start Time:</td><td>2018-10-15 15:48:32</td></tr>
+<tr><td>End Time:</td><td>2018-10-15 15:48:45</td></tr>
+</table>
+<h3>Result Summary</h3>
+<div id='chart_div' style='float: left;'><img src='testrun_chart_600x250.png'/></div>
+<table class='Details'>
+<tr><td>Passed:</td><td class='right'>1</td></tr>
+<tr><td>Failed:</td><td class='right'>0</td></tr>
+<tr><td>Skipped:</td><td class='right'>0</td></tr>
+<tr><td class='overlined'>Total:</td><td class='overlined right'>1</td></tr>
+</table>
+
+	</body>
+</html>
