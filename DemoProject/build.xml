@@ -3,7 +3,7 @@
 	<property name="provar.home" value="${env.PROVAR_HOME}"/>
 	<property name="testproject.home" value="DemoProject"/>
 	<property name="testproject.results" value="DemoProject/Results"/>
-	<property name="license.path" value="${env.PROVAR_HOME}">
+	<property name="license.path" value="${env.PROVAR_HOME}"/>
 	
 
 	<taskdef name="Provar-Compile" 
