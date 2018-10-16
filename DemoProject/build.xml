@@ -32,7 +32,7 @@
 				salesforceMetadataCache="Refresh" 
 				projectCachePath="../../.provarCaches" 
 				testOutputlevel="WARNING" 
-				licensePath="../${env.PROVAR_HOME}/.licenses"
+				licensePath="/home/circleci/project/Provar/.licenses"
 				pluginOutputlevel="WARNING"
 				stopTestRunOnError="false"
 				invokeTestRunMonitor="true"
