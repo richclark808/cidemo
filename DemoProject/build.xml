@@ -16,11 +16,10 @@
 		classname="com.provar.testrunner.ant.TestCycleReportTask" 
 		classpath="${provar.home}/ant/ant-provar.jar;${provar.home}/ant/ant-provar-bundled.jar;${provar.home}/ant/ant-provar-project.jar;${provar.home}/ant/antprovar-sf.jar"/>
 
-	<target name="runtests">
-	
-		<!--Provar-Compile 
+	<target name="runtests">	
+		<Provar-Compile 
 		provarHome="${provar.home}" 
-		projectPath="${testproject.home}"/ -->
+		projectPath="${testproject.home}"/>
 	
 		<Run-Test-Case provarHome="${provar.home}" 
 				projectPath="${testproject.home}" 
@@ -44,4 +43,34 @@
 		</Run-Test-Case>
 
 	</target>
+	
+	<! Sepatate ANT target added for VSTS issues finding license file -->
+	<target name="runtestsVSTS">	
+		<Provar-Compile 
+		provarHome="${provar.home}" 
+		projectPath="${testproject.home}"/>
+	
+		<Run-Test-Case provarHome="${provar.home}" 
+				projectPath="${testproject.home}" 
+				resultsPath="${testproject.results}" 
+				resultsPathDisposition="Replace" 
+				testEnvironment="" 
+				webBrowser="Chrome" 
+				webBrowserConfiguration="Full Screen" 
+				excludeCallableTestCases="true" 
+				salesforceMetadataCache="Reuse" 
+				projectCachePath="../../.provarCaches" 
+				testOutputlevel="WARNING" 
+				licensePath="./ProvarHome/.licenses"
+				pluginOutputlevel="WARNING"
+				stopTestRunOnError="false"
+				invokeTestRunMonitor="true"
+				>
+		
+			<fileset dir="../tests"><include name="Test Case 1.testcase"/></fileset>
+
+		</Run-Test-Case>
+
+	</target>
+	
 </project>
