@@ -44,7 +44,7 @@
 
 	</target>
 	
-	<!-- Sepatate ANT target added for VSTS issues finding license file -->
+	<!-- Sepatate ANT target added for VSTS issues finding license file, ugly hack -->
 	<target name="runtestsVSTS">	
 		<Provar-Compile 
 		provarHome="${provar.home}" 
@@ -61,7 +61,7 @@
 				salesforceMetadataCache="Reuse" 
 				projectCachePath="../../.provarCaches" 
 				testOutputlevel="WARNING" 
-				licensePath="./Provar/.licenses"
+				licensePath="D:/a/1/s/Provar/.licenses"
 				pluginOutputlevel="WARNING"
 				stopTestRunOnError="false"
 				invokeTestRunMonitor="true"
