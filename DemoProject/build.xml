@@ -29,7 +29,7 @@
 				webBrowser="Chrome" 
 				webBrowserConfiguration="Full Screen" 
 				excludeCallableTestCases="true" 
-				salesforceMetadataCache="Reuse" 
+				salesforceMetadataCache="Refresh" 
 				projectCachePath="../../.provarCaches" 
 				testOutputlevel="WARNING" 
 				licensePath="../${env.PROVAR_HOME}/.licenses"
