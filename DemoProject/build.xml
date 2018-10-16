@@ -44,7 +44,7 @@
 
 	</target>
 	
-	<! Sepatate ANT target added for VSTS issues finding license file -->
+	<!-- Sepatate ANT target added for VSTS issues finding license file -->
 	<target name="runtestsVSTS">	
 		<Provar-Compile 
 		provarHome="${provar.home}" 
