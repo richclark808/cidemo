@@ -7,6 +7,24 @@
   <sourcePath>src</sourcePath>
   <secureStoragePath>.secrets</secureStoragePath>
   <browserDebugPort>0</browserDebugPort>
+  <environments/>
+  <variables>
+    <testVariable name="_chromeOptions">
+      <valueType class="textType">
+        <constraints>
+          <valueConstraint name="minLength">0</valueConstraint>
+          <valueConstraint name="maxLength">9999</valueConstraint>
+          <valueConstraint name="regex"/>
+        </constraints>
+      </valueType>
+      <summary>\t\t</summary>
+      <values>
+        <testVariableValue>
+          <value class="value" valueClass="string">--headless</value>
+        </testVariableValue>
+      </values>
+    </testVariable>
+  </variables>
   <connectionClasses>
     <connectionClass name="ui">
       <connections>
@@ -14,6 +32,12 @@
           <summary>Google Search\t</summary>
           <connectionUrls>
             <connectionUrl url="se:baseUrl=http://www.google.com"/>
+          </connectionUrls>
+        </connection>
+        <connection name="Amazon">
+          <summary/>
+          <connectionUrls>
+            <connectionUrl url="se:baseUrl=http://www.amazon.com"/>
           </connectionUrls>
         </connection>
       </connections>
