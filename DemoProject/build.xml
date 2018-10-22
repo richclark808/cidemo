@@ -58,7 +58,7 @@
 				webBrowser="Chrome" 
 				webBrowserConfiguration="Full Screen" 
 				excludeCallableTestCases="true" 
-				salesforceMetadataCache="Refresh" 
+				salesforceMetadataCache="Reload" 
 				projectCachePath="../../.provarCaches" 
 				testOutputlevel="WARNING" 
 				licensePath="D:/a/1/s/Provar/.licenses"
