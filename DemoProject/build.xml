@@ -55,7 +55,7 @@
 				resultsPath="${testproject.results}" 
 				resultsPathDisposition="Replace" 
 				testEnvironment="" 
-				webBrowser="Edge" 
+				webBrowser="Firefox" 
 				webBrowserConfiguration="Full Screen" 
 				excludeCallableTestCases="true" 
 				salesforceMetadataCache="Reload" 
