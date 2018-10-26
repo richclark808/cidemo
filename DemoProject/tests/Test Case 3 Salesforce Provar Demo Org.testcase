@@ -94,7 +94,7 @@
                   <value class="value" valueClass="string">true</value>
                 </argument>
                 <argument id="beforeWait">
-                  <value class="uiWait" uri="default"/>
+                  <value class="uiWait" uri="ui:wait:pageload?timeout=30"/>
                 </argument>
                 <argument id="afterWait">
                   <value class="uiWait" uri="default"/>
@@ -192,7 +192,7 @@
                   <value class="value" valueClass="boolean">false</value>
                 </argument>
                 <argument id="beforeWait">
-                  <value class="uiWait" uri="default"/>
+                  <value class="uiWait" uri="ui:wait:pageload?timeout=20"/>
                 </argument>
                 <argument id="afterWait">
                   <value class="uiWait" uri="default"/>
