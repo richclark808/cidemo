@@ -21,6 +21,7 @@ jobs:
       PROVAR_HOME: ProvarHome
       testproject.home: DemoProject
       testproject.results: DemoProject/Results
+      sfadmin.connection: $PROVAR_SF_DemoAdmin
     
     steps:
       - checkout
