@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testCase id="7">
+<testCase id="10">
   <summary/>
   <steps>
     <apiCall apiId="com.provar.plugins.forcedotcom.core.testapis.ApexConnect" name="ApexConnect" testItemId="1" title="Salesforce Connect: DemoAdmin (Test)">
@@ -67,7 +67,7 @@
         </argument>
         <argument id="closeWindow"/>
         <argument id="captureBefore">
-          <value class="value" valueClass="string">false</value>
+          <value class="value" valueClass="string">true</value>
         </argument>
         <argument id="captureAfter">
           <value class="value" valueClass="string">false</value>
@@ -91,7 +91,7 @@
                   <value class="value" valueClass="boolean">false</value>
                 </argument>
                 <argument id="captureAfter">
-                  <value class="value" valueClass="boolean">false</value>
+                  <value class="value" valueClass="string">true</value>
                 </argument>
                 <argument id="beforeWait">
                   <value class="uiWait" uri="default"/>
@@ -103,12 +103,26 @@
                   <value class="value" valueClass="string">Click the New button</value>
                 </argument>
                 <argument id="autoRetry"/>
+                <argument id="ieClickMethod">
+                  <value class="value" valueClass="string">Default</value>
+                </argument>
               </arguments>
               <generatedParameters>
-                <apiParam group="value" name="hover" title="Hover before Clicking">
+                <apiParam group="value" name="hover" seq="10000" title="Hover before Clicking">
                   <summary>Whether the mouse should hover over the field before it is clicked.</summary>
                   <type>
                     <booleanType/>
+                  </type>
+                </apiParam>
+                <apiParam group="value" name="ieClickMethod" seq="10001" title="IE Click Method">
+                  <summary>How the click should be executed for Internet Explorer.</summary>
+                  <type>
+                    <choiceType>
+                      <constraints>
+                        <valueConstraint name="valuesSource">com.provar.core.model.base.java.EnumChoiceListValuesSource</valueConstraint>
+                        <valueConstraint name="valuesSourceDependencies">com.provar.core.model.ui.api.ClickMethod</valueConstraint>
+                      </constraints>
+                    </choiceType>
                   </type>
                 </apiParam>
               </generatedParameters>
@@ -362,7 +376,7 @@
                   <value class="value" valueClass="boolean">false</value>
                 </argument>
                 <argument id="captureAfter">
-                  <value class="value" valueClass="boolean">false</value>
+                  <value class="value" valueClass="string">true</value>
                 </argument>
                 <argument id="beforeWait">
                   <value class="uiWait" uri="default"/>
