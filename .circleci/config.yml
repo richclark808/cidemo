@@ -21,7 +21,6 @@ jobs:
       PROVAR_HOME: ProvarHome
       testproject.home: DemoProject
       testproject.results: DemoProject/Results
-      sfadmin.connection: $PROVAR_SF_DemoAdmin
     
     steps:
       - checkout
@@ -33,7 +32,7 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
 
-      - run: echo $PROVAR_HOME         
+      - run: echo $PROVAR_HOME $PROVAR_SF_DemoAdmin        
       - run: ant -lib $PROVAR_HOME/ant -f DemoProject/build.xml
 
   
