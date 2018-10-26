@@ -42,6 +42,16 @@
         </connection>
       </connections>
     </connectionClass>
+    <connectionClass name="sf">
+      <connections>
+        <connection name="DemoAdmin">
+          <summary/>
+          <connectionUrls>
+            <connectionUrl secureStorageNodeId="af38f155-5fe4-4288-9f29-f11b57e36e96" url="sf:user=provardemo@provartesting.com;password={password};environment=PROD_DEV"/>
+          </connectionUrls>
+        </connection>
+      </connections>
+    </connectionClass>
   </connectionClasses>
   <browserConfigurations>
     <browserConfiguration adjustBrowserWidthForChromeIde="true" browserHeight="0" browserWidth="0" name="Full Screen">
