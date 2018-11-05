@@ -34,6 +34,9 @@ jobs:
 
       # run: echo $PROVAR_HOME $PROVAR_SF_DemoAdmin $PROVAR_SF_DemoAdmin_password        
       - run: ant -lib $PROVAR_HOME/ant -f DemoProject/build.xml
+      
+      - store_test_results:
+          path: /home/circleci/project/DemoProject/Results
 
   
 
