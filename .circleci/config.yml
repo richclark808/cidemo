@@ -18,9 +18,9 @@ jobs:
 
     environment:
       # Customize the JVM maximum heap limit
-      PROVAR_HOME: ProvarHome
-      testproject.home: DemoProject
-      testproject.results: DemoProject/Results
+      PROVAR_HOME: /home/circleci/project/ProvarHome
+      testproject.home: /home/circleci/project/DemoProject
+      testproject.results: /home/circleci/project/DemoProject/Results
     
     steps:
       - checkout
@@ -32,7 +32,7 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
 
-      - run: echo $PROVAR_HOME $PROVAR_SF_DemoAdmin $PROVAR_SF_DemoAdmin_password        
+      # run: echo $PROVAR_HOME $PROVAR_SF_DemoAdmin $PROVAR_SF_DemoAdmin_password        
       - run: ant -lib $PROVAR_HOME/ant -f DemoProject/build.xml
 
   
