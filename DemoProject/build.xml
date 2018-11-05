@@ -31,7 +31,7 @@
 				excludeCallableTestCases="true" 
 				salesforceMetadataCache="Reload" 
 				projectCachePath="/home/circleci/project/DemoProject/.provarCaches" 
-				testOutputlevel="WARNING" 
+				testOutputlevel="FINEST" 
 				licensePath="/home/circleci/project/Provar/.licenses"
 				pluginOutputlevel="WARNING"
 				stopTestRunOnError="false"
