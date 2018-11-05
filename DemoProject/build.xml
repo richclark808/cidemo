@@ -34,7 +34,7 @@
 				testOutputlevel="WARNING" 
 				licensePath="/home/circleci/project/Provar/.licenses"
 				pluginOutputlevel="WARNING"
-				stopTestRunOnError="true"
+				stopTestRunOnError="false"
 				invokeTestRunMonitor="true"
 				>
 		
