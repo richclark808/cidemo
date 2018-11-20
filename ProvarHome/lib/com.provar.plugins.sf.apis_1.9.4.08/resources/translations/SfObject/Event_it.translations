@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<translations>
+  <translation key="Event.EventSubtype" type="SfFieldLabel" value="Sottotipo di evento"/>
+  <translation key="Event.GroupEventType" type="SfFieldLabel" value="Tipo di evento di gruppo"/>
+  <translation key="Event.IsAllDayEvent" type="SfFieldLabel" value="Evento intera giornata"/>
+  <translation key="Event.IsChild" type="SfFieldLabel" value="È evento figlio"/>
+  <translation key="Event.IsGroupEvent" type="SfFieldLabel" value="È evento di gruppo"/>
+  <translation key="Event.IsRecurrence" type="SfFieldLabel" value="Crea serie di eventi ricorrenti"/>
+  <translation key="*.*.Calendar Details" type="SfLayoutSectionLabel" value="Dettagli calendario"/>
+</translations>

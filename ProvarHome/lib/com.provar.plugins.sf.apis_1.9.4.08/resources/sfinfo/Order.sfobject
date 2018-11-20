@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="Order">
+  <fields>
+    <sfFieldInfo name="ActivatedById" updateable="Y"/>
+    <sfFieldInfo name="ActivatedDate" updateable="Y"/>
+    <sfFieldInfo extraTypeInfo="plaintextarea" label="Description" name="Description" replacesLabel="Internal Comments" typeName="textarea"/>
+    <sfFieldInfo defaultPermissions="RW" name="ContractId"/>
+    <sfFieldInfo defaultPermissions="RW" name="AccountId"/>
+    <sfFieldInfo defaultPermissions="RW" name="Pricebook2Id"/>
+    <sfFieldInfo defaultPermissions="RW" name="OriginalOrderId" updateable="N"/>
+    <sfFieldInfo defaultPermissions="RW" name="EffectiveDate"/>
+    <sfFieldInfo defaultPermissions="RW" name="EndDate"/>
+    <sfFieldInfo createable="N" defaultPermissions="RW" name="StatusCode" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE id="-1" n="D" s="" t="Draft"/>
+        <sfPLE id="-1" n="A" s="" t="Activated"/>
+        <sfPLE id="-1" n="C" s="" t="Cancelled"/>
+        <sfPLE id="-1" n="E" s="" t="Expired"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo defaultPermissions="RW" name="AccountNumber"/>
+    <sfFieldInfo createable="Y" name="IsReductionOrder"/>
+    <sfFieldInfo createable="N" name="CreatedById"/>
+    <sfFieldInfo createable="N" name="CreatedDate"/>
+    <sfFieldInfo createable="N" name="LastModifiedById"/>
+    <sfFieldInfo createable="N" name="LastModifiedDate"/>
+    <sfFieldInfo name="Status" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE id="-1" n="Draft" s=""/>
+        <sfPLE id="-1" n="Activated" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+  </fields>
+  <standardActions>
+    <sfActionLink modes="Orders" n="addOrder" newAction="true" t="New Order"/>
+    <sfActionLink modes="Orders" n="edit" requiresRow="true" t="Edit" target="sf:ui:target?object=Order&amp;action=edit"/>
+    <sfActionLink modes="Orders" n="Delete" requiresRow="true" target="sf:ui:target?object=Order&amp;action=delete"/>
+  </standardActions>
+</sfObjectInfo>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<translations>
+  <translation key="Case.CaseNumber" type="SfFieldLabel" value="Numero caso"/>
+  <translation key="Case.CurrencyIsoCode" type="SfFieldLabel" value="Valuta caso"/>
+  <translation key="Case.Id" type="SfFieldLabel" value="ID caso"/>
+  <translation key="Case.Origin" type="SfFieldLabel" value="Origine caso"/>
+  <translation key="Case.Parent" type="SfFieldLabel" value="ID caso controllante"/>
+  <translation key="Case.Reason" type="SfFieldLabel" value="Motivo caso"/>
+  <translation key="Case.Type" type="SfFieldLabel" value="Tipo"/>
+  <translation key="Case.CreatedDate" type="SfFieldLabel" value="Data/ora apertura"/>
+  <translation key="Case.ClosedDate" type="SfFieldLabel" value="Data/ora chiusura"/>
+  <translation key="Case.Owner_NameOrAlias" type="SfFieldLabel" value="Alias titolare caso"/>
+  <translation key="Case.Owner_Alias" type="SfFieldLabel" value="Alias titolare caso"/>
+  <translation key="Case.Owner" type="SfFieldLabel" value="Titolare caso" relatedListLabel="Nome titolare"/>
+  <translation key="Case.ContactId" type="SfFieldLabel" value="Nome referente"/>
+  <translation key="Case.AccountId" type="SfFieldLabel" value="Nome account"/>
+  <translation key="Case.RecordTypeId" type="SfFieldLabel" value="Tipo di record caso"/>
+  <translation key="Case.ParentId" type="SfFieldLabel" value="Caso controllante"/>
+  <translation key="Case.Parent" type="SfFieldLabel" value="Caso controllante"/>
+  <translation key="Case.SuppliedEmail" type="SfFieldLabel" value="Email Web"/>
+  <translation key="Case.CreatedById" type="SfFieldLabel" value="Creato da"/>
+  <translation key="Case.LastModifiedById" type="SfFieldLabel" value="Ultima modifica di"/>
+  <translation key="Case.ContactName" type="SfFieldLabel" value="{Case}.{ContactId}"/>
+  <translation key="*.*.Case Information" type="SfLayoutSectionLabel" value="Informazione caso"/>
+</translations>

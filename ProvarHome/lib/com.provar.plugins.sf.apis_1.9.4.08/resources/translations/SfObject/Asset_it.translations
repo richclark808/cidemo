@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<translations>
+  <translation key="Asset.AssetLevel" type="SfFieldLabel" value="Livello asset"/>
+  <translation key="Asset.AssetProvidedById" type="SfFieldLabel" value="ID asset fornito da"/>
+  <translation key="Asset.AssetServicedById" type="SfFieldLabel" value="ID asset servito da"/>
+  <translation key="Asset.Id" type="SfFieldLabel" value="ID asset"/>
+  <translation key="Asset.IsCompetitorProduct" type="SfFieldLabel" value="Asset concorrente"/>
+  <translation key="Asset.IsInternal" type="SfFieldLabel" value="Asset interno"/>
+  <translation key="Asset.Name" type="SfFieldLabel" value="Nome asset"/>
+  <translation key="Asset.ParentId" type="SfFieldLabel" value="ID asset controllante"/>
+  <translation key="Asset.RootAssetId" type="SfFieldLabel" value="ID asset radice"/>
+  <translation key="*.*.Asset Information" type="SfLayoutSectionLabel" value="Informazioni asset"/>
+</translations>

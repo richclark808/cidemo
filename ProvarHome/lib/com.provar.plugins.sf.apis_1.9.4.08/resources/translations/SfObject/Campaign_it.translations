@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<translations>
+  <translation key="Campaign.ActualCost" type="SfFieldLabel" value="Costo reale nella campagna"/>
+  <translation key="Campaign.AmountAllOpportunities" type="SfFieldLabel" value="Valore opportunità nella campagna"/>
+  <translation key="Campaign.AmountWonOpportunities" type="SfFieldLabel" value="Valore opportunità conseguite nella campagna"/>
+  <translation key="Campaign.BudgetedCost" type="SfFieldLabel" value="Costo preventivato nella campagna"/>
+  <translation key="Campaign.ExpectedRevenue" type="SfFieldLabel" value="Reddito previsto nella campagna"/>
+  <translation key="Campaign.Id" type="SfFieldLabel" value="ID campagna"/>
+  <translation key="Campaign.NumberOfContacts" type="SfFieldLabel" value="Referenti nella campagna"/>
+  <translation key="Campaign.NumberOfConvertedLeads" type="SfFieldLabel" value="Lead convertito nella campagna"/>
+  <translation key="Campaign.NumberOfLeads" type="SfFieldLabel" value="Lead nella campagna"/>
+  <translation key="Campaign.NumberOfOpportunities" type="SfFieldLabel" value="Opportunità nella campagna"/>
+  <translation key="Campaign.NumberOfResponses" type="SfFieldLabel" value="Risposte nella campagna"/>
+  <translation key="Campaign.NumberOfWonOpportunities" type="SfFieldLabel" value="Opportunità conseguite nella campagna"/>
+  <translation key="Campaign.NumberSent" type="SfFieldLabel" value="N. inviato nella campagna"/>
+  <translation key="Campaign.ParentId" type="SfFieldLabel" value="ID campagna controllante"/>
+  <translation key="*.*.Campaign Information" type="SfLayoutSectionLabel" value="Informazioni campagna"/>
+</translations>

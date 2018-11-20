@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" listViewFilterType="o" name="Opportunity">
+  <fields>
+    <sfFieldInfo createable="Y" defaultPermissions="RW" name="CloseDate" updateable="Y"/>
+    <sfFieldInfo createable="Y" name="ContractId" updateable="Y"/>
+    <sfFieldInfo createable="N" name="ExpectedRevenue" updateable="N"/>
+    <sfFieldInfo createable="N" defaultPermissions="RW" name="ForecastCategory" updateable="N"/>
+    <sfFieldInfo createable="Y" defaultPermissions="RW" name="ForecastCategoryName" required="N" updateable="Y"/>
+    <sfFieldInfo createable="Y" defaultPermissions="RW" name="Pricebook2Id" updateable="Y"/>
+    <sfFieldInfo createable="N" defaultPermissions="RW" name="FiscalQuarter" updateable="N"/>
+    <sfFieldInfo createable="N" defaultPermissions="RW" name="FiscalYear" updateable="N"/>
+    <sfFieldInfo createable="N" defaultPermissions="RW" name="Fiscal" updateable="N"/>
+    <sfFieldInfo createable="Y" name="IqScore" updateable="Y"/>
+    <sfFieldInfo createable="Y" name="Probability" required="N" updateable="Y"/>
+    <sfFieldInfo createable="Y" name="StageName" updateable="Y"/>
+    <sfFieldInfo createable="Y" defaultPermissions="RW" name="SyncedQuoteId" updateable="Y"/>
+    <sfFieldInfo createable="Y" name="TotalOpportunityQuantity" updateable="Y"/>
+  </fields>
+  <standardActions>
+    <sfActionLink modes="detail Opportunities" n="edit" t="Edit"/>
+    <sfActionLink modes="detail Opportunities" n="delete" t="Delete"/>
+    <sfActionLink modes="detail" n="clone" t="Clone"/>
+    <sfActionLink modes="detail" n="share" t="Sharing"/>
+    <sfActionLink modes="detail" n="submit" t="Submit for Approval"/>
+    <sfActionLink modes="new,edit,Clone,clone" n="save" t="Save"/>
+    <sfActionLink modes="new,edit,Clone,clone" n="save_new" t="Save &amp; New"/>
+    <sfActionLink modes="new,edit,Clone,clone" n="cancel" t="Cancel"/>
+    <sfActionLink n="editShare" t="Edit Sharing"/>
+    <sfActionLink modes="Opportunities List" n="newOpp" newAction="true" t="New Opportunity"/>
+    <sfActionLink modes="detail" n="cloneWithProducts" parentMenuAction="Clone" t="Clone with Products"/>
+    <sfActionLink modes="detail" n="cloneWithoutProducts" parentMenuAction="Clone" t="Clone without Products"/>
+    <sfActionLink modes="detail Opportunities" n="changeStatus" t="Change Status"/>
+  </standardActions>
+  <childRelationships>
+    <sfObjectRelationship alias="RelatedContentDistributionList" childName="ContentDistribution" field="RelatedRecordId" n="RelatedContentDistributionList" relationshipName="RelatedContentDistributionList" s="2-" t="Content Deliveries"/>
+    <sfObjectRelationship alias="RelatedCaseList" childName="Case" field="OpportunityId" n="Cases" relationshipName="Cases" s="2-"/>
+    <sfObjectRelationship alias="RelatedOrderList" childName="Order" field="OpportunityId" n="Orders" relationshipName="Orders" s="2-"/>
+    <sfObjectRelationship alias="RelatedCampaignInfluenceList" childName="Campaign" field="CampaignId" n="Campaigns" relationshipName="Campaigns" s="2-" t="Campaign Influence"/>
+  </childRelationships>
+</sfObjectInfo>

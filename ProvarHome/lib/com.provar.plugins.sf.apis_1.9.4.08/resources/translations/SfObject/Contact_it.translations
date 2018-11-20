@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<translations>
+  <translation key="Contact.CurrencyIsoCode" type="SfFieldLabel" value="Valuta referente"/>
+  <translation key="Contact.Description" type="SfFieldLabel" value="Descrizione referente"/>
+  <translation key="Contact.RecordTypeId" type="SfFieldLabel" value="Tipo di record referente"/>
+  <translation key="Contact.RecordTypeId" type="SfFieldLabel" value="Tipo di record referente"/>
+  <translation key="Contact.Name" type="SfFieldLabel" value="{Contact}.{FullName}"/>
+  <translation key="Contact.FullName" type="SfFieldLabel" value="Nome e cognome"/>
+  <translation key="*.*.Contact Information" type="SfLayoutSectionLabel" value="Informazioni referente"/>
+</translations>

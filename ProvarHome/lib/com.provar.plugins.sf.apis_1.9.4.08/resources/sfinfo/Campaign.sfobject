@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="Campaign">
+  <fields>
+    <sfFieldInfo defaultPermissions="RW" name="CampaignMemberRecordTypeId"/>
+    <sfFieldInfo createable="N" name="CreatedDate"/>
+    <sfFieldInfo createable="N" name="CreatedById"/>
+    <sfFieldInfo createable="N" name="LastModifiedDate"/>
+    <sfFieldInfo createable="N" name="LastModifiedById"/>
+    <sfFieldInfo createable="N" name="NumberOfLeads" updateable="N"/>
+    <sfFieldInfo createable="N" name="NumberOfConvertedLeads" updateable="N"/>
+    <sfFieldInfo createable="N" name="NumberOfContacts" updateable="N"/>
+    <sfFieldInfo createable="N" name="NumberOfResponses" updateable="N"/>
+    <sfFieldInfo createable="N" name="NumberOfOpportunities" updateable="N"/>
+    <sfFieldInfo createable="N" name="NumberOfWonOpportunities" updateable="N"/>
+    <sfFieldInfo createable="N" name="AmountAllOpportunities" updateable="N"/>
+    <sfFieldInfo createable="N" name="AmountWonOpportunities" updateable="N"/>
+    <sfFieldInfo createable="Y" name="CampaignImageId" updateable="Y"/>
+  </fields>
+  <standardActions>
+    <sfActionLink modes="Campaigns" n="addInfluence" newAction="true" t="Add to Campaign"/>
+    <sfActionLink modes="Campaigns" n="Edit" requiresRow="true" s="1"/>
+    <sfActionLink modes="Campaigns" n="Delete" requiresRow="true" s="2" t="Del"/>
+    <sfActionLink modes="View" n="ViewCampaignHierarchy" t="View Campaign Hierarchy"/>
+  </standardActions>
+  <childRelationships>
+    <sfObjectRelationship alias="RelatedContentDistributionList" childName="ContentDistribution" field="RelatedRecordId" n="RelatedContentDistributionList" relationshipName="RelatedContentDistributionList" s="2-" t="Content Deliveries"/>
+  </childRelationships>
+</sfObjectInfo>

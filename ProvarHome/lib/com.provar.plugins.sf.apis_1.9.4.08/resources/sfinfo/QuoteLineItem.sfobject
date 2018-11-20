@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="QuoteLineItem">
+  <fields>
+    <sfFieldInfo defaultPermissions="RW" name="QuoteId"/>
+    <sfFieldInfo defaultPermissions="RW" name="PricebookEntryId" updateable="N"/>
+    <sfFieldInfo defaultPermissions="RW" name="OpportunityLineItemId" updateable="N"/>
+    <sfFieldInfo defaultPermissions="RW" name="Quantity"/>
+    <sfFieldInfo defaultPermissions="RW" name="UnitPrice"/>
+    <sfFieldInfo defaultPermissions="RW" name="Product2Id" updateable="N"/>
+    <sfFieldInfo createable="N" defaultPermissions="RW" name="SortOrder" updateable="N"/>
+    <sfFieldInfo createable="N" name="ListPrice" updateable="N"/>
+    <sfFieldInfo createable="N" name="Subtotal" updateable="N"/>
+    <sfFieldInfo createable="N" name="TotalPrice" updateable="N"/>
+  </fields>
+  <standardActions>
+    <sfActionLink lightningActionName="MultiAdd" lightningLabel="Add Products" modes="QuoteLineItems" n="addProd" t="Select Product"/>
+    <sfActionLink modes="" n="addProd2" t="Add Product"/>
+    <sfActionLink lightningActionName="MultiEdit" lightningLabel="Edit Products" modes="QuoteLineItems" n="editProd" t="Edit All"/>
+    <sfActionLink modes="QuoteLineItems" n="sort" t="Sort"/>
+    <sfActionLink modes="QuoteLineItems" n="addQuoteLine" t="Add Line Item"/>
+    <sfActionLink n="edit" t="Edit"/>
+    <sfActionLink n="delete" t="Delete"/>
+  </standardActions>
+</sfObjectInfo>

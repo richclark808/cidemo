@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo name="ActivityHistory" label="Activity History" columnNameAlias="Task">
+  <searchResultColumns>TASK.SUBJECT,TASK.WHO_NAME,TASK.WHAT_NAME,TASK.DUE_DATE,CORE.USERS.ALIAS</searchResultColumns>
+  <standardActions>
+    <sfActionLink n="new" t="Log a Call" modes="ActivityHistories" newAction="true"/>
+    <sfActionLink n="mm" t="Mail Merge" modes="ActivityHistories" massAction="true"/>
+    <sfActionLink n="email" t="Send a Email" modes="ActivityHistories" massAction="true"/>
+    <sfActionLink n="all" t="View All" modes="ActivityHistories" massAction="false"/>
+    <sfActionLink n="Edit" t="Edit" modes="ActivityHistories" requiresRow="true" locator="td[contains(@class, 'actionColumn')]/a[contains(@href, '/e?retURL=') or contains(@href, '%2Fe%3FretURL%3D')]"/>
+	<sfActionLink n="Delete" t="Del" modes="ActivityHistories" requiresRow="true" lightningLabel="Delete" locator="td[contains(@class, 'actionColumn')]/a[contains(@href, 'deleteredirect.jsp')]"/>
+  </standardActions>
+</sfObjectInfo>

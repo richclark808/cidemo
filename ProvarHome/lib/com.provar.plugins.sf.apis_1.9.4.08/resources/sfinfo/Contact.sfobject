@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" listViewFilterType="c" name="Contact">
+  <fields>
+    <sfFieldInfo internal="true" name="AccountName"/>
+    <sfFieldInfo createable="N" defaultPermissions="RW" name="LastCURequestDate" updateable="N"/>
+    <sfFieldInfo createable="N" defaultPermissions="RW" name="LastCUUpdateDate" updateable="N"/>
+    <sfFieldInfo defaultPermissions="RW" name="EmailBouncedReason"/>
+    <sfFieldInfo defaultPermissions="RW" name="EmailBouncedDate"/>
+    <sfFieldInfo internal="true" name="HasOptedOutOfEmail"/>
+    <sfFieldInfo internal="true" name="HasOptedOutOfFax"/>
+    <sfFieldInfo createable="N" name="Name" updateable="N"/>
+    <sfFieldInfo createable="N" defaultPermissions="RW" name="PhotoUrl" updateable="N"/>
+    <sfFieldInfo defaultPermissions="RW" internal="true" name="CanAllowPortalSelfReg"/>
+    <sfFieldInfo internal="true" name="ReportsToName"/>
+  </fields>
+  <standardActions>
+    <sfActionLink massAction="true" modes="Contacts List" n="NewContact" newAction="true" t="New Contact"/>
+    <sfActionLink massAction="true" modes="Contacts" n="Merge" t="Merge Contacts"/>
+    <sfActionLink lightningAction="true" modes="Contacts" n="AddCampaign" requiresRow="true" t="Add to Campaign"/>
+    <sfActionLink modes="Contacts List Home" n="MassAddToCampaign" t="Add to Campaign"/>
+    <sfActionLink modes="List Home" n="SendListEmailAction" t="Send List Email"/>
+    <sfActionLink modes="detail" n="New"/>
+    <sfActionLink buttonName="mm" modes="detail" n="RequestUpdate" t="Request Update"/>
+    <sfActionLink modes="Contacts" n="Edit" requiresRow="true"/>
+    <sfActionLink lightningLabel="Delete" modes="Contacts" n="Delete" requiresRow="true" t="Del"/>
+    <sfActionLink modes="Detail" n="workWithPortal" t="Manage External User"/>
+    <sfActionLink modes="Detail" n="EnableCustomerPortal" buttonName="csp" parentMenuAction="workWithPortal" t="Enable Customer User"/>
+    <sfActionLink modes="Detail" n="EnablePartnerPortalUser" buttonName="csp" parentMenuAction="workWithPortal" t="Enable Partner User"/>
+    <sfActionLink modes="Detail" n="ViewCustomerPortal" buttonName="csp" parentMenuAction="workWithPortal" t="View Customer User"/>
+    <sfActionLink modes="Detail" n="ViewPartnerPortalUser" buttonName="csp" parentMenuAction="workWithPortal" t="View Partner User"/>
+    <sfActionLink modes="Detail" n="DisableCustomerPortal" buttonName="dcsp" parentMenuAction="workWithPortal" t="Disable Customer User"/>
+    <sfActionLink modes="Detail" n="DisablePartnerPortalUser" buttonName="dcsp" parentMenuAction="workWithPortal" t="Disable Partner User"/>
+    <sfActionLink modes="Detail" n="LoginToPortalAsUser" buttonName="portallogin" parentMenuAction="workWithPortal" t="Log in to Portal as User"/>
+    <sfActionLink modes="Detail" n="LoginToNetworkAsUser" buttonName="networklogin" parentMenuAction="workWithPortal" t="Log in to Community as User"/>
+    <sfActionLink modes="View" n="XClean" t="Check Integration Status"/>
+    <sfActionLink n="CallHighlightAction" s=""/>
+    <sfActionLink n="EmailHighlightAction" s=""/>
+    <sfActionLink n="EnableSelfService" s=""/>
+    <sfActionLink n="ListClean" s=""/>
+    <sfActionLink n="SmsHighlightAction" s=""/>
+    <sfActionLink n="ViewSelfService" s=""/>
+  </standardActions>
+  <childRelationships>
+    <sfObjectRelationship alias="RelatedOpportunityList" childName="Opportunity" field="ContactId" n="Opportunities" relationshipName="Opportunities" s="2-" t="Opportunity"/>
+    <sfObjectRelationship alias="RelatedContentDistributionList" childName="ContentDistribution" field="RelatedRecordId" n="RelatedContentDistributionList" relationshipName="RelatedContentDistributionList" s="2-" t="Content Deliveries"/>
+  </childRelationships>
+</sfObjectInfo>

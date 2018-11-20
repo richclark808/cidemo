@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<translations>
+  <translation key="Case.CaseNumber" type="SfFieldLabel" value="Número del caso" relatedListLabel="Caso"/>
+  <translation key="Case.Id" type="SfFieldLabel" value="Id. del caso"/>
+  <translation key="Case.Origin" type="SfFieldLabel" value="Origen del caso"/>
+  <translation key="Case.Parent" type="SfFieldLabel" value="Caso principal"/>
+  <translation key="Case.Reason" type="SfFieldLabel" value="Motivo del caso"/>
+  <translation key="Case.Type" type="SfFieldLabel" value="Tipo"/>
+  <translation key="Case.RecordTypeId" type="SfFieldLabel" value="Tipo de registro del caso"/>
+  <translation key="Case.CreatedDate" type="SfFieldLabel" value="Fecha/Hora de apertura"/>
+  <translation key="Case.ClosedDate" type="SfFieldLabel" value="Fecha/Hora de cierre"/>
+  <translation key="Case.Alias" type="SfFieldLabel" value="Alias del propietario del caso"/>
+  <translation key="Case.OwnerId" type="SfFieldLabel" value="Propietario del caso" relatedListLabel="Propietario"/>
+  <translation key="Case.Owner" type="SfFieldLabel" value="Propietario del caso" relatedListLabel="Propietario"/>
+  <translation key="Case.SuppliedCompany" type="SfFieldLabel" value="Compañía Web"/>
+  <translation key="Case.SuppliedEmail" type="SfFieldLabel" value="Correo electrónico Web"/>
+  <translation key="Case.SuppliedName" type="SfFieldLabel" value="Nombre Web"/>
+  <translation key="Case.SuppliedPhone" type="SfFieldLabel" value="Teléfono Web"/>
+  <translation key="Case.SuppliedPhone" type="SfFieldLabel" value="Criado por"/>
+  <translation key="Case.LastModifiedById" type="SfFieldLabel" value="Última modificación por"/>
+  <translation key="Case.Owner_NameOrAlias" type="SfFieldLabel" value="Alias del propietario del caso"/>
+  <translation key="Case.Owner_Alias" type="SfFieldLabel" value="Alias del propietario del caso"/>
+  <translation key="*.*.Case Information" type="SfLayoutSectionLabel" value="Información del caso"/>
+</translations>

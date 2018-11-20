@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" label="Product" name="Product2">
+  <fields>
+    <sfFieldInfo defaultPermissions="RW" name="ExternalDataSourceId"/>
+    <sfFieldInfo defaultPermissions="RW" name="QuantityScheduleType" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE id="-1" n="Divide" s="" t="Divide Amount into multiple installments"/>
+        <sfPLE id="-1" n="Repeat" s="" t="Repeat Amount for each installment"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo defaultPermissions="RW" name="QuantityInstallmentPeriod" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE id="-1" n="Daily" s=""/>
+        <sfPLE id="-1" n="Weekly" s=""/>
+        <sfPLE id="-1" n="Monthly" s=""/>
+        <sfPLE id="-1" n="Quarterly" s=""/>
+        <sfPLE id="-1" n="Yearly" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo defaultPermissions="RW" name="NumberOfQuantityInstallments"/>
+    <sfFieldInfo defaultPermissions="RW" name="RevenueScheduleType" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE id="-1" n="Divide" s="" t="Divide Amount into multiple installments"/>
+        <sfPLE id="-1" n="Repeat" s="" t="Repeat Amount for each installment"/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo defaultPermissions="RW" name="RevenueInstallmentPeriod" restrictedPicklist="true">
+      <picklistEntries>
+        <sfPLE id="-1" n="Daily" s=""/>
+        <sfPLE id="-1" n="Weekly" s=""/>
+        <sfPLE id="-1" n="Monthly" s=""/>
+        <sfPLE id="-1" n="Quarterly" s=""/>
+        <sfPLE id="-1" n="Yearly" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+    <sfFieldInfo defaultPermissions="RW" name="NumberOfRevenueInstallments"/>
+    <sfFieldInfo createable="Y" name="IsActive" updateable="Y"/>
+    <sfFieldInfo internal="true" name="IsArchived"/>
+    <sfFieldInfo createable="N" name="CreatedDate"/>
+    <sfFieldInfo createable="N" name="CreatedById"/>
+    <sfFieldInfo createable="N" name="LastModifiedDate"/>
+    <sfFieldInfo createable="N" name="LastModifiedById"/>
+    <sfFieldInfo name="QuantityUnitOfMeasure">
+      <picklistEntries>
+        <sfPLE id="-1" n="Each" s=""/>
+      </picklistEntries>
+    </sfFieldInfo>
+  </fields>
+  <childRelationships>
+    <sfObjectRelationship alias="RelatedStandardPriceList" childName="PricebookEntry" field="Product2Id" n="RelatedStandardPriceList" relationshipName="RelatedStandardPriceList" s="2-" t="Standard Price"/>
+  </childRelationships>
+</sfObjectInfo>

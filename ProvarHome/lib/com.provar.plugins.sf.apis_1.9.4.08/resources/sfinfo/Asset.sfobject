@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo name="Asset" label="Asset">
+  	<standardActions>
+    	<sfActionLink n="add" t="New Asset" modes="Assets" newAction="true"/>
+        <sfActionLink n="edit" t="Edit" target="sf:ui:target?object=Asset&amp;action=edit" modes="Assets" requiresRow="true" />
+        <sfActionLink n="Delete" t="Delete" target="sf:ui:target?object=Asset&amp;action=delete" requiresRow="true" modes="Assets"/>
+  	</standardActions>
+  	<fields>
+ 	<sfFieldInfo name="RootAssetId" defaultPermissions="RW" createable="N" updateable="N"/>
+ 	<sfFieldInfo name="LocationId" defaultPermissions="RW"/>
+
+ 	<sfFieldInfo name="CreatedDate" createable="N"/>
+ 	<sfFieldInfo name="CreatedById" createable="N"/>
+ 	<sfFieldInfo name="LastModifiedDate" createable="N"/>
+ 	<sfFieldInfo name="LastModifiedById" createable="N"/>
+ 	<sfFieldInfo name="StockKeepingUnit" createable="N" updateable="N"/>
+ 	<sfFieldInfo internal="true" name="ProductFamily"/>
+ 	<sfFieldInfo internal="true" name="ProductDescription"/>
+ 	<sfFieldInfo internal="true" name="IsInternal"/>
+  </fields>
+</sfObjectInfo>

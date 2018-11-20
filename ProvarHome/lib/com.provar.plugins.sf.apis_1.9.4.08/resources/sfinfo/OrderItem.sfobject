@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="OrderItem">
+  <fields>
+    <sfFieldInfo defaultPermissions="RW" name="Product2Id" updateable="N"/>
+    <sfFieldInfo defaultPermissions="RW" name="OrderId" updateable="N"/>
+    <sfFieldInfo defaultPermissions="RW" name="PricebookEntryId" updateable="N"/>
+    <sfFieldInfo defaultPermissions="RW" name="OriginalOrderItemId" updateable="N"/>
+    <sfFieldInfo createable="N" defaultPermissions="RW" name="AvailableQuantity" updateable="N"/>
+    <sfFieldInfo defaultPermissions="RW" name="Quantity"/>
+    <sfFieldInfo defaultPermissions="RW" name="UnitPrice"/>
+    <sfFieldInfo createable="N" defaultPermissions="RW" name="TotalPrice" updateable="N"/>
+    <sfFieldInfo createable="N" name="CreatedDate"/>
+    <sfFieldInfo createable="N" name="CreatedById"/>
+    <sfFieldInfo createable="N" name="LastModifiedDate"/>
+    <sfFieldInfo createable="N" name="LastModifiedById"/>
+  </fields>
+  <standardActions>
+    <sfActionLink modes="OrderItems" n="addProd" t="Select Product"/>
+    <sfActionLink modes="OrderItems" n="addProd2" t="Add Products"/>
+    <sfActionLink modes="OrderItems" n="addProd3" t="Select Product to Reduce"/>
+    <sfActionLink modes="OrderItems" n="editProd" t="Edit Products"/>
+    <sfActionLink n="edit" t="Edit"/>
+    <sfActionLink n="delete" t="Delete"/>
+  </standardActions>
+</sfObjectInfo>

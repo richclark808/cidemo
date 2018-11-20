@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<translations>
+  <translation key="Lead.CurrencyIsoCode" type="SfFieldLabel" value="Valuta lead"/>
+  <translation key="Lead.Id" type="SfFieldLabel" value="ID lead"/>
+  <translation key="Lead.LeadSource" type="SfFieldLabel" value="Fonte del lead"/>
+  <translation key="Lead.Owner" type="SfFieldLabel" value="Titolare lead"/>
+  <translation key="Lead.Status" type="SfFieldLabel" value="Stato lead"/>
+  <translation key="Lead.NumberOfEmployees" type="SfFieldLabel" value="N. di dipendenti"/>
+  <translation key="Lead.CreatedById" type="SfFieldLabel" value="Creato da"/>
+  <translation key="Lead.LastModifiedById" type="SfFieldLabel" value="Ultima modifica di"/>
+  <translation key="Lead.CampaignId" type="SfFieldLabel" value="Campagna"/>
+  <translation key="*.showRunAssignmentRulesCheckbox" type="SfFieldLabel" value="Assegna mediante regole di assegnazione attive"/>
+  <translation key="*.recordOwner" type="SfFieldLabel" value="Titolare record"/>
+  <translation key="*.*.Lead Information" type="SfLayoutSectionLabel" value="Informazioni lead"/>
+</translations>

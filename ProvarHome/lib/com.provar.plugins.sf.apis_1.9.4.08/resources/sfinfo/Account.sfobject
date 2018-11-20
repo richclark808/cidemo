@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" listViewFilterType="a" name="Account">
+  <defaultListViewColumns>ACCOUNT.NAME,ACCOUNT.SITE,ACCOUNT.ADDRESS1_STATE,ACCOUNT.PHONE1,CORE.USERS.ALIAS</defaultListViewColumns>
+  <fields>
+    <sfFieldInfo internal="true" name="AccountNumber"/>
+    <sfFieldInfo internal="true" name="IsCssEnabled"/>
+    <sfFieldInfo internal="true" name="CssLastLoginDate"/>
+    <sfFieldInfo createable="N" name="IsCustomerPortal" updateable="Y"/>
+    <sfFieldInfo createable="N" name="IsPartner" updateable="Y"/>
+    <sfFieldInfo internal="true" name="Ownership"/>
+    <sfFieldInfo internal="true" name="IsExcludedFromRealign"/>
+    <sfFieldInfo createable="N" defaultPermissions="RW" name="PhotoUrl" updateable="N"/>
+    <sfFieldInfo defaultPermissions="RW" internal="true" name="Rating"/>
+    <sfFieldInfo createable="Y" internal="true" name="Sic" updateable="Y"/>
+    <sfFieldInfo createable="Y" internal="true" name="TickerSymbol" updateable="Y"/>
+  </fields>
+  <standardActions>
+    <sfActionLink modes="Detail" n="workWithPortal" t="Manage External Accounts"/>
+    <sfActionLink modes="Detail" alias="prm" n="EnableCustomerPortalUser" buttonName="prm" parentMenuAction="workWithPortal" t="Enable As Partner"/>
+    <sfActionLink modes="Detail" n="ViewCustomerPortalUser" buttonName="csp" parentMenuAction="workWithPortal" t="View Customer User"/>
+    <sfActionLink modes="Detail" alias="dcsp" n="DisableCustomerPortal" buttonName="dcsp" parentMenuAction="workWithPortal" t="Disable Customer Account"/>
+    <sfActionLink modes="View" n="CallHighlightAction" t="Call"/>
+    <sfActionLink modes="View" n="XClean" t="Check Integration Status"/>
+    <sfActionLink modes="View" n="SmsHighlightAction" t="Send Text"/>
+    <sfActionLink modes="View" n="EmailHighlightAction" t="Send Email"/>
+    <sfActionLink modes="View" n="WebsiteHighlightAction" t="View Website"/>
+    <sfActionLink modes="View" n="partnerscorecard" t="View Partner Scorecard"/>
+    <sfActionLink modes="View" n="AccountHierarchy" t="View Account Hierarchy"/>
+    <sfActionLink n="ListClean" s=""/>
+    <sfActionLink n="RequestUpdate" s=""/>
+  </standardActions>
+  <relatedLists>
+    <sfRelatedListInfo label="Assigned Territories" name="AccountAssignedTerritory2sRelatedList" relationshipName="ObjectTerritory2Associations"/>
+  </relatedLists>
+  <childRelationships>
+    <sfObjectRelationship alias="RelatedContentDistributionList" childName="ContentDistribution" field="RelatedRecordId" n="RelatedContentDistributionList" relationshipName="RelatedContentDistributionList" s="2-" t="Content Deliveries"/>
+  </childRelationships>
+</sfObjectInfo>

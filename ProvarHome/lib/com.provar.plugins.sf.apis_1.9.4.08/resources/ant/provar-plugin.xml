@@ -1,0 +1,101 @@
+ <testExecutionContainerDescriptor name="sf" 
+                  title="Salesforce APIs"
+                  factoryClass="com.provar.core.testexecution.controller.java.JavaTestExecutionContainerFactory"
+                  projectPlugin="true"
+                  seleniumPlugin="true"
+                  restartOnProjectBinChange="true">
+	<factoryParams>
+		<propertyValue name="vmArg">-Xdebug</propertyValue>
+		<!--propertyValue name="vmArg">-Xrunjdwp:transport=dt_socket,address=10002,server=y,suspend=n</propertyValue-->
+		<propertyValue name="vmArg">-Xrunjdwp:transport=dt_socket,server=y,suspend=n</propertyValue>
+		<propertyValue name="vmArg">-Xms32m</propertyValue>
+		<propertyValue name="vmArg">-Xmx1024m</propertyValue>
+		<propertyValue name="vmArg">-XX:MinHeapFreeRatio=25</propertyValue>
+		<propertyValue name="vmArg">-XX:MaxHeapFreeRatio=40</propertyValue>
+		<propertyValue name="vmArg">-Dhttps.protocols=TLSv1.1,TLSv1.2</propertyValue>
+
+		<!--
+		<propertyValue name="classPathEntry">{projectFolder}/bin</propertyValue>
+		<propertyValue name="classPathEntry">.</propertyValue>
+		<propertyValue name="classPathEntry">bin</propertyValue>
+		<propertyValue name="classPathEntry">{seleniumJar}</propertyValue>
+
+		<propertyValue name="classPathEntry">lib/force-apex-43.0.0.jar</propertyValue>
+		<propertyValue name="classPathEntry">lib/force-partner-43.0.0.jar</propertyValue>
+		<propertyValue name="classPathEntry">lib/force-metadata-43.0.0.jar</propertyValue>
+		<propertyValue name="classPathEntry">lib/force-tooling-35.0.0.jar</propertyValue>
+		<propertyValue name="classPathEntry">lib/force-wsc-43.0.0.jar</propertyValue>
+		<propertyValue name="classPathEntry">lib/tagsoup-1.2.1.jar</propertyValue>
+		<propertyValue name="classPathEntry">lib/cglib-nodep-2.2.3.jar</propertyValue>
+		<propertyValue name="classPathEntry">lib/org.eclipse.core.jobs_3.6.1.v20141014-1248.jar</propertyValue>
+		<propertyValue name="classPathEntry">lib/xmlbeans-2.3.0.jar</propertyValue>
+		<propertyValue name="classPathEntry">{coreJars}/dom4j-1.6.1.jar</propertyValue>
+		<propertyValue name="classPathEntry">{coreJars}/stax-api-1.0.1.jar</propertyValue>
+		<propertyValue name="classPathEntry">{coreJars}/thucydides-core-0.9.212.jar</propertyValue>
+		<propertyValue name="classPathEntry">{coreJars}/lambdaj-2.4.jar</propertyValue>
+		<propertyValue name="classPathEntry">{coreJars}/slf4j-api-1.7.5.jar</propertyValue>
+		<propertyValue name="classPathEntry">{coreJars}/slf4j-jdk14-1.7.5.jar</propertyValue>
+		<propertyValue name="classPathEntry">{coreJars}/joda-time-2.3.jar</propertyValue>
+		<propertyValue name="classPathEntry">{coreJars}/freemarker.jar</propertyValue>
+		<propertyValue name="classPathEntry">{coreJars}/asciidoctor-java-integration-0.1.4.jar</propertyValue>
+        -->
+
+        <!-- Apache Tika (Content parsing) -->
+        <!-- NOTE: must be before Apache POI or method not found errors on StringUtil. -->
+		<!--
+		<propertyValue name="classPathEntry">{coreJars}/tika-app-1.8.jar</propertyValue>
+        -->
+
+        <!-- Apache POI (Excel/Word) -->
+		<!--
+        <propertyValue name="classPathEntry">{coreJars}/poi-3.11-20141221.jar</propertyValue>
+        <propertyValue name="classPathEntry">{coreJars}/poi-ooxml-3.11-20141221.jar</propertyValue>
+        <propertyValue name="classPathEntry">{coreJars}/poi-ooxml-schemas-3.11-20141221.jar</propertyValue>
+        -->
+	</factoryParams>
+	
+	<containerParams>
+		<propertyValue name="testApiPackage">customapis.*</propertyValue>
+		<propertyValue name="testApiPackage">com.provar.plugins.forcedotcom.core.testapis</propertyValue>
+		<propertyValue name="testApiPackage">com.provar.plugins.forcedotcom.core.ui</propertyValue>
+		<propertyValue name="testApiPackage">com.provar.plugins.bundled.apis</propertyValue>
+		<propertyValue name="testApiPackage">com.provar.plugins.bundled.apis.db</propertyValue>
+		<propertyValue name="testApiPackage">com.provar.plugins.bundled.apis.control</propertyValue>
+		<propertyValue name="testApiPackage">com.provar.plugins.bundled.apis.bdd</propertyValue>
+		<propertyValue name="testApiPackage">com.provar.plugins.bundled.apis.io</propertyValue>
+		<propertyValue name="testApiPackage">com.provar.plugins.bundled.apis.list</propertyValue>
+		<propertyValue name="testApiPackage">com.provar.plugins.bundled.apis.messaging</propertyValue>
+		<propertyValue name="testApiPackage">com.provar.plugins.bundled.apis.string</propertyValue>
+		<propertyValue name="testApiPackage">com.provar.plugins.bundled.apis.ui</propertyValue>
+		<propertyValue name="testApiPackage">com.provar.plugins.bundled.apis.web</propertyValue>
+
+		<propertyValue name="pageObjectPackage">com.provar.plugins.forcedotcom.core.ui.pageobjects</propertyValue>
+		<propertyValue name="pageControlPackage">com.provar.plugins.forcedotcom.core.ui.pagecontrols.*</propertyValue>
+
+		<propertyValue name="pageWaitPackage">pagewaits.*</propertyValue>
+
+		<propertyValue name="testRunMonitorPackage">reports.*</propertyValue>
+		
+
+		<propertyValue name="testFunctionPackage">com.provar.plugins.bundled.functions</propertyValue>
+		
+		<propertyValue name="connectionHandlerPackage">com.provar.plugins.forcedotcom.core.connection</propertyValue>
+		<propertyValue name="connectionHandlerPackage">com.provar.plugins.forcedotcom.core.ui</propertyValue>
+		<propertyValue name="connectionHandlerPackage">com.provar.core.connection.excel</propertyValue>
+		<propertyValue name="connectionHandlerPackage">com.provar.core.connection.excel</propertyValue>
+		<propertyValue name="connectionHandlerPackage">com.provar.core.connection.exchange</propertyValue>
+		<propertyValue name="connectionHandlerPackage">com.provar.core.connection.google</propertyValue>
+		<propertyValue name="connectionHandlerPackage">com.provar.core.connection.mysql</propertyValue>
+		<propertyValue name="connectionHandlerPackage">com.provar.core.connection.oracle</propertyValue>
+		<propertyValue name="connectionHandlerPackage">com.provar.core.connection.sqlserver</propertyValue>
+		<propertyValue name="connectionHandlerPackage">com.provar.core.connection.postgresql</propertyValue>
+		<propertyValue name="connectionHandlerPackage">com.provar.core.connection.qtp</propertyValue>
+		<propertyValue name="connectionHandlerPackage">com.provar.core.connection.websphere</propertyValue>
+		<propertyValue name="connectionHandlerPackage">com.provar.core.connection.webservice</propertyValue>
+
+		<propertyValue name="requiredBundle">{bundle:org.eclipse.update.configurator}</propertyValue>
+		<propertyValue name="requiredBundle">{bundle:org.eclipse.osgi.util}</propertyValue>
+		<propertyValue name="mainBundle">{bundle:com.provar.plugins.sf.apis}</propertyValue>
+	</containerParams>
+	
+ </testExecutionContainerDescriptor>

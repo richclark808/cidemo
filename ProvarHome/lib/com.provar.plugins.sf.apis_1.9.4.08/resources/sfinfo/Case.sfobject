@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObjectInfo class="sfObjectInfo" name="Case">
+  <defaultListViewColumns>CASES.CASE_NUMBER,NAME,CASES.SUBJECT,CASES.STATUS,CASES.PRIORITY,CASES.CREATED_DATE,CORE.USERS.ALIAS,ASSET.INSTALL_DATE</defaultListViewColumns>
+  <fields>
+    <sfFieldInfo createable="Y" name="AccountId" updateable="Y"/>
+    <sfFieldInfo createable="Y" name="AssetId" updateable="Y"/>
+    <sfFieldInfo createable="Y" name="BusinessHoursId" updateable="Y" internal="true" />
+    <sfFieldInfo label="Case Origin" name="Origin"/>
+    <sfFieldInfo defaultPermissions="RW" extraTypeInfo="plaintextarea" internal="true" label="Internal Comments" name="Comments" typeName="textarea"/>
+    <sfFieldInfo createable="N" defaultPermissions="RW" label="Contact Phone" name="ContactPhone" typeName="phone" updateable="N"/>
+    <sfFieldInfo createable="N" defaultPermissions="RW" label="Contact Email" name="ContactEmail" typeName="email" updateable="N"/>
+    <sfFieldInfo createable="N" defaultPermissions="RW" label="Contact Fax" name="ContactFax" typeName="phone" updateable="N"/>
+    <sfFieldInfo createable="N" defaultPermissions="RW" label="Contact Mobile" name="ContactMobile" typeName="phone" updateable="N"/>
+    <sfFieldInfo defaultPermissions="RW" name="CommunityId"/>
+    <sfFieldInfo defaultPermissions="RW" name="CreatorFullPhotoUrl"/>
+    <sfFieldInfo defaultPermissions="RW" name="CreatorSmallPhotoUrl"/>
+    <sfFieldInfo defaultPermissions="RW" name="CreatorName"/>
+    <sfFieldInfo defaultPermissions="RW" name="EntitlementId"/>
+    <sfFieldInfo defaultPermissions="RW" name="QuestionId"/>
+    <sfFieldInfo defaultPermissions="RW" name="SlaStartDate"/>
+    <sfFieldInfo defaultPermissions="RW" name="SlaExitDate"/>
+    <sfFieldInfo defaultPermissions="RW" name="MilestoneStatus" internal="true"/>
+    <sfFieldInfo defaultPermissions="R" name="MilestoneStatusIcon"/>
+    <sfFieldInfo defaultPermissions="RW" internal="true" name="SourceId"/>
+    <sfFieldInfo createable="Y" name="ClosedDate"/>
+    <sfFieldInfo createable="Y" name="IsEscalated" updateable="Y"/>
+    <sfFieldInfo createable="N" name="Name" updateable="N"/>
+    <sfFieldInfo createable="Y" name="SuppliedCompany" updateable="Y"/>
+    <sfFieldInfo createable="Y" name="SuppliedEmail" updateable="Y"/>
+    <sfFieldInfo createable="Y" name="SuppliedName" updateable="Y"/>
+    <sfFieldInfo createable="Y" name="SuppliedPhone" updateable="Y"/>
+    <sfFieldInfo internal="true" name="IsClosedOnCreate" updateable="Y"/>
+    <sfFieldInfo internal="true" name="ClosedOnCreate"/>
+    <sfFieldInfo createable="Y" internal="true" name="IsSelfServiceClosed" updateable="Y"/>
+    <sfFieldInfo createable="Y" internal="true" name="IsSelfClosed"/>
+    <sfFieldInfo internal="true" name="IsVisibleInCss"/>
+    <sfFieldInfo internal="true" name="IsVisibleInSelfService"/>
+    <sfFieldInfo internal="true" name="EscalationDateTime"/>
+    <sfFieldInfo internal="true" name="RuleFilterId"/>
+    <sfFieldInfo internal="true" name="HasCssComments"/>
+    <sfFieldInfo internal="true" name="HasSelfServiceComments"/>
+    <sfFieldInfo internal="true" name="CreatedByAlias"/>
+    <sfFieldInfo internal="true" name="LastModifiedByAlias"/>
+    <sfFieldInfo internal="true" name="EventsProcessedDate"/>
+  </fields>
+  <standardActions>
+    <sfActionLink modes="detail" n="submit" t="Submit for Approval"/>
+    <sfActionLink modes="new,edit,clone,CloseCase" n="save" t="Save"/>
+    <sfActionLink modes="new,clone,edit" n="save_new" t="Save &amp; New"/>
+    <sfActionLink modes="new,clone,edit" n="save_close" t="Save &amp; Close"/>
+    <sfActionLink modes="new,edit,clone,CloseCase" n="cancel" t="Cancel"/>
+    <sfActionLink n="editShare" t="Edit Sharing"/>
+    <sfActionLink modes="Opportunities" n="newOpp" newAction="true" t="New Opportunity"/>
+    <sfActionLink massAction="true" modes="List,Cases" n="newCase" newAction="true" t="New Case"/>
+    <sfActionLink locator="//div[contains(@class,'bRelatedList') and contains(@id, '_RelatedChildCaseList')]//a[contains(@class, 'menuButtonMenuLink')][1]" modes="Cases" n="blankNewCase" parentMenuAction="newCase" t="Related Case: Blank"/>
+    <sfActionLink locator="//div[contains(@class,'bRelatedList') and contains(@id, '_RelatedChildCaseList')]//a[contains(@class, 'menuButtonMenuLink')][2]" modes="Cases" n="childNewCase" parentMenuAction="newCase" t="Related Case: Copy Parent Details"/>
+    <sfActionLink massAction="true" modes="List, Cases" n="2" t="Close"/>
+    <sfActionLink massAction="true" modes="List, Cases" n="assign" t="Change Owner"/>
+    <sfActionLink massAction="true" modes="List, Cases" n="3" t="Change Status"/>
+    <sfActionLink modes="new,clone,edit" n="spell" t="Check Spelling"/>
+    <sfActionLink buttonName="close" n="CloseCase"/>
+    <sfActionLink modes="Cases" n="Delete" requiresRow="true" s="3"/>
+    <sfActionLink n="ChangeStatus"/>
+    <sfActionLink n="MassClose" s=""/>
+  </standardActions>
+  <childRelationships>
+    <sfObjectRelationship alias="RelatedContentDistributionList" childName="ContentDistribution" field="RelatedRecordId" n="RelatedContentDistributionList" relationshipName="RelatedContentDistributionList" s="2-" t="Content Deliveries"/>
+  </childRelationships>
+</sfObjectInfo>
